@@ -1,14 +1,27 @@
 # Site settings
-title: Amr Eldib
+title: Amr
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Amr Eldib's blog and personal website.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://amreldib.github.io" # the base hostname & protocol for your site
 twitter_username: AmrEldib
 github_username:  AmrEldib
+linkedin_username: AmrEldib
+goodreads_username: AmrEldib
+rss_feed: http://feeds.feedburner.com/AmrEldib
+
+# Permalinks
+permalink: pretty
+relative_permalinks: true
+
+# metadata
+author:
+name: 'Amr Eldib'
+url: http://www.amreldib.com
 
 # Build settings
+paginate: 5 # Five posts per page
 markdown: kramdown
-# highlighter: pygments
+highlighter: pygments
 encoding: utf-8

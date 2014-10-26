@@ -1,0 +1,49 @@
+---
+layout: post
+name: configuring-log4net-and-using-the-applogger-class-part-1
+title: Configuring log4net and using the AppLogger class - Part 1
+time: 2010-07-18 10:54:00.002000000 -07:00
+tags:
+- ".NET"
+- Logging
+- C#
+- Visual Studio
+- Code
+- log4net
+---
+<p align="justify">It’s been quite a while since I started using log4net for logging, and it changed how I debug applications. I found it much easier to find the source of an error by reading the log after the application crashes rather than using the step-by-step debugging in Visual Studio.</p>  <p align="justify">I started using log4net after reading an excellent tutorial by Jim Christopher on his blog <a href="http://www.beefycode.com/" target="_blank">BeefyCode</a>. You can find a list of all the posts in the tutorial <a href="http://www.beefycode.com/post/Log4Net-Tutorials-and-Resources.aspx" target="_blank">here</a>.</p>  <p align="justify">Some people prefer to log the application activities for debugging purposes only which works well in desktop applications that doesn’t have a mechanism for sending the log back to the developer in case of unexpected behavior. This has its obvious upside, which is improving the application performance by avoiding logging. To limit logging to debugging purposes only, simply surround all logging code with the conditional preprocessor directive #if. </p>  <p align="justify">For the using statements:</p>  <div class="csharpcode">   <pre class="code"><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;" >#if </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">DEBUG
+<br /></span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;" >using </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >log4net</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">;
+<br /></span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;" >using </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >log4net</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >Config</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">;
+<br /></span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;" >#endif</span></pre>
+<br /></div><style type="text/css"><br /><br /><br /><br />.csharpcode, .csharpcode pre<br />{<br />	font-size: small;<br />	color: black;<br />	font-family: consolas, "Courier New", courier, monospace;<br />	background-color: #ffffff;<br />	/*white-space: pre;*/<br />}<br />.csharpcode pre { margin: 0em; }<br />.csharpcode .rem { color: #008000; }<br />.csharpcode .kwrd { color: #0000ff; }<br />.csharpcode .str { color: #006080; }<br />.csharpcode .op { color: #0000c0; }<br />.csharpcode .preproc { color: #cc6633; }<br />.csharpcode .asp { background-color: #ffff00; }<br />.csharpcode .html { color: #800000; }<br />.csharpcode .attr { color: #ff0000; }<br />.csharpcode .alt <br />{<br />	background-color: #f4f4f4;<br />	width: 100%;<br />	margin: 0em;<br />}<br />.csharpcode .lnum { color: #606060; </style>And for the logging code:
+<br /><pre class="code"><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;" >#if </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">DEBUG  
+<br />   </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(43, 145, 175);">ILog </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >log </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">= </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);">LogManager</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >GetLogger</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">(</span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 230);">"Logger"</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">);
+<br />   </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >log</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >Debug</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">(</span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 230);">"Message"</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">);
+<br /></span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;" >#endif</span></pre>There are different choices for a destination of your application’s log, Database, Console, File, System event log, Memory, E-mail, Telnet, and even <a href="http://caseywatson.com/2009/07/07/log4net-twitter-awesome/" target="_blank">Twitter</a> which I don’t think is very practical (no one would follow a feed that delivers only bad news).
+<br />
+<br />Those different destinations offer different advantages and are fit for different scenarios. You can use the preprocessor directive to apply different configurations for debugging and release.
+<br />
+<br />One obvious scenario is to use a database for debugging and a file for release. In a large development environment where different individuals work on development and testing, logging to a database offers some advantages like keeping a record of how the application behaves and easily sharing that record among different team members. With simple tools and shared procedure, this log can be linked to the issue tracking system within the organization.
+<br />
+<br />I use a text file as a destination. It’s easy to set up and use and not so difficult to read. I also use a XML file for configurations rather than programmatically (which only few prefer). I found that the best of both worlds is to embed the configurations file in the application resources and then stream it at runtime to configure the logger using the stream.
+<br /><div align="justify"><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);">
+<br />XmlConfigurator</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >Configure</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">(</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >stream</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">);</span>
+<br /></div>
+<br />This helps solving one of the problems I ran into, which is configuring log4net for the release version. In the debug mode, you can easily hard code the path to the destination file and you have administrator privileges to write to any folder you like. In the release mode, you can’t really control – or predict – the environment where the logger will work. You have to plan for something safe that you know will work in any environment.
+<br />
+<br />Writing log to the application installation folder does not work under Windows 7 (or Vista). Unless the application is running as an administrator, logging will fail. Try to use the Application Data folder or the Temp folder.
+<br />
+<br />In the Application Data folder, you have to manage the growing number of files as the application continues to log to them but you have the advantage of being able to keep the log files (unless the user goes to the folder and delete the files, nothing will happen to them).
+<br />
+<br />In the Temp folder, you have to avoid creating a file with a name that already exist, and your log file will probably be deleted by the next time you run the application.
+<br />
+<br />I create a log file in the Temp folder because I don’t really need the log file beyond the current session, and to avoid creating a file with a duplicate name simply use:<span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;" >
+<br />
+<br />string </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >logFilePath </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">= </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);">Path</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;" >GetTempFileName</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">();</span>
+<br />
+<br />Now, I want to:
+<br /> <ul><li>Configure log4net using XML file.
+<br /> </li><li>Determine the path to the log file at runtime.
+<br /> </li><li>Avoid shipping a configuration file with the assembly (include the configuration file inside the assembly).
+<br /> </li><li>Reduce the number of lines I have to write to initiate logging.
+<br /> </li></ul>To do all that, and reuse the solution across all the projects I work on, I use the AppLogger class. How use it and how it works is a topic of another post.  
