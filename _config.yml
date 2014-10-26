@@ -1,0 +1,14 @@
+# Site settings
+title: Amr Eldib
+#email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Amr Eldib's blog and personal website.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://amreldib.github.io" # the base hostname & protocol for your site
+twitter_username: AmrEldib
+github_username:  AmrEldib
+
+# Build settings
+markdown: kramdown
+# highlighter: pygments
+encoding: utf-8
