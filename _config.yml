@@ -2,7 +2,7 @@
 title: Amr
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Amr Eldib's blog and personal website.
+  Blog and personal website
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://amreldib.github.io" # the base hostname & protocol for your site
 twitter_username: AmrEldib
