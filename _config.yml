@@ -10,10 +10,12 @@ github_username:  AmrEldib
 linkedin_username: AmrEldib
 goodreads_username: AmrEldib
 rss_feed: http://feeds.feedburner.com/AmrEldib
+timezone: Canada/Pacific
 
 # Permalinks
-permalink: pretty
+permalink: "/:title"
 relative_permalinks: true
+redirects: yes
 
 # metadata
 author:
@@ -25,3 +27,4 @@ paginate: 5 # Five posts per page
 markdown: kramdown
 highlighter: pygments
 encoding: utf-8
+exclude: ["amreldib.github.io.sln", "*.suo", "importFromBlogger", "md", "README.md"]
