@@ -1,5 +1,10 @@
-# TL:DR - The Anti-Clickbait
-
+---
+layout: post
+name: TldrAntiClickbait
+title: 'TL:DR - The Anti-Clickbait'
+time: 2016-01-01 16:32:00.003000000 -08:00
+tags: []
+---
 A lot of articles, blog posts, and websites now rely on clickbait titles. The content under those titles is usually empty and has nothing to do with the title. I totally hate that. A lot of people do too.  
 There doesn't seem to be a good answer to clickbait websites. One twitter account tries to solve that: SavedYouAClick.  
 Maybe bloggers can counter the clickbait websites by offering the anti-clickbait. It's already something some, if not a lot of, people use: TL:DR.  
