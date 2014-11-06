@@ -11,7 +11,7 @@ tags:
 redirects:
 - /2014/09/EnableWindowsAuthenticationInFirefox.html
 ---
-**_TL;DR:_**_ for Firefox users, here’s how to integrate Windows Authentication to enable logging like IE (without entering credentials). _
+**_TL;DR:_** for Firefox users, here’s how to integrate Windows Authentication to enable logging like IE (without entering credentials). 
 
 I use Firefox as my primary browser. At work, we've just started a big consolidation of all the companies sites and cloud services (that we use) to rely on Windows Authentication. Instead of just Windows and Outlook requiring your Windows credentials, now everything needs them including CRM, messaging service, partner sites, etc. So, I found that I’m entering my credentials over and over all the time.
 
@@ -32,7 +32,7 @@ If you use Firefox, apply these steps to quickly log into sites that uses Window
 
 If you don’t use Firefox, you really should. Check out [Tab Groups](https://support.mozilla.org/en-US/kb/tab-groups-organize-tabs).
 
-[![](http://1.bp.blogspot.com/-WSwp_9YVuAI/VCdTYX57oeI/AAAAAAAAA4A/b9n7Qy6e2uc/s1600/TabGroup.jpg)](http://1.bp.blogspot.com/-WSwp_9YVuAI/VCdTYX57oeI/AAAAAAAAA4A/b9n7Qy6e2uc/s1600/TabGroup.jpg)
+[![]({{ site.baseurl }}public/images/EnableWindowsAuthenticationInFirefox/TabGroup.jpg)]({{ site.baseurl }}public/images/EnableWindowsAuthenticationInFirefox/TabGroup.jpg)
 
 It’s better than this :D
-[![](http://3.bp.blogspot.com/-pV8twLJTVjk/VCdTpZWyS8I/AAAAAAAAA4I/Ql0W-u-BWHA/s1600/ChromeTabs.jpg)](http://3.bp.blogspot.com/-pV8twLJTVjk/VCdTpZWyS8I/AAAAAAAAA4I/Ql0W-u-BWHA/s1600/ChromeTabs.jpg)
+[![]({{ site.baseurl }}public/images/EnableWindowsAuthenticationInFirefox/ChromeTabs.jpg)]({{ site.baseurl }}public/images/EnableWindowsAuthenticationInFirefox/ChromeTabs.jpg)

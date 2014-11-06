@@ -13,7 +13,7 @@ tags:
 redirects:
 - /2014/02/ChocolateyInstallSoftwareLikeAPro.html
 ---
-<div class="separator" style="clear: both; text-align: center;">[![](http://3.bp.blogspot.com/-PQv1isZuL1M/UvgP9h5toTI/AAAAAAAAAxc/r5xFFzskma4/s1600/chocolateyicon.gif)](http://3.bp.blogspot.com/-PQv1isZuL1M/UvgP9h5toTI/AAAAAAAAAxc/r5xFFzskma4/s1600/chocolateyicon.gif)</div>
+[![]({{ site.baseurl }}public/images/Chocolatey/chocolateyicon.gif)]({{ site.baseurl }}public/images/Chocolatey/chocolateyicon.gif)
 
 I use a lot of software, and always there's a nagging voice in head saying "you're not using the latest version. Update. Update. Update". Of course, sometimes that nagging voice is up on the screen asking me to update. However, as fun as using the latest version can be, the process of updating is not as fun. Downloading and installing takes a lot of time. Sometimes you have to uninstall the previous version. Sometimes, you even have to check if there's a new version yourself. You have to be careful to avoid installing adware. While some software is getting better at this, others (I'm looking at you, Adobe Flash. You really suck) are going backward and ask you to download the software yourself.
 
