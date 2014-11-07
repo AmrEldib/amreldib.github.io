@@ -15,26 +15,29 @@ tags:
 redirects:
 - /2013/03/real-time-gis-using-signalr-and-esris.html
 ---
-<div class="separator" style="clear: both; text-align: center;">[![](http://4.bp.blogspot.com/-pN2PrBebQcY/UVR-EXSQZdI/AAAAAAAAAVQ/7JovU76Gcuo/s200/SignalR.jpg)](http://4.bp.blogspot.com/-pN2PrBebQcY/UVR-EXSQZdI/AAAAAAAAAVQ/7JovU76Gcuo/s1600/SignalR.jpg) [![](http://4.bp.blogspot.com/-JHt1aIka_YU/UVR-GQN1eoI/AAAAAAAAAVY/Ef9kmpMRGM4/s200/JavascriptLogo.png)](http://4.bp.blogspot.com/-JHt1aIka_YU/UVR-GQN1eoI/AAAAAAAAAVY/Ef9kmpMRGM4/s1600/JavascriptLogo.png)</div>Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.
+<img style="float: right" src="{{ site.baseurl }}public/images/RealTimeGis/SignalR.jpg">
+<img style="float: right" src="{{ site.baseurl }}public/images/RealTimeGis/JavascriptLogo.png">
+
+Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.
 
 The problem with building command centers is that they represent a big unnecessary load on the servers. Command centers now are not like the Star Trek command centers. No, they're hundreds of users connected to your service, each trying to command their own one decision which in aggregate with hundreds of other users form the output of the system.
 
 These hundreds of computers calling the server every few seconds checking if there's an update or not represent a big unnecessary load on the server. What I prefer is to call the server when I know that there's an update, or better, have the server call me, the client, when there's an update.
 
-That's where SignalR comes in.
+*That's where SignalR comes in.*
 
 [SignalR](http://signalr.net/) is an open source library that let's you build front-end real-time applications using JavaScript (or .NET). On the back-end you'll use .NET.
 
-SignalR was a side project started by two guys; [David Fowler](https://twitter.com/davidfowl) and [Damian Edwards](https://twitter.com/DamianEdwards). The [source code ](https://github.com/SignalR/SignalR)is hosted on <span id="goog_1340908699"></span>GitHub<span id="goog_1340908700"></span>. The project got so much support that [Microsoft is now supporting](http://www.asp.net/signalr/open-source) it as part of its ASP.NET family even while maintaining it's status as an open source project developed in the open.
+SignalR was a side project started by two guys; [David Fowler](https://twitter.com/davidfowl) and [Damian Edwards](https://twitter.com/DamianEdwards). The [source code](https://github.com/SignalR/SignalR) is hosted on GitHub. The project got so much support that [Microsoft is now supporting](http://www.asp.net/signalr/open-source) it as part of its ASP.NET family even while maintaining it's status as an open source project developed in the open.
 
-[Listen](http://www.hanselminutes.com/352/making-open-source-work-at-microsoft-with-signalr-and-damian-edwards) to Damian Edwards interviewed by Scott Hanselman about SignalR.
+[Listen](http://www.hanselminutes.com/352/making-open-source-work-at-microsoft-with-signalr-and-damian-edwards) to Damian Edwards interviewed by Scott Hanselman about SignalR.  
 [Watch](http://channel9.msdn.com/Series/Building-Web-Apps-with-ASP-NET-Jump-Start/Building-Web-Apps-with-ASPNET-Jump-Start-08-Real-time-Communication-with-SignalR) Damian Edwards and Scott Hanselman demo how to use SignalR.
 
 SignalR makes it incredibly simple to add real-time functionality to your application.
 
 It’s simple because it provides you with a way to just call a function on the client-side. Just RPC a function on the client-side.
 
-It’s simple because it your code will work – without you having to change it – with a number of different technologies under the hood.
+It’s simple because your code will work – without you having to change it – with a number of different technologies under the hood.
 
 It starts with WebSockets, and falls back to other technologies if it’s not available.
 
@@ -48,11 +51,10 @@ We can use this to add real-time capability to an ArcGIS JavaScript API applicat
 
 Here's a video for how the final proof-of-concept looks like:
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/kY3AQL6n2-8" width="560"></iframe> 
+{% youtube http://youtu.be/kY3AQL6n2-8 560 315 %}
+
 The code is all up on [GitHub](https://github.com/AmrEldib/RealTimeGisWithSignalR).
 
-I was invited to speak at Esri DevSummit 2013 on March 28, 2013. Here are the slides for my talk. They provide few more details. 
-<iframe frameborder="0" height="400" marginheight="0" marginwidth="0" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/17814815" width="476"></iframe> 
-There's a few book on SignalR out now, you can get [here](http://www.campusmvp.net/signalr-ebook/). 
+I was invited to speak at Esri DevSummit 2013 on March 28, 2013. Here are the [slides for my talk]({{ site.baseurl }}public/images/RealTimeGis/Real-Time GIS Using SignalR and Esri's JavaScript API.pdf). They provide few more details. 
 
-If you have any questions, please add a comment below.
+There's a few book on SignalR out now, you can get [here](http://www.campusmvp.net/signalr-ebook/). 

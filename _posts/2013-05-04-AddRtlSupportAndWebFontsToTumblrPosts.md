@@ -15,8 +15,8 @@ tags:
 redirects:
 - /2013/05/add-rtl-and-web-fonts-to-tumblr-posts.html
 ---
-[![ArabicTumblr](http://lh3.ggpht.com/-yOm4sLh-ugI/UYWfVPoltnI/AAAAAAAAAV0/56hCayZtPS4/ArabicTumblr_thumb%25255B4%25255D.png?imgmax=800 "ArabicTumblr")](http://lh6.ggpht.com/-8UfhrwwF4hE/UYWfU7pxinI/AAAAAAAAAVs/RdI02VK9-CQ/s1600-h/ArabicTumblr%25255B6%25255D.png)
-This is my technical blog. My [personal blog](http://amreldib.tumblr.com/) where I write mostly in my native Arabic is hosted on Tumblr which is a nice platform but is really bad in supporting Arabic and other RTL languages. At least that’s my experience.
+<a href="{{ site.baseurl }}public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png"><img style="float: right" src="{{ site.baseurl }}public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png"></a>
+This is my technical blog. My [personal blog](http://amreldib.tumblr.com/), where I write mostly in my native Arabic, is hosted on Tumblr which is a nice platform but is really bad in supporting Arabic and other RTL languages. At least that's my experience.
 
  So finally I got sick of it and decided that I’m gonna fix this with some HTML and CSS magic. Maybe with [some help](http://rtl-this.com/tutorial/how-rtl-your-tumblr-theme). I did find that Tumblr has some nice features that helps fixing the problem. Let’s see how.
 
@@ -26,7 +26,7 @@ One nice feature is that you can add [{TagsAsClasses}](http://www.tumblr.com/doc
 
 I’ve used a simple theme named [Quite Big](http://www.tumblr.com/theme/9601) as my base theme. You’ll find a DIV with the classes “content” and “_x_-post”. x-post is not the name of a class but rather text-post, photo-post, quote-post, and link-post. One class for each type of post.
 
-[![Types of Tumblr Posts](http://lh4.ggpht.com/-eQ2Mz9db_ZE/UYWfkqpUZOI/AAAAAAAAAWA/cVxnH9QQ1qo/TumblrPostsTypes_thumb%25255B4%25255D.png?imgmax=800 "Types of Tumblr Posts")](http://lh5.ggpht.com/-nlsTcDzTCao/UYWfkcvS2lI/AAAAAAAAAV4/tkrEX8dpXWs/s1600-h/TumblrPostsTypes%25255B6%25255D.png)
+<a href="{{ site.baseurl }}public/images/RtlSupportInTumblr/TumblrPostsTypes_thumb.png"><img style="float: right" src="{{ site.baseurl }}public/images/RtlSupportInTumblr/TumblrPostsTypes_thumb.png"></a>
 
 You’ll need to find each one of these DIVs and add “{TagsAsClasses}” to its CSS classes.
 
