@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amr</title>
+    <description>Blog and personal website
+</description>
+    <link>http://www.amreldib.com//</link>
+    <atom:link href="http://www.amreldib.com//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 07 Nov 2014 07:46:17 +0000</pubDate>
+    <lastBuildDate>Fri, 07 Nov 2014 07:46:17 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Enable Windows Authentication in Firefox</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;TL;DR:&lt;/em&gt;&lt;/strong&gt; for Firefox users, here’s how to integrate Windows Authentication to enable logging like IE (without entering credentials). &lt;/p&gt;
+
+&lt;p&gt;I use Firefox as my primary browser. At work, we’ve just started a big consolidation of all the companies sites and cloud services (that we use) to rely on Windows Authentication. Instead of just Windows and Outlook requiring your Windows credentials, now everything needs them including CRM, messaging service, partner sites, etc. So, I found that I’m entering my credentials over and over all the time.&lt;/p&gt;
+
+&lt;p&gt;IE, of course, integrates Windows Authentication. Firefox, for the longest time I thought, doesn’t.&lt;/p&gt;
+
+&lt;p&gt;But I wanted to avoid this (laziness is the mother of all inventions). So, I did a bit of research and found that Firefox actually does support integrating Windows Authentication. However, it’s done via a white-list of sites that are pre-approved. Once this is configured, signing in is done automatically without having to enter credentials anymore.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;To configure Firefox to skip the Windows credentials dialog, do the following&lt;/u&gt;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In the address bar, type &lt;em&gt;about:config&lt;/em&gt; and press Enter.&lt;/li&gt;
+  &lt;li&gt;Click “&lt;em&gt;I’ll be careful, I promise!&lt;/em&gt;”.&lt;/li&gt;
+  &lt;li&gt;Search for “&lt;em&gt;network.automatic-ntlm-auth.trusted-uris&lt;/em&gt;”.&lt;/li&gt;
+  &lt;li&gt;Double-click on the entry to modify its value.&lt;/li&gt;
+  &lt;li&gt;Enter a comma-separated list of sites you want to enable Windows Authentication for.&lt;/li&gt;
+  &lt;li&gt;The URLs to be added should be the base URL without ‘http://’ in front. This makes it easy to avoid entering the wrong value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you use Firefox, apply these steps to quickly log into sites that uses Windows authentication.&lt;/p&gt;
+
+&lt;p&gt;If you don’t use Firefox, you really should. Check out &lt;a href=&quot;https://support.mozilla.org/en-US/kb/tab-groups-organize-tabs&quot;&gt;Tab Groups&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/EnableWindowsAuthenticationInFirefox/TabGroup.jpg&quot;&gt;&lt;img src=&quot;/public/images/EnableWindowsAuthenticationInFirefox/TabGroup.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s better than this :D
+&lt;a href=&quot;/public/images/EnableWindowsAuthenticationInFirefox/ChromeTabs.jpg&quot;&gt;&lt;img src=&quot;/public/images/EnableWindowsAuthenticationInFirefox/ChromeTabs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Sep 2014 00:00:00 +0100</pubDate>
+        <link>http://www.amreldib.com//EnableWindowsAuthenticationInFirefox</link>
+        <guid isPermaLink="true">http://www.amreldib.com//EnableWindowsAuthenticationInFirefox</guid>
+        
+        <category>Security</category>
+        
+        <category>Tips</category>
+        
+        <category>Windows</category>
+        
+        <category>Firefox</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Chocolatey: Install Software like a Pro</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot;&gt;&lt;img src=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I use a lot of software, and always there’s a nagging voice in head saying “you’re not using the latest version. Update. Update. Update”. Of course, sometimes that nagging voice is up on the screen asking me to update. However, as fun as using the latest version can be, the process of updating is not as fun. Downloading and installing takes a lot of time. Sometimes you have to uninstall the previous version. Sometimes, you even have to check if there’s a new version yourself. You have to be careful to avoid installing adware. While some software is getting better at this, others (I’m looking at you, Adobe Flash. You really suck) are going backward and ask you to download the software yourself.&lt;/p&gt;
+
+&lt;p&gt;One the best thing about Linux that all this is taking care of. On Ubuntu, for example, you use apt-get to download and install software and keep it update with a single command.
+Now, &lt;a href=&quot;http://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt; brings this smooth install and update process to Windows. Chocolatey is an open source free software built on top of &lt;a href=&quot;https://www.nuget.org/&quot;&gt;NuGet&lt;/a&gt;; a package management technology offered as part of Visual Studio.&lt;/p&gt;
+
+&lt;p&gt;Chocolatey offers a &lt;a href=&quot;http://chocolatey.org/packages&quot;&gt;gallery&lt;/a&gt; of software, much like an App Store where you can browse for the application you like, find the command for it, then from your command line, install it.&lt;/p&gt;
+
+&lt;p&gt;First you need to setup Chocolatey on your system, using a PowerShell command:
+&amp;gt; &lt;code&gt;@powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;iex  ((new-object  net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&quot;  &amp;amp;&amp;amp; SET PATH=%PATH%;%systemdrive%\chocolatey\bin&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This one line command will download a PowerShell script from Chocolatey and run it, after allowing for unrestricted execution policy (which you disable later).&lt;/p&gt;
+
+&lt;p&gt;After you run this command, you can now install applications. Here’s how to install &lt;a href=&quot;http://chocolatey.org/packages/7zip.install&quot;&gt;7-zip&lt;/a&gt;:
+&amp;gt; &lt;code&gt;cinst 7zip.install &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This command will install 7-zip under the “Program Files” folder (or “Program Files (x86)” if you use a x64 system). It will also register 7-zip with Chocolatey so that it can be updated later. If 7-zip is already installed, it will be updated (if an update is available), and registered with Chocolatey.&lt;/p&gt;
+
+&lt;p&gt;When you’re picking a package from the Chocolatey gallery, make sure you’re choosing the correct one. Sometimes there are packages with different options. For example: there’s a &lt;a href=&quot;http://chocolatey.org/packages/7zip&quot;&gt;portable package&lt;/a&gt; for 7-zip, and there’s the &lt;a href=&quot;http://chocolatey.org/packages/7zip.install&quot;&gt;install package&lt;/a&gt; that I used above. You can read more about &lt;a href=&quot;https://github.com/chocolatey/chocolatey/wiki/ChocolateyFAQs#wiki-what-distinction-does-chocolatey-make-between-an-installable-and-a-portable-application&quot;&gt;Chocolatey’s install vs. portable&lt;/a&gt; packages.&lt;/p&gt;
+
+&lt;p&gt;While you’re installing your applications, make sure to keep track of all the commands you used. This will be helpful later when you’re installing a new system. In one text file, you can keep track of almost all the applications you’re using.&lt;/p&gt;
+
+&lt;p&gt;Later on, you’ll need to update. Super easy, just type in the command line: &amp;gt; &lt;code&gt;cup all&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you need help remember those commands: &lt;em&gt;cinst&lt;/em&gt; is short of &lt;em&gt;&lt;strong&gt;C&lt;/strong&gt;hocolatey &lt;strong&gt;Inst&lt;/strong&gt;all&lt;/em&gt;. &lt;em&gt;cuninst&lt;/em&gt; is short for &lt;em&gt;&lt;strong&gt;C&lt;/strong&gt;hocolatey &lt;strong&gt;UnInst&lt;/strong&gt;all&lt;/em&gt;. And &lt;em&gt;cup all&lt;/em&gt; is short for &lt;em&gt;&lt;strong&gt;C&lt;/strong&gt;hocolatey &lt;strong&gt;Up&lt;/strong&gt;date &lt;strong&gt;All&lt;/strong&gt;&lt;/em&gt;.
+You can read the &lt;a href=&quot;https://github.com/chocolatey/chocolatey/wiki/CommandsReference&quot;&gt;Chocolatey command reference&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;p&gt;If you like the ease of Chocolatey but hate the command line, you can use &lt;a href=&quot;http://chocolatey.org/packages/ChocolateyGUI&quot;&gt;Chocolatey GUI&lt;/a&gt; to do the same thing. It’s a little bit slow so far, but it’s very promising. &lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Feb 2014 00:00:00 +0000</pubDate>
+        <link>http://www.amreldib.com//Chocolatey</link>
+        <guid isPermaLink="true">http://www.amreldib.com//Chocolatey</guid>
+        
+        <category>Chocolatey</category>
+        
+        <category>Tools</category>
+        
+        <category>Tips</category>
+        
+        <category>Windows</category>
+        
+        <category>PowerShell</category>
+        
+        <category>Microsoft</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Share To Social Networks Using Browser Bookmarks</title>
+        <description>&lt;p&gt;I’ve tried many ways to easily share items from my browser to any of the social networks I’m using. Addons came close to working fine but I always worry (maybe unreasonably) about their load on the browser.&lt;/p&gt;
+
+&lt;p&gt;Then, I came across bookmarks (or &lt;em&gt;bookmarklets&lt;/em&gt;) via a &lt;a href=&quot;http://www.hanselman.com/blog/AddSocialSharingLinksToYourBlogWithoutWidgetJavaScript.aspx&quot;&gt;Scott Hanselman’s post&lt;/a&gt; and I found a winner.&lt;/p&gt;
+
+&lt;p&gt;Here are the code snippets for how to share to some of the popular social networks. Simply create a bookmark and provide its location to be the code snippet:&lt;/p&gt;
+
+&lt;h2 id=&quot;twitter&quot;&gt;Twitter&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/7297744.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;facebook&quot;&gt;Facebook&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/7297751.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;appnet&quot;&gt;App.Net&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/7297755.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;springpad&quot;&gt;Springpad&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/7297760.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;kindle&quot;&gt;Kindle&lt;/h2&gt;
+
+&lt;p&gt;To send items to Kindle, use &lt;a href=&quot;http://www.klip.me/&quot;&gt;Klip.me&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Nov 2013 00:00:00 +0000</pubDate>
+        <link>http://www.amreldib.com//ShareToSocialNetworksUsingBrowserBookmarks</link>
+        <guid isPermaLink="true">http://www.amreldib.com//ShareToSocialNetworksUsingBrowserBookmarks</guid>
+        
+        <category>Facebook</category>
+        
+        <category>Social Networks</category>
+        
+        <category>Tips</category>
+        
+        <category>Springpad</category>
+        
+        <category>App.Net</category>
+        
+        <category>Twitter</category>
+        
+        <category>Kindle</category>
+        
+        <category>Code</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Outlook Out-of-Office Auto-Reply Only to Emails Directed to Me</title>
+        <description>&lt;p&gt;Out-of-Office Replies are very helpful and, I must admit, very annoying. I’d love to maximize the first part and minimize the last. I only want to know that someone is out-of-office if I address them directly, not if I CC them.&lt;br /&gt;
+Here’s how I set up my Outlook out-of-office automatic replies so that they only go out if the email is directed to me. No auto-reply will be sent if I’m only CC’d on the email.&lt;br /&gt;
+These screenshots use Office 2010, but the steps are very similar in other versions.  &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In the File/Office menu, open the “Automatic Replies” button.
+&lt;a href=&quot;/public/images/OutlookOutOfOffice/01-OutOfOfficeButton.png&quot;&gt;&lt;img src=&quot;/public/images/OutlookOutOfOffice/01-OutOfOfficeButton.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;Select the date range you want replies to go out.  &lt;/li&gt;
+  &lt;li&gt;Make sure to leave the area below blank. If you fill this area, an email will go out with the message you leave in there.  &lt;/li&gt;
+  &lt;li&gt;Click the “Rules” button.&lt;br /&gt;
+&lt;a href=&quot;/public/images/OutlookOutOfOffice/02-BasicInfo.png&quot;&gt;&lt;img src=&quot;/public/images/OutlookOutOfOffice/02-BasicInfo.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;In “Automatic Reply Rules” dialog, click “Add Rule…”.&lt;br /&gt;
+&lt;a href=&quot;/public/images/OutlookOutOfOffice/03-AddRule.png&quot;&gt;&lt;img src=&quot;/public/images/OutlookOutOfOffice/03-AddRule.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;Check “Sent directly to me” so that emails that are only directly sent to you will be replied to.  &lt;/li&gt;
+  &lt;li&gt;Check “Reply with” and click “Template..”.&lt;br /&gt;
+&lt;a href=&quot;/public/images/OutlookOutOfOffice/04-RuleDetails.png&quot;&gt;&lt;img src=&quot;/public/images/OutlookOutOfOffice/04-RuleDetails.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;In the email compose window, enter the email message you want to go out.  &lt;/li&gt;
+  &lt;li&gt;You can add more conditions, more rules, and more actions. Explore the different options and build rules that match your need.  &lt;/li&gt;
+  &lt;li&gt;Click “Ok”. You’re done.  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Enjoy your time out of the office, and less-flooded inboxes.&lt;br /&gt;
+Hat tip to &lt;a href=&quot;http://haacked.com/archive/2013/08/28/the-two-email-rule-for-out-of-office-replies.aspx&quot;&gt;Phil Haack&lt;/a&gt; and &lt;a href=&quot;http://www.parisc-linux.org/mailing-lists/outlookooo.html&quot;&gt;Ali Ezzet&lt;/a&gt;.  &lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Nov 2013 00:00:00 +0000</pubDate>
+        <link>http://www.amreldib.com//OutlookOutOfOfficeAutoReplyOnlyToEmailsDirectedToMe</link>
+        <guid isPermaLink="true">http://www.amreldib.com//OutlookOutOfOfficeAutoReplyOnlyToEmailsDirectedToMe</guid>
+        
+        <category>Tips</category>
+        
+        <category>Outlook</category>
+        
+        <category>Microsoft</category>
+        
+        <category>Office</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Open YouTube Videos in PopUp Window with a Bookmark</title>
+        <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; Follow these steps to add a bookmark to your browser that opens YouTube videos in a popup window. &lt;/p&gt;
+
+&lt;p&gt;Aside from my laptop, I use two monitors. This allows my to “multitask” which is fancy talk for having something running/playing in the background while I’m actually working.
+Sometimes the thing that is running in the background is a YouTube video. This is great with music videos and long videos that don’t need my full attention. However, I find it annoying to have the YouTube page or video fill the entire screen. What I need is a small window with just the video. I don’t really need the comments, suggestions, header, etc.&lt;/p&gt;
+
+&lt;p&gt;The embed HTML is the key here. You can right-click on the video and directly copy the embed code. It looks like this:
+&lt;a href=&quot;/public/images/OpenYouTubeInPopupWindow/CopyYouTubeEmbedCode.png&quot;&gt;&lt;img src=&quot;/public/images/OpenYouTubeInPopupWindow/CopyYouTubeEmbedCode.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;  &lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/7297359.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Embed code has a lot of options that you can view in the &lt;a href=&quot;https://support.google.com/youtube/answer/171780?hl=en#171780&quot;&gt;help section&lt;/a&gt;.&lt;br /&gt;
+This embed code is of an iFrame that opens a YouTube page at a certain URL. YouTube would actually take care of removing all of the extra stuff that I don’t need.&lt;br /&gt;
+Browser bookmarks can run a JavaScript function which would open a popup window of a YouTube page with just this video.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/7297410.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The JavaScript function looks at the active browser tab and picks up the unique ID of the video before constructing the embed URL and opening a new browser window with that URL.
+To avoid a predictable problem, the function will make sure that you’re on a YouTube page before it opens the popup window. If not, it will display an error message. &lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-add-this-to-my-browser&quot;&gt;How to Add This to My Browser&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Copy this code:&lt;br /&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/7297410.js&quot;&gt;&lt;/script&gt;  &lt;/li&gt;
+  &lt;li&gt;Open your browser’s Bookmark window.&lt;/li&gt;
+  &lt;li&gt;Create a new bookmark, and give it a name. Say: Popup YouTube Video.&lt;/li&gt;
+  &lt;li&gt;In the location, paste the code listed above.&lt;/li&gt;
+  &lt;li&gt;You’re all done.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 03 Nov 2013 00:00:00 +0100</pubDate>
+        <link>http://www.amreldib.com//OpenYouTubeVideosInPopUpWindowWithBookmark</link>
+        <guid isPermaLink="true">http://www.amreldib.com//OpenYouTubeVideosInPopUpWindowWithBookmark</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>YouTube</category>
+        
+        <category>Tips</category>
+        
+        <category>Browsers</category>
+        
+        <category>Code</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to Turn XML Schema (XSD) to Documentation</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png&quot;&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Today, a colleague at work was trying to modify a configuration file in XML format. He wasn’t sure what were the available options for a certain attribute, so we started looking for an answer.   &lt;br /&gt;
+The XML configuration file came with a software product and had an &lt;a href=&quot;https://en.wikipedia.org/wiki/XSD&quot;&gt;XSD file&lt;/a&gt;. For me as a developer, I opened the XSD file in Visual Studio and used the XML Schema Editor (shown on the right) to browse its content.   &lt;br /&gt;
+However, for him installing Visual Studio wasn’t the best option especially if he wanted to forward more information to a client and let them modify configurations themselves. So, we did a little more digging.   &lt;br /&gt;
+&lt;a href=&quot;http://wiki.fiforms.org/index.php/Xs3p&quot;&gt;Xs3p&lt;/a&gt; is a schema documentation generator. It’s simply an XSLT stylesheet, which generates HTML documentation from an XSD schema file.   &lt;br /&gt;
+You can download Xs3p &lt;a href=&quot;http://xml.fiforms.org/xs3p/&quot;&gt;here&lt;/a&gt; or &lt;a href=&quot;http://sourceforge.net/projects/xs3p/files/xs3p-1.1.5.zip/download&quot;&gt;direct link&lt;/a&gt; to version 1.1.5   &lt;br /&gt;
+ Extract the content of the downloaded ZIP file and place it a folder. We’ll use the file &lt;em&gt;xs3p.xsl&lt;/em&gt;  &lt;br /&gt;
+On Windows, you can use MSXML (&lt;a href=&quot;http://www.microsoft.com/en-us/download/details.aspx?id=15697&quot;&gt;Download&lt;/a&gt;) and the MSXSL command utility (&lt;a href=&quot;http://www.microsoft.com/en-us/download/details.aspx?id=21714&quot;&gt;Download&lt;/a&gt;).   &lt;br /&gt;
+To use MSXSL, place the downloaded EXE in the same folder as the extracted ZIP file. In the command line browse to that folder, then type a command like this:     &lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/6385853.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Where: &lt;em&gt;myXsd.xsd&lt;/em&gt; is the name of the XSD file. &lt;em&gt;myXsdDocumentation.html&lt;/em&gt; is the name of the HTML file that will be generated by the tool.
+        I assume that all three files (XSD, XSL, and output HTML) along with MSXSL.exe are placed in the same folder.   &lt;br /&gt;
+Here’s what the output looks like:
+&lt;a href=&quot;/public/images/TurnXsdToHtml/SampleOutput-big.png&quot;&gt;&lt;img src=&quot;/public/images/TurnXsdToHtml/SampleOutput.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+You can download view &lt;a href=&quot;/public/images/TurnXsdToHtml/SampleOutputOfMsXslTool.html&quot;&gt;sample HTML output&lt;/a&gt;.&lt;br /&gt;
+To make things easier, I wrote a &lt;a href=&quot;/public/images/TurnXsdToHtml/ConvertAllXsdToHtml.ps1&quot;&gt;PowerShell script&lt;/a&gt; that find all the XSD files in the folder where it’s placed and convert them all to HTML. It assumes that both &lt;em&gt;MSXSL.exe&lt;/em&gt; and &lt;em&gt;xs3p.xsl&lt;/em&gt; are in the same folder.
+        To use the script, from the command line run this command:     &lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/6386132.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Here’s the script:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/6386145.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This &lt;a href=&quot;/public/images/TurnXsdToHtml/TurnXmlSchemaToHtml.zip&quot;&gt;ZIP file&lt;/a&gt; include all three files: PowerShell script, &lt;em&gt;MSXSL.exe&lt;/em&gt; and style sheet &lt;em&gt;xs3p.xsl&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Aug 2013 00:00:00 +0100</pubDate>
+        <link>http://www.amreldib.com//HowToTurnXmlSchemaXsdToDocumentation</link>
+        <guid isPermaLink="true">http://www.amreldib.com//HowToTurnXmlSchemaXsdToDocumentation</guid>
+        
+        <category>XSD</category>
+        
+        <category>Windows</category>
+        
+        <category>XML</category>
+        
+        <category>PowerShell</category>
+        
+        <category>Code</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Upgrade Windows Font for Better Arabic Readability</title>
+        <description>&lt;p&gt;I was testing Windows 8.1 when I saw something that I liked very much; better Arabic font. I wasn’t going to wait to upgrade all my machines to Windows 8.1 (if I ever do) to get that font. So, I went searching for the reason. I found that Microsoft upgraded the SegoeUI font. Spot the difference in Windows Explorer:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter-big.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.. and in Firefox tab headers:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To install this font, backup the old font first by going to the Fonts section in the Control Panel and copying all the Segoe fonts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont-big.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/Windows 8 SegoeUI Fonts.zip&quot;&gt;Download&lt;/a&gt; the new font.&lt;/p&gt;
+
+&lt;p&gt;Extract the ZIP file and install it. Just right click all the extracted files and choose Install.
+You’ll be asked to replace the old font, click Yes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-ReplaceFont.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-ReplaceFont.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Aug 2013 00:00:00 +0100</pubDate>
+        <link>http://www.amreldib.com//UpgradeWindowsFontForBetterArabicReadability</link>
+        <guid isPermaLink="true">http://www.amreldib.com//UpgradeWindowsFontForBetterArabicReadability</guid>
+        
+        <category>Font</category>
+        
+        <category>Windows</category>
+        
+        <category>Arabic</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Add RTL Support and Web Fonts to Tumblr Posts</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot;&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot; /&gt;&lt;/a&gt;
+This is my technical blog. My &lt;a href=&quot;http://amreldib.tumblr.com/&quot;&gt;personal blog&lt;/a&gt;, where I write mostly in my native Arabic, is hosted on Tumblr which is a nice platform but is really bad in supporting Arabic and other RTL languages. At least that’s my experience.&lt;/p&gt;
+
+&lt;p&gt;So finally I got sick of it and decided that I’m gonna fix this with some HTML and CSS magic. Maybe with &lt;a href=&quot;http://rtl-this.com/tutorial/how-rtl-your-tumblr-theme&quot;&gt;some help&lt;/a&gt;. I did find that Tumblr has some nice features that helps fixing the problem. Let’s see how.&lt;/p&gt;
+
+&lt;p&gt;Tumblr lets you modify the HTML and insert additional CSS to your page. You gotta be careful when you’re doing this. At least make a backup of your page before you try new changes.&lt;/p&gt;
+
+&lt;p&gt;One nice feature is that you can add &lt;a href=&quot;http://www.tumblr.com/docs/en/custom_themes&quot;&gt;{TagsAsClasses}&lt;/a&gt; as a CSS class. This will allow Tumblr to read the tags you attach to your post and apply them as a CSS class. I’ll use this as a way of marking the Arabic posts that I’d like to display from Right-to-Left. For every one of these posts, I’ll add the tag “arabic” and then Tumblr will apply the CSS class to that post.&lt;/p&gt;
+
+&lt;p&gt;I’ve used a simple theme named &lt;a href=&quot;http://www.tumblr.com/theme/9601&quot;&gt;Quite Big&lt;/a&gt; as my base theme. You’ll find a DIV with the classes “content” and “&lt;em&gt;x&lt;/em&gt;-post”. x-post is not the name of a class but rather text-post, photo-post, quote-post, and link-post. One class for each type of post.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/RtlSupportInTumblr/TumblrPostsTypes_thumb.png&quot;&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RtlSupportInTumblr/TumblrPostsTypes_thumb.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll need to find each one of these DIVs and add “{TagsAsClasses}” to its CSS classes.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/5519226.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;wait-where-can-i-get-the-html&quot;&gt;Wait, where can I get the HTML?&lt;/h3&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;https://www.tumblr.com/settings&quot;&gt;Settings&lt;/a&gt; section, click on the item at the bottom of the list on the left where you should see your avatar. Next to “Theme”, click “Customize”.
+On the left, you’ll find “Edit HTML”.&lt;/p&gt;
+
+&lt;p&gt;After you save the modified HTML. While in the “Customize” mode, scroll down to the bottom in the pane on the left. You’ll find a “Add Custom CSS” section. This is where we’ll add a definition of how we want to display the Arabic posts.&lt;/p&gt;
+
+&lt;p&gt;{TagsAsClasses} allows us to add a tag to any post and apply it as a CSS class. The name of the CSS class must match the name of the tag. In my case, I chose “arabic”. Here’s the CSS I used.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/5519240.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This will apply the RTL direction, it will align the text to the right, and make the font size a little bit bigger.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-use-web-fonts&quot;&gt;How to Use Web Fonts?&lt;/h3&gt;
+
+&lt;p&gt;Now that I went through the posts and added the “arabic” tag and everything is right to left. I need a good font to really make the blog look beautiful. Nothing pleases me when I’m writing Arabic like the &lt;a href=&quot;http://sourceforge.net/projects/amiri/&quot;&gt;Amiri font&lt;/a&gt;. Since it’s available on &lt;a href=&quot;http://www.google.com/fonts/earlyaccess&quot;&gt;Google Web Fonts&lt;/a&gt;, this makes my task much easier.&lt;/p&gt;
+
+&lt;p&gt;First, I import Amiri.css. I go back to the HTML of my pages. Before the very end of the &lt;strong&gt;&lt;em&gt;&amp;lt;style&amp;gt;&lt;/em&gt;&lt;/strong&gt; element in the &lt;strong&gt;&lt;em&gt;&amp;lt;head&amp;gt;&lt;/em&gt;&lt;/strong&gt; (search for &lt;strong&gt;&lt;em&gt;&amp;lt;/style&amp;gt;&lt;/em&gt;&lt;/strong&gt; and place the next line right before it):&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/5519244.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I got back to the additional CSS, and slightly modify the CSS to look like this:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/5519246.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;what-about-the-headers&quot;&gt;What about the Headers?&lt;/h3&gt;
+
+&lt;p&gt;I notice the headers need a little bit of a change. They don’t have the right font. So, I go back to the HTML, and find the H3 element for the titles, and change it to look like this:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/5519249.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then modify the CSS to look like this:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/5519196.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Now, the headers and the body are using Amiri and the header has the right size.&lt;/p&gt;
+
+&lt;p&gt;I’ve published the &lt;a href=&quot;https://gist.github.com/AmrEldib/5519192&quot;&gt;modified HTML file&lt;/a&gt; on a GitHub gist if you want to use the same theme. Here is the &lt;a href=&quot;https://gist.github.com/AmrEldib/5519196&quot;&gt;additional CSS&lt;/a&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 May 2013 00:00:00 +0100</pubDate>
+        <link>http://www.amreldib.com//AddRtlSupportAndWebFontsToTumblrPosts</link>
+        <guid isPermaLink="true">http://www.amreldib.com//AddRtlSupportAndWebFontsToTumblrPosts</guid>
+        
+        <category>Tools</category>
+        
+        <category>Tumblr</category>
+        
+        <category>Tips</category>
+        
+        <category>CSS</category>
+        
+        <category>HTML</category>
+        
+        <category>Arabic</category>
+        
+        <category>RTL</category>
+        
+        <category>Code</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to Ruin Your Technical Session in 10 Easy Steps</title>
+        <description>&lt;figure style=&quot;float: right&quot;&gt;
+    &lt;img src=&quot;/public/images/HowToRuinYourTechnicalSessionIn10EasySteps/SleepingDuringSeminar.jpg&quot; /&gt;
+    &lt;figcaption style=&quot;float: right&quot;&gt;&lt;small&gt;This is gold.&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Recently, I’ve attended a developers’ conference and some of the sessions were a model for how to deliver a passionless boring lecture done so nicely that the only thing interrupting was the noise of my snoring. I wanted to sum up few of the great lessons I’ve learnt from these great sessions.&lt;/p&gt;
+
+&lt;h3 id=&quot;start-with-the-obligatory-pointless-show-of-hands&quot;&gt;1. Start with the Obligatory Pointless Show of Hands&lt;/h3&gt;
+
+&lt;p&gt;Nothing engages the audience more than feeling small when asked “Have you heard of JavaScript?” except feeling inadequate when asked “Did anyone try scaling AngularJS with MongoDB using Chrome Canary on Linux Mint?”. But this feeling of engagement quickly builds up when you completely ignore the results of the quick poll and carry on with your session without the slightest modification. Show-of-hands shows that you are down with the latest tricks in the art of presenting.&lt;/p&gt;
+
+&lt;h3 id=&quot;speak-in-soft-emotionless-monotone&quot;&gt;2. Speak in Soft Emotionless Monotone&lt;/h3&gt;
+
+&lt;p&gt;Developers’ emotions have devolved over the years because of the constant contact with machines. Showing any emotion might be dangerous, and it’s completely unnecessary. Use a soft monotone that makes all the words sound alike.&lt;/p&gt;
+
+&lt;h3 id=&quot;sit-down-and-hide-behind-your-laptop&quot;&gt;3. Sit down and Hide behind your Laptop&lt;/h3&gt;
+
+&lt;p&gt;You’re a busy person who’s been working all day on your hippy standing desk. Feel comfortable sitting behind your monitor and let your soft voice guide your audience through the slides that need no character.&lt;/p&gt;
+
+&lt;h3 id=&quot;list-facts-not-experiences&quot;&gt;4. List Facts, not Experiences&lt;/h3&gt;
+
+&lt;p&gt;Your audience traveled hundreds, if not thousands, of miles to learn the facts that they could’ve read in a blog post. They just need it in the form of unsorted incoherent list that is difficult to remember and makes no sense. Make sure to deliver it fast enough so that they can break for launch. If you list 20 facts is better than if they can remember 10.&lt;/p&gt;
+
+&lt;h3 id=&quot;avoid-story-lines-or-building-up-to-something-meaningful&quot;&gt;5. Avoid Story lines or Building up to Something Meaningful&lt;/h3&gt;
+
+&lt;p&gt;Stories means emotions. Stories have highs and lows. Stories are interesting. Stories are not facts. Stories are coherent. These are all things we’re trying to avoid.&lt;/p&gt;
+
+&lt;h3 id=&quot;jokes-are-for-suckers&quot;&gt;6. Jokes are for Suckers&lt;/h3&gt;
+
+&lt;p&gt;It’s very important to put a distance between you and your audience, not just physical distance but emotional as well. You are a delivery vessel for facts, you’re not there to entertain or be memorable.&lt;/p&gt;
+
+&lt;h3 id=&quot;slides-are-for-words-the-more-the-better&quot;&gt;7. Slides are for Words, the More the Better&lt;/h3&gt;
+
+&lt;p&gt;Lifting whole paragraphs and sections from your PhD thesis is an excellent idea especially if it’s a screenshot not text, so later if the audience gets a hold of your slides they can’t copy the text. The goal here is to test the audience’s ability to focus on listening to you and reading the content of the slide at the same time, especially if they don’t match. Make sure to include couple of URLs that has at least two hyphens and one tilde. No URLs shorteners. Don’t forget to refer to the URLs as “important”.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-crowd-loves-your-messy-desktop&quot;&gt;8. The Crowd Loves Your Messy Desktop&lt;/h3&gt;
+
+&lt;p&gt;Make sure to minimize all your applications to show your desktop with a stretched picture of your kid riding a dog on a snowmobile which you took last August. Let them try to guess what is this picture by making it difficult to see behind all the icons you have on your desktop including “Yahoo Messenger” and the folder titled “My uncle’s second weddings photos”. Also, remember to leave your Skype on during the session because you don’t want to miss any important messages.&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-sessions-are-a-test-of-the-crowds-endurance&quot;&gt;9. Technical Sessions are a Test of the Crowd’s Endurance&lt;/h3&gt;
+
+&lt;p&gt;So, the longer the session, the better. A continuous hour that goes on and on and on is good enough, but if you can sneak in few minutes at the end to finish the last 15 slides, that’s okay too.&lt;/p&gt;
+
+&lt;h3 id=&quot;answering-questions-is-a-private-discussion&quot;&gt;10. Answering Questions is a Private Discussion&lt;/h3&gt;
+
+&lt;p&gt;When a person asks a question, try to answer it in the most private manner possible. Ignore that the person’s voice was too low that no one other than you heard it. Get geeky and make references to acronyms that no one understands. Just make sure that the person who asked the question barely understands the answer, and no one else even understood the question.&lt;/p&gt;
+
+&lt;p&gt;These are few tips on how to make your technical session the worst ever. I excel at only few of these, but working on some of the others. I wish you all the luck and look forward to your crappy presentation soon.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Apr 2013 00:00:00 +0100</pubDate>
+        <link>http://www.amreldib.com//HowToRuinYourTechnicalSessionIn10EasySteps</link>
+        <guid isPermaLink="true">http://www.amreldib.com//HowToRuinYourTechnicalSessionIn10EasySteps</guid>
+        
+        <category>Tips</category>
+        
+        <category>Presentation</category>
+        
+        <category>Community</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Real-Time GIS Using SignalR and Esri&#39;s JavaScript API</title>
+        <description>&lt;p&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RealTimeGis/SignalR.jpg&quot; /&gt;
+&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RealTimeGis/JavascriptLogo.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.&lt;/p&gt;
+
+&lt;p&gt;The problem with building command centers is that they represent a big unnecessary load on the servers. Command centers now are not like the Star Trek command centers. No, they’re hundreds of users connected to your service, each trying to command their own one decision which in aggregate with hundreds of other users form the output of the system.&lt;/p&gt;
+
+&lt;p&gt;These hundreds of computers calling the server every few seconds checking if there’s an update or not represent a big unnecessary load on the server. What I prefer is to call the server when I know that there’s an update, or better, have the server call me, the client, when there’s an update.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;That’s where SignalR comes in.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://signalr.net/&quot;&gt;SignalR&lt;/a&gt; is an open source library that let’s you build front-end real-time applications using JavaScript (or .NET). On the back-end you’ll use .NET.&lt;/p&gt;
+
+&lt;p&gt;SignalR was a side project started by two guys; &lt;a href=&quot;https://twitter.com/davidfowl&quot;&gt;David Fowler&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/DamianEdwards&quot;&gt;Damian Edwards&lt;/a&gt;. The &lt;a href=&quot;https://github.com/SignalR/SignalR&quot;&gt;source code&lt;/a&gt; is hosted on GitHub. The project got so much support that &lt;a href=&quot;http://www.asp.net/signalr/open-source&quot;&gt;Microsoft is now supporting&lt;/a&gt; it as part of its ASP.NET family even while maintaining it’s status as an open source project developed in the open.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.hanselminutes.com/352/making-open-source-work-at-microsoft-with-signalr-and-damian-edwards&quot;&gt;Listen&lt;/a&gt; to Damian Edwards interviewed by Scott Hanselman about SignalR.&lt;br /&gt;
+&lt;a href=&quot;http://channel9.msdn.com/Series/Building-Web-Apps-with-ASP-NET-Jump-Start/Building-Web-Apps-with-ASPNET-Jump-Start-08-Real-time-Communication-with-SignalR&quot;&gt;Watch&lt;/a&gt; Damian Edwards and Scott Hanselman demo how to use SignalR.&lt;/p&gt;
+
+&lt;p&gt;SignalR makes it incredibly simple to add real-time functionality to your application.&lt;/p&gt;
+
+&lt;p&gt;It’s simple because it provides you with a way to just call a function on the client-side. Just RPC a function on the client-side.&lt;/p&gt;
+
+&lt;p&gt;It’s simple because your code will work – without you having to change it – with a number of different technologies under the hood.&lt;/p&gt;
+
+&lt;p&gt;It starts with WebSockets, and falls back to other technologies if it’s not available.&lt;/p&gt;
+
+&lt;p&gt;There are two examples for SignalR you can check out right now: &lt;a href=&quot;http://jabbr.net/&quot;&gt;Jabbr&lt;/a&gt; which is a chat room service. And &lt;a href=&quot;http://shootr.signalr.net/&quot;&gt;ShootR&lt;/a&gt;; a space craft shooter game built with HTML5.&lt;/p&gt;
+
+&lt;p&gt;SignalR is split into a .NET component on the server side, and a JavaScript component on the client side. Basically, you create a class that inherits from a Hub class and whatever public method you create is now callable from the client side.&lt;/p&gt;
+
+&lt;p&gt;The important thing is that you can define client side functions that are also callable from the server side.&lt;/p&gt;
+
+&lt;p&gt;We can use this to add real-time capability to an ArcGIS JavaScript API application. Using a &lt;a href=&quot;http://help.arcgis.com/en/webapi/javascript/arcgis/jssamples/graphics_add.html&quot;&gt;sample from the documentation&lt;/a&gt;, I’ve added the real-time capability using a C# class and few modifications to the client side JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Here’s a video for how the final proof-of-concept looks like:&lt;/p&gt;
+
+&lt;figure class=&quot;BetterTube&quot; data-youtube-id=&quot;kY3AQL6n2-8&quot; data-player-width=&quot;560&quot; data-player-height=&quot;315&quot; id=&quot;kY3AQL6n2-8&quot; style=&quot;padding-bottom: 56.25%&quot;&gt;&lt;a class=&quot;BetterTubePlayer&quot; href=&quot;http://www.youtube.com/watch?v=a_426RiwST8&quot; style=&quot;background: url(http://img.youtube.com/vi/kY3AQL6n2-8/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);&quot;&gt;&lt;/a&gt;&lt;div class=&quot;BetterTube-playBtn&quot;&gt;&lt;/div&gt;&amp;nbsp;&lt;/figure&gt;
+
+&lt;p&gt;The code is all up on &lt;a href=&quot;https://github.com/AmrEldib/RealTimeGisWithSignalR&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I was invited to speak at Esri DevSummit 2013 on March 28, 2013. Here are the &lt;a href=&quot;/public/images/RealTimeGis/Real-Time GIS Using SignalR and Esri&#39;s JavaScript API.pdf&quot;&gt;slides for my talk&lt;/a&gt;. They provide few more details. &lt;/p&gt;
+
+&lt;p&gt;There’s a few book on SignalR out now, you can get &lt;a href=&quot;http://www.campusmvp.net/signalr-ebook/&quot;&gt;here&lt;/a&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Mar 2013 00:00:00 +0100</pubDate>
+        <link>http://www.amreldib.com//RealTimeGisUsingSignalrAndEsriJsapi</link>
+        <guid isPermaLink="true">http://www.amreldib.com//RealTimeGisUsingSignalrAndEsriJsapi</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>GIS</category>
+        
+        <category>DevSummit</category>
+        
+        <category>Esri</category>
+        
+        <category>SignalR</category>
+        
+        <category>Presentation</category>
+        
+        <category>ArcGIS</category>
+        
+        <category>Code</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  ﻿<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>
+        
+        How to Turn XML Schema (XSD) to Documentation &middot; Amr
+        
+    </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/poole.css">
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/hyde.css">
+    <link rel="stylesheet" href="/public/css/rjow.css">
+    <link rel="stylesheet" href="/public/css/amr.css">
+    <link rel="stylesheet" href="/public/css/gist.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    <!-- For Chrome for Android: -->
+    <link rel="icon" sizes="192x192" href="/public/images/AmrAvatar192.png">
+    <!-- For iPhone 6 Plus with @3× display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/public/images/AmrAvatar180.png">
+    <!-- For iPad with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/public/images/AmrAvatar152.png">
+    <!-- For iPad with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/images/AmrAvatar144.png">
+    <!-- For iPhone with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/public/images/AmrAvatar120.png">
+    <!-- For iPhone with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/images/AmrAvatar114.png">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/public/images/AmrAvatar76.png">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/images/AmrAvatar72.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: 57×57px -->
+    <link rel="apple-touch-icon-precomposed" href="/public/images/AmrAvatar57.png">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-jekyll">
+
+    <div class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <div><img class="profilePic" src="/public/images/AmrAvatar.png" /></div>
+                    </div>
+                    <div class="back">
+                        <div><img class="profilePic" src="/public/images/Amr.png" /></div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <small><i>Hi, My name is</i></small>
+            <h1>
+                <a class="blogTitle" href="/">
+                    Amr
+                </a>
+            </h1>
+            <small><i>and this is my</i></small>
+            <p class="lead">Blog and personal website
+</p>
+        </div>
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item" href="/">Home</a>
+            
+
+            
+            
+                
+                    
+                
+            
+                
+                    
+                    <a class="sidebar-nav-item" href="/about.html">About</a>
+                    
+                
+            
+                
+            
+                
+            
+                
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+
+            <br/>
+
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="https://twitter.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/twitter-24.png"
+                     alt="@AmrEldib" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="https://github.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/github-24.png"
+                     alt="GitHub Page" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="http://www.goodreads.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/goodreads-24.png"
+                     alt="Goodreads Shelf" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon"
+               href="https://www.linkedin.com/in/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/linked-24.png"
+                     alt="LinkedIn Resume" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="http://feeds.feedburner.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/rss-24.png"
+                     alt="Subscribe via RSS" />
+            </a>
+        </nav>
+        <p><small>&copy; 2014. All rights reserved.</small></p>
+    </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">How to Turn XML Schema (XSD) to Documentation</h1>
+  <span class="post-date">29 Aug 2013</span>
+  <p><a href="/public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png"><img style="float: right" src="/public/images/TurnXsdToHtml/VSXmlSchemaEditor.png" /></a></p>
+
+<p>Today, a colleague at work was trying to modify a configuration file in XML format. He wasn’t sure what were the available options for a certain attribute, so we started looking for an answer.   <br />
+The XML configuration file came with a software product and had an <a href="https://en.wikipedia.org/wiki/XSD">XSD file</a>. For me as a developer, I opened the XSD file in Visual Studio and used the XML Schema Editor (shown on the right) to browse its content.   <br />
+However, for him installing Visual Studio wasn’t the best option especially if he wanted to forward more information to a client and let them modify configurations themselves. So, we did a little more digging.   <br />
+<a href="http://wiki.fiforms.org/index.php/Xs3p">Xs3p</a> is a schema documentation generator. It’s simply an XSLT stylesheet, which generates HTML documentation from an XSD schema file.   <br />
+You can download Xs3p <a href="http://xml.fiforms.org/xs3p/">here</a> or <a href="http://sourceforge.net/projects/xs3p/files/xs3p-1.1.5.zip/download">direct link</a> to version 1.1.5   <br />
+ Extract the content of the downloaded ZIP file and place it a folder. We’ll use the file <em>xs3p.xsl</em>  <br />
+On Windows, you can use MSXML (<a href="http://www.microsoft.com/en-us/download/details.aspx?id=15697">Download</a>) and the MSXSL command utility (<a href="http://www.microsoft.com/en-us/download/details.aspx?id=21714">Download</a>).   <br />
+To use MSXSL, place the downloaded EXE in the same folder as the extracted ZIP file. In the command line browse to that folder, then type a command like this:     </p>
+
+<script src="https://gist.github.com/AmrEldib/6385853.js"></script>
+
+<p>Where: <em>myXsd.xsd</em> is the name of the XSD file. <em>myXsdDocumentation.html</em> is the name of the HTML file that will be generated by the tool.
+        I assume that all three files (XSD, XSL, and output HTML) along with MSXSL.exe are placed in the same folder.   <br />
+Here’s what the output looks like:
+<a href="/public/images/TurnXsdToHtml/SampleOutput-big.png"><img src="/public/images/TurnXsdToHtml/SampleOutput.png" alt="" /></a>
+You can download view <a href="/public/images/TurnXsdToHtml/SampleOutputOfMsXslTool.html">sample HTML output</a>.<br />
+To make things easier, I wrote a <a href="/public/images/TurnXsdToHtml/ConvertAllXsdToHtml.ps1">PowerShell script</a> that find all the XSD files in the folder where it’s placed and convert them all to HTML. It assumes that both <em>MSXSL.exe</em> and <em>xs3p.xsl</em> are in the same folder.
+        To use the script, from the command line run this command:     </p>
+
+<script src="https://gist.github.com/AmrEldib/6386132.js"></script>
+
+<p>Here’s the script:</p>
+
+<script src="https://gist.github.com/AmrEldib/6386145.js"></script>
+
+<p>This <a href="/public/images/TurnXsdToHtml/TurnXmlSchemaToHtml.zip">ZIP file</a> include all three files: PowerShell script, <em>MSXSL.exe</em> and style sheet <em>xs3p.xsl</em>.</p>
+
+<p>Enjoy!</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/EnableWindowsAuthenticationInFirefox">
+            Enable Windows Authentication in Firefox
+            <small>27 Sep 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/Chocolatey">
+            Chocolatey: Install Software like a Pro
+            <small>09 Feb 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/ShareToSocialNetworksUsingBrowserBookmarks">
+            Share To Social Networks Using Browser Bookmarks
+            <small>10 Nov 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

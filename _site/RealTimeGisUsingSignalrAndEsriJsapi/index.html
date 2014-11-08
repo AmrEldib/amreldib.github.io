@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  ﻿<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>
+        
+        Real-Time GIS Using SignalR and Esri's JavaScript API &middot; Amr
+        
+    </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/poole.css">
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/hyde.css">
+    <link rel="stylesheet" href="/public/css/rjow.css">
+    <link rel="stylesheet" href="/public/css/amr.css">
+    <link rel="stylesheet" href="/public/css/gist.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    <!-- For Chrome for Android: -->
+    <link rel="icon" sizes="192x192" href="/public/images/AmrAvatar192.png">
+    <!-- For iPhone 6 Plus with @3× display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/public/images/AmrAvatar180.png">
+    <!-- For iPad with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/public/images/AmrAvatar152.png">
+    <!-- For iPad with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/images/AmrAvatar144.png">
+    <!-- For iPhone with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/public/images/AmrAvatar120.png">
+    <!-- For iPhone with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/images/AmrAvatar114.png">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/public/images/AmrAvatar76.png">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/images/AmrAvatar72.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: 57×57px -->
+    <link rel="apple-touch-icon-precomposed" href="/public/images/AmrAvatar57.png">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-jekyll">
+
+    <div class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <div><img class="profilePic" src="/public/images/AmrAvatar.png" /></div>
+                    </div>
+                    <div class="back">
+                        <div><img class="profilePic" src="/public/images/Amr.png" /></div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <small><i>Hi, My name is</i></small>
+            <h1>
+                <a class="blogTitle" href="/">
+                    Amr
+                </a>
+            </h1>
+            <small><i>and this is my</i></small>
+            <p class="lead">Blog and personal website
+</p>
+        </div>
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item" href="/">Home</a>
+            
+
+            
+            
+                
+                    
+                
+            
+                
+                    
+                    <a class="sidebar-nav-item" href="/about.html">About</a>
+                    
+                
+            
+                
+            
+                
+            
+                
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+
+            <br/>
+
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="https://twitter.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/twitter-24.png"
+                     alt="@AmrEldib" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="https://github.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/github-24.png"
+                     alt="GitHub Page" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="http://www.goodreads.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/goodreads-24.png"
+                     alt="Goodreads Shelf" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon"
+               href="https://www.linkedin.com/in/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/linked-24.png"
+                     alt="LinkedIn Resume" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon" 
+               href="http://feeds.feedburner.com/AmrEldib">
+                <img class="side-nav-icon"
+                     src="/public/images/rss-24.png"
+                     alt="Subscribe via RSS" />
+            </a>
+        </nav>
+        <p><small>&copy; 2014. All rights reserved.</small></p>
+    </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Real-Time GIS Using SignalR and Esri's JavaScript API</h1>
+  <span class="post-date">28 Mar 2013</span>
+  <p><img style="float: right" src="/public/images/RealTimeGis/SignalR.jpg" />
+<img style="float: right" src="/public/images/RealTimeGis/JavascriptLogo.png" /></p>
+
+<p>Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.</p>
+
+<p>The problem with building command centers is that they represent a big unnecessary load on the servers. Command centers now are not like the Star Trek command centers. No, they’re hundreds of users connected to your service, each trying to command their own one decision which in aggregate with hundreds of other users form the output of the system.</p>
+
+<p>These hundreds of computers calling the server every few seconds checking if there’s an update or not represent a big unnecessary load on the server. What I prefer is to call the server when I know that there’s an update, or better, have the server call me, the client, when there’s an update.</p>
+
+<p><em>That’s where SignalR comes in.</em></p>
+
+<p><a href="http://signalr.net/">SignalR</a> is an open source library that let’s you build front-end real-time applications using JavaScript (or .NET). On the back-end you’ll use .NET.</p>
+
+<p>SignalR was a side project started by two guys; <a href="https://twitter.com/davidfowl">David Fowler</a> and <a href="https://twitter.com/DamianEdwards">Damian Edwards</a>. The <a href="https://github.com/SignalR/SignalR">source code</a> is hosted on GitHub. The project got so much support that <a href="http://www.asp.net/signalr/open-source">Microsoft is now supporting</a> it as part of its ASP.NET family even while maintaining it’s status as an open source project developed in the open.</p>
+
+<p><a href="http://www.hanselminutes.com/352/making-open-source-work-at-microsoft-with-signalr-and-damian-edwards">Listen</a> to Damian Edwards interviewed by Scott Hanselman about SignalR.<br />
+<a href="http://channel9.msdn.com/Series/Building-Web-Apps-with-ASP-NET-Jump-Start/Building-Web-Apps-with-ASPNET-Jump-Start-08-Real-time-Communication-with-SignalR">Watch</a> Damian Edwards and Scott Hanselman demo how to use SignalR.</p>
+
+<p>SignalR makes it incredibly simple to add real-time functionality to your application.</p>
+
+<p>It’s simple because it provides you with a way to just call a function on the client-side. Just RPC a function on the client-side.</p>
+
+<p>It’s simple because your code will work – without you having to change it – with a number of different technologies under the hood.</p>
+
+<p>It starts with WebSockets, and falls back to other technologies if it’s not available.</p>
+
+<p>There are two examples for SignalR you can check out right now: <a href="http://jabbr.net/">Jabbr</a> which is a chat room service. And <a href="http://shootr.signalr.net/">ShootR</a>; a space craft shooter game built with HTML5.</p>
+
+<p>SignalR is split into a .NET component on the server side, and a JavaScript component on the client side. Basically, you create a class that inherits from a Hub class and whatever public method you create is now callable from the client side.</p>
+
+<p>The important thing is that you can define client side functions that are also callable from the server side.</p>
+
+<p>We can use this to add real-time capability to an ArcGIS JavaScript API application. Using a <a href="http://help.arcgis.com/en/webapi/javascript/arcgis/jssamples/graphics_add.html">sample from the documentation</a>, I’ve added the real-time capability using a C# class and few modifications to the client side JavaScript.</p>
+
+<p>Here’s a video for how the final proof-of-concept looks like:</p>
+
+<figure class="BetterTube" data-youtube-id="kY3AQL6n2-8" data-player-width="560" data-player-height="315" id="kY3AQL6n2-8" style="padding-bottom: 56.25%"><a class="BetterTubePlayer" href="http://www.youtube.com/watch?v=a_426RiwST8" style="background: url(http://img.youtube.com/vi/kY3AQL6n2-8/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);"></a><div class="BetterTube-playBtn"></div>&nbsp;</figure>
+
+<p>The code is all up on <a href="https://github.com/AmrEldib/RealTimeGisWithSignalR">GitHub</a>.</p>
+
+<p>I was invited to speak at Esri DevSummit 2013 on March 28, 2013. Here are the <a href="/public/images/RealTimeGis/Real-Time GIS Using SignalR and Esri's JavaScript API.pdf">slides for my talk</a>. They provide few more details. </p>
+
+<p>There’s a few book on SignalR out now, you can get <a href="http://www.campusmvp.net/signalr-ebook/">here</a>. </p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/EnableWindowsAuthenticationInFirefox">
+            Enable Windows Authentication in Firefox
+            <small>27 Sep 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/Chocolatey">
+            Chocolatey: Install Software like a Pro
+            <small>09 Feb 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/ShareToSocialNetworksUsingBrowserBookmarks">
+            Share To Social Networks Using Browser Bookmarks
+            <small>10 Nov 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
