@@ -9,29 +9,29 @@ tags:
 redirects:
 - /2013/03/the-five-stages-of-grief-over-google.html
 ---
-<img style="float: right" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/GoogleReaderLogo.jpg">
+<img class="imageOnRight" title="Google Reader" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/GoogleReaderLogo.jpg">
 
 A quick look on Twitter, you notice how quickly the Internet is going through the five stages of grief over the [shutdown of Google Reader](http://googleblog.blogspot.ca/2013/03/a-second-spring-of-cleaning.html).
 
 [Denial](http://en.wikipedia.org/wiki/Denial)
 
- <img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-1-01.png">
+ <img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-1-01.png">
 
 [Anger](http://en.wikipedia.org/wiki/Anger)
 
-<img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-01.png">
-<img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-02.png">
-<img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-03.png">
+<img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-01.png">
+<img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-02.png">
+<img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-03.png">
 
 [Bargaining](http://en.wikipedia.org/wiki/Bargaining)
 
-<img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-3-01.png">
+<img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-3-01.png">
 
 [Depression](http://en.wikipedia.org/wiki/Depression_(mood))
 
-<img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-4-01.png">
+<img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-4-01.png">
 
 [Acceptance](http://en.wikipedia.org/wiki/Acceptance)
 
-<img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png">
-<img style="float: center" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png">
+<img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png">
+<img class="imageInCenter" src="{{ site.baseurl }}public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png">

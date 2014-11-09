@@ -16,7 +16,7 @@ tags:
 redirects:
 - /2012/09/personal-clouds.html
 ---
-<img style="float: right" src="{{ site.baseurl }}public/images/PersonalClouds/CloudIcon.png">
+<img class="imageOnRight" title="Cloud" src="{{ site.baseurl }}public/images/PersonalClouds/CloudIcon.png">
 "The Cloud is coming". Actually, it’s more like "The cloud is here". It’s being forced upon us on every platform (Almost every platform, at least, Windows, OSX, iOS, Ubuntu and Android). With the spread of smartphones, the cloud now not only makes sense but is also useful. 
 
 Let me go back a step to make a distinction. 

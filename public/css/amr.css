@@ -90,3 +90,16 @@ small {
 	.vertical.flip-container:hover .front {
 	    transform: rotateX(180deg);
 	}
+
+.imageOnRight {
+    float: right;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.imageInCenter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

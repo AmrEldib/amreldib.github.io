@@ -15,8 +15,8 @@ tags:
 redirects:
 - /2013/03/real-time-gis-using-signalr-and-esris.html
 ---
-<img style="float: right" src="{{ site.baseurl }}public/images/RealTimeGis/SignalR.jpg">
-<img style="float: right" src="{{ site.baseurl }}public/images/RealTimeGis/JavascriptLogo.png">
+<img class="imageOnRight" title="SignalR" src="{{ site.baseurl }}public/images/RealTimeGis/SignalR.jpg">
+<img class="imageOnRight" title="Javascript" src="{{ site.baseurl }}public/images/RealTimeGis/JavascriptLogo.png">
 
 Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.
 
@@ -51,7 +51,7 @@ We can use this to add real-time capability to an ArcGIS JavaScript API applicat
 
 Here's a video for how the final proof-of-concept looks like:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/kY3AQL6n2-8" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="422" src="//www.youtube.com/embed/kY3AQL6n2-8" frameborder="0" allowfullscreen></iframe>
 
 The code is all up on [GitHub](https://github.com/AmrEldib/RealTimeGisWithSignalR).
 

@@ -6,8 +6,8 @@
 </description>
     <link>http://www.amreldib.com//</link>
     <atom:link href="http://www.amreldib.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 07 Nov 2014 07:46:17 +0000</pubDate>
-    <lastBuildDate>Fri, 07 Nov 2014 07:46:17 +0000</lastBuildDate>
+    <pubDate>Sun, 09 Nov 2014 01:01:16 +0000</pubDate>
+    <lastBuildDate>Sun, 09 Nov 2014 01:01:16 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -480,8 +480,8 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
     
       <item>
         <title>Real-Time GIS Using SignalR and Esri&#39;s JavaScript API</title>
-        <description>&lt;p&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RealTimeGis/SignalR.jpg&quot; /&gt;
-&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RealTimeGis/JavascriptLogo.png&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;SignalR&quot; src=&quot;/public/images/RealTimeGis/SignalR.jpg&quot; /&gt;
+&lt;img class=&quot;imageOnRight&quot; title=&quot;Javascript&quot; src=&quot;/public/images/RealTimeGis/JavascriptLogo.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.&lt;/p&gt;
 
@@ -516,7 +516,7 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
 
 &lt;p&gt;Here’s a video for how the final proof-of-concept looks like:&lt;/p&gt;
 
-&lt;figure class=&quot;BetterTube&quot; data-youtube-id=&quot;kY3AQL6n2-8&quot; data-player-width=&quot;560&quot; data-player-height=&quot;315&quot; id=&quot;kY3AQL6n2-8&quot; style=&quot;padding-bottom: 56.25%&quot;&gt;&lt;a class=&quot;BetterTubePlayer&quot; href=&quot;http://www.youtube.com/watch?v=a_426RiwST8&quot; style=&quot;background: url(http://img.youtube.com/vi/kY3AQL6n2-8/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);&quot;&gt;&lt;/a&gt;&lt;div class=&quot;BetterTube-playBtn&quot;&gt;&lt;/div&gt;&amp;nbsp;&lt;/figure&gt;
+&lt;iframe width=&quot;750&quot; height=&quot;422&quot; src=&quot;//www.youtube.com/embed/kY3AQL6n2-8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;The code is all up on &lt;a href=&quot;https://github.com/AmrEldib/RealTimeGisWithSignalR&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 

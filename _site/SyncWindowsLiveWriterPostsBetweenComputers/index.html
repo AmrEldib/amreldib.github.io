@@ -278,10 +278,21 @@
       <div class="post">
   <h1 class="post-title">Sync Windows Live Writer Posts Between Computers</h1>
   <span class="post-date">11 Jan 2012</span>
-  <p><img src="https://public.sn2.livefilestore.com/y1pXz9ghSH071kCGDO68fx3YcX_s4r_Sa1Mgtl4A3-gYaCHW4rsiWuBfvBf3ebP9KNoMh1ByZWWaiukqRLpMf2b0Q/Windows_Live_Writer_logo.png?psid=1" alt="" />With all the different PCs between work and home, desktops and laptops, synchronization is becoming very important. I wanted to sync blog drafts between different computers which turned out to be very simple. Unfortunately, Windows Live doesn’t offer a solution out of the box, even though Windows Live Essentials comes with Live Mesh along with Live Writer. It’s a matter of putting two and two together which what I’ll do.</p>
+  <p><img class="imageOnRight" title="Windows Live Writer" src="/public/images/SyncWLW/Windows_Live_Writer_logo.png" /></p>
+
+<p>With all the different PCs between work and home, desktops and laptops, synchronization is becoming very important. I wanted to sync blog drafts between different computers which turned out to be very simple. Unfortunately, Windows Live doesn’t offer a solution out of the box, even though Windows Live Essentials comes with Live Mesh along with Live Writer. It’s a matter of putting two and two together which what I’ll do.</p>
 
 <p>First, <a href="http://www.lehsys.com/2011/04/how-to-change-the-drafts-and-recent-posts-folder-in-windows-live-writer-2011/">change the posts folder of WLW</a> (Windows Live Writer):
- &gt; &gt; <em>1. Open up regedit (in Win7, just type “regedit” into the start menu) _ &lt;p&gt;_2.** <strong>Navigate to **HKEY_CURRENT_USER\Software\Microsoft\Windows Live\Writer</strong></em>  &lt;p&gt;<em>3. Right click on the “Writer” folder in the left pane and choose New &gt; String Value _ &lt;p&gt;_4. Name the value <strong>PostsDirectory</strong> and then double-click on it to edit _ &lt;p&gt;_a. You can try pointing it to your documents folder, which is normally “C:\Users\&lt;your-username&gt;\Documents\” in Win7 _ &lt;p&gt;_b. Or point it somewhere else. Note that Writer will create two child folders wherever you point it: <strong>Drafts</strong> and <strong>Recent Posts</strong>.</em> &lt;p&gt;The folder I switch to is a folder under the folder I keep synced with Live Mesh. On the other computer, do the same steps. Change the posts folder to the folder you keep synced with Live Mesh. You’ll need to copy your existing posts and drafts from their original location which normally is <strong><em>C:\Users[User Name]\Documents\My Weblog Posts</em></strong>  &lt;p&gt;Now you can start a post on my computer and finish it on the other. More importantly, you now have a backup of all your drafts on your SkyDrive.  &lt;p&gt;You can, of course, use Dropbox or any other synchronization service to keep the posts in sync.     </p>
+1. Open up regedit (in Win7, just type “regedit” into the start menu).<br />
+2. Navigate to <strong>HKEY_CURRENT_USER\Software\Microsoft\Windows Live\Writer</strong><br />
+3. Right click on the “Writer” folder in the left pane and choose New &gt; String Value<br />
+4. Name the value <strong>PostsDirectory</strong> and then double-click on it to edit:<br />
+	- You can try pointing it to your documents folder, which is normally “C:\Users\&lt;your-username&gt;\Documents" in Win7<br />
+	- Or point it somewhere else. Note that Writer will create two child folders wherever you point it: <strong>Drafts</strong> and <strong>Recent Posts</strong>.  </p>
+
+<p>The folder I switch to is a folder under the folder I keep synced with Live Mesh. On the other computer, do the same steps. Change the posts folder to the folder you keep synced with Live Mesh. You’ll need to copy your existing posts and drafts from their original location which normally is <strong><em>C:\Users[User Name]\Documents\My Weblog Posts</em></strong> <br />
+Now you can start a post on my computer and finish it on the other. More importantly, you now have a backup of all your drafts on your SkyDrive.<br />
+You can, of course, use Dropbox or any other synchronization service to keep the posts in sync.     </p>
 
 </div>
 

@@ -4,7 +4,7 @@
  <title>Amr</title>
  <link href="http://www.amreldib.com/atom.xml" rel="self"/>
  <link href="http://www.amreldib.com/"/>
- <updated>2014-11-07T07:46:17+00:00</updated>
+ <updated>2014-11-09T01:01:16+00:00</updated>
  <id>http://www.amreldib.com</id>
  <author>
    <name></name>
@@ -375,8 +375,8 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
    <link href="http://www.amreldib.com/RealTimeGisUsingSignalrAndEsriJsapi"/>
    <updated>2013-03-28T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/RealTimeGisUsingSignalrAndEsriJsapi</id>
-   <content type="html">&lt;p&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RealTimeGis/SignalR.jpg&quot; /&gt;
-&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RealTimeGis/JavascriptLogo.png&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;SignalR&quot; src=&quot;/public/images/RealTimeGis/SignalR.jpg&quot; /&gt;
+&lt;img class=&quot;imageOnRight&quot; title=&quot;Javascript&quot; src=&quot;/public/images/RealTimeGis/JavascriptLogo.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.&lt;/p&gt;
 
@@ -411,7 +411,7 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
 
 &lt;p&gt;Here’s a video for how the final proof-of-concept looks like:&lt;/p&gt;
 
-&lt;figure class=&quot;BetterTube&quot; data-youtube-id=&quot;kY3AQL6n2-8&quot; data-player-width=&quot;560&quot; data-player-height=&quot;315&quot; id=&quot;kY3AQL6n2-8&quot; style=&quot;padding-bottom: 56.25%&quot;&gt;&lt;a class=&quot;BetterTubePlayer&quot; href=&quot;http://www.youtube.com/watch?v=a_426RiwST8&quot; style=&quot;background: url(http://img.youtube.com/vi/kY3AQL6n2-8/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);&quot;&gt;&lt;/a&gt;&lt;div class=&quot;BetterTube-playBtn&quot;&gt;&lt;/div&gt;&amp;nbsp;&lt;/figure&gt;
+&lt;iframe width=&quot;750&quot; height=&quot;422&quot; src=&quot;//www.youtube.com/embed/kY3AQL6n2-8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;The code is all up on &lt;a href=&quot;https://github.com/AmrEldib/RealTimeGisWithSignalR&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
@@ -426,32 +426,32 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
    <link href="http://www.amreldib.com/FiveStagesOfGriefOverGoogleReaderShutdown"/>
    <updated>2013-03-13T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/FiveStagesOfGriefOverGoogleReaderShutdown</id>
-   <content type="html">&lt;p&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/GoogleReaderLogo.jpg&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;Google Reader&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/GoogleReaderLogo.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A quick look on Twitter, you notice how quickly the Internet is going through the five stages of grief over the &lt;a href=&quot;http://googleblog.blogspot.ca/2013/03/a-second-spring-of-cleaning.html&quot;&gt;shutdown of Google Reader&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Denial&quot;&gt;Denial&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-1-01.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-1-01.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Anger&quot;&gt;Anger&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-01.png&quot; /&gt;
-&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-02.png&quot; /&gt;
-&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-03.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-01.png&quot; /&gt;
+&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-02.png&quot; /&gt;
+&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-2-03.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Bargaining&quot;&gt;Bargaining&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-3-01.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-3-01.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Depression_(mood)&quot;&gt;Depression&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-4-01.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-4-01.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Acceptance&quot;&gt;Acceptance&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png&quot; /&gt;
-&lt;img style=&quot;float: center&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png&quot; /&gt;
+&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -476,40 +476,39 @@ Thanks to &lt;span class=&quot;usertitle&quot;&gt;&lt;a href=&quot;http://forums
 &lt;h3 id=&quot;visual-studio-2012&quot;&gt;Visual Studio 2012&lt;/h3&gt;
 &lt;p&gt;Open the Options Dialog  &lt;/p&gt;
 
-&lt;p&gt;[![Open Options Dialog](/public/images/JsapiIntellisense/1-OpenOptionsDialog.png]&lt;br /&gt;
-Under Text Editor &amp;gt; JavaScript &amp;gt; Intellisense &amp;gt; References, switch to Implicit (Web) in the drop down list, and make sure that “~/Scripts/_references.js” is added. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/1-OpenOptionsDialog.png&quot; alt=&quot;Open Options Dialog&quot; /&gt;  &lt;/p&gt;
 
-&lt;p&gt;[![Prepare Javascript References](/public/images/JsapiIntellisense/2-PrepareJsReferences.png]  &lt;/p&gt;
+&lt;p&gt;Under Text Editor &amp;gt; JavaScript &amp;gt; Intellisense &amp;gt; References, switch to Implicit (Web) in the drop down list, and make sure that “~/Scripts/_references.js” is added. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/2-PrepareJsReferences.png&quot; alt=&quot;Prepare Javascript References&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;This will tell Visual Studio that in any project, you will place a file named “_references.js” under a folder named “Scripts” at the root of the project, and in that file you will add references to the JavaScript API files with intellisense. You can change the file name or folder to anything you like. &lt;/p&gt;
 
 &lt;p&gt;Now, let’s add the _references.js file. Add a new item under the Scripts folder. &lt;/p&gt;
 
-&lt;p&gt;[![Add New File](/public/images/JsapiIntellisense/3-AddNewItem.png]  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/3-AddNewItem.png&quot; alt=&quot;Add New File&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;Then, name the new file _references.js &lt;/p&gt;
 
-&lt;p&gt;[![Add Reference File](/public/images/JsapiIntellisense/4-AddReferencesFile.png]  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/4-AddReferencesFile.png&quot; alt=&quot;Add Reference File&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;In the new file, add references to the VSDoc file you included in your project. You can simply drag the file from the Solution Explorer and drop it on to the file. &lt;/p&gt;
 
-&lt;p&gt;[![Content of Reference File](/public/images/JsapiIntellisense/5-ContentOfReferenceFile.png]  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/5-ContentOfReferenceFile.png&quot; alt=&quot;Content of Reference File&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;You can see in this file, I’ve added references to jQuery, SignalR, and the JSAPI. 
 Now, you’ll get intellisense in your JavaScript file. &lt;/p&gt;
 
-&lt;p&gt;[![Intellisense in VS 2012](/public/images/JsapiIntellisense/6-EsriJsApiIntellisenseVS2012.png]  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/6-EsriJsApiIntellisenseVS2012.png&quot; alt=&quot;Intellisense in VS 2012&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;visual-studio-2010&quot;&gt;Visual Studio 2010&lt;/h3&gt;
 &lt;p&gt;In Visual Studio 2010, there’s no section in Options to add a reference to the _references.js file. So, you’ll need to add a reference to that file in each file you’re working on. &lt;/p&gt;
 
-&lt;p&gt;[![Adding Reference File in VS 2010](/public/images/JsapiIntellisense/7-AddingReferenceFileInVS2010.png]  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/7-AddingReferenceFileInVS2010.png&quot; alt=&quot;Adding Reference File in VS 2010&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;You’ll get the same results.        &lt;/p&gt;
 
-&lt;p&gt;[![Intellisense in VS 2010](/public/images/JsapiIntellisense/8-EsriJsApiIntellisenseVS2010.png]  &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://lh6.ggpht.com/-RvlMNiqflpU/UTPJFaPNF1I/AAAAAAAAAUI/Fq7o-3PbigU/s1600-h/8-EsriJsApiIntellisenseVS2010%25255B4%25255D.png&quot;&gt;&lt;img src=&quot;http://lh5.ggpht.com/-p9PuutmFoy4/UTPJFinHsMI/AAAAAAAAAUQ/7PHjryKtahM/8-EsriJsApiIntellisenseVS2010_thumb%25255B5%25255D.png?imgmax=800&quot; alt=&quot;8-EsriJsApiIntellisenseVS2010&quot; title=&quot;8-EsriJsApiIntellisenseVS2010&quot; /&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/JsapiIntellisense/8-EsriJsApiIntellisenseVS2010.png&quot; alt=&quot;Intellisense in VS 2010&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I’ve updated the links to VSDoc file to the latest version.&lt;/p&gt;
 
@@ -521,7 +520,7 @@ Now, you’ll get intellisense in your JavaScript file. &lt;/p&gt;
    <link href="http://www.amreldib.com/PersonalClouds"/>
    <updated>2012-09-16T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/PersonalClouds</id>
-   <content type="html">&lt;p&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/PersonalClouds/CloudIcon.png&quot; /&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;Cloud&quot; src=&quot;/public/images/PersonalClouds/CloudIcon.png&quot; /&gt;
 “The Cloud is coming”. Actually, it’s more like “The cloud is here”. It’s being forced upon us on every platform (Almost every platform, at least, Windows, OSX, iOS, Ubuntu and Android). With the spread of smartphones, the cloud now not only makes sense but is also useful. &lt;/p&gt;
 
 &lt;p&gt;Let me go back a step to make a distinction. 
@@ -584,7 +583,7 @@ I think this could be a big project that brings together all the pieces of open 
    <link href="http://www.amreldib.com/EgyGeeksBuildingOnlineCommunity"/>
    <updated>2012-08-08T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/EgyGeeksBuildingOnlineCommunity</id>
-   <content type="html">&lt;p&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/EgyGeeks/EgyGeeksLogo.png&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;EgyGeeks&quot; src=&quot;/public/images/EgyGeeks/EgyGeeksLogo.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A little over two years ago, a group of techies got together for a Skype conversation. Mohamed Meligy tells &lt;a href=&quot;http://gurustop.net/blog/2010/04/05/join-the-egyptian-geeks-on-skype-weekly/&quot;&gt;the story&lt;/a&gt;. &lt;em&gt;It was a great talk and we really enjoyed it&lt;/em&gt;, he says and I remember.&lt;/p&gt;
 
@@ -626,14 +625,15 @@ I think this could be a big project that brings together all the pieces of open 
    <id>http://www.amreldib.com/AppStoreForTheRestOfUs</id>
    <content type="html">&lt;p&gt;I’ve blogged a year ago about App Stores, calling that &lt;a href=&quot;http://www.amreldib.com/2011/01/everybody-gets-app-store.html&quot;&gt;everybody gets an App Store&lt;/a&gt; or as Scott Hanselman &lt;a href=&quot;https://twitter.com/#!/shanselman/status/144635686966919168&quot;&gt;tweeted&lt;/a&gt; it “There’s an App Store for that!”. I had hope for Microsoft to build a better app store that isn’t like Apple’s. So much for my hopes that were crushed when the details of Windows 8’s store was &lt;a href=&quot;http://www.zdnet.com/blog/microsoft/microsoft-previews-windows-8-app-store-launching-with-the-beta-in-late-february/11340&quot;&gt;revealed last month&lt;/a&gt;. Microsoft &lt;a href=&quot;http://www.winrumors.com/microsoft-promises-developers-a-bigger-bite-of-the-apple-with-its-windows-8-app-store/&quot;&gt;promised developers a bigger bite&lt;/a&gt; of the apple, bigger than Apple’s. 80% rather than 70%. Your app qualify for the bigger cut if your sales exceed 25,000$.&lt;/p&gt;
 
-&lt;p&gt;While that seems generous, I still didn’t like the phrase Microsoft used to describe taking a percentage of your revenue; “Revenue Sharing”.
-&amp;lt;div align=&quot;justify&quot;&amp;gt; &amp;lt;div style=&quot;padding-bottom: 0px; margin: 0px auto; padding-left: 0px; width: 623px; padding-right: 0px; display: block; float: none; padding-top: 0px&quot; id=&quot;scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:a0997665-3d1e-40ef-ac3e-e5574cd887ef&quot; class=&quot;wlWriterEditableSmartContent&quot;&amp;gt;&amp;lt;div id=&quot;a7655fa1-691c-4e33-b6e9-540772e0f140&quot; style=&quot;margin: 0px; padding: 0px; display: inline;&quot;&amp;gt;&amp;lt;div&amp;gt;&lt;a href=&quot;http://www.youtube.com/watch?v=37E3jQIs2AA&quot;&gt;&lt;img src=&quot;http://lh5.ggpht.com/-yvOzARttfrI/TxCLQ3_VhEI/AAAAAAAAALk/3zCAwJ3s1Ec/video78b17b10187d%25255B15%25255D.jpg?imgmax=800&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div style=&quot;width:623px;clear:both;font-size:.8em&quot;&amp;gt;Microsoft previews the Windows Store&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;While that seems generous, I still didn’t like the phrase Microsoft used to describe taking a percentage of your revenue; “Revenue Sharing”.&lt;/p&gt;
+
+&lt;iframe width=&quot;750&quot; height=&quot;422&quot; src=&quot;//www.youtube.com/embed/37E3jQIs2AA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Imagine the government re-labeling taxes as “Revenue Sharing”.&lt;/p&gt;
 
 &lt;p&gt;So, Microsoft creates a platform (if we can pass upgrading Windows as creating a new platform), announces that the only way you can get applications of that platform is through their app store and then takes away a percentage out of every single copy sold on that platform.&lt;/p&gt;
 
-&lt;p&gt;Imagine you’re a tiny shop building applications for Windows. Now, you want to switch your app that costs 10$ to the new Metro-style UI of Windows 8. How are you going to handle pricing? Are you giving up 3$ to Microsoft and reducing your income by 30% or are you going to raise your price to make room for the new cost and piss off your customers who have seen price increase with no features to justify it which eventually will lead (at least some) customers to jump ship to other products.&lt;/p&gt;
+&lt;p&gt;Imagine you’re a tiny shop building applications for Windows. Now, you want to switch your app that costs 10$ to the new Metro-style UI of Windows 8. How are you going to handle pricing? Are you giving up $3 to Microsoft and reducing your income by 30% or are you going to raise your price to make room for the new cost and piss off your customers who have seen price increase with no features to justify it which eventually will lead (at least some) customers to jump ship to other products.&lt;/p&gt;
 
 &lt;p&gt;Why is a 30% (or even 20%) cut out of every copy sold on Windows Store justified? Is Microsoft not making enough money from every single copy of Windows running on 90% of computers on the planet? Do they really need to have 30% share of the entire software revenue on top of Windows revenue.&lt;/p&gt;
 
@@ -646,15 +646,13 @@ I think this could be a big project that brings together all the pieces of open 
 &lt;p&gt;I understand that this a lot to blame on an app store but it’s not the new functionality that bothers me. It’s the mentality with which it’s offered. An app store for Windows is a great feature that helps developers offer and distribute their applications. It’s been long over due. But Microsoft is taking the wrong approach to deliver this feature. If I were to build an app store for Windows, I would do the following:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;**Make it a new way to get applications, not the only way**: Users should choose to use an app store because it’s better not because it’s the only way. At least a billion PC user in the world, I’m not gonna claim what’s best for them.&lt;/div&gt;
-    &lt;li&gt; &lt;div align=&quot;justify&quot;&gt;**Developers can host their own apps**: If you’re a developer and want to host your own app, that’s fine. An app store is only an entry point to discover all the different app repositories offered by all developers.&lt;/div&gt; &lt;li&gt; &lt;div align=&quot;justify&quot;&gt;**Recommendations not Control**: I believe that it’s important to guide average users to what’s best for them. “You shouldn’t use this applications because it’s buggy”. But not do that by anointing yourself King of the world. When a user purchase an app from a developer, it’s an agreement between the two and the platform vendor has nothing to do with it. I know that this app is buggy but I still would like to use it, it’s performing a function that I really need right now, I don’t want for the developer to comply with your review process. As a platform vendor who cares about how your platform is performing and used, you can use recommendations. “Microsoft doesn’t recommend this app because of performance issues” or “because of privacy issues”, “Please read for more details”. Developers would get an explanation for the recommendation and be able to fix the problem. Microsoft gets to place its recommendation high in the list next to the application description. This recommendation would really affect user’s decision and wouldn’t be restrictive to users who know what they’re doing.&lt;/div&gt; &lt;li&gt;
-&lt;div align=&quot;justify&quot;&gt;**Standards, Standards, Standards**: For this app store to be really open, and for it offer place for innovation by other software vendors, it has to rely of standards. A standard to how to discover apps, how to install them, license them, and update them. Standards that describe how these different process interact with each other, how two processes implemented by two different vendors can still work together. Microsoft can start by offering this standard and other would join.&lt;/div&gt;
-
-It’s a shame really that Microsoft is taking over the software market like this. In times where there are attempts by governments to control the Internet, in more [ways](http://en.wikipedia.org/wiki/SOPA) than [one](http://www.usatoday.com/tech/news/internetprivacy/2011-02-15-kill-switch_N.htm). It doesn’t help that giant software companies are restricting computers as well.
-&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it a new way to get applications, not the only way&lt;/strong&gt;: Users should choose to use an app store because it’s better not because it’s the only way. At least a billion PC user in the world, I’m not gonna claim what’s best for them&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Developers can host their own apps&lt;/strong&gt;: If you’re a developer and want to host your own app, that’s fine. An app store is only an entry point to discover all the different app repositories offered by all developers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recommendations not Control&lt;/strong&gt;: I believe that it’s important to guide average users to what’s best for them. “You shouldn’t use this applications because it’s buggy”. But not do that by anointing yourself King of the world. When a user purchase an app from a developer, it’s an agreement between the two and the platform vendor has nothing to do with it. I know that this app is buggy but I still would like to use it, it’s performing a function that I really need right now, I don’t want for the developer to comply with your review process. As a platform vendor who cares about how your platform is performing and used, you can use recommendations. “Microsoft doesn’t recommend this app because of performance issues” or “because of privacy issues”, “Please read for more details”. Developers would get an explanation for the recommendation and be able to fix the problem. Microsoft gets to place its recommendation high in the list next to the application description. This recommendation would really affect user’s decision and wouldn’t be restrictive to users who know what they’re doing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Standards, Standards, Standards&lt;/strong&gt;: For this app store to be really open, and for it offer place for innovation by other software vendors, it has to rely of standards. A standard to how to discover apps, how to install them, license them, and update them. Standards that describe how these different process interact with each other, how two processes implemented by two different vendors can still work together. Microsoft can start by offering this standard and other would join.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;It’s a shame really that Microsoft is taking over the software market like this. In times where there are attempts by governments to control the Internet, in more &lt;a href=&quot;http://en.wikipedia.org/wiki/SOPA&quot;&gt;ways&lt;/a&gt; than &lt;a href=&quot;http://www.usatoday.com/tech/news/internetprivacy/2011-02-15-kill-switch_N.htm&quot;&gt;one&lt;/a&gt;. It doesn’t help that giant software companies are restricting computers as well.&lt;/p&gt;
 </content>
  </entry>
  
@@ -663,10 +661,21 @@ It’s a shame really that Microsoft is taking over the software market like thi
    <link href="http://www.amreldib.com/SyncWindowsLiveWriterPostsBetweenComputers"/>
    <updated>2012-01-11T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/SyncWindowsLiveWriterPostsBetweenComputers</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://public.sn2.livefilestore.com/y1pXz9ghSH071kCGDO68fx3YcX_s4r_Sa1Mgtl4A3-gYaCHW4rsiWuBfvBf3ebP9KNoMh1ByZWWaiukqRLpMf2b0Q/Windows_Live_Writer_logo.png?psid=1&quot; alt=&quot;&quot; /&gt;With all the different PCs between work and home, desktops and laptops, synchronization is becoming very important. I wanted to sync blog drafts between different computers which turned out to be very simple. Unfortunately, Windows Live doesn’t offer a solution out of the box, even though Windows Live Essentials comes with Live Mesh along with Live Writer. It’s a matter of putting two and two together which what I’ll do.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;Windows Live Writer&quot; src=&quot;/public/images/SyncWLW/Windows_Live_Writer_logo.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With all the different PCs between work and home, desktops and laptops, synchronization is becoming very important. I wanted to sync blog drafts between different computers which turned out to be very simple. Unfortunately, Windows Live doesn’t offer a solution out of the box, even though Windows Live Essentials comes with Live Mesh along with Live Writer. It’s a matter of putting two and two together which what I’ll do.&lt;/p&gt;
 
 &lt;p&gt;First, &lt;a href=&quot;http://www.lehsys.com/2011/04/how-to-change-the-drafts-and-recent-posts-folder-in-windows-live-writer-2011/&quot;&gt;change the posts folder of WLW&lt;/a&gt; (Windows Live Writer):
- &amp;gt; &amp;gt; &lt;em&gt;1. Open up regedit (in Win7, just type “regedit” into the start menu) _ &amp;lt;p&amp;gt;_2.** &lt;strong&gt;Navigate to **HKEY_CURRENT_USER\Software\Microsoft\Windows Live\Writer&lt;/strong&gt;&lt;/em&gt;  &amp;lt;p&amp;gt;&lt;em&gt;3. Right click on the “Writer” folder in the left pane and choose New &amp;gt; String Value _ &amp;lt;p&amp;gt;_4. Name the value &lt;strong&gt;PostsDirectory&lt;/strong&gt; and then double-click on it to edit _ &amp;lt;p&amp;gt;_a. You can try pointing it to your documents folder, which is normally “C:\Users\&amp;lt;your-username&amp;gt;\Documents\” in Win7 _ &amp;lt;p&amp;gt;_b. Or point it somewhere else. Note that Writer will create two child folders wherever you point it: &lt;strong&gt;Drafts&lt;/strong&gt; and &lt;strong&gt;Recent Posts&lt;/strong&gt;.&lt;/em&gt; &amp;lt;p&amp;gt;The folder I switch to is a folder under the folder I keep synced with Live Mesh. On the other computer, do the same steps. Change the posts folder to the folder you keep synced with Live Mesh. You’ll need to copy your existing posts and drafts from their original location which normally is &lt;strong&gt;&lt;em&gt;C:\Users[User Name]\Documents\My Weblog Posts&lt;/em&gt;&lt;/strong&gt;  &amp;lt;p&amp;gt;Now you can start a post on my computer and finish it on the other. More importantly, you now have a backup of all your drafts on your SkyDrive.  &amp;lt;p&amp;gt;You can, of course, use Dropbox or any other synchronization service to keep the posts in sync.     &lt;/p&gt;
+1. Open up regedit (in Win7, just type “regedit” into the start menu).&lt;br /&gt;
+2. Navigate to &lt;strong&gt;HKEY_CURRENT_USER\Software\Microsoft\Windows Live\Writer&lt;/strong&gt;&lt;br /&gt;
+3. Right click on the “Writer” folder in the left pane and choose New &amp;gt; String Value&lt;br /&gt;
+4. Name the value &lt;strong&gt;PostsDirectory&lt;/strong&gt; and then double-click on it to edit:&lt;br /&gt;
+	- You can try pointing it to your documents folder, which is normally “C:\Users\&amp;lt;your-username&amp;gt;\Documents&quot; in Win7&lt;br /&gt;
+	- Or point it somewhere else. Note that Writer will create two child folders wherever you point it: &lt;strong&gt;Drafts&lt;/strong&gt; and &lt;strong&gt;Recent Posts&lt;/strong&gt;.  &lt;/p&gt;
+
+&lt;p&gt;The folder I switch to is a folder under the folder I keep synced with Live Mesh. On the other computer, do the same steps. Change the posts folder to the folder you keep synced with Live Mesh. You’ll need to copy your existing posts and drafts from their original location which normally is &lt;strong&gt;&lt;em&gt;C:\Users[User Name]\Documents\My Weblog Posts&lt;/em&gt;&lt;/strong&gt; &lt;br /&gt;
+Now you can start a post on my computer and finish it on the other. More importantly, you now have a backup of all your drafts on your SkyDrive.&lt;br /&gt;
+You can, of course, use Dropbox or any other synchronization service to keep the posts in sync.     &lt;/p&gt;
 </content>
  </entry>
  
@@ -675,46 +684,59 @@ It’s a shame really that Microsoft is taking over the software market like thi
    <link href="http://www.amreldib.com/MozillaBeyondFirefox"/>
    <updated>2012-01-07T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/MozillaBeyondFirefox</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://public.sn2.livefilestore.com/y1pGF5l4Bo9JwpsgxiwSamDSdDgtVKWikqOcXmBxiSBtqHiwS9MuT7yFG8q5PJySYYqLEcSFXovB5AXl20_1Zaz1Q/MozillaLogo.jpg?psid=1&quot; alt=&quot;&quot; /&gt;Who doesn’t already know &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/fx/&quot;&gt;Firefox&lt;/a&gt;? But what other projects is &lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; working on?  &amp;lt;p align=&quot;justify&quot;&amp;gt;I’ve taken an interest lately in finding out more about Mozilla. I think it all started with reading some of the “&lt;a href=&quot;https://wiki.mozilla.org/index.php?title=Mozilla.org/Contribute/Stories&amp;amp;amp;diff=377200&amp;amp;amp;oldid=prev&quot; title=&quot;Mozilla.org/Contribute/Stories&amp;amp;amp;diff=377200&amp;amp;amp;oldid=prev&quot;&gt;How I got started with Mozilla&lt;/a&gt;” stories on the &lt;a href=&quot;http://planet.mozilla.org/&quot;&gt;Planet Mozilla&lt;/a&gt; feed.  &amp;lt;p align=&quot;justify&quot;&amp;gt;I’ve always been interested in Mozilla’s work. It’s not open source applications that they build. Most companies now build some tool and open the source code to everyone. This is a noble effort on their part but I don’t think that what open source development is about. It’s about “Open” before “Source”. Having a community-driven open development process is the key here. Involve the community in the process designing features, and building them. Invite developers to listen in on your meetings. It’s a great learning tool for new developers who can learn about what it’s like to work on a team. This is what I really admire about Mozilla, the open process. I’ll list later in this post some links on where you can see for yourself what I’m talking about.  &amp;lt;p align=&quot;justify&quot;&amp;gt;
-    Before I talk about all those projects, I want to take a moment to mention the &lt;a href=&quot;http://www.mozilla.org/about/manifesto.en.html&quot;&gt;Mozilla manifesto&lt;/a&gt; (that I translated to &lt;a href=&quot;http://www.mozilla.org/about/manifesto.ar.html&quot;&gt;Arabic&lt;/a&gt; back in 2009). Take a minute to read it. It might seem a high level goal that is not related to daily operations but reading a &lt;a href=&quot;http://philikon.wordpress.com/2011/12/11/take-webos-mozilla/&quot;&gt;post about webOS and Mozilla&lt;/a&gt; lately, I watched how it’s on everyone’s mind. I think it really helps the mozillians stay focused on keeping the Internet open when they measure their decisions against the manifesto.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;Mozilla&quot; src=&quot;/public/images/MozillaBeyondFirefox/MozillaLogo.jpg&quot; /&gt;  &lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;### Firefox, Aurora and Nightly &amp;lt;p align=&quot;justify&quot;&amp;gt;
-There was always a nightly build of Firefox that if you search for it you can find an FTP page for it but it wasn’t official. With the new approach of versioning and releasing Firefox, nightly builds of Firefox have an official name “Nightly”. Last year, Mozilla came up with the 3 different names and [inspiring logos](http://downloadsquad.switched.com/2011/04/11/new-firefox-nightly-and-aurora-logos-unearthed-and-how-to-enabl/) to make it easier to adopt beta version. Firefox is the stable final release for the masses, Aurora is the beta release, it’s stable but could have few bugs. Nightly is cutting edge and updates every night. I use Nightly and love that there’s a 64 bit version of it. You can get it from [Nightly’s page](http://nightly.mozilla.org/). You can also follow Nightly news on [@FirefoxNightly](https://twitter.com/#!/firefoxnightly) or [Tumblr](http://firefoxnightly.tumblr.com/). They post details of the upcoming features. For more details, here’s [a complete list of features of Firefox, Aurora and Nightly](https://wiki.mozilla.org/Features/Release_Tracking). Here’s an example of a feature that should land soon in Nightly, the [new Home Tab](http://people.mozilla.com/~jboriss/specs/home_tab_first_iteration_spec1.png).
+&lt;p&gt;Who doesn’t already know &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/fx/&quot;&gt;Firefox&lt;/a&gt;? But what other projects is &lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; working on? &lt;br /&gt;
+I’ve taken an interest lately in finding out more about Mozilla. I think it all started with reading some of the “&lt;a href=&quot;https://wiki.mozilla.org/index.php?title=Mozilla.org/Contribute/Stories&amp;amp;amp;diff=377200&amp;amp;amp;oldid=prev&quot; title=&quot;Mozilla.org/Contribute/Stories&amp;amp;amp;diff=377200&amp;amp;amp;oldid=prev&quot;&gt;How I got started with Mozilla&lt;/a&gt;” stories on the &lt;a href=&quot;http://planet.mozilla.org/&quot;&gt;Planet Mozilla&lt;/a&gt; feed. &lt;br /&gt;
+I’ve always been interested in Mozilla’s work. It’s not open source applications that they build. Most companies now build some tool and open the source code to everyone. This is a noble effort on their part but I don’t think that what open source development is about. It’s about “Open” before “Source”. Having a community-driven open development process is the key here. Involve the community in the process designing features, and building them. Invite developers to listen in on your meetings. It’s a great learning tool for new developers who can learn about what it’s like to work on a team. This is what I really admire about Mozilla, the open process. I’ll list later in this post some links on where you can see for yourself what I’m talking about.  &lt;/p&gt;
 
-### Mozilla Labs
+&lt;p&gt;Before I talk about all those projects, I want to take a moment to mention the &lt;a href=&quot;http://www.mozilla.org/about/manifesto.en.html&quot;&gt;Mozilla manifesto&lt;/a&gt; (which I translated to &lt;a href=&quot;http://www.mozilla.org/about/manifesto.ar.html&quot;&gt;Arabic&lt;/a&gt; back in 2009). Take a minute to read it. It might seem a high level goal that is not related to daily operations but reading a &lt;a href=&quot;http://philikon.wordpress.com/2011/12/11/take-webos-mozilla/&quot;&gt;post about webOS and Mozilla&lt;/a&gt; lately, I watched how it’s on everyone’s mind. I think it really helps the mozillians stay focused on keeping the Internet open when they measure their decisions against the manifesto.  &lt;/p&gt;
 
-[Mozilla labs](http://mozillalabs.com/) is the home of many great ideas that usually are built as addons to Firefox. Some of these projects “graduate” and become part of Firefox like:
+&lt;h3 id=&quot;firefox-aurora-and-nightly&quot;&gt;Firefox, Aurora and Nightly&lt;/h3&gt;
+&lt;p&gt;There was always a nightly build of Firefox that if you search for it you can find an FTP page for it but it wasn’t official. With the new approach of versioning and releasing Firefox, nightly builds of Firefox have an official name “Nightly”. Last year, Mozilla came up with the 3 different names and &lt;a href=&quot;http://downloadsquad.switched.com/2011/04/11/new-firefox-nightly-and-aurora-logos-unearthed-and-how-to-enabl/&quot;&gt;inspiring logos&lt;/a&gt; to make it easier to adopt beta version. Firefox is the stable final release for the masses, Aurora is the beta release, it’s stable but could have few bugs. Nightly is cutting edge and updates every night. I use Nightly and love that there’s a 64 bit version of it. You can get it from &lt;a href=&quot;http://nightly.mozilla.org/&quot;&gt;Nightly’s page&lt;/a&gt;. You can also follow Nightly news on &lt;a href=&quot;https://twitter.com/#!/firefoxnightly&quot;&gt;@FirefoxNightly&lt;/a&gt; or &lt;a href=&quot;http://firefoxnightly.tumblr.com/&quot;&gt;Tumblr&lt;/a&gt;. They post details of the upcoming features. For more details, here’s &lt;a href=&quot;https://wiki.mozilla.org/Features/Release_Tracking&quot;&gt;a complete list of features of Firefox, Aurora and Nightly&lt;/a&gt;. Here’s an example of a feature that should land soon in Nightly, the &lt;a href=&quot;http://people.mozilla.com/~jboriss/specs/home_tab_first_iteration_spec1.png&quot;&gt;new Home Tab&lt;/a&gt;.&lt;/p&gt;
 
-*   [Jetpack](http://mozillalabs.com/jetpack/): the restart-less addons platform.  &amp;lt;li&amp;gt;[Personas](http://mozillalabs.com/personas/): which provides an easy way to skin Firefox.  &amp;lt;li&amp;gt;[Sync](http://mozillalabs.com/sync/): the indispensable sync capability to keep your Firefox profile up to date on multiple computers.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;
-    Other projects are not so lucky and are not active anymore including:
+&lt;h3 id=&quot;mozilla-labs&quot;&gt;Mozilla Labs&lt;/h3&gt;
 
-    *   [Ubiquity](http://mozillalabs.com/ubiquity/): one of my favorite projects. Task-centric natural-language-based command line that brings web tasks from any web site to your fingertips. It&#39;s extensible and builds on web standards (HTML, CSS, and JavaScript).  &lt;li&gt;[Prism](http://mozillalabs.com/prism/): remember how Microsoft annoyed the heck out of everyone with “Pin a website to taskbar” feature in IE9. Well, before that there was Prism. Run any web app as a desktop application with the help of Firefox.
-&lt;p&gt;
-    Meanwhile, a number of projects is always active:
+&lt;p&gt;&lt;a href=&quot;http://mozillalabs.com/&quot;&gt;Mozilla labs&lt;/a&gt; is the home of many great ideas that usually are built as addons to Firefox. Some of these projects “graduate” and become part of Firefox like:&lt;br /&gt;
+- &lt;a href=&quot;http://mozillalabs.com/jetpack/&quot;&gt;Jetpack&lt;/a&gt;: the restart-less addons platform.&lt;br /&gt;
+- &lt;a href=&quot;http://mozillalabs.com/personas/&quot;&gt;Personas&lt;/a&gt;: which provides an easy way to skin Firefox.&lt;br /&gt;
+- &lt;a href=&quot;http://mozillalabs.com/sync/&quot;&gt;Sync&lt;/a&gt;: the indispensable sync capability to keep your Firefox profile up to date on multiple computers.&lt;/p&gt;
 
-    *   [Test Pilot](http://mozillalabs.com/testpilot/): collects usage data and user feedback while maintaining user&#39;s privacy.  &lt;li&gt;[Contacts](http://mozillalabs.com/contacts/): centralizes the user&#39;s contacts in the browser and gives access to online services when requested and allowed.  &lt;li&gt;
-        [Skywriter](http://mozillalabs.com/skywriter/): a web-based code editor.
+&lt;p&gt;Other projects are not so lucky and are not active anymore including:&lt;/p&gt;
 
-        ### BrowserID
-&lt;p align=&quot;justify&quot;&gt;[OpenID](http://en.wikipedia.org/wiki/OpenID) was a noble effort to outsource and centralize authentication of all the websites that we deal with everyday in a way that removes the hassle. For so reason, mainly the long ugly un-memorable URL, OpenID didn’t take over the web in the way it was hoped to.  &lt;p align=&quot;justify&quot;&gt;Mozilla is take a shot at this problem with [BrowserID](http://www.BrowserID.org). Instead of outsourcing authentication to a third party, BrowserID uses the browser to authenticate users using their email address. You add your address as your browser ID and verify it by clicking a link in an email you receive from the BrowserID service then every site wants to authenticate you can rely on BrowserID for that. Watch the video for a demo:  &lt;p align=&quot;justify&quot;&gt;
-    &amp;nbsp;
-    &lt;div style=&quot;padding-bottom: 0px; margin: 0px auto; padding-left: 0px; width: 640px; padding-right: 0px; display: block; float: none; padding-top: 0px&quot; id=&quot;scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:e5f58bec-2a5d-4503-acd3-b13c02cd60a9&quot; class=&quot;wlWriterEditableSmartContent&quot;&gt;&lt;div id=&quot;3c94f471-b6e4-4e40-a50c-33007c2b493c&quot; style=&quot;margin: 0px; padding: 0px; display: inline;&quot;&gt;&lt;div&gt;[![](http://lh4.ggpht.com/-TAgL3lauViw/Twkes5tnlmI/AAAAAAAAALg/hmIgdZ0IqfI/videoe8ad1aca041a%25255B8%25255D.jpg?imgmax=800)](http://www.youtube.com/watch?v=l0t9yDLAmFo)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;width:640px;clear:both;font-size:.8em&quot;&gt;Introducing BrowserID from Mozilla&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;
-    More info on BrowserID is [the introduction post](http://identity.mozilla.com/post/7616727542/introducing-browserid-a-better-way-to-sign-in) or on [Identity at Mozilla](http://identity.mozilla.com/) page. Here’s a [quick tutorial for developers](https://browserid.org/developers), the [demo site](http://myfavoritebeer.org/) from the video. You can follow the development or contribute on [Github](https://github.com/mozilla/browserid).
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mozillalabs.com/ubiquity/&quot;&gt;Ubiquity&lt;/a&gt;: one of my favorite projects. Task-centric natural-language-based command line that brings web tasks from any web site to your fingertips. It’s extensible and builds on web standards (HTML, CSS, and JavaScript).  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mozillalabs.com/prism/&quot;&gt;Prism&lt;/a&gt;: remember how Microsoft annoyed the heck out of everyone with the new innovation “Pin a website to taskbar” feature in IE9. Well, before that there was Prism. Run any web app as a desktop application with the help of Firefox.  &lt;/li&gt;
+&lt;/ul&gt;
 
-    ### WebFWD
-&lt;p align=&quot;justify&quot;&gt;[WebFWD](https://webfwd.org) (Web Forward) is a new program from Mozilla to support open source projects with mentorship, access to Mozilla global network and infrastructure and resources. If you have an open source project that helps keep the web open, you can qualify for support from Mozilla. Read a brief introduction [here](https://webfwd.org/about/index.html) or follow the program’s news on their [blog](http://blog.webfwd.org/) or [@MozWebFWD](https://twitter.com/#!/mozwebfwd) or watch some [videos](http://vimeo.com/webfwd).  &lt;p align=&quot;justify&quot;&gt;
-    [BigBlueButton](http://bigbluebutton.org/) is one of the projects participating in Mozilla’s WebFWD. It’s an open source project that enables universities and colleges to deliver high quality learning experience to remote students. Here are [some videos showing how BigBlueButton works](http://bigbluebutton.org/content/videos). It’s open source, [download it now](http://code.google.com/p/bigbluebutton/).
+&lt;p&gt;Meanwhile, a number of projects is always active:&lt;/p&gt;
 
-    ### Mozilla Popcorn
-&lt;p align=&quot;justify&quot;&gt;[Mozilla Popcorn](http://mozillapopcorn.org/) tries to break videos from a big blob into browse-able element, this is how I see it. Videos, even though they’re everywhere on the web now, are still one element. You press play and watch. You can’t search in a video, you can’t make the video interact with other elements or contents that are related to this video. Popcorn tries to bring the web into video.  &lt;p align=&quot;justify&quot;&gt;
-    Watch the [Shakespeare demo](http://katehudsondesign.com/demos/popcornmacbeth/) to get an idea of what Popcorn can do, it’s awesome (you’ll need a modern browser with HTML5 capabilities). Follow the project’s news on their [blog](http://mozillapopcorn.org/blog/) or [@PopcornJS](https://twitter.com/#!/popcornjs). [Download a copy](http://mozillapopcorn.org/popcornjs/), or [follow the development on Github](https://github.com/webmademovies/popcorn-js).
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mozillalabs.com/testpilot/&quot;&gt;Test Pilot&lt;/a&gt;: collects usage data and user feedback while maintaining user’s privacy.  &amp;lt;li&amp;gt;&lt;a href=&quot;http://mozillalabs.com/contacts/&quot;&gt;Contacts&lt;/a&gt;: centralizes the user’s contacts in the browser and gives access to online services when requested and allowed.  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mozillalabs.com/skywriter/&quot;&gt;Skywriter&lt;/a&gt;: a web-based code editor.&lt;/li&gt;
+&lt;/ul&gt;
 
-    ### What Else?
-&lt;p align=&quot;justify&quot;&gt;There’s one more project I’d like to talk about, it’s the [Boot to Gecko mobile OS](https://wiki.mozilla.org/B2G). I think it’s a big enough topic that it merits its own post especially I don’t know much about it and would like to do more reading on it. If you have good resources on the topic, please mention them in the comments.  &lt;p align=&quot;justify&quot;&gt;This was a quick tour of the Mozilla projects that really interested me over those past couple of weeks. I’m sure there are much more of them our there. If the list is missing your favorite project, mention it in the comments or blog about it, I’d love to read more about it.  &lt;p align=&quot;justify&quot;&gt;Follow [@Firefox](https://twitter.com/#!/firefox) or on [Facebook](https://www.facebook.com/Firefox) or [Contribute](https://www.mozilla.org/contribute/) effort to the organization. Get some [Mozilla and Firefox gear](http://store.mozilla.org/) or [Donate and get a free shirt](https://donate.mozilla.org/page/contribute/openwebfund?WT.ac=shirt_us).     
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/p&gt;
+&lt;h3 id=&quot;browserid&quot;&gt;BrowserID&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/OpenID&quot;&gt;OpenID&lt;/a&gt; was a noble effort to outsource and centralize authentication of all the websites that we deal with everyday in a way that removes the hassle. For so reason, mainly the long ugly un-memorable URL, OpenID didn’t take over the web in the way it was hoped to.&lt;br /&gt;
+Mozilla is take a shot at this problem with &lt;a href=&quot;http://www.BrowserID.org&quot;&gt;BrowserID&lt;/a&gt;. Instead of outsourcing authentication to a third party, BrowserID uses the browser to authenticate users using their email address. You add your address as your browser ID and verify it by clicking a link in an email you receive from the BrowserID service then every site wants to authenticate you can rely on BrowserID for that. Watch the video for a demo:  &lt;/p&gt;
+
+&lt;iframe width=&quot;750&quot; height=&quot;422&quot; src=&quot;//www.youtube.com/embed/l0t9yDLAmFo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;More info on BrowserID is &lt;a href=&quot;http://identity.mozilla.com/post/7616727542/introducing-browserid-a-better-way-to-sign-in&quot;&gt;the introduction post&lt;/a&gt; or on &lt;a href=&quot;http://identity.mozilla.com/&quot;&gt;Identity at Mozilla&lt;/a&gt; page. Here’s a &lt;a href=&quot;https://browserid.org/developers&quot;&gt;quick tutorial for developers&lt;/a&gt;, the &lt;a href=&quot;http://myfavoritebeer.org/&quot;&gt;demo site&lt;/a&gt; from the video. You can follow the development or contribute on &lt;a href=&quot;https://github.com/mozilla/browserid&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;webfwd&quot;&gt;WebFWD&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://webfwd.org&quot;&gt;WebFWD&lt;/a&gt; (Web Forward) is a new program from Mozilla to support open source projects with mentorship, access to Mozilla global network and infrastructure and resources. If you have an open source project that helps keep the web open, you can qualify for support from Mozilla. Read a brief introduction &lt;a href=&quot;https://webfwd.org/about/index.html&quot;&gt;here&lt;/a&gt; or follow the program’s news on their &lt;a href=&quot;http://blog.webfwd.org/&quot;&gt;blog&lt;/a&gt; or &lt;a href=&quot;https://twitter.com/#!/mozwebfwd&quot;&gt;@MozWebFWD&lt;/a&gt; or watch some &lt;a href=&quot;http://vimeo.com/webfwd&quot;&gt;videos&lt;/a&gt;.&lt;br /&gt;
+&lt;a href=&quot;http://bigbluebutton.org/&quot;&gt;BigBlueButton&lt;/a&gt; is one of the projects participating in Mozilla’s WebFWD. It’s an open source project that enables universities and colleges to deliver high quality learning experience to remote students. Here are &lt;a href=&quot;http://bigbluebutton.org/content/videos&quot;&gt;some videos showing how BigBlueButton works&lt;/a&gt;. It’s open source, &lt;a href=&quot;http://code.google.com/p/bigbluebutton/&quot;&gt;download it now&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;mozilla-popcorn&quot;&gt;Mozilla Popcorn&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://mozillapopcorn.org/&quot;&gt;Mozilla Popcorn&lt;/a&gt; tries to break videos from a big blob into browse-able element, this is how I see it. Videos, even though they’re everywhere on the web now, are still one element. You press play and watch. You can’t search in a video, you can’t make the video interact with other elements or contents that are related to this video. Popcorn tries to bring the web into video.  &lt;/p&gt;
+
+&lt;p&gt;Watch the &lt;a href=&quot;http://katehudsondesign.com/demos/popcornmacbeth/&quot;&gt;Shakespeare demo&lt;/a&gt; to get an idea of what Popcorn can do, it’s awesome (you’ll need a modern browser with HTML5 capabilities). Follow the project’s news on their &lt;a href=&quot;http://mozillapopcorn.org/blog/&quot;&gt;blog&lt;/a&gt; or &lt;a href=&quot;https://twitter.com/#!/popcornjs&quot;&gt;@PopcornJS&lt;/a&gt;. &lt;a href=&quot;http://mozillapopcorn.org/popcornjs/&quot;&gt;Download a copy&lt;/a&gt;, or &lt;a href=&quot;https://github.com/webmademovies/popcorn-js&quot;&gt;follow the development on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-else&quot;&gt;What Else?&lt;/h3&gt;
+&lt;p&gt;There’s one more project I’d like to talk about, it’s the &lt;a href=&quot;https://wiki.mozilla.org/B2G&quot;&gt;Boot to Gecko mobile OS&lt;/a&gt;. I think it’s a big enough topic that it merits its own post especially I don’t know much about it and would like to do more reading on it. If you have good resources on the topic, please mention them in the comments.&lt;br /&gt;
+This was a quick tour of the Mozilla projects that really interested me over those past couple of weeks. I’m sure there are much more of them our there. If the list is missing your favorite project, mention it in the comments or blog about it, I’d love to read more about it.&lt;br /&gt;
+Follow &lt;a href=&quot;https://twitter.com/#!/firefox&quot;&gt;@Firefox&lt;/a&gt; or on &lt;a href=&quot;https://www.facebook.com/Firefox&quot;&gt;Facebook&lt;/a&gt; or &lt;a href=&quot;https://www.mozilla.org/contribute/&quot;&gt;Contribute&lt;/a&gt; effort to the organization. Get some &lt;a href=&quot;http://store.mozilla.org/&quot;&gt;Mozilla and Firefox gear&lt;/a&gt; or &lt;a href=&quot;https://donate.mozilla.org/page/contribute/openwebfund?WT.ac=shirt_us&quot;&gt;Donate and get a free shirt&lt;/a&gt;.     &lt;/p&gt;
 </content>
  </entry>
  
@@ -723,32 +745,30 @@ There was always a nightly build of Firefox that if you search for it you can fi
    <link href="http://www.amreldib.com/OnAdBlocking"/>
    <updated>2011-11-19T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/OnAdBlocking</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1psAO-xkceSRTapjaHuBVdnuHqDWIWIgBZv77GMCa4_WRmzlRsWKEiNfi7VX2Js4-Ty8wzJbetSgA/AdBlockPlusLogo.jpg?psid=1&quot; alt=&quot;&quot; /&gt;I was reading this &lt;a href=&quot;http://monogatari.doukut.su/2011/11/why-ad-blocking-is-not-moral-dilemma.html&quot;&gt;blog post&lt;/a&gt; on &lt;a href=&quot;http://planet.mozilla.org/&quot;&gt;Planet Mozilla&lt;/a&gt; feed on the moral dilemma on using Ad blockers and I left a comment that is the idea behind this post. I use an &lt;a href=&quot;http://adblockplus.org/en/&quot;&gt;Ad blocker&lt;/a&gt; and I’m aware that I’m not doing good to the sites that I visit. I agree that Ads build brand recognition and by not looking at them, I might be taking away revenue from those sites.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;AdBlock Plus&quot; src=&quot;/public/images/AdBlocking/AdBlockPlusLogo.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was reading this &lt;a href=&quot;http://monogatari.doukut.su/2011/11/why-ad-blocking-is-not-moral-dilemma.html&quot;&gt;blog post&lt;/a&gt; on &lt;a href=&quot;http://planet.mozilla.org/&quot;&gt;Planet Mozilla&lt;/a&gt; feed on the moral dilemma on using Ad blockers and I left a comment that is the idea behind this post. I use an &lt;a href=&quot;http://adblockplus.org/en/&quot;&gt;Ad blocker&lt;/a&gt; and I’m aware that I’m not doing good to the sites that I visit. I agree that Ads build brand recognition and by not looking at them, I might be taking away revenue from those sites.&lt;/p&gt;
 
 &lt;p&gt;This is why I disable my Ad blocker for almost all the sites that:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;I use regularly and want to support.&lt;/div&gt;
-    &lt;li&gt;
-&lt;div align=&quot;justify&quot;&gt;Their ads are not an assault on my eyes or doesn&#39;t offend me.&lt;/div&gt;
-
-I think that the reason this ad blocking started is because the ad providers (and indirectly the site owners) took unfair advantage of their users and threw all the crap that they could find at them (remember the [good old days of pop-ups](http://en.wikipedia.org/wiki/Pop-up_ad)).
-
-Ad providers are doing a terrible job in matching sites’ content with ads. You go to a website to read a serious article and find an ad that is completely different and unserious just because this user&#39;s profile at the ad provider indicates that they might be interested in this ad.
-
-Content is subtle, but visual distraction can&#39;t be ignored. Ads give no regard to the page&#39;s colors and insert a foreign object with completely different colors. Some ads don&#39;t even care about having the correct size. Example is below (Click for bigger picture).
-
-[![](https://sn2files.storage.live.com/y1p45EfuhY4chPcYI6JkyfTQJNUMxU-JPbWOI2ea6dNa4eI8Y9GBjQ7EASelyXmaXZv9rObO373OV8/BestAdPlacementEver_Small.png?psid=1)](https://sn2files.storage.live.com/y1poMoLyNkn-tYzIXrwyX_zlN5N-H70SSh6lGEQSLzTqoRnSGuz0umrcP-kgJ9Q5kuRfiIXTCOmgsk/BestAdPlacementEver.png?psid=1)
-
-Some sites don’t even care and display ads that are stupid and offensive. [Here’s an example](http://twitpic.com/5uhzn3) of a (supposed to be respected) newspaper web site displaying (what is practically if not really) ad for a porn site. Some web sites don’t care about their users as much as they care about ad revenue. I understand that it’s a tough business, but I know a bad business strategy when I see one. Having no minimum when it comes to what is an acceptable ad is a bad business strategy.
-
-Some content provider think that “Content + Ad = Money” without thinking through what content or what ads. Those content providers will never imagine that one good option sometimes is displaying no ad at all. Users will respond to those providers by using Ad blockers.
-
-Instead of considering whether or not ad blocking should be a moral dilemma (which I can actually agree on), we should ask ourselves &#39;Why are users blocking ads?&#39;.
-&lt;/li&gt;
-  &lt;/li&gt;
+  &lt;li&gt;I use regularly and want to support.  &lt;/li&gt;
+  &lt;li&gt;Their ads are not an assault on my eyes or doesn’t offend me.  &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;I think that the reason this ad blocking started is because the ad providers (and indirectly the site owners) took unfair advantage of their users and threw all the crap that they could find at them (remember the &lt;a href=&quot;http://en.wikipedia.org/wiki/Pop-up_ad&quot;&gt;good old days of pop-ups&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Ad providers are doing a terrible job in matching sites’ content with ads. You go to a website to read a serious article and find an ad that is completely different and unserious just because this user’s profile at the ad provider indicates that they might be interested in this ad.&lt;/p&gt;
+
+&lt;p&gt;Content is subtle, but visual distraction can’t be ignored. Ads give no regard to the page’s colors and insert a foreign object with completely different colors. Some ads don’t even care about having the correct size. Example is below (Click for bigger picture).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/images/AdBlocking/BestAdPlacementEver.jpg&quot;&gt;&lt;img class=&quot;imageInCenter&quot; title=&quot;Best Ad Placement Ever!&quot; src=&quot;/public/images/AdBlocking/BestAdPlacementEver_Small.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some sites don’t even care and display ads that are stupid and offensive. &lt;a href=&quot;/public/images/AdBlocking/AwfulAd.jpg&quot;&gt;Here’s an example&lt;/a&gt; of a (supposed to be respected) newspaper web site displaying (what is practically if not really) ad for a porn site. Some web sites don’t care about their users as much as they care about ad revenue. I understand that it’s a tough business, but I know a bad business strategy when I see one. Having no minimum when it comes to what is an acceptable ad is a bad business strategy.&lt;/p&gt;
+
+&lt;p&gt;Some content provider think that “Content + Ad = Money” without thinking through what content or what ads. Those content providers will never imagine that one good option sometimes is displaying no ad at all. Users will respond to those providers by using Ad blockers.&lt;/p&gt;
+
+&lt;p&gt;Instead of considering whether or not ad blocking should be a moral dilemma (which I can actually agree on), we should ask ourselves ‘Why are users blocking ads?’.&lt;/p&gt;
 </content>
  </entry>
  
@@ -757,7 +777,10 @@ Instead of considering whether or not ad blocking should be a moral dilemma (whi
    <link href="http://www.amreldib.com/MirroringHardDrivesUsingPowerShellAndSyncToy"/>
    <updated>2011-11-18T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/MirroringHardDrivesUsingPowerShellAndSyncToy</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pEqScU3Qzm04LrZAfaxrVuyoZ5-bVd236pu-9bPHmIIU-XF6G4isOlmp7gE5PHZnQfi-4uKO9Y9s/PowerShellLogo.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pcyUQd4CpJG44gFqyyO9-I9fFQC-Ru43151DTeqlrOZPHZ2GRZLbjiKbNPa2Jzb5HpXU0yTR9Q58/SyncToyLogo.jpg?psid=1&quot; alt=&quot;&quot; /&gt;My main protection against hard drive failure for a long time has been &lt;a href=&quot;http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1&quot;&gt;RAID 1&lt;/a&gt;. I would get two identical hard drives and RAID them so that everything I do on the first drive would be replicated on the second. One time, this actually saved me from a hard drive failure with almost zero down time.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;PowerShell&quot; src=&quot;/public/images/MirrorHardDrives/PowerShellLogo.jpg&quot; /&gt;
+&lt;img class=&quot;imageOnRight&quot; title=&quot;SyncToy&quot; src=&quot;/public/images/MirrorHardDrives/SyncToyLogo.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My main protection against hard drive failure for a long time has been &lt;a href=&quot;http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1&quot;&gt;RAID 1&lt;/a&gt;. I would get two identical hard drives and RAID them so that everything I do on the first drive would be replicated on the second. One time, this actually saved me from a hard drive failure with almost zero down time.&lt;/p&gt;
 
 &lt;p&gt;I can say that this has worked out very well for a long time until one day I made a stupid mistake and accidently chose the wrong drive when installing Windows. I wiped out the data drive and sure enough RAID has mirrored everything I did. It was 4 days of crying, recovering data with &lt;a href=&quot;http://diskdigger.org/&quot;&gt;DiskDigger&lt;/a&gt;, banging my head on the desk, recovering data, more crying, and so on. Since then, I dropped the RAID 1 on all my hard drives and switched to using SyncToy to mirror identical disks once a day.&lt;/p&gt;
 
@@ -765,21 +788,20 @@ Instead of considering whether or not ad blocking should be a moral dilemma (whi
 
 &lt;h3 id=&quot;running-powershell-scripts&quot;&gt;Running PowerShell Scripts&lt;/h3&gt;
 
-&lt;p&gt;The first thing to try out is running PowerShell scripts in Windows. If you’re running Windows 7 like I’m, you could run into the issue of restricted execution policy. If you try to run a PowerShell script, any script, you’ll find this error message:
- &amp;gt; &amp;lt;pre&amp;gt;&lt;em&gt;&lt;strong&gt;File C:\test.ps1 cannot be loaded because the execution of scripts is disabled on this system. **
-&amp;gt; **Please see “get-help about_signing” for more details.&lt;/strong&gt;&lt;/em&gt;&amp;lt;/pre&amp;gt;&lt;/p&gt;
+&lt;p&gt;The first thing to try out is running PowerShell scripts in Windows. If you’re running Windows 7 like I’m, you could run into the issue of restricted execution policy. If you try to run a PowerShell script, any script, you’ll find this error message:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;File C:\test.ps1 cannot be loaded because the execution of scripts is disabled on this system.&lt;br /&gt;
+Please see “get-help about_signing” for more details.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;This is caused by Windows limiting the ability to run PowerShell scripts by default. You can get the status of the execution policy using the PowerShell cmdlet &lt;strong&gt;&lt;em&gt;Get-ExecutionPolicy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;&lt;font color=&quot;#0000ff&quot; face=&quot;Courier New&quot;&gt;Get-ExecutionPolicy&lt;/font&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/9d8b320ac7052d41ac21.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;To change the status of the execution policy use the &lt;strong&gt;&lt;em&gt;Set-ExecutionPolicy&lt;/em&gt;&lt;/strong&gt; cmdlet. Here, I’m switching to “Unrestricted”:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;Set-ExecutionPolicy&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;–ExecutionPolicy&lt;/font&gt; &lt;font color=&quot;#9b00d3&quot;&gt;Unrestricted&lt;/font&gt;&lt;/font&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/e54827459976f658bfd9.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;Changing the execution policy is a one-time thing, you won’t have to worry about it again. Now, your Windows 7 is ready to run PowerShell scripts. You can read all about execution policy and running PowerShell scripts on Windows in this &lt;a href=&quot;http://technet.microsoft.com/en-us/library/ee176949.aspx&quot;&gt;TechNet article&lt;/a&gt;.&lt;/p&gt;
 
@@ -787,9 +809,7 @@ Instead of considering whether or not ad blocking should be a moral dilemma (whi
 
 &lt;p&gt;The Task Scheduler will be responsible for running the script. It can’t run it directly, we’ll have to run PowerShell.exe and pass the script as an argument. It’s like running a PowerShell script from the command line. To do that we enter the PowerShell.exe path followed by &lt;strong&gt;“&amp;amp;&lt;/strong&gt; then the path to the script surrounded by single or double quotes (&lt;a href=&quot;http://www.leeholmes.com/blog/2006/05/05/running-powershell-scripts-from-cmd-exe/&quot;&gt;Source&lt;/a&gt;). This helps with running scripts that have space in their path. Here’s an example:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;&lt;font face=&quot;Courier New&quot;&gt;**“C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe” “&amp;amp; &#39;D:\Folder Name\Our Script.ps1&#39;**&lt;/font&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/69e497e506991ef80213.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;copying-database-files&quot;&gt;Copying Database Files&lt;/h3&gt;
 
@@ -801,94 +821,47 @@ Instead of considering whether or not ad blocking should be a moral dilemma (whi
 
 &lt;p&gt;I’m writing the functions in a bit of a generic way so that I can use them later in other scripts without having to change their content (only their name have to change). For example, I’m passing the name of the service. Here’s the &lt;strong&gt;&lt;em&gt;Get-SqlServiceStatus&lt;/em&gt;&lt;/strong&gt; function as an example:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;_&lt;font face=&quot;Courier New&quot;&gt;
-    [![Properties Window of SQL Service](https://sn2files.storage.live.com/y1px6JqF-PvGPZErGVqqnJG7MYACI6XJcxAoyxwoi3mt8qEYJTI0Jj88fmKP-ZVjJ1bCJR38-VYq0A/SqlServicePropertiesWindow.jpg?psid=1)](https://sn2files.storage.live.com/y1px6JqF-PvGPZErGVqqnJG7MYACI6XJcxAoyxwoi3mt8qEYJTI0Jj88fmKP-ZVjJ1bCJR38-VYq0A/SqlServicePropertiesWindow.jpg?psid=1)**&lt;font color=&quot;#0000a0&quot;&gt;function&lt;/font&gt; &lt;font color=&quot;#9b00d3&quot;&gt;Get-SqlServiceStatus&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$serviceName&lt;/font&gt;)
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#008000&quot;&gt;# Get a reference to the service&lt;/font&gt;
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;$sqlService&lt;/font&gt; = &lt;font color=&quot;#0000ff&quot;&gt;Get-Service&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$serviceName&lt;/font&gt;**&lt;/font&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;lt;/font&amp;gt;_
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    **&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#008000&quot;&gt;# Return the service status&lt;/font&gt;
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#0000ff&quot;&gt;return&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$sqlService&lt;/font&gt;.status
-    &amp;gt; }**
-&lt;/font&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/de4e018fe11a98b42a18.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/MirrorHardDrives/SqlServicePropertiesWindow.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All I need now is the name of the SQL service on my computer. To get the name of the service, navigate to the service properties dialog and pick the name of the service (not the display name). Make sure to use PowerShell escape characters to enter the name correctly. For example: “&lt;strong&gt;MSSQL$SQLEXPRESS&lt;/strong&gt;” have a dollar sign ($), so I have to add a backtick before the dollar sign to make PowerShell parse the name correctly “&lt;strong&gt;MSSQL`$SQLEXPRESS&lt;/strong&gt;”.&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;mounting-vhds&quot;&gt;Mounting VHDs&lt;/h3&gt;
 
 &lt;p&gt;I think that the common way to mount a VHD in PowerShell is using &lt;a href=&quot;http://en.wikipedia.org/wiki/Windows_Management_Instrumentation&quot;&gt;WMI&lt;/a&gt; (Windows Management Instrumentation). A quick search online will confirm this. However, WMI is not available for Windows 7, it’s for Windows Server. We can’t mount the VHD file using WMI because the namespace “Root\Virtualization” is &lt;a href=&quot;http://social.technet.microsoft.com/Forums/en-US/winserverpowershell/thread/a08ad18f-4b6a-46a0-bd1f-274fbbc5b737&quot;&gt;not available on Windows 7&lt;/a&gt;. This namespace include the class that could be used to mount the VHD file. If you’re running Windows Server and can use WMI, here’s a &lt;a href=&quot;http://blogs.msdn.com/b/virtual_pc_guy/archive/2008/02/01/mounting-a-virtual-hard-disk-with-hyper-v.aspx&quot;&gt;description of how to mount virtual hard drives with HyperV and WMI&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Aside from using WMI, normally we’d mount a VHD using the &lt;a href=&quot;http://www.windows7news.com/2010/01/14/how-to-automatically-attach-vhd-images-in-windows-7/&quot;&gt;DiskPart command&lt;/a&gt;. To do that, create a file and name it AttachMyVHD.s for example and add this to it:&lt;/p&gt;
+&lt;p&gt;Aside from using WMI, normally we’d mount a VHD using the &lt;a href=&quot;http://www.windows7news.com/2010/01/14/how-to-automatically-attach-vhd-images-in-windows-7/&quot;&gt;DiskPart command&lt;/a&gt;. To do that, create a file and name it AttachMyVHD.s for example and add this to it:  &lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;code&gt;_**select vdisk file=c:\MyVHD.vhd
-attach vdisk**_&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/b47cb7552a1c3f0f7b19.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;Then create a Windows command (.cmd) file that call the diskpart command and pass this file to it.&lt;/p&gt;
+&lt;p&gt;Then create a Windows command (.cmd) file that call the diskpart command and pass this file to it.  &lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;code&gt;_**DiskPart -s &quot;c:\AttachMyVHD.s&quot;**_&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/d46e8dc1768e7ea1d656.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;In the S file, we’re selecting the VHD by specifying its location, then attaching it. In the Windows command file, we’re passing the S file to the DiskPart command.&lt;/p&gt;
 
-&lt;p&gt;In PowerShell, we’ll just execute the Windows command file. This &lt;strong&gt;Mount-Codebox&lt;/strong&gt; function declares a variable with the location of the Windows command file. Codebox is the name of the VHD file I’m using.&lt;/p&gt;
+&lt;p&gt;In PowerShell, we’ll just execute the Windows command file. This &lt;strong&gt;Mount-Codebox&lt;/strong&gt; function declares a variable with the location of the Windows command file. Codebox is the name of the VHD file I’m using.  &lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;_&lt;font face=&quot;Courier New&quot;&gt;
-    **&lt;font color=&quot;#0000a0&quot;&gt;function&lt;/font&gt; &lt;font color=&quot;#9b00d3&quot;&gt;Mount-Codebox&lt;/font&gt;
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;$scriptFile&lt;/font&gt; = ****&lt;font color=&quot;#c0504d&quot;&gt;
-        “D:\VBox\HardDrives\AttachVHD.cmd”
-        &amp;gt;
-    &lt;/font&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#a5a5a5&quot;&gt;&amp;amp; &lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;$scriptFile&lt;/font&gt;
-    &amp;gt; }**&lt;/font&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;lt;/font&amp;gt;_&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/051466db496e139157e7.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;To unmount a VHD, you can do the same thing, except in the S file, use &lt;strong&gt;&lt;em&gt;detach vdisk&lt;/em&gt;&lt;/strong&gt; instead of &lt;strong&gt;&lt;em&gt;attach vdisk&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Before we unmount the VHD and re-mount it after the mirroring, we need to check if it’s already mounted. We don’t want our script to change an existing status, we want it to maintain it. If the VHD is not already mounted, don’t try to unmount, then re-mount it at the end. Just skip this step altogether.&lt;/p&gt;
 
-&lt;p&gt;To check if the VHD is already mounted, we’ll just check if the drive it creates exists or not. To check if a drive exists, we’ll use the &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;http://powershell.com/cs/media/p/202.aspx&quot;&gt;Exists-Drive function&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;To check if the VHD is already mounted, we’ll just check if the drive it creates exists or not. To check if a drive exists, we’ll use the &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;http://powershell.com/cs/media/p/202.aspx&quot;&gt;Exists-Drive function&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;.  &lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;font face=&quot;Courier New&quot;&gt;
-    _**&lt;font color=&quot;#0000a0&quot;&gt;function&lt;/font&gt; &lt;font color=&quot;#9b00d3&quot;&gt;Exists-Drive&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$driveletter&lt;/font&gt;)
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;$drive&lt;/font&gt; = &lt;font color=&quot;#444444&quot;&gt;New-Object&lt;/font&gt; &lt;font color=&quot;#9b00d3&quot;&gt;System.IO.DriveInfo&lt;/font&gt;(&lt;font color=&quot;#ff0000&quot;&gt;$driveletter&lt;/font&gt;)
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;$drive&lt;/font&gt;.DriveType &lt;font color=&quot;#a5a5a5&quot;&gt;-ne&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&#39;NoRootDirectory&#39;&lt;/font&gt;&amp;nbsp;&amp;nbsp;
-    &amp;gt; }**_
-&lt;/font&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;lt;/font&amp;gt;&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/344b1f9540712a2bc064.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;run-synctoy&quot;&gt;Run SyncToy&lt;/h3&gt;
 
-&lt;p&gt;To run SyncToy from PowerShell, we’ll use the same way we called the Windows command file above; using the &lt;strong&gt;&lt;em&gt;&amp;amp;&lt;/em&gt;&lt;/strong&gt; symbol to execute the SyncToy EXE file. We’ll call the SyncToyCmd.exe file which is the command line equivalent of the application so we can pass the name of the backup plan as an argument. If you use the command line to call SyncToyCmd, it’ll look like this:&lt;/p&gt;
+&lt;p&gt;To run SyncToy from PowerShell, we’ll use the same way we called the Windows command file above; using the &lt;strong&gt;&lt;em&gt;&amp;amp;&lt;/em&gt;&lt;/strong&gt; symbol to execute the SyncToy EXE file. We’ll call the SyncToyCmd.exe file which is the command line equivalent of the application so we can pass the name of the backup plan as an argument. If you use the command line to call SyncToyCmd, it’ll look like this:  &lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;font face=&quot;Courier New&quot;&gt;SyncToyCmd –R “MyBackupPlan”&lt;/font&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/e6ae51bdea7072ccce1d.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;We’ll create the &lt;strong&gt;&lt;em&gt;Run-SyncToy&lt;/em&gt;&lt;/strong&gt; function with the backup plan name as an input so we can call it multiple times for different plans.&lt;/p&gt;
+&lt;p&gt;We’ll create the &lt;strong&gt;&lt;em&gt;Run-SyncToy&lt;/em&gt;&lt;/strong&gt; function with the backup plan name as an input so we can call it multiple times for different plans.  &lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;**_&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#0000a0&quot;&gt;function&lt;/font&gt; &lt;font color=&quot;#9b00d3&quot;&gt;Run-SyncToy&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$backupPlan&lt;/font&gt;)
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;$Exe&lt;/font&gt; = &lt;font color=&quot;#c0504d&quot;&gt;&quot;C:\Program Files\SyncToy 2.1\SyncToyCmd.exe&quot;&lt;/font&gt;
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp; &lt;font color=&quot;#ff0000&quot;&gt;$Exe&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-R&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$backupPlan&lt;/font&gt;
-    &amp;gt; }&lt;/font&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;lt;/font&amp;gt;_**&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/dd5fbc9b204197435976.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;write-powershell-output-to-file&quot;&gt;Write PowerShell Output to File&lt;/h3&gt;
 
@@ -896,121 +869,23 @@ attach vdisk**_&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;To write the output of any PowerShell command or function to file, use the &lt;strong&gt;&lt;em&gt;Out-File&lt;/em&gt;&lt;/strong&gt; cmdlet. This &lt;a href=&quot;http://technet.microsoft.com/en-us/library/ee176924.aspx&quot;&gt;TechNet page&lt;/a&gt; explains how to use it. Example:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;Get-ChildItem&lt;/font&gt; | &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;D:\MyOutputFile.txt&quot;&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt; &lt;/font&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/3581c3aff5aee81dc2f9.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;This line write the output of the &lt;strong&gt;&lt;em&gt;Get-ChildItem&lt;/em&gt;&lt;/strong&gt; cmdlet to the text file named &lt;strong&gt;&lt;em&gt;MyOutputFile.txt&lt;/em&gt;&lt;/strong&gt; under the D drive. Notice the use of the two arguments –&lt;strong&gt;&lt;em&gt;Append&lt;/em&gt;&lt;/strong&gt;  (which appends to the file if it already exists) and –&lt;strong&gt;&lt;em&gt;Force&lt;/em&gt;&lt;/strong&gt; (which creates the file if it doesn’t exist).&lt;/p&gt;
 
-&lt;p&gt;We’ll need to stamp the file name with time of when the script ran, to do that we’ll use the &lt;strong&gt;&lt;em&gt;Get-Date&lt;/em&gt;&lt;/strong&gt; cmdlet and the argument –&lt;strong&gt;&lt;em&gt;Format&lt;/em&gt;&lt;/strong&gt;. Example:&lt;/p&gt;
+&lt;p&gt;We’ll need to stamp the file name with time of when the script ran, to do that we’ll use the &lt;strong&gt;&lt;em&gt;Get-Date&lt;/em&gt;&lt;/strong&gt; cmdlet and the argument –&lt;strong&gt;&lt;em&gt;Format&lt;/em&gt;&lt;/strong&gt;. Example:  &lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;Get-Date&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-format&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;yyyy-MM-dd HH-mm-ss&quot;&lt;/font&gt;&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/4eaa69ac18f22a30d78b.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;putting-it-all-together&quot;&gt;Putting It All Together&lt;/h3&gt;
 
 &lt;p&gt;You can notice that all the work above just creates functions to be used in the main body of the script. Here’s where we put it all together.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;_**&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#0000ff&quot;&gt;Clear-Host&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#008000&quot;&gt;
-        # Decleare variable to hold the service name
-        &amp;gt;
-    &lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;$serviceName&lt;/font&gt; = &lt;font color=&quot;#c0504d&quot;&gt;&quot;MSSQL`$SQLEXPRESS&quot;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;lt;/font&amp;gt;**_
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Where the log file will be stored&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;$logHome&lt;/font&gt; = &lt;font color=&quot;#c0504d&quot;&gt;&quot;D:\Amr\Backup\BackupLogs\&quot;&lt;/font&gt;
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Get timestamp&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;$timeStamp&lt;/font&gt; = &lt;font color=&quot;#0000ff&quot;&gt;Get-Date&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Format&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;yyyy-MM-dd HH-mm-ss&quot;&lt;/font&gt;
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Generate name of log file&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; = &lt;font color=&quot;#ff0000&quot;&gt;$logHome&lt;/font&gt; + &lt;font color=&quot;#c0504d&quot;&gt;&quot;Backup Log &quot;&lt;/font&gt; + &lt;font color=&quot;#ff0000&quot;&gt;$timeStamp&lt;/font&gt; + &lt;font color=&quot;#c0504d&quot;&gt;&quot;.txt&quot;&lt;/font&gt;
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Write a starting message&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Starting backup at $timestamp&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;
-        # Stop the SQL service if it&#39;s running
-        &amp;gt;
-    &lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;$serviceStatus&lt;/font&gt; = &lt;font color=&quot;#0000ff&quot;&gt;Get-SqlServiceStatus&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$serviceName&lt;/font&gt;)
-    &amp;gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Service $serviceName is $serviceStatus.&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#0000a0&quot;&gt;if&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$serviceStatus&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;-eq&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Running&quot;&lt;/font&gt;)
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#c0504d&quot;&gt;&quot;SQL service is running, stopping it...&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#0000ff&quot;&gt;Stop-SqlService&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$serviceName&lt;/font&gt;) &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; }
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Unmount Codebox if it was already mounted&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;$CodeboxMounted&lt;/font&gt; = &lt;font color=&quot;#0000ff&quot;&gt;Exists-Drive&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;
-        &quot;M:&quot;
-        &amp;gt;
-    &lt;/font&gt;&lt;font color=&quot;#0000a0&quot;&gt;if&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$CodeboxMounted&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;-eq&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;True&quot;&lt;/font&gt;)
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Codebox is mounted. Unmounting Codebox...&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#008000&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; # Unmount Codebox&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Unmount-Codebox&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#c0504d&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Codebox is not mounted now.&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; }
-    &amp;gt; &lt;font color=&quot;#0000a0&quot;&gt;else&lt;/font&gt;
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Codebox is not mounted&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; }
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Run sync toy&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#0000ff&quot;&gt;Run-SyncToy&lt;/font&gt; (&lt;font color=&quot;#c0504d&quot;&gt;&quot;TestBackup&quot;&lt;/font&gt;) &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Mount Codebox if it was already mounted&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#0000a0&quot;&gt;if&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$CodeboxMounted&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;-eq&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;True&quot;&lt;/font&gt;)
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Mounting Codebox...&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#008000&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; # Mount Codebox&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Mount-Codebox&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#c0504d&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;Codebox is mounted now.&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; }
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Run the SQL service if it&#39;s stopped&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;$serviceStatus&lt;/font&gt; = &lt;font color=&quot;#0000ff&quot;&gt;Get-SqlServiceStatus&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$serviceName&lt;/font&gt;)
-    &amp;gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Service $serviceName is $serviceStatus.&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#0000a0&quot;&gt;if&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$serviceStatus&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;-eq&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Stopped&quot;&lt;/font&gt;)
-    &amp;gt; {
-    &amp;gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Starting SQL service...&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Start-SqlService&lt;/font&gt; (&lt;font color=&quot;#ff0000&quot;&gt;$serviceName&lt;/font&gt;) &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-    &amp;gt; }
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;
-&amp;gt;
-&amp;gt; &lt;em&gt;&lt;strong&gt;&lt;font face=&quot;Courier New&quot;&gt;
-    &lt;font color=&quot;#008000&quot;&gt;# Write end message&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;$finishTime&lt;/font&gt; = &lt;font color=&quot;#0000ff&quot;&gt;Get-Date&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Format&lt;/font&gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;yyyy-MM-dd HH-mm-ss&quot;&lt;/font&gt;
-    &amp;gt; &lt;font color=&quot;#c0504d&quot;&gt;&quot;Backup script finished at $finishTime&quot;&lt;/font&gt; &lt;font color=&quot;#a5a5a5&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#0000ff&quot;&gt;out-file&lt;/font&gt; &lt;font color=&quot;#ff0000&quot;&gt;$logFile&lt;/font&gt; &lt;font color=&quot;#0000a0&quot;&gt;-Append -Force&lt;/font&gt;
-&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/e1a12ddee601bd80480c.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;try-it-out-yourself&quot;&gt;Try It Out Yourself&lt;/h3&gt;
 
-&lt;p&gt;You probably have a different backup strategy, but you can still take advantage of PowerShell and SyncToy in a whole host of other scenarios. &lt;a href=&quot;https://skydrive.live.com/?cid=a0f4e46186f7cce4&amp;amp;sc=documents&amp;amp;id=A0F4E46186F7CCE4%211240#&quot;&gt;Download the script here&lt;/a&gt;. Tweak it till it fit your requirements and please leave a comment below if you have a question or found a bug somewhere in the script. Even if not for mirroring hard drives, this still was a nice exercise for using PowerShell.&lt;/p&gt;
-
-&lt;iframe style=&quot;padding-bottom: 0px; background-color: #fcfcfc; padding-left: 0px; width: 98px; padding-right: 0px; height: 115px; padding-top: 0px&quot; title=&quot;Preview&quot; marginheight=&quot;0&quot; src=&quot;https://skydrive.live.com/embedicon.aspx/Public/Blog/Mirroring%20Hard%20Drives%20using%20PowerShell%20and%20SyncToy/MirrorDrives.ps1?cid=a0f4e46186f7cce4&amp;amp;sc=documents&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;You probably have a different backup strategy, but you can still take advantage of PowerShell and SyncToy in a whole host of other scenarios. &lt;a href=&quot;https://gist.github.com/AmrEldib/e1a12ddee601bd80480c/download&quot;&gt;Download the script here&lt;/a&gt;. Tweak it till it fit your requirements and please leave a comment below if you have a question or found a bug somewhere in the script. Even if not for mirroring hard drives, this still was a nice exercise for using PowerShell.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1019,33 +894,43 @@ attach vdisk**_&lt;/code&gt;&lt;/p&gt;
    <link href="http://www.amreldib.com/HowToRuinYourPublicBeta"/>
    <updated>2011-11-05T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/HowToRuinYourPublicBeta</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pZ-NBiDbJC88ols4JVtS8k3LD51zouuvqZR5_ooblmPu5LMDUgycxYQKHomqGBB9fRQsNXDI3tpc/AdobeLogo.jpg?psid=1&quot; alt=&quot;&quot; /&gt;Couple of days ago, I downloaded and installed the latest beta of Adobe Flash (11.2.202.18 Beta 1). I downloaded the IE version and the non-IE version, and the x64 version. I like to test out the latest betas of almost all the software that I’m using; &lt;a href=&quot;http://www.amreldib.com/2011/10/what-i-use-part-2.html&quot;&gt;I use Mozilla Nightly and Chrome beta&lt;/a&gt; (just updated to version 17 today). It’s my way of staying updated and keeping up with what’s coming next. I understand that I have to take some hits for using beta software but in return I get to enjoy all the new ideas months before everyone else, and every once in a blue moon I get to affect some feature in some upcoming release by providing feedback.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;Adobe&quot; src=&quot;/public/images/HowToRuinPublicBeta/AdobeLogo.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Couple of days ago, I downloaded and installed the latest beta of Adobe Flash (11.2.202.18 Beta 1). I downloaded the IE version and the non-IE version, and the x64 version. I like to test out the latest betas of almost all the software that I’m using; &lt;a href=&quot;http://www.amreldib.com/2011/10/what-i-use-part-2.html&quot;&gt;I use Mozilla Nightly and Chrome beta&lt;/a&gt; (just updated to version 17 today). It’s my way of staying updated and keeping up with what’s coming next. I understand that I have to take some hits for using beta software but in return I get to enjoy all the new ideas months before everyone else, and every once in a blue moon I get to affect some feature in some upcoming release by providing feedback.&lt;/p&gt;
 
 &lt;p&gt;After I installed Flash, I started noticing this annoying beta disclaimer appearing on YouTube videos (a Flash element).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1p37M10PdydJ0bX3HP13mbCHNMADudpjtA4fDhE_x1PFRDoyQFYCNYUIoYm7NDQX9aTTN5InZQF04/FlashBetaDisclaimer01.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; title=&quot;Beta disclaimer on YouTube Videos&quot; src=&quot;/public/images/HowToRuinPublicBeta/FlashBetaDisclaimer01.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pMzlVRmDU_EZKbyuFcckue7itL-eyU9y-n5F5BVwRLxfE25WjE9J6VO3zFrH1ikr8zAnL_7qkVZ8/FlashBetaDisclaimer03.png?psid=1&quot; alt=&quot;&quot; /&gt;I ignored it at first, but then it started being really annoying. It’s hiding the full screen button in the YouTube player as you can see above. Then it started to get really annoying when it showed up on really small Flash elements; elements that are so small that I couldn’t see anything other than the disclaimer (look at the small Audible “Sample” button on the right). Naturally, I turned to Bing to start finding a solution for this annoyance. I found this &lt;a href=&quot;http://forums.adobe.com/thread/797926?start=0&amp;amp;tstart=0&quot;&gt;post on Adobe forums&lt;/a&gt;. Here’s the answer from an Adobe employee:
- &amp;gt; &lt;em&gt;Incubator builds are not preview, alpha or beta quality. It’s before that state - this is code under active development. The watermark is a visual indicator of that fact. Many companies follow this practice for pre-release software - &lt;strong&gt;for example, Microsoft Windows pre-release builds have a watermark with version in the bottom right corner of the screen&lt;/strong&gt; to indicate it an evaluation and not a final version.&lt;/em&gt; &amp;lt;p&amp;gt;
-    &lt;em&gt;Also, Flash Player is one of the most widely distributed pieces of software and our audience is quite broad. End users are by far our biggest customer segment. &lt;strong&gt;We need to make sure people - developer or end user - that install Incubator builds know and understand what they’re getting themselves into.&lt;/strong&gt; In the past, we have seen links to previews and betas delivered out of context of the content we have on Labs that explains that pre-releases have not yet gone through security review, may not be stable, etc. These builds don’t give users auto-update notification and can make it difficult for a user to install a release player (because it is a later version, or you must run the uninstaller before you install a different version).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; title=&quot;Beta disclaimer on Audible Sample button&quot; src=&quot;/public/images/HowToRuinPublicBeta/FlashBetaDisclaimer02.png&quot; /&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;So, there’s no way to remove the disclaimer. Now, beta users who are willing to use such an early beta of a software like Flash (which is a component more than a software) are not stupid users. They understand that this is a beta, they accept the risks of using such a software, they just don’t want to be annoyed by a stupid disclaimer.
+&lt;p&gt;I ignored it at first, but then it started being really annoying. It’s hiding the full screen button in the YouTube player as you can see above. Then it started to get really annoying when it showed up on really small Flash elements; elements that are so small that I couldn’t see anything other than the disclaimer (look at the small Audible “Sample” button on the right). Naturally, I turned to Bing to start finding a solution for this annoyance. I found this &lt;a href=&quot;http://forums.adobe.com/thread/797926?start=0&amp;amp;tstart=0&quot;&gt;post on Adobe forums&lt;/a&gt;. Here’s the answer from an Adobe employee:  &lt;/p&gt;
 
-Someone argued in the forum post with a beta user about how Adobe is right and the beta users are wrong in complaining about this. One thing said is:
-&amp;gt; _With all due respect tom, your comments are the very reason why Adobe tends not to let things publically available this early. They are afraid that people like you will make comments/judgments like this. You need to understand a little bit about software development, this is called an alpha build._
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Incubator builds are not preview, alpha or beta quality. It’s before that state - this is code under active development. The watermark is a visual indicator of that fact. Many companies follow this practice for pre-release software - &lt;strong&gt;for example, Microsoft Windows pre-release builds have a watermark with version in the bottom right corner of the screen&lt;/strong&gt; to indicate it an evaluation and not a final version.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-Not only that Adobe has already made this beta public, so they should just accept how users react. It also this a little condescending to assume that the user doesn’t know anything about software development, especially something as simple as what an alpha build is.
+&lt;p&gt;&lt;em&gt;Also, Flash Player is one of the most widely distributed pieces of software and our audience is quite broad. End users are by far our biggest customer segment. &lt;strong&gt;We need to make sure people - developer or end user - that install Incubator builds know and understand what they’re getting themselves into.&lt;/strong&gt; In the past, we have seen links to previews and betas delivered out of context of the content we have on Labs that explains that pre-releases have not yet gone through security review, may not be stable, etc. These builds don’t give users auto-update notification and can make it difficult for a user to install a release player (because it is a later version, or you must run the uninstaller before you install a different version).&lt;/em&gt;&lt;/p&gt;
 
-To go back to the example that Adobe used to defend their choice, the beta disclaimer in Windows is actually an option in Windows that [you can turn on even in a non-beta release](http://www.windowssquad.com/how-to-display-windows-7-build-version-number-on-desktop/23/). Microsoft just chooses to turn it on by default in a beta release and leaves to the users the option to turn it off if they want to.
+&lt;p&gt;So, there’s no way to remove the disclaimer. Now, beta users who are willing to use such an early beta of a software like Flash (which is a component more than a software) are not stupid users. They understand that this is a beta, they accept the risks of using such a software, they just don’t want to be annoyed by a stupid disclaimer.&lt;/p&gt;
 
-Beta users are volunteers who come to you as a software maker and give you a great opportunity to take advantage of their time to test out your software and find out bugs and usage scenarios about it that you wouldn’t imagine. Their reward shouldn’t be that you treat them like crap and tell them that they’re wrong and don’t understand how software works. Their reward should be to make their lives easier, to welcome their feedback and suggestions, to treat them like they’re part of the team.
+&lt;p&gt;Someone argued in the forum post with a beta user about how Adobe is right and the beta users are wrong in complaining about this. One thing said is:  &lt;/p&gt;
 
-Mozilla gives beta users access to a [feedback dashboard](http://input.mozilla.com/en-US/). They give them a button that is very simple to use with happy face and sad face and you only need to write a single sentence to say what’s on your mind. You don’t have to register, you don’t have to answer a survey or pick from a list. No, it’s a minimum barrier of entry, because they want you feedback and they’ll figure out how to make most of it.
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;With all due respect tom, your comments are the very reason why Adobe tends not to let things publically available this early. They are afraid that people like you will make comments/judgments like this. You need to understand a little bit about software development, this is called an alpha build.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-A public beta is not just publishing an early release of your upcoming version. It’s a process of including a new member in your development team; the public. Like any other member that is joining your team, if you don’t have a job description for them, or have tools ready for them to use, it’s all a waste of time and money. And what do Adobe do to this team member who is providing feedback, they decline their most basic feedback to have an option to turn this thing off. It’s a shame for Adobe to miss up something as simple as this. But others might say “What else is new?”.
+&lt;p&gt;Not only that Adobe has already made this beta public, so they should just accept how users react. It also this a little condescending to assume that the user doesn’t know anything about software development, especially something as simple as what an alpha build is.&lt;/p&gt;
 
-I’m uninstalling this early beta of Flash and going back to the version before that.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To go back to the example that Adobe used to defend their choice, the beta disclaimer in Windows is actually an option in Windows that &lt;a href=&quot;http://www.windowssquad.com/how-to-display-windows-7-build-version-number-on-desktop/23/&quot;&gt;you can turn on even in a non-beta release&lt;/a&gt;. Microsoft just chooses to turn it on by default in a beta release and leaves to the users the option to turn it off if they want to.&lt;/p&gt;
+
+&lt;p&gt;Beta users are volunteers who come to you as a software maker and give you a great opportunity to take advantage of their time to test out your software and find out bugs and usage scenarios about it that you wouldn’t imagine. Their reward shouldn’t be that you treat them like crap and tell them that they’re wrong and don’t understand how software works. Their reward should be to make their lives easier, to welcome their feedback and suggestions, to treat them like they’re part of the team.&lt;/p&gt;
+
+&lt;p&gt;Mozilla gives beta users access to a &lt;a href=&quot;http://input.mozilla.com/en-US/&quot;&gt;feedback dashboard&lt;/a&gt;. They give them a button that is very simple to use with happy face and sad face and you only need to write a single sentence to say what’s on your mind. You don’t have to register, you don’t have to answer a survey or pick from a list. No, it’s a minimum barrier of entry, because they want you feedback and they’ll figure out how to make most of it.&lt;/p&gt;
+
+&lt;p&gt;A public beta is not just publishing an early release of your upcoming version. It’s a process of including a new member in your development team; the public. Like any other member that is joining your team, if you don’t have a job description for them, or have tools ready for them to use, it’s all a waste of time and money. And what do Adobe do to this team member who is providing feedback, they decline their most basic feedback to have an option to turn this thing off. It’s a shame for Adobe to miss up something as simple as this. But others might say “What else is new?”.&lt;/p&gt;
+
+&lt;p&gt;I’m uninstalling this early beta of Flash and going back to the version before that.&lt;/p&gt;
 </content>
  </entry>
  
