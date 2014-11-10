@@ -6,8 +6,8 @@
 </description>
     <link>http://www.amreldib.com//</link>
     <atom:link href="http://www.amreldib.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Nov 2014 01:01:16 +0000</pubDate>
-    <lastBuildDate>Sun, 09 Nov 2014 01:01:16 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Nov 2014 06:33:13 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Nov 2014 06:33:13 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -57,7 +57,7 @@
     
       <item>
         <title>Chocolatey: Install Software like a Pro</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot;&gt;&lt;img src=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I use a lot of software, and always there’s a nagging voice in head saying “you’re not using the latest version. Update. Update. Update”. Of course, sometimes that nagging voice is up on the screen asking me to update. However, as fun as using the latest version can be, the process of updating is not as fun. Downloading and installing takes a lot of time. Sometimes you have to uninstall the previous version. Sometimes, you even have to check if there’s a new version yourself. You have to be careful to avoid installing adware. While some software is getting better at this, others (I’m looking at you, Adobe Flash. You really suck) are going backward and ask you to download the software yourself.&lt;/p&gt;
 
@@ -249,7 +249,9 @@ To avoid a predictable problem, the function will make sure that you’re on a Y
     
       <item>
         <title>How to Turn XML Schema (XSD) to Documentation</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png&quot;&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png&quot;&gt;
+    &lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Today, a colleague at work was trying to modify a configuration file in XML format. He wasn’t sure what were the available options for a certain attribute, so we started looking for an answer.   &lt;br /&gt;
 The XML configuration file came with a software product and had an &lt;a href=&quot;https://en.wikipedia.org/wiki/XSD&quot;&gt;XSD file&lt;/a&gt;. For me as a developer, I opened the XSD file in Visual Studio and used the XML Schema Editor (shown on the right) to browse its content.   &lt;br /&gt;
@@ -301,15 +303,21 @@ To make things easier, I wrote a &lt;a href=&quot;/public/images/TurnXsdToHtml/C
         <title>Upgrade Windows Font for Better Arabic Readability</title>
         <description>&lt;p&gt;I was testing Windows 8.1 when I saw something that I liked very much; better Arabic font. I wasn’t going to wait to upgrade all my machines to Windows 8.1 (if I ever do) to get that font. So, I went searching for the reason. I found that Microsoft upgraded the SegoeUI font. Spot the difference in Windows Explorer:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter-big.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter-big.png&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;.. and in Firefox tab headers:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;To install this font, backup the old font first by going to the Fonts section in the Control Panel and copying all the Segoe fonts.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont-big.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont-big.png&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/Windows 8 SegoeUI Fonts.zip&quot;&gt;Download&lt;/a&gt; the new font.&lt;/p&gt;
 
@@ -335,7 +343,9 @@ You’ll be asked to replace the old font, click Yes.&lt;/p&gt;
     
       <item>
         <title>Add RTL Support and Web Fonts to Tumblr Posts</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot;&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot; /&gt;&lt;/a&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot;&gt;
+    &lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot; /&gt;
+&lt;/a&gt;
 This is my technical blog. My &lt;a href=&quot;http://amreldib.tumblr.com/&quot;&gt;personal blog&lt;/a&gt;, where I write mostly in my native Arabic, is hosted on Tumblr which is a nice platform but is really bad in supporting Arabic and other RTL languages. At least that’s my experience.&lt;/p&gt;
 
 &lt;p&gt;So finally I got sick of it and decided that I’m gonna fix this with some HTML and CSS magic. Maybe with &lt;a href=&quot;http://rtl-this.com/tutorial/how-rtl-your-tumblr-theme&quot;&gt;some help&lt;/a&gt;. I did find that Tumblr has some nice features that helps fixing the problem. Let’s see how.&lt;/p&gt;
@@ -416,7 +426,7 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
     
       <item>
         <title>How to Ruin Your Technical Session in 10 Easy Steps</title>
-        <description>&lt;figure style=&quot;float: right&quot;&gt;
+        <description>&lt;figure class=&quot;imageOnRight&quot;&gt;
     &lt;img src=&quot;/public/images/HowToRuinYourTechnicalSessionIn10EasySteps/SleepingDuringSeminar.jpg&quot; /&gt;
     &lt;figcaption style=&quot;float: right&quot;&gt;&lt;small&gt;This is gold.&lt;/small&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;

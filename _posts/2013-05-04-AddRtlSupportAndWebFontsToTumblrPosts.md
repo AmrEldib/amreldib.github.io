@@ -15,7 +15,9 @@ tags:
 redirects:
 - /2013/05/add-rtl-and-web-fonts-to-tumblr-posts.html
 ---
-<a href="{{ site.baseurl }}public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png"><img style="float: right" src="{{ site.baseurl }}public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png"></a>
+<a href="{{ site.baseurl }}public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png">
+    <img class="imageOnRight" src="{{ site.baseurl }}public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png">
+</a>
 This is my technical blog. My [personal blog](http://amreldib.tumblr.com/), where I write mostly in my native Arabic, is hosted on Tumblr which is a nice platform but is really bad in supporting Arabic and other RTL languages. At least that's my experience.
 
  So finally I got sick of it and decided that I’m gonna fix this with some HTML and CSS magic. Maybe with [some help](http://rtl-this.com/tutorial/how-rtl-your-tumblr-theme). I did find that Tumblr has some nice features that helps fixing the problem. Let’s see how.

@@ -12,7 +12,9 @@ tags:
 redirects:
 - /2013/08/HowToTurnXmlSchemaXsdToDocumentation.html
 ---
-<a href="{{ site.baseurl }}public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png"><img style="float: right" src="{{ site.baseurl }}public/images/TurnXsdToHtml/VSXmlSchemaEditor.png"></a>
+<a href="{{ site.baseurl }}public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png">
+    <img class="imageOnRight" src="{{ site.baseurl }}public/images/TurnXsdToHtml/VSXmlSchemaEditor.png">
+</a>
 
 Today, a colleague at work was trying to modify a configuration file in XML format. He wasn't sure what were the available options for a certain attribute, so we started looking for an answer.     
 The XML configuration file came with a software product and had an [XSD file](https://en.wikipedia.org/wiki/XSD). For me as a developer, I opened the XSD file in Visual Studio and used the XML Schema Editor (shown on the right) to browse its content.     

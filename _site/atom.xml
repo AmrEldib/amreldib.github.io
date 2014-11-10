@@ -4,7 +4,7 @@
  <title>Amr</title>
  <link href="http://www.amreldib.com/atom.xml" rel="self"/>
  <link href="http://www.amreldib.com/"/>
- <updated>2014-11-09T01:01:16+00:00</updated>
+ <updated>2014-11-10T06:33:13+00:00</updated>
  <id>http://www.amreldib.com</id>
  <author>
    <name></name>
@@ -52,7 +52,7 @@
    <link href="http://www.amreldib.com/Chocolatey"/>
    <updated>2014-02-09T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/Chocolatey</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot;&gt;&lt;img src=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/Chocolatey/chocolateyicon.gif&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I use a lot of software, and always there’s a nagging voice in head saying “you’re not using the latest version. Update. Update. Update”. Of course, sometimes that nagging voice is up on the screen asking me to update. However, as fun as using the latest version can be, the process of updating is not as fun. Downloading and installing takes a lot of time. Sometimes you have to uninstall the previous version. Sometimes, you even have to check if there’s a new version yourself. You have to be careful to avoid installing adware. While some software is getting better at this, others (I’m looking at you, Adobe Flash. You really suck) are going backward and ask you to download the software yourself.&lt;/p&gt;
 
@@ -190,7 +190,9 @@ To avoid a predictable problem, the function will make sure that you’re on a Y
    <link href="http://www.amreldib.com/HowToTurnXmlSchemaXsdToDocumentation"/>
    <updated>2013-08-29T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/HowToTurnXmlSchemaXsdToDocumentation</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png&quot;&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor-big.png&quot;&gt;
+    &lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/TurnXsdToHtml/VSXmlSchemaEditor.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Today, a colleague at work was trying to modify a configuration file in XML format. He wasn’t sure what were the available options for a certain attribute, so we started looking for an answer.   &lt;br /&gt;
 The XML configuration file came with a software product and had an &lt;a href=&quot;https://en.wikipedia.org/wiki/XSD&quot;&gt;XSD file&lt;/a&gt;. For me as a developer, I opened the XSD file in Visual Studio and used the XML Schema Editor (shown on the right) to browse its content.   &lt;br /&gt;
@@ -230,15 +232,21 @@ To make things easier, I wrote a &lt;a href=&quot;/public/images/TurnXsdToHtml/C
    <id>http://www.amreldib.com/UpgradeWindowsFontForBetterArabicReadability</id>
    <content type="html">&lt;p&gt;I was testing Windows 8.1 when I saw something that I liked very much; better Arabic font. I wasn’t going to wait to upgrade all my machines to Windows 8.1 (if I ever do) to get that font. So, I went searching for the reason. I found that Microsoft upgraded the SegoeUI font. Spot the difference in Windows Explorer:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter-big.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter-big.png&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-FilesInWinExplorer-BeforeAndAfter.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;.. and in Firefox tab headers:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/UpgradeArabicFont/ArabicFont-HeaderInFirefox-BeforeAndAfer.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;To install this font, backup the old font first by going to the Fonts section in the Control Panel and copying all the Segoe fonts.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont-big.png&quot;&gt;&lt;img style=&quot;float: center&quot; src=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont-big.png&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/UpgradeArabicFont/BackupSegoeFont.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/public/images/UpgradeArabicFont/Windows 8 SegoeUI Fonts.zip&quot;&gt;Download&lt;/a&gt; the new font.&lt;/p&gt;
 
@@ -256,7 +264,9 @@ You’ll be asked to replace the old font, click Yes.&lt;/p&gt;
    <link href="http://www.amreldib.com/AddRtlSupportAndWebFontsToTumblrPosts"/>
    <updated>2013-05-04T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/AddRtlSupportAndWebFontsToTumblrPosts</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot;&gt;&lt;img style=&quot;float: right&quot; src=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot; /&gt;&lt;/a&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot;&gt;
+    &lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/RtlSupportInTumblr/ArabicTumblr_thumb.png&quot; /&gt;
+&lt;/a&gt;
 This is my technical blog. My &lt;a href=&quot;http://amreldib.tumblr.com/&quot;&gt;personal blog&lt;/a&gt;, where I write mostly in my native Arabic, is hosted on Tumblr which is a nice platform but is really bad in supporting Arabic and other RTL languages. At least that’s my experience.&lt;/p&gt;
 
 &lt;p&gt;So finally I got sick of it and decided that I’m gonna fix this with some HTML and CSS magic. Maybe with &lt;a href=&quot;http://rtl-this.com/tutorial/how-rtl-your-tumblr-theme&quot;&gt;some help&lt;/a&gt;. I did find that Tumblr has some nice features that helps fixing the problem. Let’s see how.&lt;/p&gt;
@@ -319,7 +329,7 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
    <link href="http://www.amreldib.com/HowToRuinYourTechnicalSessionIn10EasySteps"/>
    <updated>2013-04-29T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/HowToRuinYourTechnicalSessionIn10EasySteps</id>
-   <content type="html">&lt;figure style=&quot;float: right&quot;&gt;
+   <content type="html">&lt;figure class=&quot;imageOnRight&quot;&gt;
     &lt;img src=&quot;/public/images/HowToRuinYourTechnicalSessionIn10EasySteps/SleepingDuringSeminar.jpg&quot; /&gt;
     &lt;figcaption style=&quot;float: right&quot;&gt;&lt;small&gt;This is gold.&lt;/small&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -453,14 +463,6 @@ On the left, you’ll find “Edit HTML”.&lt;/p&gt;
 &lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png&quot; /&gt;
 &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FiveStagesOfGriefOverGoogleReaderShutdown/Tweets-5-01.png&quot; /&gt;&lt;/p&gt;
 </content>
- </entry>
- 
- <entry>
-   <title>Usingintellisensewithesrijsapiinvisualstudio.md~rfe92a7d</title>
-   <link href="http://www.amreldib.com/UsingIntellisenseWithEsriJsapiInVisualStudio.md~RFe92a7d"/>
-   <updated>2013-03-03T00:00:00+00:00</updated>
-   <id>http://www.amreldib.com/UsingIntellisenseWithEsriJsapiInVisualStudio.md~RFe92a7d</id>
-   <content type="html"></content>
  </entry>
  
  <entry>
@@ -939,9 +941,11 @@ Please see “get-help about_signing” for more details.&lt;/p&gt;
    <link href="http://www.amreldib.com/PowerShellStudyNotes"/>
    <updated>2011-11-01T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/PowerShellStudyNotes</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1p_8EGrsEj6o7ZVv8qdFcN1kbGyUqxfTxqLRip6gVuT_dAo7gVLI6j40Wl-YpBiRmtYQBcw1ONHso/PowerShellLogo.jpg?psid=1&quot; alt=&quot;&quot; /&gt;Last week, I found a great PowerShell tutorial over at &lt;a href=&quot;http://www.pluralsight-training.net/microsoft/Courses/TableOfContents?courseName=powershell-intro&quot;&gt;Pluralsight&lt;/a&gt; (by &lt;a href=&quot;http://arcanecode.com&quot;&gt;Robert Cain&lt;/a&gt;). PowerShell has been a topic that I wanted to learn about for quite a while. As any power user/geek type of person, the command line is my friend but the standard DOS command line has been the same for years. That’s why PowerShell seemed so compiling. But the fact that it’s based on/using .NET objects and that it’s now integrated in Visual Studio 2010 made it a priority to understand what it’s all about.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/PowerShellStudyNotes/PowerShellLogo.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I finished the tutorial in a day. It’s less than 3 hours long and it’s pretty straight forward. I went over the tutorial again for a deeper understanding and took down some notes that I’m attacking to this post (You can &lt;a href=&quot;https://skydrive.live.com/?cid=a0f4e46186f7cce4#!/view.aspx?cid=A0F4E46186F7CCE4&amp;amp;resid=A0F4E46186F7CCE4!1214&quot;&gt;view the document online here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Last week, I found a great PowerShell tutorial over at &lt;a href=&quot;http://www.pluralsight-training.net/microsoft/Courses/TableOfContents?courseName=powershell-intro&quot;&gt;Pluralsight&lt;/a&gt; (by &lt;a href=&quot;http://arcanecode.com&quot;&gt;Robert Cain&lt;/a&gt;). PowerShell has been a topic that I wanted to learn about for quite a while. As any power user/geek type of person, the command line is my friend but the standard DOS command line has been the same for years. That’s why PowerShell seemed so compiling. But the fact that it’s based on/using .NET objects and that it’s now integrated in Visual Studio 2010 made it a priority to understand what it’s all about.&lt;/p&gt;
+
+&lt;p&gt;I finished the tutorial in a day. It’s less than 3 hours long and it’s pretty straight forward. I went over the tutorial again for a deeper understanding and took down some notes that I’m attacking to this post (You can &lt;a href=&quot;/public/images/PowerShellStudyNotes/PowerShell Study Notes.docx&quot;&gt;view the document online here&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;I also found &lt;a href=&quot;http://www.powershellpro.com/powershell-tutorial-introduction/&quot;&gt;another tutorial here&lt;/a&gt;, that is a series of posts with more details on PowerShell. You’ll find the list of posts in the series on the right side under the title “PowerShell Tutorials”.&lt;/p&gt;
 
@@ -967,27 +971,26 @@ Please see “get-help about_signing” for more details.&lt;/p&gt;
 
 &lt;h3 id=&quot;operating-system&quot;&gt;Operating System&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1p_jmIDRrWt4PmrSaOX5oVWssv9og0tA9NKFEM_y8JjJqUnq7ZsKOvLXj6TAOwaAP8W1itCRFGNMM/WhatIUse2-Windows7.jpg?psid=1&quot; alt=&quot;&quot; /&gt;Windows, what else? For a .NET developer, it’s really difficult to use another OS on your primary machine. I’m not a big fan of MacOS. Apple’s strength is in hardware not software, Windows is the best OS to run on a Mac. However, I love the idea of Linux. Not just the free and open source part of it, but the customizability of it. MacOS does few things very well and doesn’t let you draw outside the lines. Windows does a lot of things in mediocre to good way but because of the huge user base it has been turned upside down and inside out so many times to let a great degree of customization. Linux does everything in a poor way if you’re a beginner and great way if you’re a pro. Linux allows for a big degree of customization that is too much to resist for a power user. I’d love to switch to Linux (probably, Ubuntu) on my primary machine. Meanwhile, this post is coming to you from Windows 7 x64.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-Windows7.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Windows, what else? For a .NET developer, it’s really difficult to use another OS on your primary machine. I’m not a big fan of MacOS. Apple’s strength is in hardware not software, Windows is the best OS to run on a Mac. However, I love the idea of Linux. Not just the free and open source part of it, but the customizability of it. MacOS does few things very well and doesn’t let you draw outside the lines. Windows does a lot of things in mediocre to good way but because of the huge user base it has been turned upside down and inside out so many times to let a great degree of customization. Linux does everything in a poor way if you’re a beginner and great way if you’re a pro. Linux allows for a big degree of customization that is too much to resist for a power user. I’d love to switch to Linux (probably, Ubuntu) on my primary machine. Meanwhile, this post is coming to you from Windows 7 x64.&lt;/p&gt;
 
 &lt;h3 id=&quot;browsers&quot;&gt;Browsers&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://nightly.mozilla.org/&quot;&gt;&lt;strong&gt;Mozilla Nightly&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1p_jmIDRrWt4PXfikpdGjmiBRL5-hcTAhsHG9syOZKapqvCqVr0NOxFqzRNVKZb45NmwF44UzgFm0/WhatIUse2-FirefoxAuroraNightlyLogo.jpg?psid=1&quot; alt=&quot;&quot; /&gt;Mozilla really made it easy to follow up on the different editions of Firefox when they announced &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/channel/&quot;&gt;Aurora&lt;/a&gt; and &lt;a href=&quot;http://nightly.mozilla.org/&quot;&gt;Nightly&lt;/a&gt;. Nightly updates everyday but gives a sneak peak into all the latest features. Nightly have another advantage over Firefox, its x64 edition. This requires using a x64 edition of Flash which is finally &lt;a href=&quot;http://get.adobe.com/flashplayer/otherversions/&quot;&gt;available from Adobe&lt;/a&gt;. It’s also causes giving up on Silverlight (sadly doesn’t have a x64 edition).&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-FirefoxAuroraNightlyLogo.jpg&quot; /&gt;
+Mozilla really made it easy to follow up on the different editions of Firefox when they announced &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/channel/&quot;&gt;Aurora&lt;/a&gt; and &lt;a href=&quot;http://nightly.mozilla.org/&quot;&gt;Nightly&lt;/a&gt;. Nightly updates everyday but gives a sneak peak into all the latest features. Nightly have another advantage over Firefox, its x64 edition. This requires using a x64 edition of Flash which is finally &lt;a href=&quot;http://get.adobe.com/flashplayer/otherversions/&quot;&gt;available from Adobe&lt;/a&gt;. It’s also causes giving up on Silverlight (sadly doesn’t have a x64 edition).  &lt;/p&gt;
 
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pn24uZbGX2UtGgLD3ETHGCob6ib2Lc7VaRKlKRjdEs-Y1q4v-ZtszZrR_HUZibau6Cgu895jA0jU/WhatIUse2-Chrome.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pqdwNv2Y5Mjg6M7AIYSXus_T4onjw-ZYXbSjAxpxSiDX4E_qWTOJ8Rw28CdrWuUkhBx0ABjOJ4gM/WhatIUse2-IE9.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;a href=&quot;http://www.google.com/chrome&quot;&gt;&lt;strong&gt;Chrome&lt;/strong&gt;&lt;/a&gt;** and **&lt;a href=&quot;http://windows.microsoft.com/en-us/internet-explorer/products/ie/home&quot;&gt;&lt;strong&gt;IE9&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Other than Firefox, I’d like to keep other browsers installed for testing web applications on multiple browsers. Chrome is a really good browser that I would probably use if it wasn’t for Firefox and the fact that it’s built by Google. The monster is big enough and doesn’t need more reach into our personal data.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-IE9.jpg&quot; /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-Chrome.jpg&quot; /&gt;
+Other than Firefox, I’d like to keep other browsers installed for testing web applications on multiple browsers. Chrome is a really good browser that I would probably use if it wasn’t for Firefox and the fact that it’s built by Google. The monster is big enough and doesn’t need more reach into our personal data.&lt;/p&gt;
 
 &lt;p&gt;Internet Explorer is already installed with Windows, but with IE9 you don’t have to hate it so much. It’s fast but have very few features compared to Firefox and Chrome.&lt;/p&gt;
 
 &lt;h3 id=&quot;documents&quot;&gt;Documents&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pD1rxopIS6Hzotq2Jn8GhUHOyTqWYLwg_YAgQOM0R6aQxfZiyRuy9EX-GPn5Xo2CAFPkNBigMKFY/WhatIUse2-Office2010.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;a href=&quot;http://office.microsoft.com/en-us/products/&quot;&gt;&lt;strong&gt;Office 2010&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-Office2010.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Office with Windows is a no-brainer. Unlike most people, I really like the ribbon. Over versions 2007 and 2010, I discovered a lot of features because of the ribbon. Word and Excel are the applications that I use the most, but I really like Visio which is a great tool for visualizing ideas.&lt;/p&gt;
 
@@ -1021,116 +1024,121 @@ Please see “get-help about_signing” for more details.&lt;/p&gt;
 
 &lt;p&gt;As a developer, I don’t really create any icons but sometimes, I need to modify an icon. IcoFx works really well. Version 2.0 is now only a shareware but version 1.6 is a freeware. You can &lt;a href=&quot;http://www.filehippo.com/download_icofx/6890/&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;visual-studio-2010-extensionshttpssn2filesstoragelivecomy1p3ubrjeiln2qzruxjluchwpatqqpx7vigzvf2r-g07ruwtswa9uds5d36tjjxnsprp1j0xfmynqwhatiuse2-visualstudio2010pngpsid1&quot;&gt;Visual Studio 2010 Extensions&lt;img src=&quot;https://sn2files.storage.live.com/y1p3ubrjeIlN2qzruXjLuCHWpaTQqpx7viGZVF2R-G07ruWtsWA9UdS5D36T_jjXNspRP1J0xfMyNQ/WhatIUse2-VisualStudio2010.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;visual-studio-2010-extensions&quot;&gt;Visual Studio 2010 Extensions&lt;/h3&gt;
 
-&lt;p&gt;I thought it would be fitting to list the VS 2010 extensions that I use. It’s really easy to figure out their use from the title.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-VisualStudio2010.jpg&quot; /&gt;
+I thought it would be fitting to list the VS 2010 extensions that I use. It’s really easy to figure out their use from the title.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;[Highlight all occurrences of selected word](http://visualstudiogallery.msdn.microsoft.com/4b92b6ad-f563-4705-8f7b-7f85ba3cc6bb/)&lt;/div&gt;
-    &lt;li&gt; &lt;div align=&quot;justify&quot;&gt;[Indent Guides](http://visualstudiogallery.msdn.microsoft.com/e792686d-542b-474a-8c55-630980e72c30)&lt;/div&gt; &lt;li&gt; &lt;div align=&quot;justify&quot;&gt;[PowerCommands for Visual Studio 2010](http://visualstudiogallery.msdn.microsoft.com/e5f41ad9-4edc-4912-bca3-91147db95b99/)&lt;/div&gt; &lt;li&gt; &lt;div align=&quot;justify&quot;&gt;[Productivity Power Tools](http://visualstudiogallery.msdn.microsoft.com/d0d33361-18e2-46c0-8ff2-4adea1e34fef/)&lt;/div&gt; &lt;li&gt; &lt;div align=&quot;justify&quot;&gt;[Reference Assistant](http://visualstudiogallery.msdn.microsoft.com/fc504cc6-5808-4da8-ae86-8d3f9ed81606)&lt;/div&gt; &lt;li&gt; &lt;div align=&quot;justify&quot;&gt;[Spell Checker](http://visualstudiogallery.msdn.microsoft.com/7c8341f1-ebac-40c8-92c2-476db8d523ce)&lt;/div&gt; &lt;li&gt;
-&lt;div align=&quot;justify&quot;&gt;[VS10x Code Map](http://visualstudiogallery.msdn.microsoft.com/1c54d1bd-d898-4705-903f-fa4a319b50f2?SRC=Home)&lt;/div&gt;
-
-### Cloud File Storage
-
-With all the different offerings of file storage in the cloud, if difficult to pick just one. Almost all of them are free (at least have a free starting package that is enough for the occasional use). Here’s how I use different tools for different purpose.
-
-[**![](https://sn2files.storage.live.com/y1po4KL62pzWL3K6YYsRQ4hVW_k6Q0IMF4HcC5QpgMRi4lALqjhaRiLRG0-HhDQCbxX0tKdHg3vqsM/WhatIUse2-Dropbox.png?psid=1)Dropbox**](https://www.dropbox.com/)
-
-If you’re using a file that needs to be synced across different devices, then Dropbox is your best choice. It’s easy, fast and you’re dealing with a local file so it’s easy to forget that you’re actually syncing a file. Dropbox is great for sharing files with friends, because most people have it. Refer a friend to Dropbox or take advantage or their offers to increase space, I’ve increased mine to 4.5 GB (They have up to 10GB of free space).
-
-The downside of Dropbox is privacy. Their use of duplication technology to store one copy of a file across all users means that they’re reading every file you upload.
-
-[**Live Mesh and SkyDrive**](http://explore.live.com/windows-live-essentials?os=other)
-
-![](https://sn2files.storage.live.com/y1pRF_pCNhk8ZsZ2NJyxhiKD3aeSvhLUj-xIvfQvORXWbdat1LzweuaNcKSulwKr4Lc6pDpusVE5CI/WhatIUse2-SkyDrive.png?psid=1)For a Windows Phone user, SkyDrive is an essential part of the service. Photos are uploaded automatically and Office documents as well. SkyDrive is great in terms of size. Can’t go wrong with 25GB of free space. Live Mesh on the other hand is more of remote access tool rather than a file sync tool. It’s only available on Windows, so it can’t sync with a lot of devices. However, SkyDrive and Live Mesh are making great advances, and I expect that I’ll be using more of them compared to Dropbox.
-
-[**Tonido**](http://www.tonido.com/)
-
-![](https://sn2files.storage.live.com/y1pD1rxopIS6HxvECfuwq2i5AB0HaikLpEQEHOZP3BFbqppbkM9WiuATQgRldbxuEtTVno5iezPGaU/WhatIUse2-Tonido.png?psid=1)If you worry about your privacy in anyway, you’ll love Tonido. It lets you set up your own server offering your files for access over the Internet. The way it works is you install a small piece of software on your home machine (for example), register a sub-domain with Tonido for free, then the folders on the home machine are now available for access from any of Tonido’s clients including Web and all major smart phones (iPhone, Android, and WP7). It’s free and super easy to use. The downside is that access to your files depend on your Internet upload speed which is usually much lower than your download speed. However, Tonido acts as fall-back solution to Dropbox and SkyDrive, whatever file is not available on either service can be accessed via Tonido. Also, it’s great for accessing files through the phone when within the house WiFi range. If it detects that you’re within the same LAN as the server, it won’t go through the Internet but rather through the LAN directly which is much faster. The upside of Tonido is you can access all of your files all the time for free from anywhere.
-
-### Social Media and Communication
-
-[**MetroTwit**](http://www.metrotwit.com/)
-
-I was never a fan of TweetDeck, and MetroTwit came along to offer a strong replacement. I was an early adopter to support a .NET/WPF project that seemed to have potential. But later it turned into a strong contender for best Twitter client on Windows. It’s really beautiful, based on the new Metro UI that is the cornerstone of WP7. It has almost all of the features that make for a great Twitter experience. However, if you’re a heavy Twitter user like I’m, you’ll start to run into the sluggishness that MetroTwit starts to have when dealing with really big numbers of tweets. The Plugin Container that hosts the displayed media (when playing a YouTube video or viewing a photo in-place) crashes often. This doesn’t affect the application itself, but it’s one of the areas that need work for the application to come out of beta. After all, it’s still the best Twitter client I’ve used.
-
-[**Trillian**](http://www.trillian.im/)
-
-For a very long time, I’ve used Google Talk (which has become very very boring after not receiving any updates for the last 4 years at least) and Windows Live Messenger (good example of the unnecessarily&amp;nbsp; bloated software from Microsoft) everyday. Now Trillian comes along to replace both with slick interface, attractive features, and great degree of control and customization that please a power user like me.
-
-[**Skype**](http://www.skype.com/intl/en-us/home)
-
-Skype is like Twitter, you hate the software but love the service and can’t really replace it.
-
-### File Management
-
-[**CubicExplorer**](http://www.cubicreality.com/)
-
-There are number of alternatives for Windows Explorer out there. Most of them are built for the super geek power user, but CubicExplorer actually works for the regular power user who wants to have bookmarks, restore session, and multi tabs. It’s free and open source, have nice themes and other web-browser-like functionality. Downside is that it’s built by one person and sometimes it can go for months without updates (which could be fine, there isn’t a lot of updates needed in the file browser world).
-
-[**TeraCopy**](http://www.codesector.com/teracopy.php)
-
-Throw away this awful Windows copier and replace it with TeraCopy. It supports pause and resume, listing handled files, and it completely replace Windows copier.
-
-[**Daemon Lite**](http://www.daemon-tools.cc/eng/products/dtLite)
-
-Until Windows 8 comes along with native support for mounting ISO files, Daemon Lite is my tool of choice. Using ISO files has become much more common than it use to be, and it has become a natural replacement for using CDs/DVDs. I haven’t used my DVD in a long time, and I have gone for few months without it when I ran out of ports. ISOs are much more convenient, and the proliferation of 8 and 16GBs USB sticks has made it more convenient. Even when installing Windows, I can use a USB stick with a [simple utility](http://download.cnet.com/Windows-7-USB-DVD-Download-Tool/3000-18513_4-10972600.html).
-
-[**InfraRecorder**](http://infrarecorder.org/)
-
-This utility is built originally to burn CDs/DVDs but I use it exclusively to create ISOs. Free and works great.
-
-**[Calibre](http://calibre-ebook.com/)**
-
-Calibre is not really for managing files but digital books are a form of books. For a Kindle user like me who uses Kindle for more than reading books (reading articles, and blog posts), Calibre really helps keep my library in order. It can download and edit books metadata, can manage books on the Kindle, and can grab RSS items and turn them into e-books and place them automatically on your Kindle (or any other e-book reader). Try it.
-
-### Media
-
-**[VLC](http://www.videolan.org/vlc/)**
-
-![](https://sn2files.storage.live.com/y1pDxTQn3H6UfJ-q0Jab69ZyP-NJEiGri2U1b4oKn4xiGeH5JEe0Ny2q_7Pr3RUs7bNYEgcRX9K8mk/WhatIUse2-VLC.jpg?psid=1)![](https://sn2files.storage.live.com/y1pMKcdQnXM1QN2f5sRm71_8kGvSVoKQXsoMKm7Nw-BTRgUEkZG6Ftbc8u1bEiylTI_cfgpIK_g5Yc/WhatIUse2-Zune.jpg?psid=1)To play any video, use VLC. It’s that simple. Video are not like music where other features of the application would matter. For videos there’s only one feature that matter, Can I play it? with VLC the answer is always “Yes”.
-
-**[Zune](http://www.zune.net/en-US/products/software/download/default.htm)**
-
-I’ve tried so many music player software but the Zune desktop player have great library features (for podcasts as well, not just music) and it has excellent UI design that makes it a lot of fun.
-
-**[Freemake (Audio Converter, Video Downloader, and Video Converter)](http://www.freemake.com/)**
-
-While Widows Live Movie Maker and iMovie can edit movies, they can’t help with the step before that; getting some material to use in your video. You can download a YouTube video with Freemake, extract the audio track off of it, convert it to any format and then use it in your video. All free, all works really well.
-
-### Utilities
-
-[**Windows 7 USB/DVD Download Tool**](http://download.cnet.com/Windows-7-USB-DVD-Download-Tool/3000-18513_4-10972600.html)
-
-Copy a Windows DVD/ISO to a USB thumb drive and install Windows from it using this utility.
-
-[**FileHippo**](http://www.filehippo.com/)
-
-Not only a great source for applications but also its “Update Checker” can keep most of your applications up to date. Try using Scheduled Task to check for updates once a week instead of check on system startup.
-
-[**CCleaner, Speecy and Defraggler**](http://www.piriform.com/)
-
-All great utilities from Piriform. You can clean up caches and temp files using CCleaner. Watch out before you clean up something you might consider important like Browser History.
-
-Speecy gives you a detailed report on your machine and hardware.
-
-Defraggler is a really good replacement for Win Defrag.
-
-[**SyncToy**](http://www.microsoft.com/download/en/details.aspx?id=15155)
-
-Very simple tool from Microsoft to keep two folders (or drives) in sync. You can [use Task Scheduler to run it at specific times](http://www.howtogeek.com/howto/25046/schedule-synctoy-to-run-automatically-with-task-scheduler-in-windows-7/).
-
-[**Logon Screen**](http://www.danielnetsoftware.com/en-US/)
-
-I use my computer for very long hours and this simple (and nicely built) utility introduces a little change that makes it a little less boring. Here’s a [nice background](http://blog.seanmartell.com/2011/04/21/nightly-and-aurora-space-quest-goodies/) to use on your lock screen for all Firefox fans.
-
-**[NetWorx](http://www.softperfect.com/products/networx/)**
-
-Small utility to keep an eye on how much bandwidth you’re using.
-&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/4b92b6ad-f563-4705-8f7b-7f85ba3cc6bb/&quot;&gt;Highlight all occurrences of selected word&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/e792686d-542b-474a-8c55-630980e72c30&quot;&gt;Indent Guides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/e5f41ad9-4edc-4912-bca3-91147db95b99/&quot;&gt;PowerCommands for Visual Studio 2010&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/d0d33361-18e2-46c0-8ff2-4adea1e34fef/&quot;&gt;Productivity Power Tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/fc504cc6-5808-4da8-ae86-8d3f9ed81606&quot;&gt;Reference Assistant&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/7c8341f1-ebac-40c8-92c2-476db8d523ce&quot;&gt;Spell Checker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://visualstudiogallery.msdn.microsoft.com/1c54d1bd-d898-4705-903f-fa4a319b50f2?SRC=Home&quot;&gt;VS10x Code Map&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&quot;cloud-file-storage&quot;&gt;Cloud File Storage&lt;/h3&gt;
+
+&lt;p&gt;With all the different offerings of file storage in the cloud, if difficult to pick just one. Almost all of them are free (at least have a free starting package that is enough for the occasional use). Here’s how I use different tools for different purpose.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-Dropbox.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re using a file that needs to be synced across different devices, then Dropbox is your best choice. It’s easy, fast and you’re dealing with a local file so it’s easy to forget that you’re actually syncing a file. Dropbox is great for sharing files with friends, because most people have it. Refer a friend to Dropbox or take advantage or their offers to increase space, I’ve increased mine to 4.5 GB (They have up to 10GB of free space).&lt;/p&gt;
+
+&lt;p&gt;The downside of Dropbox is privacy. Their use of duplication technology to store one copy of a file across all users means that they’re reading every file you upload.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://explore.live.com/windows-live-essentials?os=other&quot;&gt;&lt;strong&gt;Live Mesh and SkyDrive&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-SkyDrive.png&quot; /&gt;
+For a Windows Phone user, SkyDrive is an essential part of the service. Photos are uploaded automatically and Office documents as well. SkyDrive is great in terms of size. Can’t go wrong with 25GB of free space. Live Mesh on the other hand is more of remote access tool rather than a file sync tool. It’s only available on Windows, so it can’t sync with a lot of devices. However, SkyDrive and Live Mesh are making great advances, and I expect that I’ll be using more of them compared to Dropbox.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.tonido.com/&quot;&gt;&lt;strong&gt;Tonido&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-Tonido.png&quot; /&gt;
+If you worry about your privacy in anyway, you’ll love Tonido. It lets you set up your own server offering your files for access over the Internet. The way it works is you install a small piece of software on your home machine (for example), register a sub-domain with Tonido for free, then the folders on the home machine are now available for access from any of Tonido’s clients including Web and all major smart phones (iPhone, Android, and WP7). It’s free and super easy to use. The downside is that access to your files depend on your Internet upload speed which is usually much lower than your download speed. However, Tonido acts as fall-back solution to Dropbox and SkyDrive, whatever file is not available on either service can be accessed via Tonido. Also, it’s great for accessing files through the phone when within the house WiFi range. If it detects that you’re within the same LAN as the server, it won’t go through the Internet but rather through the LAN directly which is much faster. The upside of Tonido is you can access all of your files all the time for free from anywhere.&lt;/p&gt;
+
+&lt;h3 id=&quot;social-media-and-communication&quot;&gt;Social Media and Communication&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.metrotwit.com/&quot;&gt;&lt;strong&gt;MetroTwit&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was never a fan of TweetDeck, and MetroTwit came along to offer a strong replacement. I was an early adopter to support a .NET/WPF project that seemed to have potential. But later it turned into a strong contender for best Twitter client on Windows. It’s really beautiful, based on the new Metro UI that is the cornerstone of WP7. It has almost all of the features that make for a great Twitter experience. However, if you’re a heavy Twitter user like I’m, you’ll start to run into the sluggishness that MetroTwit starts to have when dealing with really big numbers of tweets. The Plugin Container that hosts the displayed media (when playing a YouTube video or viewing a photo in-place) crashes often. This doesn’t affect the application itself, but it’s one of the areas that need work for the application to come out of beta. After all, it’s still the best Twitter client I’ve used.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.trillian.im/&quot;&gt;&lt;strong&gt;Trillian&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For a very long time, I’ve used Google Talk (which has become very very boring after not receiving any updates for the last 4 years at least) and Windows Live Messenger (good example of the unnecessarily  bloated software from Microsoft) everyday. Now Trillian comes along to replace both with slick interface, attractive features, and great degree of control and customization that please a power user like me.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.skype.com/intl/en-us/home&quot;&gt;&lt;strong&gt;Skype&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Skype is like Twitter, you hate the software but love the service and can’t really replace it.&lt;/p&gt;
+
+&lt;h3 id=&quot;file-management&quot;&gt;File Management&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cubicreality.com/&quot;&gt;&lt;strong&gt;CubicExplorer&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are number of alternatives for Windows Explorer out there. Most of them are built for the super geek power user, but CubicExplorer actually works for the regular power user who wants to have bookmarks, restore session, and multi tabs. It’s free and open source, have nice themes and other web-browser-like functionality. Downside is that it’s built by one person and sometimes it can go for months without updates (which could be fine, there isn’t a lot of updates needed in the file browser world).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.codesector.com/teracopy.php&quot;&gt;&lt;strong&gt;TeraCopy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Throw away this awful Windows copier and replace it with TeraCopy. It supports pause and resume, listing handled files, and it completely replace Windows copier.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.daemon-tools.cc/eng/products/dtLite&quot;&gt;&lt;strong&gt;Daemon Lite&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Until Windows 8 comes along with native support for mounting ISO files, Daemon Lite is my tool of choice. Using ISO files has become much more common than it use to be, and it has become a natural replacement for using CDs/DVDs. I haven’t used my DVD in a long time, and I have gone for few months without it when I ran out of ports. ISOs are much more convenient, and the proliferation of 8 and 16GBs USB sticks has made it more convenient. Even when installing Windows, I can use a USB stick with a &lt;a href=&quot;http://download.cnet.com/Windows-7-USB-DVD-Download-Tool/3000-18513_4-10972600.html&quot;&gt;simple utility&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://infrarecorder.org/&quot;&gt;&lt;strong&gt;InfraRecorder&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This utility is built originally to burn CDs/DVDs but I use it exclusively to create ISOs. Free and works great.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://calibre-ebook.com/&quot;&gt;Calibre&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Calibre is not really for managing files but digital books are a form of books. For a Kindle user like me who uses Kindle for more than reading books (reading articles, and blog posts), Calibre really helps keep my library in order. It can download and edit books metadata, can manage books on the Kindle, and can grab RSS items and turn them into e-books and place them automatically on your Kindle (or any other e-book reader). Try it.&lt;/p&gt;
+
+&lt;h3 id=&quot;media&quot;&gt;Media&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.videolan.org/vlc/&quot;&gt;VLC&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part2/WhatIUse2-VLC.jpg&quot; /&gt;
+To play any video, use VLC. It’s that simple. Video are not like music where other features of the application would matter. For videos there’s only one feature that matter, Can I play it? with VLC the answer is always “Yes”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.zune.net/en-US/products/software/download/default.htm&quot;&gt;Zune&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve tried so many music player software but the Zune desktop player have great library features (for podcasts as well, not just music) and it has excellent UI design that makes it a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.freemake.com/&quot;&gt;Freemake (Audio Converter, Video Downloader, and Video Converter)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While Widows Live Movie Maker and iMovie can edit movies, they can’t help with the step before that; getting some material to use in your video. You can download a YouTube video with Freemake, extract the audio track off of it, convert it to any format and then use it in your video. All free, all works really well.&lt;/p&gt;
+
+&lt;h3 id=&quot;utilities&quot;&gt;Utilities&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://download.cnet.com/Windows-7-USB-DVD-Download-Tool/3000-18513_4-10972600.html&quot;&gt;&lt;strong&gt;Windows 7 USB/DVD Download Tool&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy a Windows DVD/ISO to a USB thumb drive and install Windows from it using this utility.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.filehippo.com/&quot;&gt;&lt;strong&gt;FileHippo&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only a great source for applications but also its “Update Checker” can keep most of your applications up to date. Try using Scheduled Task to check for updates once a week instead of check on system startup.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.piriform.com/&quot;&gt;&lt;strong&gt;CCleaner, Speecy and Defraggler&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All great utilities from Piriform. You can clean up caches and temp files using CCleaner. Watch out before you clean up something you might consider important like Browser History.&lt;/p&gt;
+
+&lt;p&gt;Speecy gives you a detailed report on your machine and hardware.&lt;/p&gt;
+
+&lt;p&gt;Defraggler is a really good replacement for Win Defrag.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/download/en/details.aspx?id=15155&quot;&gt;&lt;strong&gt;SyncToy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Very simple tool from Microsoft to keep two folders (or drives) in sync. You can &lt;a href=&quot;http://www.howtogeek.com/howto/25046/schedule-synctoy-to-run-automatically-with-task-scheduler-in-windows-7/&quot;&gt;use Task Scheduler to run it at specific times&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.danielnetsoftware.com/en-US/&quot;&gt;&lt;strong&gt;Logon Screen&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I use my computer for very long hours and this simple (and nicely built) utility introduces a little change that makes it a little less boring. Here’s a &lt;a href=&quot;http://blog.seanmartell.com/2011/04/21/nightly-and-aurora-space-quest-goodies/&quot;&gt;nice background&lt;/a&gt; to use on your lock screen for all Firefox fans.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.softperfect.com/products/networx/&quot;&gt;NetWorx&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Small utility to keep an eye on how much bandwidth you’re using.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1145,23 +1153,30 @@ Small utility to keep an eye on how much bandwidth you’re using.
 
 &lt;h3 id=&quot;hardware&quot;&gt;Hardware&lt;/h3&gt;
 
-&lt;p&gt;I prefer desktops to laptops. For me, if you’re not using the portability of a laptop, then you’re just wasting money on an expensive piece of hardware that you can’t upgrade and risk void its warranty just by trying to open it up. While desktops are huge compared to laptops and need their own desk, they’re cheaper, easily upgradable, and can’t be left on the bus. Also, desktops are very durable. I’m in my fourth year with this machine and it’s still working very well. Yes, it has received multiple upgrades but from the outside it all looks the same.&lt;img src=&quot;https://sn2files.storage.live.com/y1p53edpAsTQfO6A5sqPD3jQe88GVowM0xGewe9P9q75Uai2NlH7GAeCAysilWrv5dsA089ip9WnQI/MasterCooler03.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I prefer desktops to laptops. For me, if you’re not using the portability of a laptop, then you’re just wasting money on an expensive piece of hardware that you can’t upgrade and risk void its warranty just by trying to open it up. While desktops are huge compared to laptops and need their own desk, they’re cheaper, easily upgradable, and can’t be left on the bus. Also, desktops are very durable. I’m in my fourth year with this machine and it’s still working very well. Yes, it has received multiple upgrades but from the outside it all looks the same.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Case&lt;/strong&gt;: I use a &lt;a href=&quot;http://www.coolermaster-usa.com/product.php?category_id=18&amp;amp;product_id=2700&quot;&gt;Cooler Master 1000&lt;/a&gt; box for my own machine. Standing in the store picking this box is a bit difficult because you don’t really realize the benefit of getting such a big box with an expensive price tag, but let me tell you, it’s worth every penny. It’s not just how quite and cool it is, and not just that it had fit all my upgrades, but it’s the little things too. I can easily tear it down, clean it up and put it back together in 2 hours, something that I like to do once every 6 months.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Case&lt;/strong&gt;&lt;br /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part1/MasterCooler03.jpg&quot; /&gt;
+I use a &lt;a href=&quot;http://www.coolermaster-usa.com/product.php?category_id=18&amp;amp;product_id=2700&quot;&gt;Cooler Master 1000&lt;/a&gt; box for my own machine. Standing in the store picking this box is a bit difficult because you don’t really realize the benefit of getting such a big box with an expensive price tag, but let me tell you, it’s worth every penny. It’s not just how quite and cool it is, and not just that it had fit all my upgrades, but it’s the little things too. I can easily tear it down, clean it up and put it back together in 2 hours, something that I like to do once every 6 months.&lt;/p&gt;
 
 &lt;p&gt;The Cooler Master comes with screwless doors and hard drive bays, removable air filters, and two long metal handles for carrying it around, not that you have to, it’s a 38 lbs box, so you might want to avoid carrying it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1p53edpAsTQfPyaCCZw7UeisApWSHtQSaq1WDWqjAVS3mmeww6qp7JnXynyPMCrcbkpvx7YXc_8Fs/MasterCooler01.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part1/MasterCooler01.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Processor&lt;/strong&gt;: While I love AMD, and think that it’s very competitive with Intel. I got a very good deal on my &lt;a href=&quot;http://ark.intel.com/products/33922/Intel-Core2-Quad-Processor-Q9300-%286M-Cache-2_50-GHz-1333-MHz-FSB%29&quot;&gt;Intel Core 2 Quad Q9300&lt;/a&gt; (overclocked to 3.0 GHz) which was almost the latest when I got it. My strategy when getting hardware is to get the latest item when it comes to components that are long term like processors. You’re not gonna change your processor every year or two, it’s something that should live for 4 to 5 years on a day to day machine and then be moved to a secondary machine for the next 5 years. So, you get the latest product within your price range and 3 years later it’s still as powerful as the new line of products.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;br /&gt;
+While I love AMD, and think that it’s very competitive with Intel. I got a very good deal on my &lt;a href=&quot;http://ark.intel.com/products/33922/Intel-Core2-Quad-Processor-Q9300-%286M-Cache-2_50-GHz-1333-MHz-FSB%29&quot;&gt;Intel Core 2 Quad Q9300&lt;/a&gt; (overclocked to 3.0 GHz) which was almost the latest when I got it. My strategy when getting hardware is to get the latest item when it comes to components that are long term like processors. You’re not gonna change your processor every year or two, it’s something that should live for 4 to 5 years on a day to day machine and then be moved to a secondary machine for the next 5 years. So, you get the latest product within your price range and 3 years later it’s still as powerful as the new line of products.&lt;/p&gt;
 
 &lt;p&gt;The Core 2 Quad is setting on top an ASUS Maximus RoG (Republic of Gaming) motherboard. It has excellent overclocking capabilities and great bios software, with great audio card, and plenty of all forms of ports (USB, and external SATA).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Memory&lt;/strong&gt;: I’ve started with 2 x 2GB of Corsair DDR3 RAM overclocked to 1600 MHz, I’ve followed with another 2 x 2GB to take full advantage of all slots and offer enough RAM for hosted VMs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;br /&gt;
+I’ve started with 2 x 2GB of Corsair DDR3 RAM overclocked to 1600 MHz, I’ve followed with another 2 x 2GB to take full advantage of all slots and offer enough RAM for hosted VMs.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Graphics Card&lt;/strong&gt;: I can’t really brag too much about the Graphics card, an ATI Radeon HD 3800, because by the time you pick a graphics card and the time you reach the store to buy it, there’s already a graphics card that has been released that makes yours seems old. What I can do is say that this ATI Radeon card has worked and is still working great for me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Graphics Card&lt;/strong&gt;&lt;br /&gt;
+I can’t really brag too much about the Graphics card, an ATI Radeon HD 3800, because by the time you pick a graphics card and the time you reach the store to buy it, there’s already a graphics card that has been released that makes yours seems old. What I can do is say that this ATI Radeon card has worked and is still working great for me.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pk78s3z0Ys9V4G1CeiP_f6JD5kl8qu_E5jKMph27ZyY3E1ugwRO1qEqvh_2lfuTgtDezqMWlsmYY/KingstonSSD02.jpg?psid=1&quot; alt=&quot;&quot; /&gt;Hard Drive&lt;/strong&gt;: The only thing I don’t have from the original computer that I assembled more than 3 years ago is the hard drives. All gone and replaced with new ones. Data grows at an unreasonable rate and the falling prices of hard drives tempt you into following the rule of “Don’t Delete Anything”.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hard Drive&lt;/strong&gt;&lt;br /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part1/KingstonSSD02.jpg&quot; /&gt;
+The only thing I don’t have from the original computer that I assembled more than 3 years ago is the hard drives. All gone and replaced with new ones. Data grows at an unreasonable rate and the falling prices of hard drives tempt you into following the rule of “Don’t Delete Anything”.&lt;/p&gt;
 
 &lt;p&gt;My main backup strategy was to use RAID. If I’m gonna need a hard drive to store a copy of my data as a backup, then I would just get two of the same hard drive, make them a mirror of each other and in the process get a faster reading speed. This plan worked great to protect against hard drive failure which actually happened when one drive failed and was replaced with all data not affected. One flaw with this plan though, when I accidently chose the wrong drive when installing a new Windows, I wiped out not only the hard drive but also its mirror. In the span of the 7 seconds it took me to realize the stupid mistake that I’ve made, I had lost the partition table on both drives, and basically the map to all my data. I was able to recover my data sector by sector in a very long and painful process but the marks are still on the wall from where I banged my head as a punishment. Now, I’ve removed the RAID and just use &lt;a href=&quot;http://www.microsoft.com/download/en/details.aspx?id=15155&quot;&gt;SyncToy&lt;/a&gt; to sync between the two mirrors once a day to protect from hard drive failure and accidental stupidity.&lt;/p&gt;
 
@@ -1169,19 +1184,22 @@ Small utility to keep an eye on how much bandwidth you’re using.
 
 &lt;p&gt;I use a solid state drive only for the OS since they’re very expensive. However, the effect they have on boot time and startup time of applications is obvious to the naked eye. I’m still not comfortable moving to SSDs for storing data. The idea of hard drives failing without any warning signs is worrying. I’m too accustomed to physical hard drives to move to SSDs. Of course all these worries will disappear when SSDs are affordable because the difference in performance is just that obvious.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1psu56S5n2wmGNhiwYSF_BN4hVNduT2AqS_Nh5z92NL0B7UH2qZ1fmC5NOi-pQKtS9vZEKoKxGn5I/DellMonitor02.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1p3jPFOiI42fq8o1PxtX_nf1mi9TTjfoNQ0JPIpM1cLQ-p1iM_pnkrWaSiODBxhfYJOIt47JoDuTk/DellMonitor01.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1p3Bcpd2c7As5YQ6-1U7SmTXtYMXgThbLErrx5c3wc446xYNmVflDkghRBg0h0677JMp57-Pb8fsU/DellMonitor03.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part1/DellMonitor01.jpg&quot; /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part1/DellMonitor02.jpg&quot; /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part1/DellMonitor03.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Monitors&lt;/strong&gt;: one thing that laptops can’t beat for sure is multiple monitors and monitor size. I use two Dell WFP wide screen series monitors. One is 24” and the other 22”. I was surprised to know that Dell makes the best monitors but it’s true. However, I have to say that the 24” is much better than the 22”. I don’t mean in terms of size but rather color. For some reason, the white (the most obvious example) is not quite the same on the two screens. Maybe it’s the settings but I think it’s a slight difference in the model. Advice: if you want to get two or more monitors, try to get the same monitor, even if it’s not the best quality, but the consistency between the different monitors is worth it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monitors&lt;/strong&gt;&lt;br /&gt;
+One thing that laptops can’t beat for sure is multiple monitors and monitor size. I use two Dell WFP wide screen series monitors. One is 24” and the other 22”. I was surprised to know that Dell makes the best monitors but it’s true. However, I have to say that the 24” is much better than the 22”. I don’t mean in terms of size but rather color. For some reason, the white (the most obvious example) is not quite the same on the two screens. Maybe it’s the settings but I think it’s a slight difference in the model. Advice: if you want to get two or more monitors, try to get the same monitor, even if it’s not the best quality, but the consistency between the different monitors is worth it.&lt;/p&gt;
 
 &lt;p&gt;One thing I really like about these Dell monitors is the adjustable handles. You can change height, rotation, tilt without moving the base. One thing I hate about these monitors is that they make me hate my work monitor. Getting used to using two monitors with certain setup and quality makes other monitors seem awful.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pAOXykw7UY1B91pWOXhYEDc5KpewOhk69FFW04kgX4tKu25i5efItBdVzlRpHhBSPCHfP4zQ9scU/LogitechPerformanceMouseMX01.jpg?psid=1&quot; alt=&quot;&quot; /&gt;Mouse and Keyboard&lt;/strong&gt;: Logitech is your best friend here. Microsoft makes a noble effort and always comes out with new good products, but I’m super picky about the mouse and keyboard. I need to not looking at them at all and I need to do shortcut as much stuff as possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mouse and Keyboard&lt;/strong&gt;&lt;br /&gt;
+&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/WhatIUse2011Part1/LogitechPerformanceMouseMX01.jpg&quot; /&gt;
+Logitech is your best friend here. Microsoft makes a noble effort and always comes out with new good products, but I’m super picky about the mouse and keyboard. I need to not looking at them at all and I need to do shortcut as much stuff as possible.&lt;/p&gt;
 
 &lt;p&gt;I use a &lt;a href=&quot;http://www.logitech.com/en-us/mice-pointers/mice/devices/5845&quot;&gt;Logitech Performance Mouse MX&lt;/a&gt; with (an impressive) 10 buttons. Only 9 of them are programmable with 1 button physical button for fast scrolling. However, it works great for browsing, you don’t need a keyboard for going back and forward. It also works great as a remote control for media player with volume control (up, down and mute) and Play/Pause control. You’ll have to use Logitech software to program these buttons because this is not the default setting. I’ve tried so many settings until I settled on this one and you can come up with your own of course.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pnYJWJqxY51L6e7ltBEz66471dJke61FtJTpTATp_UshREgs-UQ7B2n61ziDkQP6rHCnKZQc_PEk/LogitechWave01.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/WhatIUse2011Part1/LogitechWave01.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Logitech completes the comfort to my fingers with &lt;a href=&quot;http://www.logitech.com/en-us/keyboards/keyboard/devices/5994&quot;&gt;Logitech Wave&lt;/a&gt;. While it’s not cordless, I love the rubber pad below the keyboard where I could rest my hands. I takes a while to get used to the Home/End/Delete buttons of this keyboard and sometimes confuses you when you switch to another keyboard with two rows of 6 buttons but you’ll get used to it.&lt;/p&gt;
 
@@ -1189,11 +1207,13 @@ Small utility to keep an eye on how much bandwidth you’re using.
 
 &lt;p&gt;Recently, I’ve switched to &lt;a href=&quot;http://www.microsoft.com/hardware/en-us/p/wireless-comfort-desktop-5000/CSD-00001&quot;&gt;Microsoft Comfort Desktop 5000&lt;/a&gt; which have a very nice wireless keyboard that is much quitter than the Logitech, but I’m not too crazy about the mouse. Still, nothing beats a 10-buttons mouse.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://sn2files.storage.live.com/y1pwRqOX1iz8OueyNZpSEv3XGUnoSVzNRH0oOUk5bTqld4Ur6o7RUq9GH7S50rjhrcukQiyhgMRjFE/MicrosoftComfortDesktop01.jpg?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/WhatIUse2011Part1/MicrosoftComfortDesktop01.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have another PC that I use as a file server and to store my backups. AMD is the perfect balance between getting stuff done and doing it on the cheap.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Phone:&lt;/strong&gt; some people think it’s tough being a Windows Phone guy. You’re surrounded by a lot of iPhone, Android and Blackberry fan &lt;img src=&quot;https://sn2files.storage.live.com/y1pZ7txuGFlgFG4CnKs68kGJfZqvkGSULjYlvXwr-yND3eQvkTJklC1Mc0Bbr3B7xg2X_lax2NIgoo/SamsungFocus01.jpg?psid=1&quot; alt=&quot;&quot; /&gt;boys who can’t stop telling you how great their phones are. For me, even though I’m surrounded by those people (the only people I know who have a Windows Phone are on Twitter). However, it’s really easy having a Windows Phone. It plays really well with all the Microsoft services that I use. But more importantly, I think that Microsoft struck a nice balance between iPhone and Android. WP7 (Windows Phone 7) is easy to use and fast like an iPhone and is open and easy to develop to like Android. Before you hate me for comparing WP7 to your favorite mobile platform, I’m just saying that it’s taking the best of both worlds and not copying anyone. Actually, one thing I really like about WP7 is that it didn’t copy iPhone UI which was super cool when it first came out but now is very old compared to the Metro UI of WP7.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Phone&lt;/strong&gt;&lt;br /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatIUse2011Part1/SamsungFocus01.jpg&quot; /&gt;
+Some people think it’s tough being a Windows Phone guy. You’re surrounded by a lot of iPhone, Android and Blackberry fan boys who can’t stop telling you how great their phones are. For me, even though I’m surrounded by those people (the only people I know who have a Windows Phone are on Twitter). However, it’s really easy having a Windows Phone. It plays really well with all the Microsoft services that I use. But more importantly, I think that Microsoft struck a nice balance between iPhone and Android. WP7 (Windows Phone 7) is easy to use and fast like an iPhone and is open and easy to develop to like Android. Before you hate me for comparing WP7 to your favorite mobile platform, I’m just saying that it’s taking the best of both worlds and not copying anyone. Actually, one thing I really like about WP7 is that it didn’t copy iPhone UI which was super cool when it first came out but now is very old compared to the Metro UI of WP7.&lt;/p&gt;
 
 &lt;p&gt;I have a &lt;a href=&quot;http://www.samsung.com/us/mobile/cell-phones/SGH-I917ZKAATT&quot;&gt;Samsung Focus&lt;/a&gt; phone which is super light and has a great screen.&lt;/p&gt;
 
@@ -1206,26 +1226,41 @@ Small utility to keep an eye on how much bandwidth you’re using.
    <link href="http://www.amreldib.com/HowToFixWlwBackupProblemWithWindowsx64"/>
    <updated>2011-09-07T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/HowToFixWlwBackupProblemWithWindowsx64</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://pocketpccentral.net/blog/wp-content/uploads/2009/08/Windows_Live_Writer_logo.png&quot; alt=&quot;&quot; /&gt;I, like most bloggers out there, love Windows Live Writer. One problem I have with it is that I have to set it up whenever I re-install Windows. Long ago I found that I can backup all my posts (recently posted and drafts) just copying the two folders “Drafts” and “Recent Posts” from the folder
- &amp;gt; &lt;strong&gt;C:\Users\&amp;lt;UserName&amp;gt;\Documents\My Weblog Posts&lt;/strong&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/HowToFixWlwBackupProblemWithWindowsx64/Windows_Live_Writer_logo.png&quot; /&gt;
+I, like most bloggers out there, love Windows Live Writer. One problem I have with it is that I have to set it up whenever I re-install Windows. Long ago I found that I can backup all my posts (recently posted and drafts) just copying the two folders “Drafts” and “Recent Posts” from the folder  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;C:\Users\&amp;lt;UserName&amp;gt;\Documents\My Weblog Posts&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;However, I wanted to backup more than that. I wanted to backup my blog configurations and other settings. So, I searched a little bit (using &lt;a href=&quot;http://www.kngine.com/&quot;&gt;Kngine&lt;/a&gt; which is great, give it a try) and I found &lt;a href=&quot;http://wlwbackup.codeplex.com/&quot;&gt;WLW Backup tool&lt;/a&gt; that can backup blog settings, drafts, recent posts, and plugins. The link I’ve listed here is for the project on CodePlex where the project went open source by its developer &lt;a href=&quot;http://scottisafool.wordpress.com/&quot;&gt;Scott Lovegrover&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Before I found this latest version I downloaded version 2.0 and tried to backup my WLW settings and an error occurred.
- &amp;gt; &lt;strong&gt;System.BadImageFormatException: Could not load file or assembly ‘CabLib, Version=6.9.26.0, Culture=neutral, PublicKeyToken=null’ or one of its dependencies. An attempt was made to load a program with an incorrect format.
-&amp;gt; File name: ‘CabLib, Version=6.9.26.0, Culture=neutral, PublicKeyToken=null’&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Before I found this latest version I downloaded version 2.0 and tried to backup my WLW settings and an error occurred.  &lt;/p&gt;
 
-&lt;p&gt;The application comes in two simple assemblies LiveWriterBackup.exe and CabLib.dll (and two icons). &lt;a href=&quot;http://www.codeproject.com/KB/files/CABCompressExtract.aspx&quot;&gt;CabLib.dll&lt;/a&gt; is compression and extraction library that LiveWriterBackup.exe is using to compress all the backed up files into one file. This was a .NET exception, so I got interested and started to try to fix the problem. Reading the error, it seems like LiveWriterBackup.exe can’t find CabLib.dll. A bit of searching, and I found that &lt;a href=&quot;http://sharepoint400.blogspot.com/2011/02/could-not-load-file-or-assembly-cablib.html&quot;&gt;some SharePoint developers&lt;/a&gt; were having the same problem with the CabLib.dll file. They fixed it by replacing the CabLib.dll with the x64 version. I tried that but now I got a new error:
- &amp;gt; &lt;strong&gt;System.IO.FileLoadException: Could not load file or assembly ‘CabLib, Version=6.9.26.0, Culture=neutral, PublicKeyToken=null’ or one of its dependencies. The located assembly’s manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;System.BadImageFormatException: Could not load file or assembly ‘CabLib, Version=6.9.26.0, Culture=neutral, PublicKeyToken=null’ or one of its dependencies. An attempt was made to load a program with an incorrect format.&lt;br /&gt;
+File name: ‘CabLib, Version=6.9.26.0, Culture=neutral, PublicKeyToken=null’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The application comes in two simple assemblies LiveWriterBackup.exe and CabLib.dll (and two icons). &lt;a href=&quot;http://www.codeproject.com/KB/files/CABCompressExtract.aspx&quot;&gt;CabLib.dll&lt;/a&gt; is compression and extraction library that LiveWriterBackup.exe is using to compress all the backed up files into one file. This was a .NET exception, so I got interested and started to try to fix the problem. Reading the error, it seems like LiveWriterBackup.exe can’t find CabLib.dll. A bit of searching, and I found that &lt;a href=&quot;http://sharepoint400.blogspot.com/2011/02/could-not-load-file-or-assembly-cablib.html&quot;&gt;some SharePoint developers&lt;/a&gt; were having the same problem with the CabLib.dll file. They fixed it by replacing the CabLib.dll with the x64 version. I tried that but now I got a new error:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;System.IO.FileLoadException: Could not load file or assembly ‘CabLib, Version=6.9.26.0, Culture=neutral, PublicKeyToken=null’ or one of its dependencies. The located assembly’s manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Seems like the two assemblies didn’t really match. Instead of getting around it, I needed to fix the actual problem. Why can’t LiveWriterBackup.exe find CabLib.dll? Maybe there’s a bug with the application itself. I decided to look inside. I fired up &lt;a href=&quot;http://www.telerik.com/products/decompiler.aspx&quot;&gt;JustDecompile&lt;/a&gt; and loaded the LiveWriterBackup.exe. The executable have a direct reference to CabLib.dll and don’t have any assumptions other than how .NET assemblies &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/15hyw9x3%28v=VS.100%29.aspx&quot;&gt;find other assemblies&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Back to search. Remove some search words and try different combinations. Then I found the solution on a &lt;a href=&quot;http://www.cnblogs.com/atfield/archive/2009/04/03/1429286.html&quot;&gt;Chinese blog&lt;/a&gt;. &lt;img src=&quot;http://images.cnblogs.com/cnblogs_com/atfield/WindowsLiveWriter/CorFlagsWindowsLiveWriterBackupUtilityBu_120B4/clip_image006%5B4%5D.jpg&quot; alt=&quot;&quot; /&gt;God bless Google translation which &lt;a href=&quot;http://translate.google.com/translate?sl=zh-CN&amp;amp;tl=en&amp;amp;js=n&amp;amp;prev=_t&amp;amp;hl=en&amp;amp;ie=UTF-8&amp;amp;layout=2&amp;amp;eotf=1&amp;amp;u=http%3A%2F%2Fwww.cnblogs.com%2Fatfield%2Farchive%2F2009%2F04%2F03%2F1429286.html&quot;&gt;came to the rescue&lt;/a&gt;. The problem wasn’t in the CabLib.dll but rather in LiveWriterBackup.exe which was built with the setting “Any CPU” on a 32bit machine so all it’s testing went okey. But when tried on a 64bit machine like mine, it actually ran as a 64bit application trying to call a 32bit CabLib.dll. You can see that in the screenshot of Task Manager. You can see 32bit applications have a *32 next to them while the LiveWriterBackup.exe process doesn’t.&lt;/p&gt;
+&lt;p&gt;Back to search. Remove some search words and try different combinations. Then I found the solution on a &lt;a href=&quot;http://www.cnblogs.com/atfield/archive/2009/04/03/1429286.html&quot;&gt;Chinese blog&lt;/a&gt;.&lt;br /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/HowToFixWlwBackupProblemWithWindowsx64/clip_image006[4].jpg&quot; /&gt;
+God bless Google translation which &lt;a href=&quot;http://translate.google.com/translate?sl=zh-CN&amp;amp;tl=en&amp;amp;js=n&amp;amp;prev=_t&amp;amp;hl=en&amp;amp;ie=UTF-8&amp;amp;layout=2&amp;amp;eotf=1&amp;amp;u=http%3A%2F%2Fwww.cnblogs.com%2Fatfield%2Farchive%2F2009%2F04%2F03%2F1429286.html&quot;&gt;came to the rescue&lt;/a&gt;. The problem wasn’t in the CabLib.dll but rather in LiveWriterBackup.exe which was built with the setting “Any CPU” on a 32bit machine so all it’s testing went okey. But when tried on a 64bit machine like mine, it actually ran as a 64bit application trying to call a 32bit CabLib.dll. You can see that in the screenshot of Task Manager. You can see 32bit applications have a *32 next to them while the LiveWriterBackup.exe process doesn’t.&lt;/p&gt;
 
-&lt;p&gt;So the solution is get an executable that is built for 32 bit configurations. Or we just use &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/ms164699%28VS.80%29.aspx&quot;&gt;Corflags&lt;/a&gt;. It’s a tool that allows you to configure the CorFlags section of the header of an executable. It’s what Rafeel Rivera was referring to in his &lt;a href=&quot;http://www.hanselman.com/blog/HanselminutesPodcastEpisodeRollup273Through280GlimpseJavaScriptKinectScriptPolyGlotAzureWindowsAndGraphDatabases.aspx&quot;&gt;recording&lt;/a&gt; (listen &lt;a href=&quot;http://www.hanselminutes.com/default.aspx?showID=299&quot;&gt;here&lt;/a&gt;) with Scott Hanselman as “flipping bits” which seems to be a known term. Here’s “&lt;font style=&quot;font-weight: normal&quot;&gt;[Flipping bits on managed images to make them load with the right bitness](http://blogs.msdn.com/b/joshwil/archive/2005/05/06/415191.aspx)&lt;/font&gt;”&lt;/p&gt;
+&lt;p&gt;So the solution is get an executable that is built for 32 bit configurations. Or we just use &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/ms164699%28VS.80%29.aspx&quot;&gt;Corflags&lt;/a&gt;. It’s a tool that allows you to configure the CorFlags section of the header of an executable. It’s what Rafeel Rivera was referring to in his &lt;a href=&quot;http://www.hanselman.com/blog/HanselminutesPodcastEpisodeRollup273Through280GlimpseJavaScriptKinectScriptPolyGlotAzureWindowsAndGraphDatabases.aspx&quot;&gt;recording&lt;/a&gt; (listen &lt;a href=&quot;http://www.hanselminutes.com/default.aspx?showID=299&quot;&gt;here&lt;/a&gt;) with Scott Hanselman as “flipping bits” which seems to be a known term. Here’s “&lt;em&gt;&lt;a href=&quot;http://blogs.msdn.com/b/joshwil/archive/2005/05/06/415191.aspx&quot;&gt;Flipping bits on managed images to make them load with the right bitness&lt;/a&gt;&lt;/em&gt;”  &lt;/p&gt;
 
-&lt;p&gt;I just browsed using the command line to the location of the Corflags executable (C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin) and I ran the command
- &amp;gt; &lt;strong&gt;Corflags “C:\Program Files (x86)\Windows Live Writer Backup\LiveWriterBackup.exe” /32BIT+&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I just browsed using the command line to the location of the Corflags executable (C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin) and I ran the command  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Corflags “C:\Program Files (x86)\Windows Live Writer Backup\LiveWriterBackup.exe” /32BIT+&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Tried again to backup settings and it worked. Testing on x64 machines is necessary as x64 machines are becoming more and more popular. Also, try not to build to “Any CPU” unless you test on all CPUs. More importantly, when debugging try to know the bitness of all the participating assemblies that are causing trouble.&lt;/p&gt;
 
@@ -1238,8 +1273,7 @@ Small utility to keep an eye on how much bandwidth you’re using.
    <link href="http://www.amreldib.com/EverybodyGetsAnAppStore"/>
    <updated>2011-01-10T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/EverybodyGetsAnAppStore</id>
-   <content type="html">&lt;p&gt;When I hear all the news about all the new app stores for the big three (Apple, Google and Microsoft), all I can think of is Opera giving away cars to her audience. “You get a Car, You get a Car, You get a Car. Every …body … gets … a … Car”. Here’s a video with a Remix.
-&amp;lt;div style=&quot;padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px&quot; id=&quot;scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:dee28f70-e16b-47fa-9ca1-7f573c81bea1&quot; class=&quot;wlWriterEditableSmartContent&quot;&amp;gt;&amp;lt;div id=&quot;30163a6f-a6f8-4f4b-a1ac-977ac04a02d1&quot; style=&quot;margin: 0px; padding: 0px; display: inline;&quot;&amp;gt;&amp;lt;div&amp;gt;&lt;a href=&quot;http://www.youtube.com/watch?v=XcI-rHO0yko&amp;amp;feature=related&quot;&gt;&lt;img src=&quot;http://lh3.ggpht.com/_QnwET5uCdXI/TSvdxlSxXmI/AAAAAAAAAH8/S_ALHVmWTFM/videofd2740d28cc6%5B172%5D.jpg?imgmax=800&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div style=&quot;width:507px;clear:both;font-size:.8em&quot;&amp;gt;Everybody gets a Car from Opera&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;When I hear all the news about all the new app stores for the big three (Apple, Google and Microsoft), all I can think of is Opera giving away cars to her audience. “You get a Car, You get a Car, You get a Car. Every …body … gets … a … Car”. Watch the &lt;a href=&quot;https://www.youtube.com/watch?v=XcI-rHO0yko&quot;&gt;video&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Of course, giant platform-developing software companies don’t really need cars, it seems like they’re making up for it with App Stores.&lt;/p&gt;
 
@@ -1276,60 +1310,64 @@ Small utility to keep an eye on how much bandwidth you’re using.
    <link href="http://www.amreldib.com/DontHateMyCode"/>
    <updated>2010-09-29T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/DontHateMyCode</id>
-   <content type="html">&lt;p&gt;One very common problem that occurs when a new team takes over an existing project is their desire to “just move some stuff around”. That’s a code word for “I can’t believe that you’re calling this crap a software application” :D. This, of course, varies from one project to the other. Sometimes it’s justified and is for good reasons and other times it’s not. The reason is not the desire of the new team to make a quick impact (although sometimes that’s the case “You know, we had to fix a lot of stuff behind the scene”). But most of the time the reason is derived from the simple fact that reading code is much harder than writing it.  &amp;lt;p align=&quot;justify&quot;&amp;gt;A programming language, like any other language, just because you know all the letters and all the words doesn’t mean you can parse the intended meaning. A code block, in its own way, is written to convey a certain intent to computers as their primary audience but also to other developers as a secondary audience. Some programming languages don’t care about developers and just target computers, like &lt;a href=&quot;http://en.wikipedia.org/wiki/Assembly_language&quot;&gt;Assembly Language&lt;/a&gt;.  &amp;lt;p align=&quot;justify&quot;&amp;gt;The problem with new teams is that they never think that one day they, too, would be the “old team”. The way to really solve this problem (having to rewrite/re-organize/restructure the codebase) is to write code in a clear enough way that anyone can understand it. Then, one day this will be common enough that you’ll understand what you are getting as anyone would understand what you are giving (Day dreaming?) (actually, on second thought, I’ll remove the question mark).  &amp;lt;p align=&quot;justify&quot;&amp;gt;The point is: &lt;em&gt;Don’t just write “good code”, write “readable good code”.&lt;/em&gt; &amp;lt;p align=&quot;justify&quot;&amp;gt;However, modifying your code to be more readable is burdening your code with a responsibility that it shouldn’t have. When you read the part above about conveying intent, you’ll notice that the whole point of making the code readable is to give the reader an insight into my thought process. How did I arrive to the decision of structuring the code like that?  &amp;lt;p align=&quot;justify&quot;&amp;gt;Code is not easy to read because it’s not in sequence, you don’t know where to start and where to end and you can’t read one part of it and figure out the rest.  &amp;lt;p align=&quot;justify&quot;&amp;gt;
-    My code has to come with that insight into my thought process. Here’s what I would do (and what I do do) to make this happen:&lt;/p&gt;
+   <content type="html">&lt;p&gt;One very common problem that occurs when a new team takes over an existing project is their desire to “just move some stuff around”. That’s a code word for “I can’t believe that you’re calling this crap a software application” :D. This, of course, varies from one project to the other. Sometimes it’s justified and is for good reasons and other times it’s not. The reason is not the desire of the new team to make a quick impact (although sometimes that’s the case “You know, we had to fix a lot of stuff behind the scene”). But most of the time the reason is derived from the simple fact that reading code is much harder than writing it.&lt;br /&gt;
+A programming language, like any other language, just because you know all the letters and all the words doesn’t mean you can parse the intended meaning. A code block, in its own way, is written to convey a certain intent to computers as their primary audience but also to other developers as a secondary audience. Some programming languages don’t care about developers and just target computers, like &lt;a href=&quot;http://en.wikipedia.org/wiki/Assembly_language&quot;&gt;Assembly Language&lt;/a&gt;. &lt;br /&gt;
+The problem with new teams is that they never think that one day they, too, would be the “old team”. The way to really solve this problem (having to rewrite/re-organize/restructure the codebase) is to write code in a clear enough way that anyone can understand it. Then, one day this will be common enough that you’ll understand what you are getting as anyone would understand what you are giving (Day dreaming?) (actually, on second thought, I’ll remove the question mark).&lt;br /&gt;
+The point is: _Don’t just write “good code”, write “readable good code”.&lt;br /&gt;
+However, modifying your code to be more readable is burdening your code with a responsibility that it shouldn’t have. When you read the part above about conveying intent, you’ll notice that the whole point of making the code readable is to give the reader an insight into my thought process. How did I arrive to the decision of structuring the code like that?&lt;br /&gt;
+Code is not easy to read because it’s not in sequence, you don’t know where to start and where to end and you can’t read one part of it and figure out the rest.&lt;br /&gt;
+My code has to come with that insight into my thought process. Here’s what I would do (and what I do do) to make this happen:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;##### Write in Bullet Points &amp;lt;p align=&quot;justify&quot;&amp;gt;
-Programmers don&#39;t want to read a long story. They want simple concise quick-to-read scannable sorted items that are not affected by how bad my morning coffee was.
+&lt;h5 id=&quot;write-in-bullet-points&quot;&gt;Write in Bullet Points&lt;/h5&gt;
+&lt;p&gt;Programmers don’t want to read a long story. They want simple concise quick-to-read scannable sorted items that are not affected by how bad my morning coffee was.&lt;/p&gt;
 
-I’m not specifying what type of document. This goes for all documents.
+&lt;p&gt;I’m not specifying what type of document. This goes for all documents.&lt;/p&gt;
 
-##### Use XML Documentation
+&lt;h5 id=&quot;use-xml-documentation&quot;&gt;Use XML Documentation&lt;/h5&gt;
 
-You know, the [little green XML tags](http://msdn.microsoft.com/en-us/library/b2s063f7%28v=VS.100%29.aspx) before each member. .NET developers would know those. My summary for the &quot;DoSomething&quot; method used to be &quot;Does something&quot;. I stopped doing that when I read this description on somebody else’s code. Now, I take a moment and describe what is the &quot;Something&quot;, what do I mean by &quot;Do&quot;, what kind of output does the method deliver and what impact it has on the system, what assumptions it requires. Take a moment to think. Always take a moment.
+&lt;p&gt;You know, the &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/b2s063f7%28v=VS.100%29.aspx&quot;&gt;little green XML tags&lt;/a&gt; before each member. .NET developers would know those. My summary for the “DoSomething” method used to be “Does something”. I stopped doing that when I read this description on somebody else’s code. Now, I take a moment and describe what is the “Something”, what do I mean by “Do”, what kind of output does the method deliver and what impact it has on the system, what assumptions it requires. Take a moment to think. Always take a moment.&lt;/p&gt;
 
-##### Write Comments First
+&lt;h5 id=&quot;write-comments-first&quot;&gt;Write Comments First&lt;/h5&gt;
 
-Comments for code that has been already written tend to describe what the code does. “Loop through list until find target value” instead of “Find target value in list”. Changes to how the objective is achieved would impact the description even though the objective didn’t change. If I removed the loop and used a method to find the target value, I wouldn’t have to change “Find target value in list”.
+&lt;p&gt;Comments for code that has been already written tend to describe what the code does. “Loop through list until find target value” instead of “Find target value in list”. Changes to how the objective is achieved would impact the description even though the objective didn’t change. If I removed the loop and used a method to find the target value, I wouldn’t have to change “Find target value in list”.&lt;/p&gt;
 
-Writing comments before code aims at outlining what is the objective of this method (or a code block within the method) and what are the logical steps and the possible scenarios that the method handles. Think of it this way, you’re a senior developer who doesn’t write code anymore but helps junior developers write the code. Use the comments to outline how the juniors will reach their goal, think in big picture (big as in the objective of the method and class). Don’t care about how you’re reading the text file, think about what do you want to do with the content of the file after it’s read. Later, you’ll go to the junior developer role and think about the optimum way to read a text file. This is done in iterations, feedback from the junior could affect the outline set by the senior who made assumptions about how this would work. Some changes have to be made to the outline to accommodate that.
+&lt;p&gt;Writing comments before code aims at outlining what is the objective of this method (or a code block within the method) and what are the logical steps and the possible scenarios that the method handles. Think of it this way, you’re a senior developer who doesn’t write code anymore but helps junior developers write the code. Use the comments to outline how the juniors will reach their goal, think in big picture (big as in the objective of the method and class). Don’t care about how you’re reading the text file, think about what do you want to do with the content of the file after it’s read. Later, you’ll go to the junior developer role and think about the optimum way to read a text file. This is done in iterations, feedback from the junior could affect the outline set by the senior who made assumptions about how this would work. Some changes have to be made to the outline to accommodate that.&lt;/p&gt;
 
-Eventually, the comments would describe the steps that the method goes through to reach its goal. Reading code would add more details about the specific technical implementation while reading the comments would only give you a summary.
+&lt;p&gt;Eventually, the comments would describe the steps that the method goes through to reach its goal. Reading code would add more details about the specific technical implementation while reading the comments would only give you a summary.&lt;/p&gt;
 
-##### It’s Not Personal, It’s Technical
+&lt;h5 id=&quot;its-not-personal-its-technical&quot;&gt;It’s Not Personal, It’s Technical&lt;/h5&gt;
 
-Don’t include details about people, events, dates, timeline, or progress in the project documents. Keep those items separate in their own documents. These “Team Documents” are for temporary consumption mainly by management, sometimes they’re useful for historical record but they don’t matter for new teams who just wants to read the code.
+&lt;p&gt;Don’t include details about people, events, dates, timeline, or progress in the project documents. Keep those items separate in their own documents. These “Team Documents” are for temporary consumption mainly by management, sometimes they’re useful for historical record but they don’t matter for new teams who just wants to read the code.&lt;/p&gt;
 
-##### Use Meaningful Names with Standard Naming Convention
+&lt;h5 id=&quot;use-meaningful-names-with-standard-naming-convention&quot;&gt;Use Meaningful Names with Standard Naming Convention&lt;/h5&gt;
 
-Use “i” for counter and “x” for quick math operations. Beyond that, use meaningful names that helps the reader keep track of the code flow.
+&lt;p&gt;Use “i” for counter and “x” for quick math operations. Beyond that, use meaningful names that helps the reader keep track of the code flow.&lt;/p&gt;
 
-Use standard naming convention to name and write the names of different members. I use the naming conventions of the [Framework Design Guidelines](http://www.amazon.com/Framework-Design-Guidelines-Conventions-Libraries/dp/0321545613).
+&lt;p&gt;Use standard naming convention to name and write the names of different members. I use the naming conventions of the &lt;a href=&quot;http://www.amazon.com/Framework-Design-Guidelines-Conventions-Libraries/dp/0321545613&quot;&gt;Framework Design Guidelines&lt;/a&gt;.&lt;/p&gt;
 
-As a standard rule, pet names doesn’t count as meaningful names, unless you pet is named “UserAccountID”.
+&lt;p&gt;As a standard rule, pet names doesn’t count as meaningful names, unless you pet is named “UserAccountID”.&lt;/p&gt;
 
-##### Make It Part of the Process. Use Documents to Make Decisions
+&lt;h5 id=&quot;make-it-part-of-the-process-use-documents-to-make-decisions&quot;&gt;Make It Part of the Process. Use Documents to Make Decisions&lt;/h5&gt;
 
-Some developers look at documentation as “I’ll get to it if/when I have time”. Not only that they never have time, but also they’re missing the point of why they should use documents in the first place. I use documents to collaborate with team members on making decisions about the different possible solutions of a specific problem. I use documents to define, scope, list possible solutions and their upsides and downsides and eventually choose the solution.
+&lt;p&gt;Some developers look at documentation as “I’ll get to it if/when I have time”. Not only that they never have time, but also they’re missing the point of why they should use documents in the first place. I use documents to collaborate with team members on making decisions about the different possible solutions of a specific problem. I use documents to define, scope, list possible solutions and their upsides and downsides and eventually choose the solution.&lt;/p&gt;
 
-Communicating technical details through documents is much easier than through discussions which tends to easily stray away from the main topic, include a lot of not-fully-thought ideas, and require real time interaction (meetings which are difficult for remote teams and time consuming for… what’s the word for non-remote teams).
+&lt;p&gt;Communicating technical details through documents is much easier than through discussions which tends to easily stray away from the main topic, include a lot of not-fully-thought ideas, and require real time interaction (meetings which are difficult for remote teams and time consuming for… what’s the word for non-remote teams).&lt;/p&gt;
 
-##### Keep Documents Updated
+&lt;h5 id=&quot;keep-documents-updated&quot;&gt;Keep Documents Updated&lt;/h5&gt;
 
-If you’re like me, and you use documents as an intro to writing code. It’s important to keep documents updated with the changes you made later to the code you wrote earlier.
+&lt;p&gt;If you’re like me, and you use documents as an intro to writing code. It’s important to keep documents updated with the changes you made later to the code you wrote earlier.&lt;/p&gt;
 
-##### Use a Tool
+&lt;h5 id=&quot;use-a-tool&quot;&gt;Use a Tool&lt;/h5&gt;
 
-Using a tool like a [SharePoint](http://sharepoint.microsoft.com/en-us/Pages/default.aspx) document library or a [Wiki](http://en.wikipedia.org/wiki/Wiki) (I like [Screwturn](http://www.screwturn.eu/)) would encourage developers to participate in this addition to their daily tasks. It wouldn’t be just a collection of documents stored in some folder. It would be an essential part of the daily work.
+&lt;p&gt;Using a tool like a &lt;a href=&quot;http://sharepoint.microsoft.com/en-us/Pages/default.aspx&quot;&gt;SharePoint&lt;/a&gt; document library or a &lt;a href=&quot;http://en.wikipedia.org/wiki/Wiki&quot;&gt;Wiki&lt;/a&gt; (I like &lt;a href=&quot;http://www.screwturn.eu/&quot;&gt;Screwturn&lt;/a&gt;) would encourage developers to participate in this addition to their daily tasks. It wouldn’t be just a collection of documents stored in some folder. It would be an essential part of the daily work.&lt;/p&gt;
 
-##### Keep Versions. Don’t Throw Anything Away
+&lt;h5 id=&quot;keep-versions-dont-throw-anything-away&quot;&gt;Keep Versions. Don’t Throw Anything Away&lt;/h5&gt;
 
-Using a tool helps you keep versions of the documents. This lets you review the progress of each document and makes you able to go back to earlier solutions that you dismissed earlier but could be viable now.
+&lt;p&gt;Using a tool helps you keep versions of the documents. This lets you review the progress of each document and makes you able to go back to earlier solutions that you dismissed earlier but could be viable now.&lt;/p&gt;
 
-##### Know When to Stop
+&lt;h5 id=&quot;know-when-to-stop&quot;&gt;Know When to Stop&lt;/h5&gt;
 
-Keep documents updated, make it part of the process, keep versions, write comments, bla bla bla. Remember that you’re getting paid to write code and create software. Using documents to build software can be really helpful but it’s not building software. Put a ceiling on how many documents and how much details you’re producing and make it supplemental to writing code. If it’s not going to lead to better code, don’t do it. Eventually you’ll find the balance the fits your process.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Keep documents updated, make it part of the process, keep versions, write comments, bla bla bla. Remember that you’re getting paid to write code and create software. Using documents to build software can be really helpful but it’s not building software. Put a ceiling on how many documents and how much details you’re producing and make it supplemental to writing code. If it’s not going to lead to better code, don’t do it. Eventually you’ll find the balance the fits your process.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1338,9 +1376,9 @@ Keep documents updated, make it part of the process, keep versions, write commen
    <link href="http://www.amreldib.com/VMBasedDevelopmentEnvironment"/>
    <updated>2010-08-15T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/VMBasedDevelopmentEnvironment</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://tcglkg.blu.livefilestore.com/y1pDV1HHKQTRsCo0eVj0C8rG5GZKJL3q5JGSgvXgp8pHDUyKM6fn_-qqvNV3488okfBVyUYftUbAgdbhP-fCh84lDSnrleQeXxF/VirtualBox.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://public.blu.livefilestore.com/y1pV7Xk3S8Ndl7Ey04VzVu6iXSOerQaFQ0dTeC7bo8Mc4gcaIyjPbBLFzO8NrB-L4wa7mICKgBm7eIg9CxXnyt3kw/VMware.png?psid=1&quot; alt=&quot;&quot; /&gt;I love VMs. To have a sandbox inside which there’s an operating system of your choice where you can try anything and not fear its effect on your host machine, that is empowering.&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/VMBasedDevelopmentEnvironment/VirtualBox.png&quot; /&gt;
+&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/VMBasedDevelopmentEnvironment/VMware.png&quot; /&gt;
+I love VMs. To have a sandbox inside which there’s an operating system of your choice where you can try anything and not fear its effect on your host machine, that is empowering.&lt;/p&gt;
 
 &lt;p&gt;I started using VMs a long time ago, but recently I moved to what I call a “VM-based Development Environment”. As a GIS developer, I have a problem which is that &lt;a href=&quot;http://www.esri.com/products/index.html#desktop_gis_panel&quot;&gt;ArcGIS&lt;/a&gt; (the main GIS application/platform I’m using) doesn’t allow for side-by-side installation. So, if you want to install version 9.3.1, you have to uninstall version 9.3. And those are two different versions against which you have to develop and test your code.&lt;/p&gt;
 
@@ -1357,39 +1395,13 @@ Keep documents updated, make it part of the process, keep versions, write commen
 &lt;p&gt;Moving all development work to a VM offer number of advantages:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;To quote a development concept “Separation of Concerns”. you can have a different VM for each project if you want, if the development software is different for each project, the operating system your team is using is different, or even you just want a different mode for each project.&lt;/div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;div align=&quot;justify&quot;&gt;Clean-slate machine can help you easily identify the requirements of your code and detect the software it might conflict with.&lt;/div&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;div align=&quot;justify&quot;&gt;Working on Client-Server project where you want to deploy to a server and develop or test in a environment similar to the production environment.&lt;/div&gt;
-            &lt;ul&gt;
-              &lt;li&gt;
-                &lt;div align=&quot;justify&quot;&gt;Create a VM and pass to other team members and you’ve got yourself a unified development environment for all team members.&lt;/div&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;
-                    &lt;div align=&quot;justify&quot;&gt;You can expand on the concept and create other VMs that can help with tasks related to development like a source code server, continuous integration server, etc.&lt;/div&gt;
-                    &lt;ul&gt;
-                      &lt;li&gt;
-                        &lt;div align=&quot;justify&quot;&gt;If you want to upgrade or re-install Windows on your host machine or even moved across the country to a whole new machine, copy few files and you still have your development environment intact.&lt;/div&gt;
-                        &lt;ul&gt;
-                          &lt;li&gt;
-                            &lt;div align=&quot;justify&quot;&gt;Distracted by all the e-mails, IMs, and tweets, just click “Full Screen” and you can easily shut all the annoyance on your host machine.&lt;/div&gt;
-                          &lt;/li&gt;
-                        &lt;/ul&gt;
-                      &lt;/li&gt;
-                    &lt;/ul&gt;
-                  &lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;To quote a development concept “Separation of Concerns”. you can have a different VM for each project if you want, if the development software is different for each project, the operating system your team is using is different, or even you just want a different mode for each project.  &lt;/li&gt;
+  &lt;li&gt;Clean-slate machine can help you easily identify the requirements of your code and detect the software it might conflict with.&lt;/li&gt;
+  &lt;li&gt;Working on Client-Server project where you want to deploy to a server and develop or test in a environment similar to the production environment.&lt;/li&gt;
+  &lt;li&gt;Create a VM and pass to other team members and you’ve got yourself a unified development environment for all team members.&lt;/li&gt;
+  &lt;li&gt;You can expand on the concept and create other VMs that can help with tasks related to development like a source code server, continuous integration server, etc.&lt;/li&gt;
+  &lt;li&gt;If you want to upgrade or re-install Windows on your host machine or even moved across the country to a whole new machine, copy few files and you still have your development environment intact.&lt;/li&gt;
+  &lt;li&gt;Distracted by all the e-mails, IMs, and tweets, just click “Full Screen” and you can easily shut all the annoyance on your host machine.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;tips&quot;&gt;Tips&lt;/h3&gt;
@@ -1397,61 +1409,34 @@ Keep documents updated, make it part of the process, keep versions, write commen
 &lt;p&gt;Building a VM is not that difficult but if you’re going to create number of VMs, few if not tens, maybe I can help with some tips:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;**Categorize Your Machines**: I have 4 classes of VMs:&lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;**Base**: a building block I use to install all other VMs. It’s an installed and updated OS with the very basic applications (Browser, Anti-virus, etc) that makes it very easy to install a new VM within minutes. You can also have a base for specific environments like Visual Studio 2008 or 2010.&lt;/div&gt;
+  &lt;li&gt;&lt;strong&gt;Categorize Your Machines&lt;/strong&gt;: I have 4 classes of VMs:
     &lt;ul&gt;
-      &lt;li&gt;
-        &lt;div align=&quot;justify&quot;&gt;**Dev**: a machine for development. I Turn it on and start banging on the keyboard like a monkey :)&lt;/div&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;div align=&quot;justify&quot;&gt;**Lab**: I use those for testing. It’s important to have different operating system with all variations (x86 and x64 for example).&lt;/div&gt;
-            &lt;ul&gt;
-              &lt;li&gt;
-                &lt;div align=&quot;justify&quot;&gt;**Sandbox**: want to try something that you’re not sure is completely safe? want to try a trial product that you could remove later but could leave all these bits of crap behind? Use a sandbox.&lt;/div&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;
-                    &lt;div align=&quot;justify&quot;&gt;**Come Up with a Naming Convention**: I usually name a VM with a meaningful name that easily explain its configurations, like this&lt;/div&gt;
-                  &lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Base&lt;/strong&gt;: a building block I use to install all other VMs. It’s an installed and updated OS with the very basic applications (Browser, Anti-virus, etc) that makes it very easy to install a new VM within minutes. You can also have a base for specific environments like Visual Studio 2008 or 2010.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Dev&lt;/strong&gt;: a machine for development. I Turn it on and start banging on the keyboard like a monkey :)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Lab&lt;/strong&gt;: I use those for testing. It’s important to have different operating system with all variations (x86 and x64 for example).&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Sandbox&lt;/strong&gt;: want to try something that you’re not sure is completely safe? want to try a trial product that you could remove later but could leave all these bits of crap behind? Use a sandbox.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Come Up with a Naming Convention&lt;/strong&gt;: I usually name a VM with a meaningful name that easily explain its configurations, like this&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;VMClass-OS-InstructionSet-VisualStudioVersion&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;VMClass-OS-InstructionSet-VisualStudioVersion&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;for example:&lt;/p&gt;
 
-&lt;p&gt;Dev-7-x64-10&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Dev-7-x64-10&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;is a development machine with Windows 7 x64 and Visual Studio 2010&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;**Use Memorable Names**: in addition to the naming convention, I give memorable names to the machines I use most frequently. It also helps if those names represent the different classes. For example, I give cities names to Dev machines (Cairo, Phoenix, Jakarta, etc), and I give names of the [periodic table](http://en.wikipedia.org/wiki/Periodic_table) elements to Lab machines (Neon, Cobalt, Titanium, etc).&lt;/div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;div align=&quot;justify&quot;&gt;**Understand Your Virtualization Software**: whether you’re using [VMware Desktop](http://www.vmware.com/), [Microsoft Virtual PC](http://www.microsoft.com/windows/virtual-pc/), or [VirtualBox](http://www.virtualbox.org/). Make sure to fully understand the capabilities of the software, otherwise you could be missing out on some features that could help you.&lt;/div&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;div align=&quot;justify&quot;&gt;**Use Snapshots**: one feature that VMs offer that host machines doesn’t very well is ‘Snapshots’. Snapshots helps you save the state of a machine and easily return to it with a click of a button. It’s like Windows’ Restore Point or Mac’s Time Machine but much much faster. You can also have a tree of snapshots.&lt;/div&gt;
-            &lt;ul&gt;
-              &lt;li&gt;
-                &lt;div align=&quot;justify&quot;&gt;**Create a CodeBox**: To share code between different machines, either create a separate virtual hard drive and store all your data on it or create a shared folder on your host machine and map it as a network drive. I use the first choice because it’s easier to backup (just copy a few files), and avoid a potential security problem of having a shared folder. Be aware of the fine differences of creating a virtual hard drive between different virtualization software and make sure that virtual hard drive persistence doesn’t depend on VM persistence &lt;/div&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use Memorable Names&lt;/strong&gt;: in addition to the naming convention, I give memorable names to the machines I use most frequently. It also helps if those names represent the different classes. For example, I give cities names to Dev machines (Cairo, Phoenix, Jakarta, etc), and I give names of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Periodic_table&quot;&gt;periodic table&lt;/a&gt; elements to Lab machines (Neon, Cobalt, Titanium, etc).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Understand Your Virtualization Software&lt;/strong&gt;: whether you’re using &lt;a href=&quot;http://www.vmware.com/&quot;&gt;VMware Desktop&lt;/a&gt;, &lt;a href=&quot;http://www.microsoft.com/windows/virtual-pc/&quot;&gt;Microsoft Virtual PC&lt;/a&gt;, or &lt;a href=&quot;http://www.virtualbox.org/&quot;&gt;VirtualBox&lt;/a&gt;. Make sure to fully understand the capabilities of the software, otherwise you could be missing out on some features that could help you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use Snapshots&lt;/strong&gt;: one feature that VMs offer that host machines doesn’t very well is ‘Snapshots’. Snapshots helps you save the state of a machine and easily return to it with a click of a button. It’s like Windows’ Restore Point or Mac’s Time Machine but much much faster. You can also have a tree of snapshots.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create a CodeBox&lt;/strong&gt;: To share code between different machines, either create a separate virtual hard drive and store all your data on it or create a shared folder on your host machine and map it as a network drive. I use the first choice because it’s easier to backup (just copy a few files), and avoid a potential security problem of having a shared folder. Be aware of the fine differences of creating a virtual hard drive between different virtualization software and make sure that virtual hard drive persistence doesn’t depend on VM persistence.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;downs&quot;&gt;Downs&lt;/h3&gt;
@@ -1459,29 +1444,20 @@ Keep documents updated, make it part of the process, keep versions, write commen
 &lt;p&gt;Using VMs as your main development environment isn’t hassle-free and it does have its own disadvantages:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;**Memory Monster**: VMs require that you allocate full memory capacity to them once they’re on. So, you better throw away that 3-years old 2GB laptop. If you want to use VMs, you must have at least 4GB RAM. You’re gonna be using a VM for development which means longer hours where you can’t tolerate using a 1GB RAM machine. Do you? :). With 4GB you can have 2GB for your host and 2GB for the VM but you’ll miss out on the benefits of running another VM. Upgrade to 8GB to get full power.&lt;/div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;div align=&quot;justify&quot;&gt;**Code Not at Your Fingertips**: If no Visual Studio installed on your host machine, you have to turn on (or de-hibernate) a VM to get to your code. That takes about just a minute but it’s still something.&lt;/div&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;div align=&quot;justify&quot;&gt;**Maintenance, Maintenance, Maintenance**: all these VMs require taking care of. Updating Windows, anti-virus, and applications is a headache because it’s not fully automated. Mainly I focus on the few machines I’m using, but once a month, I start all Base machines to keep them updated.&lt;/div&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Memory Monster&lt;/strong&gt;: VMs require that you allocate full memory capacity to them once they’re on. So, you better throw away that 3-years old 2GB laptop. If you want to use VMs, you must have at least 4GB RAM. You’re gonna be using a VM for development which means longer hours where you can’t tolerate using a 1GB RAM machine. Do you? :). With 4GB you can have 2GB for your host and 2GB for the VM but you’ll miss out on the benefits of running another VM. Upgrade to 8GB to get full power.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code Not at Your Fingertips&lt;/strong&gt;: If no Visual Studio installed on your host machine, you have to turn on (or de-hibernate) a VM to get to your code. That takes about just a minute but it’s still something.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Maintenance, Maintenance, Maintenance&lt;/strong&gt;: all these VMs require taking care of. Updating Windows, anti-virus, and applications is a headache because it’s not fully automated. Mainly I focus on the few machines I’m using, but once a month, I start all Base machines to keep them updated.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://public.blu.livefilestore.com/y1pvAXtVd0Lmuip0zcei1bHrDJFK9Nc0Oo3eFQlTa3wPilb9rNHQB9oeVDxoXKmsh-Y6rEQYZhZdEaSyvgXX8lYqQ/TwoUpdateWindows.png?psid=1&quot;&gt;&lt;img src=&quot;http://tcglkg.blu.livefilestore.com/y1pTnMClwm_NKSn93D_A9y1lafQWu2Dexbi3LOtKalQrlHA_8n3ZMlelYui4w26zX7vyzKMAGZRPciLrdQbVZcqZAcx63IYiiit/TwoUpdateWindowsSmall.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Two Update Windows, one for a VM and the other for my host machine.&lt;/em&gt;&lt;/p&gt;
+&lt;figure class=&quot;imageInCenter&quot;&gt;
+    &lt;a href=&quot;/public/images/VMBasedDevelopmentEnvironment/TwoUpdateWindowsSmall.png&quot;&gt;
+        &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/VMBasedDevelopmentEnvironment/TwoUpdateWindowsSmall.png&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;&lt;small&gt;Two Update Windows, one for a VM and the other for my host machine.&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;div align=&quot;justify&quot;&gt;**Gigabytes to Spare**: you should have a lot of those because a plain simple Windows 7 machine with no software uses about 12GB of hard drive space.&lt;/div&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gigabytes to Spare&lt;/strong&gt;: you should have a lot of those because a plain simple Windows 7 machine with no software uses about 12GB of hard drive space.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I’ve used VMs for development for quite a while now, and I feel that it improved how I work. Give it a try a let me know if it helped.&lt;/p&gt;

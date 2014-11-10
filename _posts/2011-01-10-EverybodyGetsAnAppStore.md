@@ -16,8 +16,7 @@ tags:
 redirects:
 - /2011/01/everybody-gets-app-store.html
 ---
-When I hear all the news about all the new app stores for the big three (Apple, Google and Microsoft), all I can think of is Opera giving away cars to her audience. “You get a Car, You get a Car, You get a Car. Every …body … gets … a … Car”. Here’s a video with a Remix.
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:dee28f70-e16b-47fa-9ca1-7f573c81bea1" class="wlWriterEditableSmartContent"><div id="30163a6f-a6f8-4f4b-a1ac-977ac04a02d1" style="margin: 0px; padding: 0px; display: inline;"><div>[![](http://lh3.ggpht.com/_QnwET5uCdXI/TSvdxlSxXmI/AAAAAAAAAH8/S_ALHVmWTFM/videofd2740d28cc6%5B172%5D.jpg?imgmax=800)](http://www.youtube.com/watch?v=XcI-rHO0yko&amp;feature=related)</div></div><div style="width:507px;clear:both;font-size:.8em">Everybody gets a Car from Opera</div></div>
+When I hear all the news about all the new app stores for the big three (Apple, Google and Microsoft), all I can think of is Opera giving away cars to her audience. “You get a Car, You get a Car, You get a Car. Every …body … gets … a … Car”. Watch the [video](https://www.youtube.com/watch?v=XcI-rHO0yko).
 
 Of course, giant platform-developing software companies don’t really need cars, it seems like they’re making up for it with App Stores.
 
