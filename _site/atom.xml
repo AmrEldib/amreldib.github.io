@@ -4,7 +4,7 @@
  <title>Amr</title>
  <link href="http://www.amreldib.com/atom.xml" rel="self"/>
  <link href="http://www.amreldib.com/"/>
- <updated>2014-11-10T06:33:13+00:00</updated>
+ <updated>2014-11-11T02:28:34+00:00</updated>
  <id>http://www.amreldib.com</id>
  <author>
    <name></name>
@@ -1469,7 +1469,7 @@ I love VMs. To have a sandbox inside which there’s an operating system of your
    <link href="http://www.amreldib.com/ConfiguringLog4netPart2"/>
    <updated>2010-07-24T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/ConfiguringLog4netPart2</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;Read the &lt;a href=&quot;http://www.amreldib.com/2010/07/configuring-log4net-and-using-applogger.html&quot;&gt;Part 1&lt;/a&gt; for an intro to this post.&lt;/em&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;em&gt;Read the &lt;a href=&quot;/ConfiguringLog4netPart1/&quot;&gt;Part 1&lt;/a&gt; for an intro to this post.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The AppLogger class is a class I use to encapsulate log4net and make easy to use. By “ease of use” I mean less lines for me to write to start logging. But, this ease of use comes on the expense of customizability. The AppLogger class is not built to fit your (or all) needs necessarily but with little work it can.&lt;/p&gt;
 
@@ -1481,7 +1481,7 @@ I love VMs. To have a sandbox inside which there’s an operating system of your
 
 &lt;p&gt;Let’s check out the project files&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://tcglkg.blu.livefilestore.com/y1pgc-cSCu4HjMdpiqlk9aZXdeM2tsTs6LRD9sS0DtGhJxKu-KOfAzfv5AQJsgr7GhiTLrzrfqk2BNVOTGPLqLTpWQOgzCnF7oL/AppLogger-ProjectFiles.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/ConfiguringLog4netPart2/AppLogger-ProjectFiles.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;strong&gt;LoggerInitializationException&lt;/strong&gt; is a fancy way of throwing an exception, it doesn’t really hold any more information than a regular exception but you can modify it to do just that.&lt;/p&gt;
 
@@ -1489,98 +1489,39 @@ I love VMs. To have a sandbox inside which there’s an operating system of your
 
 &lt;p&gt;The configurations use a &lt;a href=&quot;http://logging.apache.org/log4net/release/sdk/log4net.Appender.RollingFileAppender.html&quot;&gt;Rolling File Appender&lt;/a&gt; which writes to file until the file reaches a certain size (1MB in this case), then it renames the file by adding a number and write to a new file with the name you chose.&lt;/p&gt;
 
-&lt;p&gt;The pattern used in the configurations for each line in the log is
-&amp;lt;pre class=&quot;code&quot;&amp;gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(163, 21, 21);&quot;&gt;conversionPattern &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:red;&quot;&gt;value&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;’&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;* %date – [%thread] – %-5level
-– %logger – %message%newline&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;’ &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;/&amp;gt;&lt;/span&gt;&amp;lt;/pre&amp;gt;It adds the &lt;strong&gt;date/time stamp&lt;/strong&gt;, &lt;strong&gt;thread&lt;/strong&gt;, &lt;strong&gt;level&lt;/strong&gt; (Debug, Info, Warn, Error, Fatal), name of the &lt;strong&gt;logger&lt;/strong&gt;, and &lt;strong&gt;message&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The pattern used in the configurations for each line in the log is&lt;/p&gt;
 
-&lt;p&gt;You can notice in the configuration file that the file name is not specified.
-&amp;lt;pre class=&quot;code&quot;&amp;gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(163, 21, 21);&quot;&gt;file &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:red;&quot;&gt;value&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;”&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;==LOG_FILE_PATH==&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;” &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;/&amp;gt;&lt;/span&gt;&amp;lt;/pre&amp;gt;This is intentioned as we’ll replace it at runtime.
-AppLogger is written so that you can log using just one line of code without any preparations, like this:
-&amp;lt;pre class=&quot;code&quot;&amp;gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Logger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Debug&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(255, 255, 230);&quot;&gt;“This is a message.”&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);&lt;/span&gt;&amp;lt;/pre&amp;gt;The &lt;strong&gt;Logger&lt;/strong&gt; property is a static property that holds an &lt;strong&gt;AppLogger&lt;/strong&gt; object and it doesn’t need to be set. If you are calling the property for the first time, it will create a new &lt;strong&gt;AppLogger&lt;/strong&gt; object and return it to the calling method.&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/f4e684971160e4ea8855.js&quot;&gt;&lt;/script&gt;
 
-&lt;pre class=&quot;code&quot;&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;public static &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Logger
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;{
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;get
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;{
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// if logger is null, create an instance.
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;if &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;_Logger &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;== &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;)
-    {
-        &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;try
-        &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;{
-            &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;_Logger &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(255, 255, 230);&quot;&gt;&quot;AppLogger&quot;&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-        }
-        &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;catch &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;LoggerInitializationException&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;)
-        {
-            &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;_Logger &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;();
-        }
-    }
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// return logger
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;_Logger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-}
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;private set &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;{ &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;_Logger &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;value&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;; }
-}&lt;/span&gt;&lt;/pre&gt;
+&lt;p&gt;It adds the &lt;strong&gt;date/time stamp&lt;/strong&gt;, &lt;strong&gt;thread&lt;/strong&gt;, &lt;strong&gt;level&lt;/strong&gt; (Debug, Info, Warn, Error, Fatal), name of the &lt;strong&gt;logger&lt;/strong&gt;, and &lt;strong&gt;message&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can notice in the configuration file that the file name is not specified.  &lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/4086774fa1f098a48f8b.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This is intentioned as we’ll replace it at runtime.&lt;br /&gt;
+AppLogger is written so that you can log using just one line of code without any preparations, like this:  &lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/e1968212ba7d9fadcca0.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The &lt;strong&gt;Logger&lt;/strong&gt; property is a static property that holds an &lt;strong&gt;AppLogger&lt;/strong&gt; object and it doesn’t need to be set. If you are calling the property for the first time, it will create a new &lt;strong&gt;AppLogger&lt;/strong&gt; object and return it to the calling method.  &lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/a7dffcaa5ff49218bf91.js&quot;&gt;&lt;/script&gt;
+
 &lt;p&gt;The &lt;strong&gt;AppLogger&lt;/strong&gt; constructor takes care of configuring log4net using the embedded XML files based on the build configurations.&lt;/p&gt;
 
-&lt;pre class=&quot;code&quot;&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;public &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;string &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;loggerName&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;)
-{
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;try
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;{
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Initiate logger object
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Log &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;LogManager&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;GetLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;loggerName&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;#if &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;DEBUG
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Create a log file in the Temp folder
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;string &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;logFilePath &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;Path&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;GetTempFileName&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;();
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Add log file path to the configurations stream
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;string &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;loggerConfigurations &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;
-Resources&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Log4netReleaseConfigurations&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;loggerConfigurations &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;
-loggerConfigurations&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Replace&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;_LoggerLocationSymbol&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;logFilePath&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Convert embedded configurations file to a stream
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;byte&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;[] &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;byteArray &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;
-Encoding&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;ASCII&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;GetBytes&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;loggerConfigurations&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;MemoryStream &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;stream &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;MemoryStream&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;byteArray&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Configure logger from stream
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;XmlConfigurator&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Configure&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;stream&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Store log file path
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;LogFilePath &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;logFilePath&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;#endif
-#if &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;!DEBUG
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:gray;&quot;&gt;// Create a log file in the Temp folder
-    string logFilePath = Path.GetTempFileName();
-    // Add log file path to the configurations stream
-    string loggerConfigurations =
-Resources.Log4netReleaseConfigurations;
-    loggerConfigurations =
-loggerConfigurations.Replace(AppLogger._LoggerLocationSymbol, logFilePath);
-    // Convert embedded configurations file to a stream
-    byte[] byteArray =
-Encoding.ASCII.GetBytes(loggerConfigurations);
-    MemoryStream stream = new MemoryStream(byteArray);
-    // Configure logger from stream
-    XmlConfigurator.Configure(stream);
-    // Store log file path
-    AppLogger.LogFilePath = logFilePath;
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;#endif
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Supress logger errors/exceptions by default
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;SuppressErrors &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-}
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;catch &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;Exception &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;)
-{
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Empty logger object
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Log &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:green;&quot;&gt;// Throw exception
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;LoggerInitializationException &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;ex &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;
-new &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;LoggerInitializationException&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(255, 255, 230);&quot;&gt;&quot;Logger initialization failed&quot;&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;throw &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-}
-} &lt;/span&gt;&lt;/pre&gt;
-&lt;p&gt;You can see that the constructor creates a file in the Temp folder (for ups and downs of this choice, read &lt;a href=&quot;http://www.amreldib.com/2010/07/configuring-log4net-and-using-applogger.html&quot;&gt;Part 1&lt;/a&gt;), and modifies the XML file before configuring log4net with a stream of the file. Then it sets the &lt;strong&gt;LogFilePath&lt;/strong&gt; property with a path to the log file.&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/0bdc92291fd92f9ed336.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;You can see that the constructor creates a file in the Temp folder (for ups and downs of this choice, read &lt;a href=&quot;/ConfiguringLog4netPart1/&quot;&gt;Part 1&lt;/a&gt;), and modifies the XML file before configuring log4net with a stream of the file. Then it sets the &lt;strong&gt;LogFilePath&lt;/strong&gt; property with a path to the log file.&lt;/p&gt;
 
 &lt;p&gt;It also uses preprocessor directives (&lt;strong&gt;#if DEBUG&lt;/strong&gt;) to configure log4net differently in the debug and release configurations. You can make the code less in size by using the same configurations. This constructor happens to use the same configuration but I wanted to show that you can use different configurations.
 By default, AppLogger will suppress its errors. So even if initialization failed or any other error occurs, logging will stop but you don’t have to modify your code to catch any exceptions.&lt;/p&gt;
 
-&lt;p&gt;If you want to catch logging exceptions, you can change the &lt;strong&gt;SuppressError&lt;/strong&gt; property by writing:
-&amp;lt;pre class=&quot;code&quot;&amp;gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;AppLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Logger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;SuppressErrors &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;false&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;&lt;/span&gt;&amp;lt;/pre&amp;gt;AppLogger makes it easy and fast to start logging but it has its downsides as well. Calling the &lt;strong&gt;AppLogger.Logger&lt;/strong&gt; static property has a performance overhead more than other properties since it checks if the logger hasn’t been created yet. If your application has one entry point (Console application, Windows application, etc.) you can move the initialization code to the entry point and get rid of the overhead.&lt;/p&gt;
+&lt;p&gt;If you want to catch logging exceptions, you can change the &lt;strong&gt;SuppressError&lt;/strong&gt; property by writing:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AmrEldib/82a2b5f03f54b2555b78.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;AppLogger makes it easy and fast to start logging but it has its downsides as well. Calling the &lt;strong&gt;AppLogger.Logger&lt;/strong&gt; static property has a performance overhead more than other properties since it checks if the logger hasn’t been created yet. If your application has one entry point (Console application, Windows application, etc.) you can move the initialization code to the entry point and get rid of the overhead.&lt;/p&gt;
 
 &lt;p&gt;Also, the configuration I’m using creates a log file with a name that is not predefined which makes it difficult to find sometimes unless you use the &lt;strong&gt;LogFilePath&lt;/strong&gt; property. You can change the configurations to fit your workflow, as this fits mine.
 I’ve used the AppLogger class for number of projects and it’s working fine, I hope it helps you as well.&lt;/p&gt;
@@ -1601,74 +1542,14 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;Some people prefer to log the application activities for debugging purposes only which works well in desktop applications that doesn’t have a mechanism for sending the log back to the developer in case of unexpected behavior. This has its obvious upside, which is improving the application performance by avoiding logging. To limit logging to debugging purposes only, simply surround all logging code with the conditional preprocessor directive #if.&lt;/p&gt;
 
-&lt;p&gt;For the using statements:
-&amp;lt;div class=&quot;csharpcode&quot;&amp;gt;
-    &amp;lt;pre class=&quot;code&quot;&amp;gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;#if &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;DEBUG
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;using &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;log4net&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;using &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;log4net&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Config&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;;
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;#endif&lt;/span&gt;&amp;lt;/pre&amp;gt;&lt;/p&gt;
+&lt;p&gt;For the using statements:&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;/div&amp;gt;
-&lt;style type=&quot;text/css&quot;&gt;
-    .csharpcode, .csharpcode pre {
-        font-size: small;
-        color: black;
-        font-family: consolas, &quot;Courier New&quot;, courier, monospace;
-        background-color: #ffffff;
-        /*white-space: pre;*/
-    }&lt;/style&gt;&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/a47245174b9b0e4e297d.js&quot;&gt;&lt;/script&gt;
 
-&lt;pre&gt;&lt;code&gt;    .csharpcode pre {
-        margin: 0em;
-    }
+&lt;p&gt;And for the logging code:&lt;/p&gt;
 
-    .csharpcode .rem {
-        color: #008000;
-    }
+&lt;script src=&quot;https://gist.github.com/AmrEldib/dabf83db0a6450605e12.js&quot;&gt;&lt;/script&gt;
 
-    .csharpcode .kwrd {
-        color: #0000ff;
-    }
-
-    .csharpcode .str {
-        color: #006080;
-    }
-
-    .csharpcode .op {
-        color: #0000c0;
-    }
-
-    .csharpcode .preproc {
-        color: #cc6633;
-    }
-
-    .csharpcode .asp {
-        background-color: #ffff00;
-    }
-
-    .csharpcode .html {
-        color: #800000;
-    }
-
-    .csharpcode .attr {
-        color: #ff0000;
-    }
-
-    .csharpcode .alt {
-        background-color: #f4f4f4;
-        width: 100%;
-        margin: 0em;
-    }
-
-    .csharpcode .lnum {
-        color: #606060;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&amp;lt;/style&amp;gt;And for the logging code:&lt;/p&gt;
-
-&lt;pre class=&quot;code&quot;&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;#if &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;DEBUG  
-   &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(43, 145, 175);&quot;&gt;ILog &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;log &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;LogManager&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;GetLogger&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(255, 255, 230);&quot;&gt;&quot;Logger&quot;&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-   &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;log&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Debug&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(255, 255, 230);&quot;&gt;&quot;Message&quot;&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);
-&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;&quot;&gt;#endif&lt;/span&gt;&lt;/pre&gt;
 &lt;p&gt;There are different choices for a destination of your application’s log, Database, Console, File, System event log, Memory, E-mail, Telnet, and even &lt;a href=&quot;http://caseywatson.com/2009/07/07/log4net-twitter-awesome/&quot;&gt;Twitter&lt;/a&gt; which I don’t think is very practical (no one would follow a feed that delivers only bad news).&lt;/p&gt;
 
 &lt;p&gt;Those different destinations offer different advantages and are fit for different scenarios. You can use the preprocessor directive to apply different configurations for debugging and release.&lt;/p&gt;
@@ -1677,13 +1558,7 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;I use a text file as a destination. It’s easy to set up and use and not so difficult to read. I also use a XML file for configurations rather than programmatically (which only few prefer). I found that the best of both worlds is to embed the configurations file in the application resources and then stream it at runtime to configure the logger using the stream.&lt;/p&gt;
 
-&lt;div align=&quot;justify&quot;&gt;
-    &lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&gt;
-
-        XmlConfigurator
-    &lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;Configure&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&gt;stream&lt;/span&gt;&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&gt;);&lt;/span&gt;
-
-&lt;/div&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/32551c94813e78d24298.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;This helps solving one of the problems I ran into, which is configuring log4net for the release version. In the debug mode, you can easily hard code the path to the destination file and you have administrator privileges to write to any folder you like. In the release mode, you can’t really control – or predict – the environment where the logger will work. You have to plan for something safe that you know will work in any environment.&lt;/p&gt;
 
@@ -1693,27 +1568,20 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;In the Temp folder, you have to avoid creating a file with a name that already exist, and your log file will probably be deleted by the next time you run the application.&lt;/p&gt;
 
-&lt;p&gt;I create a log file in the Temp folder because I don’t really need the log file beyond the current session, and to avoid creating a file with a duplicate name simply use:&lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I create a log file in the Temp folder because I don’t really need the log file beyond the current session, and to avoid creating a file with a duplicate name simply use:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;string &amp;lt;/span&amp;gt;&amp;lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&amp;gt;logFilePath &amp;lt;/span&amp;gt;&amp;lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&amp;gt;= &amp;lt;/span&amp;gt;&amp;lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);&quot;&amp;gt;Path&amp;lt;/span&amp;gt;&amp;lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;&quot;&amp;gt;GetTempFileName&amp;lt;/span&amp;gt;&amp;lt;span style=&quot;background: none repeat scroll 0% 0% rgb(248, 248, 248);&quot;&amp;gt;();&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;script src=&quot;https://gist.github.com/AmrEldib/c742277b8302fff05b67.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;Now, I want to:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Configure log4net using XML file.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Determine the path to the log file at runtime.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Avoid shipping a configuration file with the assembly (include the configuration file inside the assembly).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Reduce the number of lines I have to write to initiate logging.To do all that, and reuse the solution across all the projects I work on, I use the AppLogger class. How use it and how it works is a topic of another post.  &lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Configure log4net using XML file.&lt;/li&gt;
+  &lt;li&gt;Determine the path to the log file at runtime.&lt;/li&gt;
+  &lt;li&gt;Avoid shipping a configuration file with the assembly (include the configuration file inside the assembly).&lt;/li&gt;
+  &lt;li&gt;Reduce the number of lines I have to write to initiate logging.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;To do all that, and reuse the solution across all the projects I work on, I use the AppLogger class. How use it and how it works is a topic of &lt;a href=&quot;/ConfiguringLog4netPart2/&quot;&gt;another post&lt;/a&gt;.  &lt;/p&gt;
 </content>
  </entry>
  
@@ -1726,15 +1594,15 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;Simply add a small dropdown list next to the search box from which the user can select the URL he wants to filter results by. The items in the list are customizable and appear as a short alias that can be easily remembered by the user.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://public.blu.livefilestore.com/y1pJm8xbUyGttjTddViJEGP-b3jNFm9BZvOgmJTFGQFhVHIyFo7Gh2eFd9eShc6bgCzb1fXZwj_VwQ20SB5jw57lA/SearchSitesUI01.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FilteringSearchResultsBySite/SearchSitesUI01.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When the user selects an item from the list, the item’s alias is displayed next to the dropdown button with an italic font.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://public.blu.livefilestore.com/y1pvXqqQuqc54ROVgiRodd5aoLk9cenIYdctXH7v-xo9d_XAHNo48CEt91RdmVk2gNnSyNfM41-MwyZZ8xsMG_kVw/SearchSitesUI02.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FilteringSearchResultsBySite/SearchSitesUI02.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When the user hovers over the alias in italic, a tooltip is displayed to show the full URL of the site with which the results are filtered.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://public.blu.livefilestore.com/y1pQ-Ka3itWSuh_xwfUEN5YDzRzd6uXaZOwBIREnbSiOotb2PeyLPx3RS1PyNRZKmJQ0GR9L23RzIvKpaaUhORlew/SearchSitesUI03.png?psid=1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/FilteringSearchResultsBySite/SearchSitesUI03.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At the bottom of the list, the item “Customize this list…” that can help with adding, editing and removing items in the list.
  I think this is a feature that can be (relatively) easily implemented and I’m sure that it will help a lot of users out there. I hope it can find its way to implementation soon.&lt;/p&gt;
@@ -1746,9 +1614,9 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
    <link href="http://www.amreldib.com/UpdatedReleaseOfArabicTranslationForCubicExplorer"/>
    <updated>2010-01-17T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/UpdatedReleaseOfArabicTranslationForCubicExplorer</id>
-   <content type="html">&lt;p&gt;A year ago, &lt;a href=&quot;http://www.amreldib.com/2009/01/cubicexplorer-arabic-translation-is.html&quot;&gt;I released&lt;/a&gt; an Arabic translation for my favorite alternative of Windows Explorer, Cubic Explorer. After a year of updates of the software, I thought the translation might need some updating and I also noticed some mistakes that needed to be fixed.&lt;/p&gt;
+   <content type="html">&lt;p&gt;A year ago, &lt;a href=&quot;/CubicExplorerArabicTranslationAvailable/&quot;&gt;I released&lt;/a&gt; an Arabic translation for my favorite alternative of Windows Explorer, Cubic Explorer. After a year of updates of the software, I thought the translation might need some updating and I also noticed some mistakes that needed to be fixed.&lt;/p&gt;
 
-&lt;p&gt;Now you can get an updated release of the translation (release 1.1). You can find it at my public SkyDrive &lt;a href=&quot;http://bit.ly/6sTDe1&quot;&gt;here&lt;/a&gt;. This translation works with Cubic Explorer release 0.91.0.1223 (SVN Snapshot) which you can get &lt;a href=&quot;http://www.cubicreality.com/2010/01/15/notes-week-2-polished-info-bar-and-ces-future/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now you can get an updated release of the translation (release 1.1). You can find it &lt;a href=&quot;/public/images/UpdatedReleaseOfArabicTranslationForCubicExplorer/default.po&quot;&gt;here&lt;/a&gt;. This translation works with Cubic Explorer release 0.91.0.1223 (SVN Snapshot) which you can get &lt;a href=&quot;http://www.cubicreality.com/2010/01/15/notes-week-2-polished-info-bar-and-ces-future/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Hopefully the updated translation will be included in the installer very soon.&lt;/p&gt;
 
@@ -1761,21 +1629,23 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
    <link href="http://www.amreldib.com/NewFirefoxAddonsCollection"/>
    <updated>2009-12-29T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/NewFirefoxAddonsCollection</id>
-   <content type="html">&lt;p&gt;It’s been a good year for Firefox and Mozilla. They&lt;a href=&quot;http://www.mozilla.com/en-US/&quot;&gt;&lt;img src=&quot;http://lh6.ggpht.com/_QnwET5uCdXI/SzrhTF1_P9I/AAAAAAAAAE0/Gg1pPi7wjo0/Firefox_3.5_logo%5B1%5D%5B15%5D.png?imgmax=800&quot; alt=&quot;Mozilla Firefox&quot; title=&quot;Mozilla Firefox&quot; /&gt;&lt;/a&gt; released the &lt;a href=&quot;http://www.mozilla.com/en-US/&quot;&gt;3.5 version&lt;/a&gt; with lots of improvements. We celebrated &lt;a href=&quot;http://www.spreadfirefox.com/5years/en-US/&quot;&gt;five years&lt;/a&gt; of Firefox. &lt;a href=&quot;http://ubiquity.mozilla.com/&quot;&gt;Ubiquity&lt;/a&gt; has become more stable, got lots more of &lt;a href=&quot;https://wiki.mozilla.org/Labs/Ubiquity/Commands_In_The_Wild&quot;&gt;commands&lt;/a&gt;, &lt;a href=&quot;http://www.getpersonas.com/en-US/&quot;&gt;Personas&lt;/a&gt; reached the 2.0 milestone and the &lt;a href=&quot;http://www.mozillamessaging.com/en-US/thunderbird/&quot;&gt;Thunderbird 3.0&lt;/a&gt; looks really great. Firefox 3.5 has become the &lt;a href=&quot;http://www.downloadsquad.com/2009/12/21/firefox-3-5-passes-ie7-as-most-poluar-web-browser/&quot;&gt;most popular browser&lt;/a&gt; on the web.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/NewFirefoxAddonsCollection/FirefoxLogo.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been a good year for Firefox and Mozilla. They released the &lt;a href=&quot;http://www.mozilla.com/en-US/&quot;&gt;3.5 version&lt;/a&gt; with lots of improvements. We celebrated &lt;a href=&quot;http://www.spreadfirefox.com/5years/en-US/&quot;&gt;five years&lt;/a&gt; of Firefox. &lt;a href=&quot;http://ubiquity.mozilla.com/&quot;&gt;Ubiquity&lt;/a&gt; has become more stable, got lots more of &lt;a href=&quot;https://wiki.mozilla.org/Labs/Ubiquity/Commands_In_The_Wild&quot;&gt;commands&lt;/a&gt;, &lt;a href=&quot;http://www.getpersonas.com/en-US/&quot;&gt;Personas&lt;/a&gt; reached the 2.0 milestone and the &lt;a href=&quot;http://www.mozillamessaging.com/en-US/thunderbird/&quot;&gt;Thunderbird 3.0&lt;/a&gt; looks really great. Firefox 3.5 has become the &lt;a href=&quot;http://www.downloadsquad.com/2009/12/21/firefox-3-5-passes-ie7-as-most-poluar-web-browser/&quot;&gt;most popular browser&lt;/a&gt; on the web.&lt;/p&gt;
 
 &lt;p&gt;To celebrate this year and the one to come, I created a collection of the addons I use on daily basis. Maybe some of them can help you like it help me.&lt;/p&gt;
 
 &lt;p&gt;To view the contents of the collection please visit &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/collection/amreldib2010collection&quot;&gt;this page&lt;/a&gt;. Here’s a list of the addons in the collection:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Appearance&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;appearance&quot;&gt;Appearance&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/14284?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;Strata40&lt;/strong&gt;&lt;/a&gt;** and **&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/14762?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;StrataBuddy&lt;/strong&gt;&lt;/a&gt; (Windows Only) gives you the look and feel of the mockups of Firefox 4.0 which makes your browser looks great in Windows 7.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/14284?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;Strata40&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/14762?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;StrataBuddy&lt;/strong&gt;&lt;/a&gt; (Windows Only) gives you the look and feel of the mockups of Firefox 4.0 which makes your browser looks great in Windows 7.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/3895?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;Personal Menu&lt;/strong&gt;&lt;/a&gt; puts all Firefox menus in one place and hides the menu bar.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/1951?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;Fission&lt;/strong&gt;&lt;/a&gt; displays the progress bar in the address bar.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Tabs&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tabs&quot;&gt;Tabs&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/14644?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;Tab Progress Bar&lt;/a&gt;&lt;/strong&gt; shows a little progress bar in tab header.&lt;/p&gt;
 
@@ -1785,7 +1655,7 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/5244?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;Ctrl-Tab&lt;/a&gt;&lt;/strong&gt; displays a preview of all tabs while switching between them just like Windows 7 Alt + Tab.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Work-ish&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;work-ish&quot;&gt;Work-ish&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/8381?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;Evernote Web Clipper&lt;/a&gt;&lt;/strong&gt; if you’re not using Evernote, it’s probably because you’re using OneNote.&lt;/p&gt;
 
@@ -1795,13 +1665,13 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/5579?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;Cooliris&lt;/a&gt;&lt;/strong&gt; (Windows Only) great tool for slideshowing any picture collection. Look at a wall of pictures and zoom in to any one for details. Love it.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Development&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/2489?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;CacheViewer&lt;/a&gt;&lt;/strong&gt; easily browse and search your browser cache. Open a file or save it to disk.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/1843?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;FireBug&lt;/a&gt;&lt;/strong&gt; debugging CSS never been easier.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/1843?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;Firebug&lt;/a&gt;&lt;/strong&gt; debugging CSS never been easier.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Firefox Utilities&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;firefox-utilities&quot;&gt;Firefox Utilities&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/1865?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;Adblock Plus&lt;/a&gt;&lt;/strong&gt; blocks ads like they don’t exist.&lt;/p&gt;
 
@@ -1809,13 +1679,13 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/3497?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;United States English Dictionary&lt;/strong&gt;&lt;/a&gt; you need this if you stink at spelling like I do.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Download&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/3006?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;Video DownloadHelper&lt;/strong&gt;&lt;/a&gt; helps you download video. It’s that simple really.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/26?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;Download Statusbar&lt;/a&gt;&lt;/strong&gt; puts downloading status in the status bar with simple pause, resume, cancel, rename, open and even delete.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Little Things that Matter&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;little-things-that-matter&quot;&gt;Little Things that Matter&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/3201?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;PastoGo&lt;/a&gt;&lt;/strong&gt; Don’t paste a link in the address bar then click the ‘Go’ button. Have the link the clipboard and just click the ‘PastoGo’ button. Place it next to the address bar and make sure it opens links in a new tab.&lt;/p&gt;
 
@@ -1823,7 +1693,7 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/1812?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;CoLT&lt;/a&gt;&lt;/strong&gt; I installed this a long time ago, and one day I uninstalled it because I wasn’t sure what it does, my life was difficult for a couple of days.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;For Mozilla Groupies :)&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;for-mozilla-groupies&quot;&gt;For Mozilla Groupies&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/9527?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;Ubiquity&lt;/strong&gt;&lt;/a&gt; is a one-stop command line to do everything web-related. Search, check the whether, send quick e-mail, tweet, you name it. Make sure to download the latest beta from &lt;a href=&quot;http://ubiquity.mozilla.com/&quot;&gt;the Ubiquity website&lt;/a&gt;.&lt;/p&gt;
 
@@ -1831,7 +1701,7 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/13661?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;TestPilot&lt;/a&gt;&lt;/strong&gt; if you want to help Firefox development just by using Firefox. Use this addon to collect anonymous statistics about your usage. TestPilot asks you to participates in tests and shows the data it collected before submitting it.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;u&gt;Arabic and International&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;arabic-and-international&quot;&gt;Arabic and International&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/1117?collection_uuid=88e5ddd4-504b-afac-7ab6-6331c8a6b40a&quot;&gt;&lt;strong&gt;FoxClocks&lt;/strong&gt;&lt;/a&gt; it’s really not nice to call your overseas friends at a late hour. This helps avoiding that.&lt;/p&gt;
 

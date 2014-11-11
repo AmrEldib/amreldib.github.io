@@ -20,72 +20,14 @@ I started using log4net after reading an excellent tutorial by Jim Christopher o
 Some people prefer to log the application activities for debugging purposes only which works well in desktop applications that doesn’t have a mechanism for sending the log back to the developer in case of unexpected behavior. This has its obvious upside, which is improving the application performance by avoiding logging. To limit logging to debugging purposes only, simply surround all logging code with the conditional preprocessor directive #if.
 
 For the using statements:
-<div class="csharpcode">
-    <pre class="code"><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;">#if </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">DEBUG
-</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;">using </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">log4net</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">;
-</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;">using </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">log4net</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">Config</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">;
-</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;">#endif</span></pre>
 
-</div>
-<style type="text/css">
-    .csharpcode, .csharpcode pre {
-        font-size: small;
-        color: black;
-        font-family: consolas, "Courier New", courier, monospace;
-        background-color: #ffffff;
-        /*white-space: pre;*/
-    }
+<script src="https://gist.github.com/AmrEldib/a47245174b9b0e4e297d.js"></script>
 
-        .csharpcode pre {
-            margin: 0em;
-        }
+And for the logging code:
 
-        .csharpcode .rem {
-            color: #008000;
-        }
+<script src="https://gist.github.com/AmrEldib/dabf83db0a6450605e12.js"></script>
 
-        .csharpcode .kwrd {
-            color: #0000ff;
-        }
-
-        .csharpcode .str {
-            color: #006080;
-        }
-
-        .csharpcode .op {
-            color: #0000c0;
-        }
-
-        .csharpcode .preproc {
-            color: #cc6633;
-        }
-
-        .csharpcode .asp {
-            background-color: #ffff00;
-        }
-
-        .csharpcode .html {
-            color: #800000;
-        }
-
-        .csharpcode .attr {
-            color: #ff0000;
-        }
-
-        .csharpcode .alt {
-            background-color: #f4f4f4;
-            width: 100%;
-            margin: 0em;
-        }
-
-        .csharpcode .lnum {
-            color: #606060;
-</style>And for the logging code:
-
-<pre class="code"><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;">#if </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">DEBUG  
-   </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(43, 145, 175);">ILog </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">log </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">= </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);">LogManager</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">GetLogger</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">(</span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 230);">"Logger"</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">);
-   </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">log</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">Debug</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">(</span><span style="background: none repeat scroll 0% 0% rgb(255, 255, 230);">"Message"</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">);
-</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:blue;">#endif</span></pre>There are different choices for a destination of your application’s log, Database, Console, File, System event log, Memory, E-mail, Telnet, and even [Twitter](http://caseywatson.com/2009/07/07/log4net-twitter-awesome/) which I don’t think is very practical (no one would follow a feed that delivers only bad news).
+There are different choices for a destination of your application’s log, Database, Console, File, System event log, Memory, E-mail, Telnet, and even [Twitter](http://caseywatson.com/2009/07/07/log4net-twitter-awesome/) which I don’t think is very practical (no one would follow a feed that delivers only bad news).
 
 Those different destinations offer different advantages and are fit for different scenarios. You can use the preprocessor directive to apply different configurations for debugging and release.
 
@@ -93,13 +35,7 @@ One obvious scenario is to use a database for debugging and a file for release. 
 
 I use a text file as a destination. It’s easy to set up and use and not so difficult to read. I also use a XML file for configurations rather than programmatically (which only few prefer). I found that the best of both worlds is to embed the configurations file in the application resources and then stream it at runtime to configure the logger using the stream.
 
-<div align="justify">
-    <span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);">
-
-        XmlConfigurator
-    </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">Configure</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">(</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">stream</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">);</span>
-
-</div>
+<script src="https://gist.github.com/AmrEldib/32551c94813e78d24298.js"></script>
 
 This helps solving one of the problems I ran into, which is configuring log4net for the release version. In the debug mode, you can easily hard code the path to the destination file and you have administrator privileges to write to any folder you like. In the release mode, you can’t really control – or predict – the environment where the logger will work. You have to plan for something safe that you know will work in any environment.
 
@@ -109,17 +45,15 @@ In the Application Data folder, you have to manage the growing number of files a
 
 In the Temp folder, you have to avoid creating a file with a name that already exist, and your log file will probably be deleted by the next time you run the application.
 
-I create a log file in the Temp folder because I don’t really need the log file beyond the current session, and to avoid creating a file with a duplicate name simply use:<span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:navy;">
+I create a log file in the Temp folder because I don’t really need the log file beyond the current session, and to avoid creating a file with a duplicate name simply use:
 
-    string
-</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">logFilePath </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">= </span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(166, 83, 0);">Path</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">.</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);color:maroon;">GetTempFileName</span><span style="background: none repeat scroll 0% 0% rgb(248, 248, 248);">();</span>
+<script src="https://gist.github.com/AmrEldib/c742277b8302fff05b67.js"></script>
 
 Now, I want to:
 
-*   Configure log4net using XML file.
+-   Configure log4net using XML file.
+-   Determine the path to the log file at runtime.
+-   Avoid shipping a configuration file with the assembly (include the configuration file inside the assembly).
+-   Reduce the number of lines I have to write to initiate logging.
 
-*   Determine the path to the log file at runtime.
-
-*   Avoid shipping a configuration file with the assembly (include the configuration file inside the assembly).
-
-*   Reduce the number of lines I have to write to initiate logging.To do all that, and reuse the solution across all the projects I work on, I use the AppLogger class. How use it and how it works is a topic of another post.  
+To do all that, and reuse the solution across all the projects I work on, I use the AppLogger class. How use it and how it works is a topic of [another post](/ConfiguringLog4netPart2/).  
