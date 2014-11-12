@@ -4,7 +4,7 @@
  <title>Amr</title>
  <link href="http://www.amreldib.com/atom.xml" rel="self"/>
  <link href="http://www.amreldib.com/"/>
- <updated>2014-11-11T02:28:34+00:00</updated>
+ <updated>2014-11-12T06:21:30+00:00</updated>
  <id>http://www.amreldib.com</id>
  <author>
    <name></name>
@@ -1745,7 +1745,7 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
    <id>http://www.amreldib.com/CubicExplorerArabicTranslationAvailable</id>
    <content type="html">&lt;p&gt;There are many Windows Explorer alternatives available on the web. The one that I’m using is &lt;a href=&quot;http://www.cubicreality.com/cubicexplorer/download/&quot; title=&quot;Download CubicExplorer 0.8 (Freeware)&quot;&gt;CubicExplorer&lt;/a&gt; which is pretty cool. It supports tabs, saving sessions, multiple sessions, bookmarks, bookmarks grouping, themes, and localization (here are some &lt;a href=&quot;http://www.cubicreality.com/cubicexplorer/screenshots/&quot; title=&quot;Screenshots of CubicExplorer&quot;&gt;screenshots&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;I’m contributing to CubicExplorer with the Arabic translation in an effort to make it more available to the Arabic user. The translation file is not integrated in the application build yet. You can get the link to the translation file from the &lt;a href=&quot;http://www.cubicreality.com/forum/index.php?topic=874.0&quot; title=&quot;CubicExplorer Arabic Translation Page&quot;&gt;CubicExplorer&lt;/a&gt; forum, or you can download the file directly from my &lt;a href=&quot;http://cid-a0f4e46186f7cce4.skydrive.live.com/self.aspx/Public/CubicExplorerArabicTranslation/default.po&quot; title=&quot;CubicExplorer Arabic Translation File&quot;&gt;SkyDrive page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’m contributing to CubicExplorer with the Arabic translation in an effort to make it more available to the Arabic user. The translation file is not integrated in the application build yet. You can get the link to the translation file from the &lt;a href=&quot;http://www.cubicreality.com/forum/index.php?topic=874.0&quot; title=&quot;CubicExplorer Arabic Translation Page&quot;&gt;CubicExplorer&lt;/a&gt; forum, or you can download the file directly from my &lt;a href=&quot;/public/images/CubicExplorerArabicTranslationAvailable/default.po&quot; title=&quot;CubicExplorer Arabic Translation File&quot;&gt;SkyDrive page&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The translation works with the RC3 release of the 0.9 version of the application which is pretty stable. I recommend that you download the RC3 release rather than the 0.8 version. You can find the RC3 release at &lt;a href=&quot;http://www.cubicreality.com/forum/index.php?topic=791.0&quot; title=&quot;Download CubicExplorer 0.9 RC3 (Freeware)&quot;&gt;this page&lt;/a&gt; (or directly to the &lt;a href=&quot;http://cubicreality.pp.fi/files/ce/CubicExplorer_0.90rc3_Setup.exe&quot; title=&quot;Download CubicExplorer 0.9 RC3 (Freeware - Executable)&quot;&gt;executable&lt;/a&gt; file or the &lt;a href=&quot;http://cubicreality.pp.fi/files/ce/CubicExplorer_0.90rc3.zip&quot; title=&quot;Download CubicExplorer 0.9 RC3 (Freeware - zip package)&quot;&gt;zip package&lt;/a&gt;).&lt;/p&gt;
 
