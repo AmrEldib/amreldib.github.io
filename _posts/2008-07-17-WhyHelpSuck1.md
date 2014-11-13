@@ -20,7 +20,7 @@ Finally, It’s not that help content is long and unreadable. It’s that “eve
 
 But it’s not like help systems are that bad all the way and no one tried to make them better. Some companies are actually trying. The new Vista help looks pretty good.
 
-&#160;[![clip_image001](http://lh4.ggpht.com/eldib.amr/SIVWTxsb2zI/AAAAAAAAABY/fzBxN4p1zDk/clip_image001%5B17%5D.png?imgmax=800 "clip_image001")](http://farm4.static.flickr.com/3246/2691552724_ae0b9a5942.jpg?v=0 "Snapshot of Vista Help System")
+<img class="imageInCenter" src="{{ site.imagesFolder }}{{ page.name }}/SnapshotOfVistaHelpSystem.png">
 
 You can see from the snapshot that:
 
@@ -38,6 +38,6 @@ You can see from the snapshot that:
 
 Other help systems include:
 
-*   Option to comment on the content page where users can add their own experience and discuss the content of the page.*   Social tools to share the content of those pages.*   Discussion forums.
+- Option to comment on the content page where users can add their own experience and discuss the content of the page.*   Social tools to share the content of those pages.*   Discussion forums.
 
 All of that seems fine but still not enough. What would it take for a help system not to suck. Let’s leave that to another post.

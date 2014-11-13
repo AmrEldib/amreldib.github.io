@@ -10,7 +10,9 @@ tags:
 redirects:
 - /2008/09/raising-expectations.html
 ---
-![](http://farm4.static.flickr.com/3044/2878060062_f5a8dc9d3c_m.jpg)If you’re following up with the US presidential election these days, you probably heard about Bill Clinton [praising](http://blogs.abcnews.com/politicalradar/2008/09/bill-clinton-pr.html) Sarah Palin and describing her as a candidate who can’t be underestimated. Even though Sarah Palin has been proven to be a [political joke](http://www.youtube.com/watch?v=SlQo-IYNkwg) that is [clearly](http://www.youtube.com/watch?v=qaSECfQqty8) not qualified to run anything not to mention a superpower. Add this to the Clinton’s (newly found) support for Obama, it’s easy to find yourself wondering what’s Bill doin’. The answer is simple, he’s raising expectations for Sarah Palin, making her look like someone who’s is very tough to beat so that when the fight is over and she won then Bill was right and if she lost then she’s letting everybody down.
+<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WindowsGuy.jpg">
+
+If you’re following up with the US presidential election these days, you probably heard about Bill Clinton [praising](http://blogs.abcnews.com/politicalradar/2008/09/bill-clinton-pr.html) Sarah Palin and describing her as a candidate who can’t be underestimated. Even though Sarah Palin has been proven to be a [political joke](http://www.youtube.com/watch?v=SlQo-IYNkwg) that is [clearly](http://www.youtube.com/watch?v=qaSECfQqty8) not qualified to run anything not to mention a superpower. Add this to the Clinton’s (newly found) support for Obama, it’s easy to find yourself wondering what’s Bill doin’. The answer is simple, he’s raising expectations for Sarah Palin, making her look like someone who’s is very tough to beat so that when the fight is over and she won then Bill was right and if she lost then she’s letting everybody down.
 
 Now, I hear your question from the minute you started reading. What does this has to do with anything that I ever wrote about? It’s simple really, Bill Clinton is a very skilled politician but Microsoft maybe not so much.
 

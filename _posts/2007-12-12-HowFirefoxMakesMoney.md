@@ -9,6 +9,7 @@ tags:
 redirects:
 - /2007/12/how-firefox-makes-money.html
 ---
+<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/FirefoxLogo.png">
 
 Ever wondered how firefox is still running even though all of Mozilla's products are for free..
 

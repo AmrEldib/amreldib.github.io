@@ -9,7 +9,9 @@ tags:
 redirects:
 - /2008/08/what-google-reader-is-missing.html
 ---
-[![](http://www.google.com/googlereader/images/logo_reader.gif)](http://www.google.com/reader "Google Reader")I must confess something. Google Reader really changed a part of my life. Before it, I used to spend - at least - 5 times the time I'm spending now to keep track of all those web sites and blogs (actually I'm spending the same time but I'm following up with 5 times the content). Even though I'm a great fan as it's obvious. Lately, I think I'm having some problems with Reader. They're not really problems but more like I've pushed the application to its limit that I need something more. Something like:
+<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/GoogleReaderLogo.jpg">
+
+I must confess something. Google Reader really changed a part of my life. Before it, I used to spend - at least - 5 times the time I'm spending now to keep track of all those web sites and blogs (actually I'm spending the same time but I'm following up with 5 times the content). Even though I'm a great fan as it's obvious. Lately, I think I'm having some problems with Reader. They're not really problems but more like I've pushed the application to its limit that I need something more. Something like:
 
 **&quot;No, thanks&quot; button in feed preview:
 **Whenever you're reviewing a feed from the recommendations page and you realize that you don't want this feed anymore, you have to go back to the recommendations page and click the &quot;No, Thanks&quot; button to make room for other feeds. Why can't I get a button in the top banner while I'm reviewing the feed.
