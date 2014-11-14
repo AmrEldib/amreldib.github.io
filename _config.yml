@@ -29,3 +29,4 @@ markdown: kramdown
 highlighter: pygments
 encoding: utf-8
 exclude: ["amreldib.github.io.sln", "*.suo", "importFromBlogger", "md", "README.md"]
+include: ["TwitterArchive"]

@@ -4,7 +4,7 @@
  <title>Amr</title>
  <link href="http://www.amreldib.com/atom.xml" rel="self"/>
  <link href="http://www.amreldib.com/"/>
- <updated>2014-11-12T06:21:30+00:00</updated>
+ <updated>2014-11-14T08:12:38+00:00</updated>
  <id>http://www.amreldib.com</id>
  <author>
    <name></name>
@@ -1766,21 +1766,26 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
 
 &lt;p&gt;Homegroup is simply a simple way to create a home network. The name is – I think – an opposite to Workgroup which is the nickname for any network group with no domain controller. So, Other than the name, how’s a Homegroup is different from a Workgroup?&lt;/p&gt;
 
-&lt;p&gt;It’s easier to create/join a Homegroup. Open a Windows Explorer and choose “Homegroup” on the left and you get the &lt;a href=&quot;http://gbrkhw.bay.livefilestore.com/y1pS-W9qZgcQh5MYOjM-cbmyqJrJ6rt0k9-m2lhU40ue607RoWBjFfW27MIRCE3GryC75yd3tPTui6GJQt4sPkYKw/Win7-CreateHomegroupStep1.jpg&quot;&gt;wizard&lt;/a&gt;. When you click to create a homegroup you get the option to share a “Library”.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://gbrkhw.bay.livefilestore.com/y1pFPPuEL5vB2dUF_GG49xwV78ah-lE__qJmHwtS_XlQ3Yg4PzpWFjO0xtsldwrOS0uzusyTn9lfN0/Win7-CreateHomegroupStep2.jpg&quot; title=&quot;Click for larger image&quot;&gt;&lt;img src=&quot;http://gbrkhw.bay.livefilestore.com/y1pr5YVUnTQi7B7Yha6axy8Nyu8WVokrHLB5DoeRrvKG0-0gWaffrvw5_0LYPzWHEEg7-YB85VZPZV8Tx2bG0Txbw/Win7-CreateHomegroupStep2-Zoom.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;Click for larger image&quot; href=&quot;/public/images/Windows7MissingPoint/Win7-CreateHomegroupStep2.jpg&quot;&gt;
+    &lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/Windows7MissingPoint/Win7-CreateHomegroupStep2-Zoom.jpg&quot; /&gt;
+&lt;/a&gt;
+It’s easier to create/join a Homegroup. Open a Windows Explorer and choose “Homegroup” on the left and you get the wizard. When you click to create a homegroup you get the option to share a “Library”.&lt;/p&gt;
 
 &lt;p&gt;Library is a new word for me, so I decided to follow what it means. I found in the task bar an icon with a folder in it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gbrkhw.bay.livefilestore.com/y1pWk_vWdsXIIzJ6HLqsxRLWQYd4PW-O4RUO6mu4yAQiN0zx2wpJywA9VHpxwK_DqoIW18t7cJTND5cd580CtyHzw/Win7-TaskbarWithWindowsExplorer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/Windows7MissingPoint/Win7-TaskbarWithWindowsExplorer.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I assumed that it’s “My Computer” or “Computer” (since Microsoft decided in Vista that it’s not mine anymore) but it turns out to be Windows Explorer and it opens on “libraries”&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://gbrkhw.bay.livefilestore.com/y1p0ToFeq-sUKCGlIZRn-u1D414ld6UYW8PeNCqI8qUsVZs7PERrEejEO6HsyqujXFS-XmVysa4q04/Win7-LibrariesBig.jpg&quot; title=&quot;Click for larger image&quot;&gt;&lt;img src=&quot;http://gbrkhw.bay.livefilestore.com/y1poxmVwg0GretQo7bAKYtTuKE1A0_wvOlnxMGb8SS2HVBRiFNj7Obxrr6xmQMGUSW6MpPOYCrvMQXrJ7gVEp-FnQ/Win7-LibrariesSmall.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;Click for larger image&quot; href=&quot;/public/images/Windows7MissingPoint/Win7-LibrariesBig.jpg&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/Windows7MissingPoint/Win7-LibrariesSmall.jpg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Interesting, so is this like &lt;a href=&quot;http://en.wikipedia.org/wiki/Virtual_folder#Windows&quot;&gt;Virtual folders&lt;/a&gt; from Vista that never really made it to mainstream? Yes, but with a different approach. Virtual folders was &lt;a href=&quot;http://www.winsupersite.com/showcase/winvista_virtualfolders.asp&quot;&gt;a shortcut to the results of search keyword&lt;/a&gt; except the results are dynamic. It wasn’t a snapshot of the results but a shortcut to the search. In Windows 7, a library is a pool of the content of many folders in one view which is great if you want to find things quickly unless those things have the same name because the view doesn’t show content with the same name differently. so you can easily end up with this.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://gbrkhw.bay.livefilestore.com/y1p9nNKvpd3ggJOMfFOwRavuk_tX8tS34TZkoSj0BcbpvtQ6ScgOG_dpCxKyoE1q_gKiNussfyVWkQ/Win7-LibraryViewBig.jpg&quot; title=&quot;Click for larger image&quot;&gt;&lt;img src=&quot;http://gbrkhw.bay.livefilestore.com/y1pVWXLYFbTDMAb6UTIvzCOD774nI2EEbl21ON7UlwYVmX5Eb6QVgTg4m4xTEnwqicXeTvP4lnGogKL-EQkNDfkLA/Win7-LibraryViewSmall.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;Click for larger image&quot; href=&quot;/public/images/Windows7MissingPoint/Win7-LibraryViewBig.jpg&quot;&gt;
+    &lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/Windows7MissingPoint/Win7-LibraryViewSmall.jpg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;So, a library is a folder of folders which is cool but my question is “Why?”. Isn’t the whole point of folders is to keep things organized and if you want to find them use “Search”. The only logical benefit of libraries is to combine the content of different folders in your machine and offer them in one entry point on a Homegroup which is exclusive to Windows 7 machines (a note in the Help section) at Home (at least for now, not clear if it’s offered through Windows Server).&lt;/p&gt;
 
@@ -1793,13 +1798,13 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
   &lt;li&gt;The default and only breakdown of folders includes Documents, Downloads, Favorites, Music, Pictures, Videos (and other less famous ones). Of course you can create new folders, but Microsoft is treating those folders specially, they’re referenced in all Microsoft application in Windows and sometimes you can’t get rid of them. Like Windows Media Player you can’t remove the “Users” folder. You can only “Ignore” it.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gbrkhw.bay.livefilestore.com/y1pntB71pJWB7Lt8BgU_eXvo5W7b4-03vBqVzo1TRqw6QXMdGtrLNDZrOYs5VUr2zh1rMlKm0IQsWYNS6Lyps74rQ/MediaPlayer-LibraryFolders.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/Windows7MissingPoint/MediaPlayer-LibraryFolders.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Other than My Documents, there are also Public Documents. Now, you can share My Documents and you can share Public Documents. In Windows 7 they’re combined in the Documents library. Again, the urging question, “Why?”. What’s the point of having two folders?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Back to libraries in Windows 7&lt;/strong&gt;, if you take a look at the &lt;a href=&quot;http://gbrkhw.bay.livefilestore.com/y1pj2miHNOi0tjNlqbAEsXoDtNY5qNeoFI507ZLx6xtnFg_nHP7IZGZiTSQAw9sIP5ndwa_1_mf3PI/Win7-CreateHomegroupStep2.jpg&quot;&gt;image&lt;/a&gt; of the wizard. You’ll notice that you can select the libraries to share and they’re only limited to the default libraries created by Microsoft (by the way, if you shared a default library after you have deleted it. It will be created again!!!). Now, What about “My” libraries? the ones that I created. I have to use something similar to “Share” in Windows Vista. &lt;em&gt;How is this faster or simpler?&lt;/em&gt; Why can’t the windows Users folder be easily customizable and expandable. Why can’t it have profiles based on the user category? Does Microsoft really think that ALL Windows users are the same? I want to be able to apply a certain User folder based on my category (Student, Power user, Developer, Mum, etc.) and I want those profiles to be expandable, editable and created by the community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Back to libraries in Windows 7&lt;/strong&gt;, if you take a look at the &lt;a href=&quot;/public/images/Windows7MissingPoint/Win7-CreateHomegroupStep2.jpg&quot;&gt;image&lt;/a&gt; of the wizard. You’ll notice that you can select the libraries to share and they’re only limited to the default libraries created by Microsoft (by the way, if you shared a default library after you have deleted it. It will be created again!!!). Now, What about “My” libraries? the ones that I created. I have to use something similar to “Share” in Windows Vista. &lt;em&gt;How is this faster or simpler?&lt;/em&gt; Why can’t the windows Users folder be easily customizable and expandable. Why can’t it have profiles based on the user category? Does Microsoft really think that ALL Windows users are the same? I want to be able to apply a certain User folder based on my category (Student, Power user, Developer, Mum, etc.) and I want those profiles to be expandable, editable and created by the community.&lt;/p&gt;
 
 &lt;p&gt;For my first look at Windows 7, Microsoft is missing the point on why they’re making changes. Not only for the libraries, but also for the new taskbar. But that’s another post.&lt;/p&gt;
 </content>
@@ -1810,7 +1815,9 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
    <link href="http://www.amreldib.com/HowFirefoxCanOutlastOtherBrowsers"/>
    <updated>2008-12-17T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/HowFirefoxCanOutlastOtherBrowsers</id>
-   <content type="html">&lt;p&gt;It’s probably not news by now, but you should know up front. I  really like Firefox. I favor it over &lt;a href=&quot;http://blogs.zdnet.com/security/?p=2328&quot;&gt;IE&lt;/a&gt;, &lt;a href=&quot;http://www.microsoft-watch.com/content/web_services_browser/chrome_privacy_is_full_of_dents.html&quot;&gt;Chrome&lt;/a&gt;, that &lt;a href=&quot;http://www.informationweek.com/news/internet/browsers/showArticle.jhtml?articleID=209800452&quot;&gt;Apple thing&lt;/a&gt;, &lt;a href=&quot;http://my.opera.com/haavard/blog/2007/02/28/opera-did-not-respond-to-security-vulner&quot;&gt;Opera&lt;/a&gt;, and even &lt;a href=&quot;http://news.bbc.co.uk/1/hi/entertainment/7776129.stm&quot;&gt;Oprah&lt;/a&gt; (these are the only links I could find, really). But my favorite software is in – shall we say – “danger”. It’s being attacked by all the other competitors who are planning its end. Okey, that’s a little over-dramatic.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/HowFirefoxCanOutlastOtherBrowsers/firefox.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s probably not news by now, but you should know up front. I  really like Firefox. I favor it over &lt;a href=&quot;http://blogs.zdnet.com/security/?p=2328&quot;&gt;IE&lt;/a&gt;, &lt;a href=&quot;http://www.microsoft-watch.com/content/web_services_browser/chrome_privacy_is_full_of_dents.html&quot;&gt;Chrome&lt;/a&gt;, that &lt;a href=&quot;http://www.informationweek.com/news/internet/browsers/showArticle.jhtml?articleID=209800452&quot;&gt;Apple thing&lt;/a&gt;, &lt;a href=&quot;http://my.opera.com/haavard/blog/2007/02/28/opera-did-not-respond-to-security-vulner&quot;&gt;Opera&lt;/a&gt;, and even &lt;a href=&quot;http://news.bbc.co.uk/1/hi/entertainment/7776129.stm&quot;&gt;Oprah&lt;/a&gt; (these are the only links I could find, really). But my favorite software is in – shall we say – “danger”. It’s being attacked by all the other competitors who are planning its end. Okey, that’s a little over-dramatic.&lt;/p&gt;
 
 &lt;p&gt;With the release of Google Chrome and replacing Firefox in Google package (who is the idiot who didn’t see that coming?), everybody knows that the browser war is far more interesting now than ever. Even though that IE is the front runner which everybody should be after, but with its 70+ % market share, it’s more realistic to consider the Firefox-Chrome race more interesting.&lt;/p&gt;
 
@@ -1835,7 +1842,9 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
    <link href="http://www.amreldib.com/RaisingExpectations"/>
    <updated>2008-09-21T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/RaisingExpectations</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3044/2878060062_f5a8dc9d3c_m.jpg&quot; alt=&quot;&quot; /&gt;If you’re following up with the US presidential election these days, you probably heard about Bill Clinton &lt;a href=&quot;http://blogs.abcnews.com/politicalradar/2008/09/bill-clinton-pr.html&quot;&gt;praising&lt;/a&gt; Sarah Palin and describing her as a candidate who can’t be underestimated. Even though Sarah Palin has been proven to be a &lt;a href=&quot;http://www.youtube.com/watch?v=SlQo-IYNkwg&quot;&gt;political joke&lt;/a&gt; that is &lt;a href=&quot;http://www.youtube.com/watch?v=qaSECfQqty8&quot;&gt;clearly&lt;/a&gt; not qualified to run anything not to mention a superpower. Add this to the Clinton’s (newly found) support for Obama, it’s easy to find yourself wondering what’s Bill doin’. The answer is simple, he’s raising expectations for Sarah Palin, making her look like someone who’s is very tough to beat so that when the fight is over and she won then Bill was right and if she lost then she’s letting everybody down.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/RaisingExpectations/WindowsGuy.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re following up with the US presidential election these days, you probably heard about Bill Clinton &lt;a href=&quot;http://blogs.abcnews.com/politicalradar/2008/09/bill-clinton-pr.html&quot;&gt;praising&lt;/a&gt; Sarah Palin and describing her as a candidate who can’t be underestimated. Even though Sarah Palin has been proven to be a &lt;a href=&quot;http://www.youtube.com/watch?v=SlQo-IYNkwg&quot;&gt;political joke&lt;/a&gt; that is &lt;a href=&quot;http://www.youtube.com/watch?v=qaSECfQqty8&quot;&gt;clearly&lt;/a&gt; not qualified to run anything not to mention a superpower. Add this to the Clinton’s (newly found) support for Obama, it’s easy to find yourself wondering what’s Bill doin’. The answer is simple, he’s raising expectations for Sarah Palin, making her look like someone who’s is very tough to beat so that when the fight is over and she won then Bill was right and if she lost then she’s letting everybody down.&lt;/p&gt;
 
 &lt;p&gt;Now, I hear your question from the minute you started reading. What does this has to do with anything that I ever wrote about? It’s simple really, Bill Clinton is a very skilled politician but Microsoft maybe not so much.&lt;/p&gt;
 
@@ -1858,7 +1867,9 @@ The code is offered under the Creative Commons Attribution 2.5 Canada License. Y
    <link href="http://www.amreldib.com/WhatGoogleReaderIsMissing"/>
    <updated>2008-08-16T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/WhatGoogleReaderIsMissing</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.google.com/reader&quot; title=&quot;Google Reader&quot;&gt;&lt;img src=&quot;http://www.google.com/googlereader/images/logo_reader.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;I must confess something. Google Reader really changed a part of my life. Before it, I used to spend - at least - 5 times the time I’m spending now to keep track of all those web sites and blogs (actually I’m spending the same time but I’m following up with 5 times the content). Even though I’m a great fan as it’s obvious. Lately, I think I’m having some problems with Reader. They’re not really problems but more like I’ve pushed the application to its limit that I need something more. Something like:&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/WhatGoogleReaderIsMissing/GoogleReaderLogo.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I must confess something. Google Reader really changed a part of my life. Before it, I used to spend - at least - 5 times the time I’m spending now to keep track of all those web sites and blogs (actually I’m spending the same time but I’m following up with 5 times the content). Even though I’m a great fan as it’s obvious. Lately, I think I’m having some problems with Reader. They’re not really problems but more like I’ve pushed the application to its limit that I need something more. Something like:&lt;/p&gt;
 
 &lt;p&gt;**&quot;No, thanks&quot; button in feed preview:
 **Whenever you’re reviewing a feed from the recommendations page and you realize that you don’t want this feed anymore, you have to go back to the recommendations page and click the &quot;No, Thanks&quot; button to make room for other feeds. Why can’t I get a button in the top banner while I’m reviewing the feed.&lt;/p&gt;
@@ -1921,7 +1932,7 @@ I don’t know what the Starred folder is for, I just used it to mark stuff to b
 
 &lt;p&gt;But it’s not like help systems are that bad all the way and no one tried to make them better. Some companies are actually trying. The new Vista help looks pretty good.&lt;/p&gt;
 
-&lt;p&gt; &lt;a href=&quot;http://farm4.static.flickr.com/3246/2691552724_ae0b9a5942.jpg?v=0&quot; title=&quot;Snapshot of Vista Help System&quot;&gt;&lt;img src=&quot;http://lh4.ggpht.com/eldib.amr/SIVWTxsb2zI/AAAAAAAAABY/fzBxN4p1zDk/clip_image001%5B17%5D.png?imgmax=800&quot; alt=&quot;clip_image001&quot; title=&quot;clip_image001&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;imageInCenter&quot; src=&quot;/public/images/WhyHelpSuck1/SnapshotOfVistaHelpSystem.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see from the snapshot that:&lt;/p&gt;
 
@@ -1961,7 +1972,9 @@ I don’t know what the Starred folder is for, I just used it to mark stuff to b
    <link href="http://www.amreldib.com/Firefox3"/>
    <updated>2008-06-18T00:00:00+01:00</updated>
    <id>http://www.amreldib.com/Firefox3</id>
-   <content type="html">&lt;p&gt;Of course by now you already know that Firefox 3 has been released yesterday. Instead of just talking about how great the new version seems to be, I’m gonna cover the release coverage. Here’s a sum up of some interesting links about the new Firefox.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/Firefox3/FirefoxLogo.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course by now you already know that Firefox 3 has been released yesterday. Instead of just talking about how great the new version seems to be, I’m gonna cover the release coverage. Here’s a sum up of some interesting links about the new Firefox.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://people.mozilla.com/~beltzner/overview-of-firefox3.swf&quot;&gt;Watch it in action&lt;/a&gt;&lt;/p&gt;
 
@@ -2110,7 +2123,9 @@ I don’t know what the Starred folder is for, I just used it to mark stuff to b
 &lt;p&gt;Well, we’ve established that there is a fight. But how real is it?&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Microsoft can avoid the &lt;a href=&quot;http://www.alleyinsider.com/2008/5/google_to_surpass_size_of_microsoft_windows_in_2009#comment-4829b325796c7a88001709b4&quot;&gt;&quot;If Google is winning, then we must be losing&quot;&lt;/a&gt; attitude which seem be driving the company lately, like the Microhoo merger that will take at least a year to be active because of all the in-house arrangements that has to happen. Stopping that attitude will make the fight look much less intense.*   Microsoft should take a moment and re-plan its online strategy, at least to avoid all the redundant services (for example, &lt;a href=&quot;https://www.foldershare.com/welcome.aspx&quot;&gt;Folder Share&lt;/a&gt;, &lt;a href=&quot;http://skydrive.live.com/&quot;&gt;SkyDrive&lt;/a&gt;, and &lt;a href=&quot;https://www.mesh.com/Welcome/Welcome.aspx&quot;&gt;Live Mesh&lt;/a&gt;). This might give Microsoft’s effort in online services a chance to compete with Google in that area.*   Even though online advertising is driving Google’s revenues, Google’s services is what’s threatening Microsoft. And while it’s a good strategy to directly compete in online advertising which will dry Google funds for building those services, it’s still sufficient to build better services - or software - to limit Google services’ affect on Microsoft revenues.&lt;/li&gt;
+  &lt;li&gt;Microsoft can avoid the &lt;a href=&quot;http://www.alleyinsider.com/2008/5/google_to_surpass_size_of_microsoft_windows_in_2009#comment-4829b325796c7a88001709b4&quot;&gt;&quot;If Google is winning, then we must be losing&quot;&lt;/a&gt; attitude which seem be driving the company lately, like the Microhoo merger that will take at least a year to be active because of all the in-house arrangements that has to happen. Stopping that attitude will make the fight look much less intense.  &lt;/li&gt;
+  &lt;li&gt;Microsoft should take a moment and re-plan its online strategy, at least to avoid all the redundant services (for example, &lt;a href=&quot;https://www.foldershare.com/welcome.aspx&quot;&gt;Folder Share&lt;/a&gt;, &lt;a href=&quot;http://skydrive.live.com/&quot;&gt;SkyDrive&lt;/a&gt;, and &lt;a href=&quot;https://www.mesh.com/Welcome/Welcome.aspx&quot;&gt;Live Mesh&lt;/a&gt;). This might give Microsoft’s effort in online services a chance to compete with Google in that area.&lt;/li&gt;
+  &lt;li&gt;Even though online advertising is driving Google’s revenues, Google’s services is what’s threatening Microsoft. And while it’s a good strategy to directly compete in online advertising which will dry Google funds for building those services, it’s still sufficient to build better services - or software - to limit Google services’ affect on Microsoft revenues.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;How real is the fight, if someone came out on top.. then, it’s real.&lt;/p&gt;
@@ -2218,7 +2233,9 @@ I don’t know what the Starred folder is for, I just used it to mark stuff to b
    <link href="http://www.amreldib.com/HowFirefoxMakesMoney"/>
    <updated>2007-12-12T00:00:00+00:00</updated>
    <id>http://www.amreldib.com/HowFirefoxMakesMoney</id>
-   <content type="html">&lt;p&gt;Ever wondered how firefox is still running even though all of Mozilla’s products are for free..&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img class=&quot;imageOnRight&quot; src=&quot;/public/images/HowFirefoxMakesMoney/FirefoxLogo.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ever wondered how firefox is still running even though all of Mozilla’s products are for free..&lt;/p&gt;
 
 &lt;p&gt;First, it must be denotations, the “Best Browser Implementing Web Standards” - according to Mozilla - must be receiving lots of denotations from its wide user base. But There are actually two Mozillas, the Foundation and the Corporation.&lt;/p&gt;
 
