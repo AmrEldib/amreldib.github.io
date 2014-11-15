@@ -23,12 +23,14 @@ Now, [Chocolatey](http://chocolatey.org/) brings this smooth install and update 
 Chocolatey offers a [gallery](http://chocolatey.org/packages) of software, much like an App Store where you can browse for the application you like, find the command for it, then from your command line, install it.
 
 First you need to setup Chocolatey on your system, using a PowerShell command:
-> `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex  ((new-object  net.webclient).DownloadString('https://chocolatey.org/install.ps1'))"  && SET PATH=%PATH%;%systemdrive%\chocolatey\bin`
+
+> @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex  ((new-object  net.webclient).DownloadString('https://chocolatey.org/install.ps1'))"  && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 
 This one line command will download a PowerShell script from Chocolatey and run it, after allowing for unrestricted execution policy (which you disable later).
 
-After you run this command, you can now install applications. Here's how to install [7-zip](http://chocolatey.org/packages/7zip.install):
-> `cinst 7zip.install `
+After you run this command, you can now install applications. Here's how to install [7-zip](http://chocolatey.org/packages/7zip.install):  
+
+> cinst 7zip.install
 
 This command will install 7-zip under the "Program Files" folder (or "Program Files (x86)" if you use a x64 system). It will also register 7-zip with Chocolatey so that it can be updated later. If 7-zip is already installed, it will be updated (if an update is available), and registered with Chocolatey.
 

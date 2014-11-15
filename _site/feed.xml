@@ -6,8 +6,8 @@
 </description>
     <link>http://www.amreldib.com//</link>
     <atom:link href="http://www.amreldib.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 14 Nov 2014 08:12:38 +0000</pubDate>
-    <lastBuildDate>Fri, 14 Nov 2014 08:12:38 +0000</lastBuildDate>
+    <pubDate>Sat, 15 Nov 2014 05:43:15 +0000</pubDate>
+    <lastBuildDate>Sat, 15 Nov 2014 05:43:15 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -66,13 +66,19 @@ Now, &lt;a href=&quot;http://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt; bring
 
 &lt;p&gt;Chocolatey offers a &lt;a href=&quot;http://chocolatey.org/packages&quot;&gt;gallery&lt;/a&gt; of software, much like an App Store where you can browse for the application you like, find the command for it, then from your command line, install it.&lt;/p&gt;
 
-&lt;p&gt;First you need to setup Chocolatey on your system, using a PowerShell command:
-&amp;gt; &lt;code&gt;@powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;iex  ((new-object  net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&quot;  &amp;amp;&amp;amp; SET PATH=%PATH%;%systemdrive%\chocolatey\bin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;First you need to setup Chocolatey on your system, using a PowerShell command:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;@powershell -NoProfile -ExecutionPolicy unrestricted -Command “iex  ((new-object  net.webclient).DownloadString(‘https://chocolatey.org/install.ps1’))”  &amp;amp;&amp;amp; SET PATH=%PATH%;%systemdrive%\chocolatey\bin&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;This one line command will download a PowerShell script from Chocolatey and run it, after allowing for unrestricted execution policy (which you disable later).&lt;/p&gt;
 
-&lt;p&gt;After you run this command, you can now install applications. Here’s how to install &lt;a href=&quot;http://chocolatey.org/packages/7zip.install&quot;&gt;7-zip&lt;/a&gt;:
-&amp;gt; &lt;code&gt;cinst 7zip.install &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After you run this command, you can now install applications. Here’s how to install &lt;a href=&quot;http://chocolatey.org/packages/7zip.install&quot;&gt;7-zip&lt;/a&gt;:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;cinst 7zip.install&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;This command will install 7-zip under the “Program Files” folder (or “Program Files (x86)” if you use a x64 system). It will also register 7-zip with Chocolatey so that it can be updated later. If 7-zip is already installed, it will be updated (if an update is available), and registered with Chocolatey.&lt;/p&gt;
 

@@ -83,7 +83,7 @@
             
                 
                     
-                    <a class="sidebar-nav-item" href="/about.html">About</a>
+                    <a class="sidebar-nav-item" href="/about.html">About Me</a>
                     
                 
             
@@ -265,7 +265,10 @@
                      alt="Subscribe via RSS" />
             </a>
         </nav>
-        <p><small>&copy; 2014. All rights reserved.</small></p>
+        <p>
+            <small><a href="">About this Site</a></small>
+            <small>&copy; 2014. All rights reserved.</small>
+        </p>
     </div>
 </div>
 
@@ -330,13 +333,19 @@ Now, <a href="http://chocolatey.org/">Chocolatey</a> brings this smooth install 
 
 <p>Chocolatey offers a <a href="http://chocolatey.org/packages">gallery</a> of software, much like an App Store where you can browse for the application you like, find the command for it, then from your command line, install it.</p>
 
-<p>First you need to setup Chocolatey on your system, using a PowerShell command:
-&gt; <code>@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex  ((new-object  net.webclient).DownloadString('https://chocolatey.org/install.ps1'))"  &amp;&amp; SET PATH=%PATH%;%systemdrive%\chocolatey\bin</code></p>
+<p>First you need to setup Chocolatey on your system, using a PowerShell command:</p>
+
+<blockquote>
+  <p>@powershell -NoProfile -ExecutionPolicy unrestricted -Command “iex  ((new-object  net.webclient).DownloadString(‘https://chocolatey.org/install.ps1’))”  &amp;&amp; SET PATH=%PATH%;%systemdrive%\chocolatey\bin</p>
+</blockquote>
 
 <p>This one line command will download a PowerShell script from Chocolatey and run it, after allowing for unrestricted execution policy (which you disable later).</p>
 
-<p>After you run this command, you can now install applications. Here’s how to install <a href="http://chocolatey.org/packages/7zip.install">7-zip</a>:
-&gt; <code>cinst 7zip.install </code></p>
+<p>After you run this command, you can now install applications. Here’s how to install <a href="http://chocolatey.org/packages/7zip.install">7-zip</a>:  </p>
+
+<blockquote>
+  <p>cinst 7zip.install</p>
+</blockquote>
 
 <p>This command will install 7-zip under the “Program Files” folder (or “Program Files (x86)” if you use a x64 system). It will also register 7-zip with Chocolatey so that it can be updated later. If 7-zip is already installed, it will be updated (if an update is available), and registered with Chocolatey.</p>
 
