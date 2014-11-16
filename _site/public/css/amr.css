@@ -96,10 +96,20 @@ small {
     margin: 20px;
     margin-right: 0px;
 }
-
+ 
 .imageInCenter {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.spoiler-tag {
+    background: #92AADD;
+    color: #92AADD;
+}
+
+    .spoiler-tag:hover {
+        background: #333333;
+        color:#FFF
+    }
