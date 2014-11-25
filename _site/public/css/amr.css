@@ -16,13 +16,19 @@
     font-size: 64px;
 }
 
-.post {
-	margin-bottom: 5px;
-}
-
 small {
     font-size: 11px;
 }
+
+::selection  {
+  background: #FFEB00;
+    color: black;
+}
+::-moz-selection {
+  background: #FFEB00;
+    color: black;
+}
+
 
 .side-nav-icon {
     display: inline;

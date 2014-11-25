@@ -4,6 +4,7 @@ name: EnableWindowsAuthenticationInFirefox
 title: Enable Windows Authentication in Firefox
 time: 2014-09-27 17:21:00.001000000 -07:00
 category: blog
+frontpage: 'true'
 tags:
 - Security
 - Tips
