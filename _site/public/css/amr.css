@@ -16,6 +16,10 @@
     font-size: 64px;
 }
 
+.post {
+	margin-bottom: 5px;
+}
+
 small {
     font-size: 11px;
 }

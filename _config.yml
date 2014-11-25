@@ -4,7 +4,7 @@ title: Amr
 description: > # this means to ignore newlines until "baseurl:"
   Blog and personal website
 baseurl: "/" # the subpath of your site, e.g. /blog/
-imagesFolder: "/public/images/"
+imagesFolder: "~/public/images/"
 url: "http://amreldib.github.io" # the base hostname & protocol for your site
 twitter_username: AmrEldib
 github_username:  AmrEldib
@@ -12,9 +12,10 @@ linkedin_username: AmrEldib
 goodreads_username: AmrEldib
 rss_feed: http://feeds.feedburner.com/AmrEldib
 timezone: Canada/Pacific
+categories: [blog, reviews]
 
 # Permalinks
-permalink: "/:title"
+permalink: "/:categories/:title"
 relative_permalinks: true
 redirects: yes
 
@@ -24,9 +25,9 @@ name: 'Amr Eldib'
 url: http://www.amreldib.com
 
 # Build settings
-paginate: 5 # Five posts per page
+#paginate: 5 
 markdown: kramdown
 highlighter: pygments
 encoding: utf-8
-exclude: ["amreldib.github.io.sln", "*.suo", "importFromBlogger", "md", "README.md"]
-include: ["TwitterArchive"]
+exclude: ["amreldib.github.io.sln", "*.suo", "importFromBlogger", ".md", "README.md"]
+#include: ["TwitterArchive"]
