@@ -11,7 +11,7 @@ tags:
 redirects:
 - /2009/12/new-firefox-addons-collection-for-new.html
 ---
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/FirefoxLogo.png">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/FirefoxLogo.png">
 
 It’s been a good year for Firefox and Mozilla. They released the [3.5 version](http://www.mozilla.com/en-US/) with lots of improvements. We celebrated [five years](http://www.spreadfirefox.com/5years/en-US/) of Firefox. [Ubiquity](http://ubiquity.mozilla.com/) has become more stable, got lots more of [commands](https://wiki.mozilla.org/Labs/Ubiquity/Commands_In_The_Wild), [Personas](http://www.getpersonas.com/en-US/) reached the 2.0 milestone and the [Thunderbird 3.0](http://www.mozillamessaging.com/en-US/thunderbird/) looks really great. Firefox 3.5 has become the [most popular browser](http://www.downloadsquad.com/2009/12/21/firefox-3-5-passes-ie7-as-most-poluar-web-browser/) on the web.
 

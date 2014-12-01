@@ -21,7 +21,7 @@ Finally, It’s not that help content is long and unreadable. It’s that “eve
 
 But it’s not like help systems are that bad all the way and no one tried to make them better. Some companies are actually trying. The new Vista help looks pretty good.
 
-<img class="imageInCenter" src="{{ site.imagesFolder }}{{ page.name }}/SnapshotOfVistaHelpSystem.png">
+<img class="imageInCenter" src="{{ site.blogImagesFolder }}{{ page.name }}/SnapshotOfVistaHelpSystem.png">
 
 You can see from the snapshot that:
 

@@ -11,7 +11,7 @@ tags:
 redirects:
 - /2008/12/how-firefox-can-outlast-other-browsers.html
 ---
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/firefox.png">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/firefox.png">
 
 It’s probably not news by now, but you should know up front. I&#160; really like Firefox. I favor it over [IE](http://blogs.zdnet.com/security/?p=2328), [Chrome](http://www.microsoft-watch.com/content/web_services_browser/chrome_privacy_is_full_of_dents.html), that [Apple thing](http://www.informationweek.com/news/internet/browsers/showArticle.jhtml?articleID=209800452), [Opera](http://my.opera.com/haavard/blog/2007/02/28/opera-did-not-respond-to-security-vulner), and even [Oprah](http://news.bbc.co.uk/1/hi/entertainment/7776129.stm) (these are the only links I could find, really). But my favorite software is in – shall we say – “danger”. It’s being attacked by all the other competitors who are planning its end. Okey, that’s a little over-dramatic.
 

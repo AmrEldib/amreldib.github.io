@@ -28,7 +28,7 @@ A few weeks I started with the hardware, today I continue with the software and 
 
 ### Operating System
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-Windows7.jpg">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-Windows7.jpg">
 
 Windows, what else? For a .NET developer, it’s really difficult to use another OS on your primary machine. I’m not a big fan of MacOS. Apple’s strength is in hardware not software, Windows is the best OS to run on a Mac. However, I love the idea of Linux. Not just the free and open source part of it, but the customizability of it. MacOS does few things very well and doesn’t let you draw outside the lines. Windows does a lot of things in mediocre to good way but because of the huge user base it has been turned upside down and inside out so many times to let a great degree of customization. Linux does everything in a poor way if you’re a beginner and great way if you’re a pro. Linux allows for a big degree of customization that is too much to resist for a power user. I’d love to switch to Linux (probably, Ubuntu) on my primary machine. Meanwhile, this post is coming to you from Windows 7 x64.
 
@@ -36,18 +36,18 @@ Windows, what else? For a .NET developer, it’s really difficult to use another
 
 [**Mozilla Nightly**](http://nightly.mozilla.org/)
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-FirefoxAuroraNightlyLogo.jpg">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-FirefoxAuroraNightlyLogo.jpg">
 Mozilla really made it easy to follow up on the different editions of Firefox when they announced [Aurora](http://www.mozilla.org/en-US/firefox/channel/) and [Nightly](http://nightly.mozilla.org/). Nightly updates everyday but gives a sneak peak into all the latest features. Nightly have another advantage over Firefox, its x64 edition. This requires using a x64 edition of Flash which is finally [available from Adobe](http://get.adobe.com/flashplayer/otherversions/). It’s also causes giving up on Silverlight (sadly doesn’t have a x64 edition).  
   
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-IE9.jpg">
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-Chrome.jpg">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-IE9.jpg">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-Chrome.jpg">
 Other than Firefox, I’d like to keep other browsers installed for testing web applications on multiple browsers. Chrome is a really good browser that I would probably use if it wasn’t for Firefox and the fact that it’s built by Google. The monster is big enough and doesn’t need more reach into our personal data.
 
 Internet Explorer is already installed with Windows, but with IE9 you don’t have to hate it so much. It’s fast but have very few features compared to Firefox and Chrome.
 
 ### Documents
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-Office2010.jpg">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-Office2010.jpg">
 
 Office with Windows is a no-brainer. Unlike most people, I really like the ribbon. Over versions 2007 and 2010, I discovered a lot of features because of the ribbon. Word and Excel are the applications that I use the most, but I really like Visio which is a great tool for visualizing ideas.
 
@@ -83,7 +83,7 @@ As a developer, I don’t really create any icons but sometimes, I need to modif
 
 ### Visual Studio 2010 Extensions
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-VisualStudio2010.jpg">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-VisualStudio2010.jpg">
 I thought it would be fitting to list the VS 2010 extensions that I use. It’s really easy to figure out their use from the title.
 
 - [Highlight all occurrences of selected word](http://visualstudiogallery.msdn.microsoft.com/4b92b6ad-f563-4705-8f7b-7f85ba3cc6bb/)
@@ -98,7 +98,7 @@ I thought it would be fitting to list the VS 2010 extensions that I use. It’s 
 
 With all the different offerings of file storage in the cloud, if difficult to pick just one. Almost all of them are free (at least have a free starting package that is enough for the occasional use). Here’s how I use different tools for different purpose.
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-Dropbox.png">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-Dropbox.png">
 
 If you’re using a file that needs to be synced across different devices, then Dropbox is your best choice. It’s easy, fast and you’re dealing with a local file so it’s easy to forget that you’re actually syncing a file. Dropbox is great for sharing files with friends, because most people have it. Refer a friend to Dropbox or take advantage or their offers to increase space, I’ve increased mine to 4.5 GB (They have up to 10GB of free space).
 
@@ -106,12 +106,12 @@ The downside of Dropbox is privacy. Their use of duplication technology to store
 
 [**Live Mesh and SkyDrive**](http://explore.live.com/windows-live-essentials?os=other)
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-SkyDrive.png">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-SkyDrive.png">
 For a Windows Phone user, SkyDrive is an essential part of the service. Photos are uploaded automatically and Office documents as well. SkyDrive is great in terms of size. Can’t go wrong with 25GB of free space. Live Mesh on the other hand is more of remote access tool rather than a file sync tool. It’s only available on Windows, so it can’t sync with a lot of devices. However, SkyDrive and Live Mesh are making great advances, and I expect that I’ll be using more of them compared to Dropbox.
 
 [**Tonido**](http://www.tonido.com/)
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-Tonido.png">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-Tonido.png">
 If you worry about your privacy in anyway, you’ll love Tonido. It lets you set up your own server offering your files for access over the Internet. The way it works is you install a small piece of software on your home machine (for example), register a sub-domain with Tonido for free, then the folders on the home machine are now available for access from any of Tonido’s clients including Web and all major smart phones (iPhone, Android, and WP7). It’s free and super easy to use. The downside is that access to your files depend on your Internet upload speed which is usually much lower than your download speed. However, Tonido acts as fall-back solution to Dropbox and SkyDrive, whatever file is not available on either service can be accessed via Tonido. Also, it’s great for accessing files through the phone when within the house WiFi range. If it detects that you’re within the same LAN as the server, it won’t go through the Internet but rather through the LAN directly which is much faster. The upside of Tonido is you can access all of your files all the time for free from anywhere.
 
 ### Social Media and Communication
@@ -154,7 +154,7 @@ Calibre is not really for managing files but digital books are a form of books. 
 
 **[VLC](http://www.videolan.org/vlc/)**
 
-<img class="imageOnRight" src="{{ site.imagesFolder }}{{ page.name }}/WhatIUse2-VLC.jpg">
+<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WhatIUse2-VLC.jpg">
 To play any video, use VLC. It’s that simple. Video are not like music where other features of the application would matter. For videos there’s only one feature that matter, Can I play it? with VLC the answer is always “Yes”.
 
 **[Zune](http://www.zune.net/en-US/products/software/download/default.htm)**
