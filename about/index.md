@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+permalink: /
 ---
 
 Hi, My name is Amr Eldib. Welcome to my blog and website.  
