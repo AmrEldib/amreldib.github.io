@@ -16,6 +16,11 @@
     font-size: 64px;
 }
 
+.frontPageIcons {
+    margin: 0 10px 0 0;
+    display: inline;
+}
+
 small {
     font-size: 11px;
 }

@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Home
-category: reviews
+category: favs
 ---
 
 <div class="posts">
     {% for post in site.posts %}
-        {% if post.category == 'reviews' %}
+        {% if post.category == 'favs' %}
             {% if post.frontpage == 'true' %}
             <div class="post">
                 <h1 class="post-title">
