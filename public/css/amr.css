@@ -226,3 +226,30 @@ small {
         background: #333333;
         color: #FFF;
     }
+
+/* Bookshelf */
+.bookshelfHeader {
+    clear: both;
+}
+
+.moreBookshelf {
+    float: right;
+}
+
+.gr_grid_container {
+          /* customize grid container div here. eg: width: 500px; */
+          clear: both;
+        }
+
+        .gr_grid_book_container {
+          /* customize book cover container div here */
+          float: left;
+          width: 98px;
+          height: 160px;
+          margin: 10px;
+          overflow: hidden;
+        }
+
+        .gr_grid_book_container img {
+            border-radius: 0;
+        }
