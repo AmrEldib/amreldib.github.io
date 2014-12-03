@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <br/>
+            <br />
             <small><i>Hi, my name is</i></small>
             <h1>
                 <a class="blogTitle" href="{{ site.baseurl }}">
@@ -21,38 +21,70 @@
             <small><i>and this is my</i></small>
             <p class="lead">{{ site.description }}</p>
         </div>
+
         <nav class="sidebar-nav">
-            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-            <a class="sidebar-nav-item{% if page.url == site.baseurl + 'blog/' %} active{% endif %}" href="{{ site.baseurl }}blog/">Blog</a>
+            <ul>
+                <li>
+                    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+                </li>
+                <li>
+                    <a class="sidebar-nav-item{% if page.url == site.baseurl + 'blog/' %} active{% endif %}" href="{{ site.baseurl }}blog/">Blog</a>
+                </li>
+                <li>
+                    <a class="sidebar-nav-item{% if page.url == site.baseurl + 'projects/' %} active{% endif %}" href="{{ site.baseurl }}projects/">Projects</a>
+                </li>
+                <li>
+                    <input class="toggle-box" id="moreHeader" type="checkbox">
+                    <label for="moreHeader">More</label>
+                    <div>
+                        <ul>
+                            <li>
+                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'av/' %} active{% endif %}" href="{{ site.baseurl }}av/">Audio and Video</a>
+                            </li>
+                            <li>
+                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'bookmarks/' %} active{% endif %}" href="{{ site.baseurl }}bookmarks/">Bookmarks</a>
+                            </li>
+                            <li>
+                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'favs/' %} active{% endif %}" href="{{ site.baseurl }}favs/">Favorites</a>
+                            </li>
+                            <li>
+                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'tools/' %} active{% endif %}" href="{{ site.baseurl }}tools/">Tools</a>
+                            </li>
+                            <li>
+                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'writings/' %} active{% endif %}" href="{{ site.baseurl }}writings/">Writings</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
             {% comment %}
-            The code below dynamically generates a sidebar nav of pages with
-            `layout: page` in the front-matter. See readme for usage.
+                The code below dynamically generates a sidebar nav of pages with
+                `layout: page` in the front-matter. See readme for usage.
             {% endcomment %}
 
             {% assign pages_list = site.pages %}
             {% for node in pages_list %}
                 {% if node.title != null %}
                     {% if node.layout == "page" %}
-                    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+                        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
                     {% endif %}
                 {% endif %}
             {% endfor %}
 
-            <br/>
-
-            <a class="sidebar-nav-item side-nav-icon" 
+            <a class="sidebar-nav-item side-nav-icon"
                href="https://twitter.com/{{ site.twitter_username }}">
                 <img class="side-nav-icon"
                      src="{{ site.baseurl }}public/images/twitter-24.png"
                      alt="@{{ site.twitter_username }}" />
             </a>
-            <a class="sidebar-nav-item side-nav-icon" 
+            <a class="sidebar-nav-item side-nav-icon"
                href="https://github.com/{{ site.github_username }}">
                 <img class="side-nav-icon"
                      src="{{ site.baseurl }}public/images/github-24.png"
                      alt="GitHub Page" />
             </a>
-            <a class="sidebar-nav-item side-nav-icon" 
+            <a class="sidebar-nav-item side-nav-icon"
                href="http://www.goodreads.com/{{ site.goodreads_username }}">
                 <img class="side-nav-icon"
                      src="{{ site.baseurl }}public/images/goodreads-24.png"
@@ -64,7 +96,7 @@
                      src="{{ site.baseurl }}public/images/linked-24.png"
                      alt="LinkedIn Resume" />
             </a>
-            <a class="sidebar-nav-item side-nav-icon" 
+            <a class="sidebar-nav-item side-nav-icon"
                href="{{ site.rss_feed }}">
                 <img class="side-nav-icon"
                      src="{{ site.baseurl }}public/images/rss-24.png"

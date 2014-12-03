@@ -1,5 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Playball);
 
+.sidebar {
+    width: 16rem;
+    padding: 0;
+}
+
+.sidebar-nav {
+    margin-bottom: 0;
+}
+
+nav a img {
+    margin: 0;
+}
+
+.sidebar-sticky {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.container {
+}
+
+.content {
+    margin-left: 18rem;
+}
+
 .profilePic {
     width: 192px;
     height: 192px;
@@ -40,6 +66,39 @@ small {
     display: inline;
 }
 
+.sidebar-nav ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+    .sidebar-nav ul li ul {
+        margin-left: -30px;
+    }
+
+.toggle-box {
+    display: none;
+}
+
+    .toggle-box + label {
+        cursor: pointer;
+        display: block;
+    }
+
+        .toggle-box + label + div {
+            display: none;
+            margin-bottom: 10px;
+        }
+
+    .toggle-box:checked + label + div {
+        display: block;
+    }
+
+    .toggle-box + label:before {
+        display: block;
+        float: left;
+        text-align: center;
+    }
+
 /* entire container, keeps perspective */
 .flip-container {
     -moz-perspective: 1000;
@@ -51,11 +110,11 @@ small {
 }
     /*  UPDATED! flip the pane when hovered */
     .flip-container:hover .back {
-        -moz-transform: rotateY(0deg);
-        -ms-transform: rotateY(0deg);
-        -o-transform: rotateY(0deg);
-        -webkit-transform: rotateY(0deg);
-        transform: rotateY(0deg);
+        -moz-transform: rotateY(0);
+        -ms-transform: rotateY(0);
+        -o-transform: rotateY(0);
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
     }
 
     .flip-container:hover .front {
@@ -101,11 +160,11 @@ small {
 /*  UPDATED! front pane, placed above back */
 .front {
     z-index: 2;
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
 }
 
 /* back, initially hidden pane */
@@ -133,11 +192,11 @@ small {
 }
 
 .vertical.flip-container:hover .back {
-    -moz-transform: rotateX(0deg);
-    -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
-    -webkit-transform: rotateX(0deg);
-    transform: rotateX(0deg);
+    -moz-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+    -o-transform: rotateX(0);
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
 }
 
 .vertical.flip-container:hover .front {
@@ -151,14 +210,11 @@ small {
 .imageOnRight {
     float: right;
     margin: 20px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .imageInCenter {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
 }
 
 .spoiler-tag {

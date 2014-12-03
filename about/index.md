@@ -18,7 +18,7 @@ Thanks for reading!
 This site was generated using [Jekyll](http://jekyllrb.com) and is hosted on [GitHub](https://github.com/AmrEldib/amreldib.github.io/).  
 It was last updated on: {{ site.time | date: "%B %-d %Y, %H:%M %p" }}
 
-Some resources that were helping in building this site:  
+Some resources that were helpful in building this site:  
 [Setup Jekyll on Windows and host it on GitHub Pages](http://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages/)  
 [Migrating Blogger posts to Jekyll](http://www.elstensoftware.com/blog/2010/08/23/migrating-blogger-to-jekyll/)  
 [How I Created a Beautiful and Minimal Blog Using Jekyll, Github Pages, and poole](http://joshualande.com/jekyll-github-pages-poole/)  
