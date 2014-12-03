@@ -28,10 +28,10 @@
                     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
                 </li>
                 <li>
-                    <a class="sidebar-nav-item{% if page.url == site.baseurl + 'blog/' %} active{% endif %}" href="{{ site.baseurl }}blog/">Blog</a>
+                    <a class="sidebar-nav-item{% if page.url == (site.baseurl + 'blog/') %} active{% endif %}" href="{{ site.baseurl }}blog/">Blog</a>
                 </li>
                 <li>
-                    <a class="sidebar-nav-item{% if page.url == site.baseurl + 'projects/' %} active{% endif %}" href="{{ site.baseurl }}projects/">Projects</a>
+                    <a class="sidebar-nav-item{% if page.url == (site.baseurl + 'projects/') %} active{% endif %}" href="{{ site.baseurl }}projects/">Projects</a>
                 </li>
                 <li>
                     <input class="toggle-box" id="moreHeader" type="checkbox">
@@ -43,6 +43,9 @@
                             </li>
                             <li>
                                 <a class="sidebar-nav-item{% if page.url == site.baseurl + 'bookmarks/' %} active{% endif %}" href="{{ site.baseurl }}bookmarks/">Bookmarks</a>
+                            </li>
+                            <li>
+                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'bookshelf/' %} active{% endif %}" href="{{ site.baseurl }}bookshelf/">Bookshelf</a>
                             </li>
                             <li>
                                 <a class="sidebar-nav-item{% if page.url == site.baseurl + 'favs/' %} active{% endif %}" href="{{ site.baseurl }}favs/">Favorites</a>
@@ -73,16 +76,16 @@
             {% endfor %}
 
             <a class="sidebar-nav-item side-nav-icon"
-               href="https://twitter.com/{{ site.twitter_username }}">
-                <img class="side-nav-icon"
-                     src="{{ site.baseurl }}public/images/twitter-24.png"
-                     alt="@{{ site.twitter_username }}" />
-            </a>
-            <a class="sidebar-nav-item side-nav-icon"
                href="https://github.com/{{ site.github_username }}">
                 <img class="side-nav-icon"
                      src="{{ site.baseurl }}public/images/github-24.png"
                      alt="GitHub Page" />
+            </a>
+            <a class="sidebar-nav-item side-nav-icon"
+               href="https://twitter.com/{{ site.twitter_username }}">
+                <img class="side-nav-icon"
+                     src="{{ site.baseurl }}public/images/twitlogo-24.png"
+                     alt="@{{ site.twitter_username }}" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
                href="http://www.goodreads.com/{{ site.goodreads_username }}">

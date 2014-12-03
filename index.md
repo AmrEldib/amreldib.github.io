@@ -1,9 +1,7 @@
 ---
 layout: default
-title: 'Amr Eldib'
+title: Home
 ---
-
-
 #Hi, I'm Amr#
 
 I'm a software developer building GIS applications. These are some of my thoughts on software, technology, books and more.
@@ -16,6 +14,9 @@ List of projects I've worked on.
 
 ##[Writings](/writings/)##  
 Random thoughts on random topics.  
+
+##[Bookshelf](/bookshelf/)##  
+Browse through my bookself.  
 
 ##[Reviews](/reviews/)##  
 Books, Movies, TV Shows, and other random things.  
@@ -38,8 +39,8 @@ Stuff I like.
         <a class="sidebar-nav-item side-nav-icon" 
    href="https://twitter.com/{{ site.twitter_username }}">
             <img class="frontPageIcons" 
-                 src="{{ site.baseurl }}public/images/twitter-24.png" 
-                 alt="@{{ site.twitter_username }}" />@AmrEldib
+                 src="{{ site.baseurl }}public/images/twitlogo-24.png" 
+                 alt="@{{ site.twitter_username }}" />@{{ site.twitter_username }}
         </a>
     </li>
     <li>
