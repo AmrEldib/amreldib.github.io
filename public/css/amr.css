@@ -1,4 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Playball);
+@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playball'), local('Playball-Regular'), url(fonts/playball.woff2) format('woff2'), url(fonts/playball.woff) format('woff');
+}
 
 .sidebar {
     width: 16rem;
@@ -216,40 +221,3 @@ small {
 .imageInCenter {
     margin: 20px auto 20px auto;
 }
-
-.spoiler-tag {
-    background: #92AADD;
-    color: #92AADD;
-}
-
-    .spoiler-tag:hover {
-        background: #333333;
-        color: #FFF;
-    }
-
-/* Bookshelf */
-.bookshelfHeader {
-    clear: both;
-}
-
-.moreBookshelf {
-    float: right;
-}
-
-.gr_grid_container {
-          /* customize grid container div here. eg: width: 500px; */
-          clear: both;
-        }
-
-        .gr_grid_book_container {
-          /* customize book cover container div here */
-          float: left;
-          width: 98px;
-          height: 160px;
-          margin: 10px;
-          overflow: hidden;
-        }
-
-        .gr_grid_book_container img {
-            border-radius: 0;
-        }

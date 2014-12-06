@@ -1,0 +1,9 @@
+﻿.spoiler-tag {
+    background: #92AADD;
+    color: #92AADD;
+}
+
+    .spoiler-tag:hover {
+        background: #333333;
+        color: #FFF;
+    }

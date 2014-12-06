@@ -17,5 +17,8 @@
     <file>/public/css/hyde.css</file>
     <file>/public/css/rjow.css</file>
     <file>/public/css/gist.css</file>
+    <file>/public/css/amr.css</file>
+    <file>/public/css/bookshelf.css</file>
+    <file>/public/css/reviews.css</file>
   </files>
 </bundle>
