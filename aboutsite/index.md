@@ -40,6 +40,7 @@ These are some resources I found helpful when building this site.
 [Adding Touch Icons](https://mathiasbynens.be/notes/touch-icons)  
 
 ### Fonts
+[Amiri](http://www.amirifont.org/)  
 [IconMoon](https://icomoon.io/app/#/select)  
 [Playball](http://www.google.com/fonts/specimen/Playball)  
 

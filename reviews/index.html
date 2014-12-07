@@ -8,23 +8,23 @@ category: reviews
     {% for post in site.posts %}
         {% if post.category == 'reviews' %}
             {% if post.frontpage == 'true' %}
-            <div class="post">
+            <div class="post{% if post.lang == 'ar' %} rtl{% endif %}">
                 <h1 class="post-title">
-                  <a href="{{ post.url }}">
-                    {{ post.title }}
-                  </a>
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
                 </h1>
-            <span class="post-date">{{ post.date | date_to_string }}</span>
-                    {{ post.content }}
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                {{ post.content }}
             </div>
             {% else %}
-            <div>
+            <div class="{% if post.lang == 'ar' %} rtl{% endif %}">
                 <h3 class="post-title">
-                  <a href="{{ post.url }}">
-                    {{ post.title }}
-                  </a>
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
                 </h3>
-            <span class="post-date">{{ post.date | date_to_string }}</span>
+                <span class="post-date">{{ post.date | date_to_string }}</span>
             </div>
             {% endif %} 
         {% endif %}

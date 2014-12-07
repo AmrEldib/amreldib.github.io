@@ -1217,10 +1217,17 @@ tbody tr:nth-child(odd) th {
     }
 
 @font-face {
-  font-family: 'Playball';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Playball'), local('Playball-Regular'), url(fonts/playball.woff2) format('woff2'), url(fonts/playball.woff) format('woff');
+    font-family: 'Playball';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playball'), local('Playball-Regular'), url(fonts/playball.woff2) format('woff2'), url(fonts/playball.woff) format('woff');
+}
+
+@font-face {
+    font-family: AmiriWeb;
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/amiri-regular.eot?') format('eot'), url('fonts/amiri-regular.woff') format('woff'), url('fonts/amiri-regular.ttf') format('truetype');
 }
 
 .sidebar {
@@ -1439,6 +1446,19 @@ small {
 .imageInCenter {
     margin: 20px auto 20px auto;
 }
+
+.rtl {
+    font-family: AmiriWeb;
+    text-align: right;
+    line-height: 1.7;
+}
+
+    .rtl .imageOnRight {
+        float: left;
+        margin: 20px;
+        margin-left: 0;
+    }
+
 /* Bookshelf */
 .bookshelfHeader {
     clear: both;
