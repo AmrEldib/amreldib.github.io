@@ -36,7 +36,12 @@ These are some resources I found helpful when building this site.
 [CSS Flip](http://davidwalsh.name/css-flip)  
 [Circular Images with CSS3](http://bavotasan.com/2011/circular-images-with-css3/)  
 [How to Expand & Collapse (toggle) div Layer Using Only CSS3](http://www.realcombiz.com/2014/01/how-to-expand-collapse-toggle-div-layer.html)  
+[Turn Number to Star Rating](http://codepen.io/AtomicNoggin/pen/fuHBh)  
 [Adding Touch Icons](https://mathiasbynens.be/notes/touch-icons)  
+
+### Fonts
+[IconMoon](https://icomoon.io/app/#/select)  
+[Playball](http://www.google.com/fonts/specimen/Playball)  
 
 ### Misc.
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  

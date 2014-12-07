@@ -39,7 +39,7 @@ url: http://www.amreldib.com
 #paginate: 5 
 markdown: kramdown
 highlighter: pygments
-encoding: UTF-8
+encoding: utf-8
 exclude: ["amreldib.github.io.sln", "*.suo", "importFromBlogger", "README.md"]
 #include: ["TwitterArchive"]
 #gems: [jekyll-sitemap]

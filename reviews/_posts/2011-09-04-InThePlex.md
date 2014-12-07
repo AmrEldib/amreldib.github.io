@@ -11,6 +11,9 @@ tags:
 - IT Industry
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/InThePlexCover.jpg">  
+
+<div class="stars" title="4 Stars" data-percent="80"></div>
+
 I thought this would be a fan-boy book.  
 There's a big part of this book that is just about telling the story of Google. How it started, how it has grown to be the Internet giant that it is now.  
 But it's the Google story told by a journalist with a long relationship with Google. This doesn't affect his integrity but I think it makes him sees the world as Google sees it. Judge Google by their intentions rather than their actions. He's like one of those "embed" journalists that travel with the U.S. forces in Iraq. After a while, he starts to be one of them. This issue confirms my guess that this is a fan-boy book.  

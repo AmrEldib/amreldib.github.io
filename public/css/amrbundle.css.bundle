@@ -20,5 +20,6 @@
     <file>/public/css/amr.css</file>
     <file>/public/css/bookshelf.css</file>
     <file>/public/css/reviews.css</file>
+    <file>/public/css/starRatings.css</file>
   </files>
 </bundle>

@@ -11,6 +11,8 @@ tags:
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/CSharpInDepthCover.jpg">
 
+<div class="stars" title="4 Stars" data-percent="80"></div>
+
 I like that this book have a friendly tone.
 It's not a reference book, but C# in Depth is true to its title. You would like this book if you are a C# developer for 2 years or so and now you're tired of solving all problems with the simple tools of for loops and if statements. Maybe it's time for something more.  
 The book assumes that you at least know C# 1.0 (VS 2003 and .NET 1.1) and it moves through C# 2, 3 and 4 to build on the features of each version.  
