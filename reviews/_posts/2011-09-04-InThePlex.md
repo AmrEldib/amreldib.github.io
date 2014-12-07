@@ -14,7 +14,7 @@ tags:
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/InThePlexCover.jpg">  
 
-<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ rating.rating }}"></div>
+<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 
 I thought this would be a fan-boy book.  
 There's a big part of this book that is just about telling the story of Google. How it started, how it has grown to be the Internet giant that it is now.  

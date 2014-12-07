@@ -13,7 +13,7 @@ tags:
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/BabElKorogCover.jpg">
 
-<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ rating.rating }}"></div>
+<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 
 أهم حاجة لازم تفتكرها وإنت بتقرأ الرواية ديه هي إنك لازم تكمل للأخر ..  أوعي تستسلم .. أنا مش هأقدر أحرق لك القصة لأن الغلاف فيه النهاية والعنوان دليل الخلاصة والصفحة الأولي فيها كيف تنتهي الأمور  
 أهم حاجة هي إنك تكمل للأخر  
