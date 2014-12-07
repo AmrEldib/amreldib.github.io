@@ -4,6 +4,8 @@ name: CSharpInDepth
 title: 'C# in Depth'
 time: 2011-09-02 20:52:00.001000000 -07:00
 category: reviews
+excerpt: "Deep technical topic in a friendly tone"
+rating: 4
 tags:
 - ".NET"
 - C#
@@ -11,7 +13,7 @@ tags:
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/CSharpInDepthCover.jpg">
 
-<div class="stars" title="4 Stars" data-percent="80"></div>
+<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ rating.rating }}"></div>
 
 I like that this book have a friendly tone.
 It's not a reference book, but C# in Depth is true to its title. You would like this book if you are a C# developer for 2 years or so and now you're tired of solving all problems with the simple tools of for loops and if statements. Maybe it's time for something more.  

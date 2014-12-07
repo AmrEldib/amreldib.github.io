@@ -4,6 +4,8 @@ name: InThePlex
 title: In The Plex
 time: 2011-09-04 12:01:00.001000000 -07:00
 category: reviews
+excerpt: "Not a fan-boy book"
+rating: 4
 tags:
 - Chrome
 - Google
@@ -12,7 +14,7 @@ tags:
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/InThePlexCover.jpg">  
 
-<div class="stars" title="4 Stars" data-percent="80"></div>
+<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ rating.rating }}"></div>
 
 I thought this would be a fan-boy book.  
 There's a big part of this book that is just about telling the story of Google. How it started, how it has grown to be the Internet giant that it is now.  

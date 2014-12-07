@@ -4,6 +4,8 @@ name: TheBigShort
 title: The Big Short
 time: 2011-10-29 09:39:00.001000000 -07:00
 category: reviews
+excerpt: "Amazing Story, Beautifully Told"
+rating: 5
 frontpage: 'true'
 tags:
 - Economics
@@ -11,7 +13,7 @@ tags:
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/TheBigShortCover.jpg">
 
-<div class="stars" title="5 Stars" data-percent="100"></div>
+<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ rating.rating }}"></div>
 
 Amazing Story, Beautifully Told  
 In the tsunami of the economic crisis of 2008, there’s a million story. I've read many books on the topic and they cover it very well. "All the Devils are Here" covers the history. "Too Big To Fail" covers the top guys on Wall Street and Government during the crisis. "The Big Short" tells the story of few people who, while not connected at all, saw it coming. Not only did they see it coming but also made ton of money off of it.  

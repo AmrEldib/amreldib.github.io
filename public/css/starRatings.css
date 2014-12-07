@@ -18,74 +18,79 @@ the only important parts are display and width, which force the container to con
     font-size: 30px;
     margin: 5px;
 }
-    /*
+
+.excerpt .stars {
+    font-size: 22px;
+}
+
+/*
 the BEFORE:pseudo element. This will represent the number of stars in the actual rating.
 it floats above the AFTER element.
 */
-    .stars:BEFORE {
-        content: "\e602\e602\e602\e602\e602";
-        position: absolute;
-        overflow: hidden;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        color: #FC0;
-        text-shadow: 0 1px 0 #000, 0 -1px 0 #515151;
-    }
-    /*
+.stars:BEFORE {
+    content: "\e602\e602\e602\e602\e602";
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    color: #FC0;
+    text-shadow: 0 1px 0 #000, 0 -1px 0 #515151;
+}
+/*
 the AFTER:pseudo element. This will represent the total possible  stars available. It is set to relative to ensure it takes up the proper amount of space.
 */
-    .stars:AFTER {
-        content: "\e602\e602\e602\e602\e602";
-        position: relative;
-        color: #515151;
-    }
-    /*
+.stars:AFTER {
+    content: "\e602\e602\e602\e602\e602";
+    position: relative;
+    color: #515151;
+}
+/*
 if including user rating controls, float the AFTER element.
 */
-    .stars.rate:AFTER {
-        position: absolute;
-        left: 0;
-    }
-    /*
+.stars.rate:AFTER {
+    position: absolute;
+    left: 0;
+}
+/*
 default state for the  user rating controls. invisible, but floating above the BEFORE and AFTER elements
 */
-    .stars.rate > A {
-        color: transparent;
-        text-decoration: none;
-        position: relative;
-        z-index: 2;
-    }
-    /*
+.stars.rate > A {
+    color: transparent;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+/*
 if the user is floating thier mouse above the rating, hide the display stars.
 */
-    .stars.rate:HOVER:BEFORE,
-    .stars.rate:HOVER:AFTER {
-        display: none;
-    }
-    /*
+.stars.rate:HOVER:BEFORE,
+.stars.rate:HOVER:AFTER {
+    display: none;
+}
+/*
 turn all the start "ON" by default.
 */
-    .stars.rate:HOVER > A {
-        color: #FC0;
-        text-shadow: 0 1px 0 #000, 0 -1px 0 #fff;
-    }
-        /*
+.stars.rate:HOVER > A {
+    color: #FC0;
+    text-shadow: 0 1px 0 #000, 0 -1px 0 #fff;
+}
+    /*
 optional style for the specific star control a user is directly above.
 */
-        .stars.rate:HOVER > A:HOVER {
-            color: #FC0;
-            text-shadow: 0 2px 0 #000, 0 -1px 0 #fff;
-            top: -1px;
-        }
-    /*
+    .stars.rate:HOVER > A:HOVER {
+        color: #FC0;
+        text-shadow: 0 2px 0 #000, 0 -1px 0 #fff;
+        top: -1px;
+    }
+/*
 turn "OFF" all stars after the one the user is hovering over.
 */
-    .stars.rate > A:HOVER ~ A {
-        color: #fff;
-        text-shadow: none;
-    }
-    /* 
+.stars.rate > A:HOVER ~ A {
+    color: #fff;
+    text-shadow: none;
+}
+/* 
   all the styles below are used to display the appropriate portion of the BEFORE element based on percentage rating. unfortunately you will need to create a specific rule for each level of granularity you wish to display.
   if the CSS3 attr() function proposal ever gets implemented
   the remaining rules could all be replaced with the following:
@@ -94,47 +99,47 @@ turn "OFF" all stars after the one the user is hovering over.
   }
   
 */
-    .stars:NOT([data-percent]):BEFORE,
-    .stars[data-percent="0"]:BEFORE {
-        display: none;
-    }
-    /* 1/2 a star */
-    .stars[data-percent="10"]:BEFORE {
-        width: 10%;
-    }
-    /* 1 star */
-    .stars[data-percent="20"]:BEFORE {
-        width: 20%;
-    }
-    /* 1 & 1/2 stars */
-    .stars[data-percent="30"]:BEFORE {
-        width: 30%;
-    }
-    /* etc. */
-    .stars[data-percent="40"]:BEFORE {
-        width: 40%;
-    }
+.stars:NOT([data-percent]):BEFORE,
+.stars[data-percent="0"]:BEFORE {
+    display: none;
+}
+/* 1/2 a star */
+.stars[data-percent="0.5"]:BEFORE {
+    width: 10%;
+}
+/* 1 star */
+.stars[data-percent="1"]:BEFORE {
+    width: 20%;
+}
+/* 1 & 1/2 stars */
+.stars[data-percent="1.5"]:BEFORE {
+    width: 30%;
+}
+/* etc. */
+.stars[data-percent="2"]:BEFORE {
+    width: 40%;
+}
 
-    .stars[data-percent="50"]:BEFORE {
-        width: 50%;
-    }
+.stars[data-percent="2.5"]:BEFORE {
+    width: 50%;
+}
 
-    .stars[data-percent="60"]:BEFORE {
-        width: 60%;
-    }
+.stars[data-percent="3"]:BEFORE {
+    width: 60%;
+}
 
-    .stars[data-percent="70"]:BEFORE {
-        width: 70%;
-    }
+.stars[data-percent="3.5"]:BEFORE {
+    width: 70%;
+}
 
-    .stars[data-percent="80"]:BEFORE {
-        width: 80%;
-    }
+.stars[data-percent="4"]:BEFORE {
+    width: 80%;
+}
 
-    .stars[data-percent="90"]:BEFORE {
-        width: 90%;
-    }
+.stars[data-percent="4.5"]:BEFORE {
+    width: 90%;
+}
 
-    .stars[data-percent="100"]:BEFORE {
-        width: 100%;
-    }
+.stars[data-percent="5"]:BEFORE {
+    width: 100%;
+}

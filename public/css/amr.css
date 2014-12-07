@@ -219,6 +219,14 @@ small {
     transform: rotateX(180deg);
 }
 
+.excerpt {
+    margin-bottom: 4em;
+}
+
+    .excerpt .post-date {
+        margin-bottom: 0;
+    }
+
 .imageOnRight {
     float: right;
     margin: 20px;

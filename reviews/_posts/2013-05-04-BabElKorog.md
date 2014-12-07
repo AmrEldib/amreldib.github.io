@@ -4,6 +4,8 @@ name: BabElKorog
 title: "باب الخروج"
 time: 2013-05-04 20:52:00.001000000 -07:00
 category: reviews
+excerpt: "أهم حاجة لازم تفتكرها وإنت بتقرأ الرواية ديه هي إنك لازم تكمل للأخر"
+rating: 5
 lang: ar
 tags:
 - Novel
@@ -11,7 +13,7 @@ tags:
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/BabElKorogCover.jpg">
 
-<div class="stars" title="5 Stars" data-percent="100"></div>
+<div class="stars" title="{{ page.rating }} Stars" data-percent="{{ rating.rating }}"></div>
 
 أهم حاجة لازم تفتكرها وإنت بتقرأ الرواية ديه هي إنك لازم تكمل للأخر ..  أوعي تستسلم .. أنا مش هأقدر أحرق لك القصة لأن الغلاف فيه النهاية والعنوان دليل الخلاصة والصفحة الأولي فيها كيف تنتهي الأمور  
 أهم حاجة هي إنك تكمل للأخر  

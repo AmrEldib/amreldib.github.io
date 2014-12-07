@@ -18,19 +18,27 @@ category: reviews
                 {{ post.content }}
             </div>
             {% else %}
-            <div class="{% if post.lang == 'ar' %} rtl{% endif %}">
+            <div class="excerpt{% if post.lang == 'ar' %} rtl{% endif %}">
                 <h3 class="post-title">
                     <a href="{{ post.url }}">
                         {{ post.title }}
                     </a>
                 </h3>
                 <span class="post-date">{{ post.date | date_to_string }}</span>
+                <div class="stars" title="{{ post.rating }} Stars" data-percent="{{ post.rating }}"></div><br />
+                {{ post.excerpt }}
+                <a href="{{ post.url }}">
+                    {% if post.lang == 'ar' %}
+                        ... إقرأ المزيد
+                    {% else %}
+                        ... read more
+                    {% endif %}
+                </a>
             </div>
-            {% endif %} 
+            {% endif %}
         {% endif %}
     {% endfor %}
 </div>
-
 <!--
 <div class="pagination">
   {% if paginator.next_page %}
