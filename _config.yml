@@ -1,12 +1,17 @@
 # Site settings
 title: Amr
-description: >								# this means to ignore newlines until "baseurl:"
-  Blog and personal website
+description: Blog and personal website
+# >								# this means to ignore newlines until "baseurl:"
 baseurl: "/"								# the subpath of your site, e.g. /blog/
-url: "http://amreldib.github.io"			# the base hostname & protocol for your site
-rss_feed: http://feeds.feedburner.com/AmrEldib
+url: "http://www.amreldib.com"			# the base hostname & protocol for your site
+rss_feed: http://www.amreldib.com/blog/feed.xml
 timezone: Canada/Pacific
 categories: [av, blog, bookmarks, bookshelf, favs, projects, reviews, tools, writings]
+
+# RSS Titles
+rss_blog_title: Amr Eldib Blog
+rss_reviews_title: Amr Eldib Reviews
+rss_writings_title: Amr Eldib Writings
 
 # Contact Properties
 twitter_username: AmrEldib
@@ -32,14 +37,14 @@ redirects: yes
 
 # metadata
 author:
-name: 'Amr Eldib'
-url: http://www.amreldib.com
+  name: 'Amr Eldib'
+  url: http://www.amreldib.com
 
 # Build settings
 #paginate: 5 
 markdown: kramdown
 highlighter: pygments
 encoding: utf-8
-exclude: ["amreldib.github.io.sln", "*.suo", "importFromBlogger", "README.md"]
+exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
 #include: ["TwitterArchive"]
 #gems: [jekyll-sitemap]
