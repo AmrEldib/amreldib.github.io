@@ -1485,7 +1485,7 @@ small {
         border-radius: 0;
     }
 
-.currentlyReadingShelf .gr_grid_container {
+/*.currentlyReadingShelf .gr_grid_container {
     -moz-perspective: 100px;
     -ms-perspective: 100px;
     -webkit-perspective: 100px;
@@ -1506,7 +1506,7 @@ small {
         -ms-transform: rotateY(-3deg);
         -o-transform: rotateY(-3deg);
         transform: rotateY(-3deg);
-        outline: 1px solid transparent; /* Helps smooth jagged edges in Firefox */
+        outline: 1px solid transparent;
         box-shadow: none;
         margin: 0;
     }
@@ -1542,7 +1542,7 @@ small {
             -ms-transform: rotateY(20deg);
             -o-transform: rotateY(20deg);
             transform: rotateY(20deg);
-        }
+        }*/
 
 .spoiler-tag {
     background: #92AADD;
