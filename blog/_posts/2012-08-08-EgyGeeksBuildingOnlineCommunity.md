@@ -12,7 +12,7 @@ tags:
 redirects:
 - /2012/08/egygeeks-on-building-online-community.html
 ---
-<img class="imageOnRight" title="EgyGeeks" src="{{ site.baseurl }}public/images/EgyGeeks/EgyGeeksLogo.png">
+<img class="imageOnRight" title="EgyGeeks" src="{{ site.blogImagesFolder }}{{ page.name }}/EgyGeeksLogo.png">
 
 A little over two years ago, a group of techies got together for a Skype conversation. Mohamed Meligy tells [the story](http://gurustop.net/blog/2010/04/05/join-the-egyptian-geeks-on-skype-weekly/). _It was a great talk and we really enjoyed it_, he says and I remember.
 

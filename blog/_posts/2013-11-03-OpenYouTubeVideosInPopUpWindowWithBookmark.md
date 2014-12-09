@@ -19,7 +19,7 @@ Aside from my laptop, I use two monitors. This allows my to "multitask" which is
 Sometimes the thing that is running in the background is a YouTube video. This is great with music videos and long videos that don't need my full attention. However, I find it annoying to have the YouTube page or video fill the entire screen. What I need is a small window with just the video. I don't really need the comments, suggestions, header, etc.
 
 The embed HTML is the key here. You can right-click on the video and directly copy the embed code. It looks like this:
-[![]({{ site.baseurl }}public/images/OpenYouTubeInPopupWindow/CopyYouTubeEmbedCode.png)]({{ site.baseurl }}public/images/OpenYouTubeInPopupWindow/CopyYouTubeEmbedCode.png)  
+[![]({{ site.blogImagesFolder }}{{ page.name }}/CopyYouTubeEmbedCode.png)]({{ site.blogImagesFolder }}{{ page.name }}/CopyYouTubeEmbedCode.png)  
 
 <script src="https://gist.github.com/AmrEldib/7297359.js"></script>
 

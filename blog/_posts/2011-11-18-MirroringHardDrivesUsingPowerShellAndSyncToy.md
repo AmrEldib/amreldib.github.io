@@ -15,8 +15,8 @@ tags:
 redirects:
 - /2011/11/my-main-protection-against-hard-drive.html
 ---
-<img class="imageOnRight" title="PowerShell" src="{{ site.baseurl }}public/images/MirrorHardDrives/PowerShellLogo.jpg">
-<img class="imageOnRight" title="SyncToy" src="{{ site.baseurl }}public/images/MirrorHardDrives/SyncToyLogo.jpg">
+<img class="imageOnRight" title="PowerShell" src="{{ site.blogImagesFolder }}{{ page.name }}/PowerShellLogo.jpg">
+<img class="imageOnRight" title="SyncToy" src="{{ site.blogImagesFolder }}{{ page.name }}/SyncToyLogo.jpg">
   
 My main protection against hard drive failure for a long time has been [RAID 1](http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1). I would get two identical hard drives and RAID them so that everything I do on the first drive would be replicated on the second. One time, this actually saved me from a hard drive failure with almost zero down time.
 
@@ -59,7 +59,7 @@ I'm writing the functions in a bit of a generic way so that I can use them later
 
 <script src="https://gist.github.com/AmrEldib/de4e018fe11a98b42a18.js"></script>  
 
-<img style="float: right" src="{{ site.baseurl }}public/images/MirrorHardDrives/SqlServicePropertiesWindow.jpg">
+<img style="float: right" src="{{ site.blogImagesFolder }}{{ page.name }}/SqlServicePropertiesWindow.jpg">
 
 All I need now is the name of the SQL service on my computer. To get the name of the service, navigate to the service properties dialog and pick the name of the service (not the display name). Make sure to use PowerShell escape characters to enter the name correctly. For example: “**MSSQL$SQLEXPRESS**” have a dollar sign ($), so I have to add a backtick before the dollar sign to make PowerShell parse the name correctly “**MSSQL`$SQLEXPRESS**”.
 

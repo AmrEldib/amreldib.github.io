@@ -13,7 +13,7 @@ tags:
 redirects:
 - /2012/01/mozilla-beyond-firefox.html
 ---
-<img class="imageOnRight" title="Mozilla" src="{{ site.baseurl }}public/images/MozillaBeyondFirefox/MozillaLogo.jpg">  
+<img class="imageOnRight" title="Mozilla" src="{{ site.blogImagesFolder }}{{ page.name }}/MozillaLogo.jpg">  
 
 Who doesn't already know [Firefox](http://www.mozilla.org/en-US/firefox/fx/)? But what other projects is [Mozilla](http://www.mozilla.org/) working on?   
 I've taken an interest lately in finding out more about Mozilla. I think it all started with reading some of the “[How I got started with Mozilla](https://wiki.mozilla.org/index.php?title=Mozilla.org/Contribute/Stories&amp;amp;diff=377200&amp;amp;oldid=prev "Mozilla.org/Contribute/Stories&amp;amp;diff=377200&amp;amp;oldid=prev")” stories on the [Planet Mozilla](http://planet.mozilla.org/) feed.   

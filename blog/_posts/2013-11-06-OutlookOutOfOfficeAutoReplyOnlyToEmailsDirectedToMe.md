@@ -17,16 +17,16 @@ Here’s how I set up my Outlook out-of-office automatic replies so that they on
 These screenshots use Office 2010, but the steps are very similar in other versions.  
 
 1.  In the File/Office menu, open the “Automatic Replies” button.
-[![]({{ site.baseurl }}public/images/OutlookOutOfOffice/01-OutOfOfficeButton.png)]({{ site.baseurl }}public/images/OutlookOutOfOffice/01-OutOfOfficeButton.png)  
+[![]({{ site.blogImagesFolder }}{{ page.name }}/01-OutOfOfficeButton.png)]({{ site.blogImagesFolder }}{{ page.name }}/01-OutOfOfficeButton.png)  
 2.  Select the date range you want replies to go out.  
 3.  Make sure to leave the area below blank. If you fill this area, an email will go out with the message you leave in there.  
 4.  Click the “Rules” button.  
-[![]({{ site.baseurl }}public/images/OutlookOutOfOffice/02-BasicInfo.png)]({{ site.baseurl }}public/images/OutlookOutOfOffice/02-BasicInfo.png)  
+[![]({{ site.blogImagesFolder }}{{ page.name }}/02-BasicInfo.png)]({{ site.blogImagesFolder }}{{ page.name }}/02-BasicInfo.png)  
 5.  In “Automatic Reply Rules” dialog, click “Add Rule…”.  
-[![]({{ site.baseurl }}public/images/OutlookOutOfOffice/03-AddRule.png)]({{ site.baseurl }}public/images/OutlookOutOfOffice/03-AddRule.png)  
+[![]({{ site.blogImagesFolder }}{{ page.name }}/03-AddRule.png)]({{ site.blogImagesFolder }}{{ page.name }}/03-AddRule.png)  
 6.  Check “Sent directly to me” so that emails that are only directly sent to you will be replied to.  
 7.  Check “Reply with” and click “Template..”.  
-[![]({{ site.baseurl }}public/images/OutlookOutOfOffice/04-RuleDetails.png)]({{ site.baseurl }}public/images/OutlookOutOfOffice/04-RuleDetails.png)  
+[![]({{ site.blogImagesFolder }}{{ page.name }}/04-RuleDetails.png)]({{ site.blogImagesFolder }}{{ page.name }}/04-RuleDetails.png)  
 8.  In the email compose window, enter the email message you want to go out.  
 9.  You can add more conditions, more rules, and more actions. Explore the different options and build rules that match your need.  
 10.  Click “Ok”. You’re done.  
