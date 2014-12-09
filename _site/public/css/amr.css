@@ -12,11 +12,6 @@
     src: url('fonts/amiri-regular.eot?') format('eot'), url('fonts/amiri-regular.woff') format('woff'), url('fonts/amiri-regular.ttf') format('truetype');
 }
 
-.sidebar {
-    width: 16rem;
-    padding: 0;
-}
-
 .sidebar-nav {
     margin-bottom: 0;
 }
@@ -32,10 +27,6 @@ nav a img {
 }
 
 .container {
-}
-
-.content {
-    margin-left: 18rem;
 }
 
 .profilePic {
