@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: InternetDayToDayToolsForGeeksOnly
 title: Internet Day to Day Tools - for Geeks Only
 time: 2007-12-26 14:53:00.001000000 -08:00

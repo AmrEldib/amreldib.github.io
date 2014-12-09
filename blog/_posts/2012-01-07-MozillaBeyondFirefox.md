@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: MozillaBeyondFirefox
 title: 'Mozilla: Beyond Firefox'
 time: 2012-01-07 20:42:00.001000000 -08:00

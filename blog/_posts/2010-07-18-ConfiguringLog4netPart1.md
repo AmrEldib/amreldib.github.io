@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: ConfiguringLog4netPart1
 title: Configuring log4net and Using the AppLogger Class - Part 1
 time: 2010-07-18 10:54:00.002000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: WhyHelpSuck1
 title: Why Help Suck (1 of 2)
 time: 2008-07-17 21:23:00.001000000 -07:00

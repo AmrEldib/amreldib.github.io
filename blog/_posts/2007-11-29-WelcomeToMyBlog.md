@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: WelcomeToMyBlog
 title: Welcome to my blog
 time: 2007-11-29 10:24:00.000000000 -08:00

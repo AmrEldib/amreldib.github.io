@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: AddRtlSupportAndWebFontsToTumblrPosts
 title: Add RTL Support and Web Fonts to Tumblr Posts
 time: 2013-05-04 16:53:00.001000000 -07:00

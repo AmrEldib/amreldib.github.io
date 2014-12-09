@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: NewFirefoxAddonsCollection
 title: New Firefox Addons Collection for the New Year
 time: 2009-12-29 21:12:00.001000000 -08:00

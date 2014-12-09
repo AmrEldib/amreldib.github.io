@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: EgyGeeksBuildingOnlineCommunity
 title: 'EgyGeeks: on Building an Online Community'
 time: 2012-08-08 02:52:00.001000000 -07:00

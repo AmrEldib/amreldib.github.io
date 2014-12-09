@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postWithComments
 name: DontHateMyCode
 title: Don't Hate My Code
 time: 2010-09-29 02:35:00.001000000 -07:00
