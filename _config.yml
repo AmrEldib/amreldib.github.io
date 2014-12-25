@@ -9,6 +9,7 @@ timezone: Canada/Pacific
 categories: [av, blog, bookmarks, bookshelf, favs, projects, reviews, tools, writings]
 
 # RSS Titles
+rss_all_title: Amr Eldib
 rss_av_title: Amr Eldib Audio and Video
 rss_blog_title: Amr Eldib Blog
 rss_bookmarks_title: Amr Eldib Bookmarks
