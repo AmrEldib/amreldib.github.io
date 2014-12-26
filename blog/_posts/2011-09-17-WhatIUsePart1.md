@@ -93,3 +93,5 @@ Some people think it's tough being a Windows Phone guy. You're surrounded by a l
 I have a [Samsung Focus](http://www.samsung.com/us/mobile/cell-phones/SGH-I917ZKAATT) phone which is super light and has a great screen.
 
 This post was supposed to describe all my setup, but it ran very long so I'll break into multiple posts. This was most of my hardware, next up will be the software. Hopefully soon.
+
+I wrote about software and tools in [Part 2]({{ site.url }}/blog/WhatIUsePart2/).  
