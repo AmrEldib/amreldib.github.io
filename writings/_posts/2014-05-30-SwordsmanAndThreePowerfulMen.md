@@ -6,7 +6,7 @@ time: 2014-05-30 17:21:00.001000000 -07:00
 category: writings
 frontpage: 'true'
 tags:
-- A Song of Ice and Fire
+- ASOIAF
 redirects:
 - /post/87372327660/the-swordsman-and-the-three-powerful-men
 ---
