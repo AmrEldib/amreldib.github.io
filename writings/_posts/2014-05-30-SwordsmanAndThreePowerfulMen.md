@@ -15,7 +15,7 @@ From George R. R. Martin's Song of Ice and Fire – Book Two: A Clash of Kings
 
 <img class="imageInCenter" src="{{ site.writingsImagesFolder }}{{ page.name }}/SwordsmanAndThreePowerfulMen.png">
 
-_"He rubbed his powdered hands together. "May I leave you with a bit of a riddle, Lord Tyrion?" He did not wait for an answer. "In a room sit three great men, a king, a priest, and a rich man with his gold. Between them stands a sellsword, a little man of common birth and no great mind. Each of the great ones bids him slay the other two. 'Do it' says the king, 'for I am your lawful ruler.' 'Do it' says the priest, 'for I command you in the names of the gods.' 'Do it' says the rich man, 'and all this gold shall be yours.' So tell me-who lives and who dies?” Bowing deeply, Varys hurried from the common room on soft slippered feet."_
+_"He rubbed his powdered hands together. "May I leave you with a bit of a riddle, Lord Tyrion?" He did not wait for an answer. "In a room sit three great men, a king, a priest, and a rich man with his gold. Between them stands a sellsword, a little man of common birth and no great mind. Each of the great ones bids him slay the other two. 'Do it' says the king, 'for I am your lawful ruler.' 'Do it' says the priest, 'for I command you in the names of the gods.' 'Do it' says the rich man, 'and all this gold shall be yours.' So tell me-who lives and who dies?" Bowing deeply, Varys hurried from the common room on soft slippered feet."_
 
 . . .
 
