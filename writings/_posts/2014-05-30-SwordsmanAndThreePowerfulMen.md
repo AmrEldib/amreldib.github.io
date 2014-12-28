@@ -45,4 +45,4 @@ _Tyrion smiled. "Lord Varys, I am growing strangely fond of you. I may kill you 
 
 _"I will take that as high praise."_
 
-(Picture: Peter Dinklage as Tyrion Lannister and Conleth Hill as Varys of HBO’s Game of Thrones)
+(Picture: Peter Dinklage as Tyrion Lannister and Conleth Hill as Varys of HBO's Game of Thrones)
