@@ -2,7 +2,7 @@
 layout: post
 name: GrandPursuit
 title: 'Grand Pursuit: A History of Economic Genius'
-time: 2010-08-02 20:52:00.001000000 -07:00
+time: 2013-02-14 20:52:00.001000000 -07:00
 category: reviews
 excerpt: Long, difficult to read, but totally worth it.
 rating: 4
