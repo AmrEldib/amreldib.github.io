@@ -1,7 +1,7 @@
 ---
 layout: post
 name: BeingGeek
-title: 'Being Geek: The Software Developer's Career Handbook'
+title: "Being Geek: The Software Developer's Career Handbook"
 time: 2010-11-09 20:52:00.001000000 -07:00
 category: reviews
 excerpt: Michael Lopp is able to capture that thought in your head and articulate it on paper. 
