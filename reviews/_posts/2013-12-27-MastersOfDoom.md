@@ -9,7 +9,6 @@ rating: 5
 tags:
 - Biography
 - Tech
-- Non-fiction
 - Book Review
 ---
 <img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/MastersOfDoomCover.png">
