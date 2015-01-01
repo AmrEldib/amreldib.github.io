@@ -4,7 +4,7 @@ name: Blackwater
 title: 'Blackwater: The Rise of the World's Most Powerful Mercenary Army '
 time: 2011-07-11 20:52:00.001000000 -07:00
 category: reviews
-excerpt: Clay Shirky's ability to witness changes in our lives due to the Internet and social media, and support that with stories from all over the world is still great
+excerpt: '"Horrifying"'
 rating: 4
 tags:
 - Middle East
