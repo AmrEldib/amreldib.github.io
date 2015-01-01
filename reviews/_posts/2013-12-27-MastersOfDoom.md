@@ -1,7 +1,7 @@
 ---
 layout: post
 name: MastersOfDoom
-title: 'Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture'
+title: "Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture"
 time: 2013-12-27 20:52:00.001000000 -07:00
 category: reviews
 excerpt: If you played any of these games as a kid: Wolf 3D, Doom, or Quake, read this book.
