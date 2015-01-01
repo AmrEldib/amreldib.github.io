@@ -12,7 +12,7 @@ tags:
 - Non-fiction
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/MastersOfDoomCover.jpg">
+<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/MastersOfDoomCover.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

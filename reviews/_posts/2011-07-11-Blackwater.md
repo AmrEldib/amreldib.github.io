@@ -12,7 +12,7 @@ tags:
 - United States
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/BlackwaterCover.jpg">
+<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/BlackwaterCover.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

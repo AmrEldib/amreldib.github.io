@@ -13,7 +13,7 @@ tags:
 - Software
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/BeingGeekCover.jpg">
+<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/BeingGeekCover.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

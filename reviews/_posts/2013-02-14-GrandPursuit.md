@@ -12,7 +12,7 @@ tags:
 - History
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/GrandPursuitCover.jpg">
+<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/GrandPursuitCover.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 
