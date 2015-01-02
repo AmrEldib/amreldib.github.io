@@ -12,8 +12,7 @@ tags:
 - VS2010
 - Visual Studio
 - ArcGIS
-redirects:
-- /2013/03/using-intellisense-with-esris.html
+redirect_from: "/2013/03/using-intellisense-with-esris.html"
 ---
 We all love Intellisense in Visual Studio, but with JavaScript is a little difficult to do that given it’s a dynamic language. However, most JavaScript libraries now comes with VSDoc files that provide a way to add intellisense to JavaScript in Visual Studio (and other IDEs). 
 This [post](http://blog.craigtp.co.uk/post/Javascript-jQuery-Intellisense-in-Visual-Studio-2012.aspx) describe how to add the VSDoc files of any JavaScript library to your project in Visual Studio (Some of the images in this post are from [here](http://blog.craigtp.co.uk/post/Javascript-jQuery-Intellisense-in-Visual-Studio-2012.aspx)). In this post, I’ll expand on that to add intellisense for the Esri JavaScript API (JSAPI). 

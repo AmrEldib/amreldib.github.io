@@ -53,4 +53,7 @@ highlighter: pygments
 encoding: utf-8
 exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
 #include: ["TwitterArchive"]
+
 #gems: [jekyll-sitemap]
+gems:
+  - jekyll-redirect-from
