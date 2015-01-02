@@ -8,8 +8,7 @@ tags:
 - Google
 - Microsoft
 - Firefox
-redirects:
-- /2008/12/how-firefox-can-outlast-other-browsers.html
+redirect_from: "/2008/12/how-firefox-can-outlast-other-browsers.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/firefox.png">
 

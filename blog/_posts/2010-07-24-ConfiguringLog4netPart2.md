@@ -11,8 +11,7 @@ tags:
 - Visual Studio
 - Code
 - log4net
-redirects:
-- /2010/07/configuring-log4net-and-using-applogger_24.html
+redirect_from: "/2010/07/configuring-log4net-and-using-applogger_24.html"
 ---
 _Read the [Part 1](/ConfiguringLog4netPart1/) for an intro to this post._
 

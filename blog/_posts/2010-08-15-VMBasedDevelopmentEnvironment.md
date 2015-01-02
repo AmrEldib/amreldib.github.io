@@ -13,8 +13,7 @@ tags:
 - VirtualBox
 - Visual Studio
 - Microsoft Virtual PC
-redirects:
-- /2010/08/vm-based-development-environment.html
+redirect_from: "/2010/08/vm-based-development-environment.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/VirtualBox.png">
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/VMware.png">

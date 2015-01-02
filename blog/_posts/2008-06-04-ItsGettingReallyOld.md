@@ -6,8 +6,7 @@ time: 2008-06-04 19:33:00.007000000 -07:00
 category: blog
 tags:
 - Apple
-redirects:
-- /2008/06/it-getting-really-old.html
+redirect_from: "/2008/06/it-getting-really-old.html"
 ---
 Yesterday, I watched the [new](http://www.youtube.com/watch?v=-Iewhh9a1tA) ["Get A Mac"](http://en.wikipedia.org/wiki/Get_a_Mac) ad. And unlike other [ads](http://www.youtube.com/view_play_list?p=3097C6C21AADCE7E) before, no new Mac features were introduced and the joke wasn't even that funny. There is no doubt about the fact that Mac OS market share is feeding on Windows users, it's not like new users are growing on trees here. But, there's no need to be that destructive. The Get A Mac ad campaign started out by making a point which was that Mac is better than PC and Mac OS X is better than any other OS (a.k.a. windows) because it has lots of stuff. And every ad used to tell the story of a certain feature. Like the [one](http://www.youtube.com/watch?v=ToOSg5cEX7c) that has many Macs that are taking about Time Machine feature, which is if you're a regular windows user wouldn't know that windows had something similar since XP which is "Restore Point" but it had never been an easy to use or popular feature that is worth making an ad for.
 

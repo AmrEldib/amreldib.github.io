@@ -8,8 +8,7 @@ tags:
 - IT Industry
 - Apple
 - Microsoft
-redirects:
-- /2008/09/raising-expectations.html
+redirect_from: "/2008/09/raising-expectations.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/WindowsGuy.jpg">
 

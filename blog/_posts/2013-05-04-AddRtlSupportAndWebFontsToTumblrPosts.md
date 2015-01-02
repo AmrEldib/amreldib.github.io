@@ -13,8 +13,7 @@ tags:
 - Arabic
 - RTL
 - Code
-redirects:
-- /2013/05/add-rtl-and-web-fonts-to-tumblr-posts.html
+redirect_from: "/2013/05/add-rtl-and-web-fonts-to-tumblr-posts.html"
 ---
 <a href="{{ site.blogImagesFolder }}{{ page.name }}/ArabicTumblr_thumb.png">
     <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/ArabicTumblr_thumb.png">

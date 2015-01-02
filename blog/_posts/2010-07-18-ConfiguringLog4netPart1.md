@@ -11,8 +11,7 @@ tags:
 - Visual Studio
 - Code
 - log4net
-redirects:
-- /2010/07/configuring-log4net-and-using-applogger.html
+redirect_from: "/2010/07/configuring-log4net-and-using-applogger.html"
 ---
 It’s been quite a while since I started using log4net for logging, and it changed how I debug applications. I found it much easier to find the source of an error by reading the log after the application crashes rather than using the step-by-step debugging in Visual Studio.
 

@@ -7,8 +7,7 @@ category: blog
 tags:
 - GoogleReader
 - Google
-redirects:
-- /2013/03/the-five-stages-of-grief-over-google.html
+redirect_from: "/2013/03/the-five-stages-of-grief-over-google.html"
 ---
 <img class="imageOnRight" title="Google Reader" src="{{ site.blogImagesFolder }}{{ page.name }}/GoogleReaderLogo.jpg">
 

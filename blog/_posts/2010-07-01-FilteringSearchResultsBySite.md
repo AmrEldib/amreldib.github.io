@@ -8,8 +8,7 @@ tags:
 - Bing
 - Microsoft
 - Wish List
-redirects:
-- /2010/07/filtering-search-results-by-site.html
+redirect_from: "/2010/07/filtering-search-results-by-site.html"
 ---
 I like [Bing](http://www.bing.com/) and I’ve been using it since its launch last year. One of the ways that can improve my experience with Bing is to make it easier to filter search results by a certain URL. I do this filtering a lot so I’m used to using the keyword “site:” in the search box, what is difficult about it is entering the URL. So, I’m suggesting a new addition to the UI that can be optional where users will opt-in to use it.
 

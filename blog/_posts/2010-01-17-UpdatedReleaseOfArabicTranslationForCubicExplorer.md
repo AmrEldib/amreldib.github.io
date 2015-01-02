@@ -5,8 +5,7 @@ title: Updated Release of Arabic Translation for CubicExplorer
 time: 2010-01-17 16:15:00.001000000 -08:00
 category: blog
 tags: []
-redirects:
-- /2010/01/updated-release-of-arabic-translation.html
+redirect_from: "/2010/01/updated-release-of-arabic-translation.html"
 ---
 A year ago, [I released](/CubicExplorerArabicTranslationAvailable/) an Arabic translation for my favorite alternative of Windows Explorer, Cubic Explorer. After a year of updates of the software, I thought the translation might need some updating and I also noticed some mistakes that needed to be fixed.
 

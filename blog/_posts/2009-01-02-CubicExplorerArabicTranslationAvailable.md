@@ -5,8 +5,7 @@ title: CubicExplorer Arabic Translation Available
 time: 2009-01-02 11:16:00.001000000 -08:00
 category: blog
 tags: []
-redirects:
-- /2009/01/cubicexplorer-arabic-translation-is.html
+redirect_from: "/2009/01/cubicexplorer-arabic-translation-is.html"
 ---
 There are many Windows Explorer alternatives available on the web. The one that I’m using is [CubicExplorer](http://www.cubicreality.com/cubicexplorer/download/ "Download CubicExplorer 0.8 (Freeware)") which is pretty cool. It supports tabs, saving sessions, multiple sessions, bookmarks, bookmarks grouping, themes, and localization (here are some [screenshots](http://www.cubicreality.com/cubicexplorer/screenshots/ "Screenshots of CubicExplorer")).
 

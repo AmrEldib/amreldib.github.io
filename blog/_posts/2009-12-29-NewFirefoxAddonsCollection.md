@@ -8,8 +8,7 @@ tags:
 - Tools
 - Mozilla
 - Firefox
-redirects:
-- /2009/12/new-firefox-addons-collection-for-new.html
+redirect_from: "/2009/12/new-firefox-addons-collection-for-new.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/FirefoxLogo.png">
 

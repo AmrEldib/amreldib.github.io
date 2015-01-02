@@ -11,8 +11,7 @@ tags:
 - Windows Live
 - Debugging
 - Backup
-redirects:
-- /2011/09/how-to-fix-wlw-backup-problem-with.html
+redirect_from: "/2011/09/how-to-fix-wlw-backup-problem-with.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/Windows_Live_Writer_logo.png">
 I, like most bloggers out there, love Windows Live Writer. One problem I have with it is that I have to set it up whenever I re-install Windows. Long ago I found that I can backup all my posts (recently posted and drafts) just copying the two folders “Drafts” and “Recent Posts” from the folder  

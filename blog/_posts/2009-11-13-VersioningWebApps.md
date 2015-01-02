@@ -7,8 +7,7 @@ category: blog
 tags:
 - IT Industry
 - Wish List
-redirects:
-- /2009/11/time-to-start-versioning-web.html
+redirect_from: "/2009/11/time-to-start-versioning-web.html"
 ---
 It's clear to me with every newly released version of a web application that we need a mechanism for users to choose which web app release to use.
 

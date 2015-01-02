@@ -9,8 +9,7 @@ tags:
 - Outlook
 - Microsoft
 - Office
-redirects:
-- /2013/11/OutlookOutOfOfficeAutoReplyOnlyToEmailsDirectedToMe.html
+redirect_from: "/2013/11/OutlookOutOfOfficeAutoReplyOnlyToEmailsDirectedToMe.html"
 ---
 Out-of-Office Replies are very helpful and, I must admit, very annoying. I’d love to maximize the first part and minimize the last. I only want to know that someone is out-of-office if I address them directly, not if I CC them.  
 Here’s how I set up my Outlook out-of-office automatic replies so that they only go out if the email is directed to me. No auto-reply will be sent if I’m only CC’d on the email.  

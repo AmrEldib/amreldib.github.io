@@ -10,8 +10,7 @@ tags:
 - IT Industry
 - Apple
 - Microsoft
-redirects:
-- /2012/01/app-store-for-rest-of-us.html
+redirect_from: "/2012/01/app-store-for-rest-of-us.html"
 ---
 I’ve blogged a year ago about App Stores, calling that [everybody gets an App Store](/blog/EverybodyGetsAnAppStore) or as Scott Hanselman [tweeted](https://twitter.com/#!/shanselman/status/144635686966919168) it "There's an App Store for that!". I had hope for Microsoft to build a better app store that isn’t like Apple’s. So much for my hopes that were crushed when the details of Windows 8’s store was [revealed last month](http://www.zdnet.com/blog/microsoft/microsoft-previews-windows-8-app-store-launching-with-the-beta-in-late-february/11340). Microsoft [promised developers a bigger bite](http://www.winrumors.com/microsoft-promises-developers-a-bigger-bite-of-the-apple-with-its-windows-8-app-store/) of the apple, bigger than Apple’s. 80% rather than 70%. Your app qualify for the bigger cut if your sales exceed 25,000$.
 

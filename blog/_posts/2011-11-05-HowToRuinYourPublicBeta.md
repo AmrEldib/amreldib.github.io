@@ -9,8 +9,7 @@ tags:
 - Adobe
 - IT Industry
 - Flash
-redirects:
-- /2011/11/how-to-ruin-your-public-beta.html
+redirect_from: "/2011/11/how-to-ruin-your-public-beta.html"
 ---
 <img class="imageOnRight" title="Adobe" src="{{ site.blogImagesFolder }}{{ page.name }}/AdobeLogo.jpg">
 

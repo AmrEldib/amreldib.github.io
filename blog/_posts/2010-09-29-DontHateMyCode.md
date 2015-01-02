@@ -7,8 +7,7 @@ category: blog
 tags:
 - Software Development
 - ".NET"
-redirects:
-- /2010/09/dont-hate-my-code.html
+redirect_from: "/2010/09/dont-hate-my-code.html"
 ---
 One very common problem that occurs when a new team takes over an existing project is their desire to "just move some stuff around". That's a code word for "I can't believe that you’re calling this crap a software application" :D. This, of course, varies from one project to the other. Sometimes it's justified and is for good reasons and other times it's not. The reason is not the desire of the new team to make a quick impact (although sometimes that's the case "You know, we had to fix a lot of stuff behind the scene"). But most of the time the reason is derived from the simple fact that reading code is much harder than writing it.  
 A programming language, like any other language, just because you know all the letters and all the words doesn't mean you can parse the intended meaning. A code block, in its own way, is written to convey a certain intent to computers as their primary audience but also to other developers as a secondary audience. Some programming languages don't care about developers and just target computers, like [Assembly Language](http://en.wikipedia.org/wiki/Assembly_language).   

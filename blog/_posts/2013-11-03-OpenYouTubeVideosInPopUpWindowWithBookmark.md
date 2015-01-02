@@ -10,8 +10,7 @@ tags:
 - Tips
 - Browsers
 - Code
-redirects:
-- /2013/11/OpenYouTubeVideosInPopUpWindowWithBookmark.html
+redirect_from: "/2013/11/OpenYouTubeVideosInPopUpWindowWithBookmark.html"
 ---
 **TL;DR** Follow these steps to add a bookmark to your browser that opens YouTube videos in a popup window. 
 

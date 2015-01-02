@@ -8,8 +8,7 @@ tags:
 - Windows
 - IT Industry
 - Microsoft
-redirects:
-- /2007/12/windows-7-what-it-rumored-to-have-and.html
+redirect_from: "/2007/12/windows-7-what-it-rumored-to-have-and.html"
 ---
 As the year is coming to an end, everyone is gazing into the future and making predictions for 2008. So, I thought I&#8217;d gaze a little into the future of Windows..
 

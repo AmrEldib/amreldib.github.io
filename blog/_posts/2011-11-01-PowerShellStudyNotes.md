@@ -7,8 +7,7 @@ category: blog
 tags:
 - ".NET"
 - PowerShell
-redirects:
-- /2011/11/powershell-study-notes.html
+redirect_from: "/2011/11/powershell-study-notes.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/PowerShellLogo.jpg">
 

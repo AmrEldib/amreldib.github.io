@@ -13,8 +13,7 @@ tags:
 - Twitter
 - Kindle
 - Code
-redirects:
-- /2013/11/ShareToSocialNetworksUsingBrowserBookmarks.html
+redirect_from: "/2013/11/ShareToSocialNetworksUsingBrowserBookmarks.html"
 ---
 I've tried many ways to easily share items from my browser to any of the social networks I'm using. Addons came close to working fine but I always worry (maybe unreasonably) about their load on the browser.
 

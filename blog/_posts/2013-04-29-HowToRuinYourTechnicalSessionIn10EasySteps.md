@@ -8,8 +8,7 @@ tags:
 - Tips
 - Presentation
 - Community
-redirects:
-- /2013/04/HowToRuinYourTechnicalSessionIn10EasySteps.html
+redirect_from: "/2013/04/HowToRuinYourTechnicalSessionIn10EasySteps.html"
 ---
 <figure class="imageOnRight">
     <img src="{{ site.blogImagesFolder }}{{ page.name }}/SleepingDuringSeminar.jpg">

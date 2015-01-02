@@ -10,8 +10,7 @@ tags:
 - IT Industry
 - Mozilla Nightly
 - Firefox
-redirects:
-- /2012/01/mozilla-beyond-firefox.html
+redirect_from: "/2012/01/mozilla-beyond-firefox.html"
 ---
 <img class="imageOnRight" title="Mozilla" src="{{ site.blogImagesFolder }}{{ page.name }}/MozillaLogo.jpg">  
 

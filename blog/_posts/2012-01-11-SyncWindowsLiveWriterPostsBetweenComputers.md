@@ -10,8 +10,7 @@ tags:
 - Windows Live
 - Sync
 - Microsoft
-redirects:
-- /2012/01/sync-windows-live-writer-posts-between.html
+redirect_from: "/2012/01/sync-windows-live-writer-posts-between.html"
 ---
 <img class="imageOnRight" title="Windows Live Writer" src="{{ site.blogImagesFolder }}{{ page.name }}/Windows_Live_Writer_logo.png">
 

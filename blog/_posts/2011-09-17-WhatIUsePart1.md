@@ -19,8 +19,7 @@ tags:
 - AMD
 - WP7
 - Intel
-redirects:
-- /2011/09/what-i-use-part-1.html
+redirect_from: "/2011/09/what-i-use-part-1.html"
 ---
 One way you can tell a geek is by looking at their setup. Setup is not just computer, OS and applications, but all surrounding elements that they use on daily basis. And it's not the elements of that setup that makes it unique but rather how they come together and the story behind each element.
 

@@ -6,8 +6,7 @@ time: 2008-05-30 17:44:00.001000000 -07:00
 category: blog
 tags:
 - Consumer Devices
-redirects:
-- /2008/05/personalized-tv-guide.html
+redirect_from: "/2008/05/personalized-tv-guide.html"
 ---
 I was watching TV this morning and I went through my 37-channels favorite list and I found nothing interesting to watch. So, I turned to the TV guide. I don't use the guide that much so here's my impression. SHOCKED. the TV guide is listing more than 800 channels, how am I supposed to go through these. Of course there's a categorization for shows by theme, channel, or title.&#160; Maybe other cable boxes even have search. But, that's not what I want to do, I just want to watch a good show, I don't know what it is but I want it and I want it now. I got frustrated with the TV guide so I turned off the TV and turned to the computer to check my Gmail, I opened a new e-mail and I found this small ad in the top banner about something related to the e-mail I'm reading right at the same moment. So, I thought what if my TV (or rather cable box) can do that.
 

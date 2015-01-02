@@ -25,6 +25,7 @@ These are some resources I found helpful when building this site.
 [Create a Multi Blog Site with Jekyll](http://www.garron.me/en/blog/multi-blog-site-jekyll.html)  
 [How To Use Tags And Categories On GitHub Pages Without Plugins](http://www.minddust.com/post/tags-and-categories-on-github-pages/)  
 [Creating Redirects](http://www.marran.com/tech/creating-redirects-with-jekyll/)  
+[GitHub Pages Redirects](https://help.github.com/articles/redirects-on-github-pages/)  
 [Setting up short URLs](http://joshualande.com/short-urls-jekyll/)  
 [Generating a Sitemap in Jekyll without a Plugin](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/)  
 

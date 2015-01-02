@@ -9,8 +9,7 @@ tags:
 - EgyGeeks
 - Community
 - Egypt
-redirects:
-- /2012/08/egygeeks-on-building-online-community.html
+redirect_from: "/2012/08/egygeeks-on-building-online-community.html"
 ---
 <img class="imageOnRight" title="EgyGeeks" src="{{ site.blogImagesFolder }}{{ page.name }}/EgyGeeksLogo.png">
 

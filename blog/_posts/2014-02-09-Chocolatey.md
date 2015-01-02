@@ -11,8 +11,7 @@ tags:
 - Windows
 - PowerShell
 - Microsoft
-redirects:
-- /2014/02/ChocolateyInstallSoftwareLikeAPro.html
+redirect_from: "/2014/02/ChocolateyInstallSoftwareLikeAPro.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/chocolateyicon.gif">
 

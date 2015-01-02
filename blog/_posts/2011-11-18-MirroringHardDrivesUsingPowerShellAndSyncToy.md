@@ -12,8 +12,7 @@ tags:
 - PowerShell
 - SQL Server
 - Backup
-redirects:
-- /2011/11/my-main-protection-against-hard-drive.html
+redirect_from: "/2011/11/my-main-protection-against-hard-drive.html"
 ---
 <img class="imageOnRight" title="PowerShell" src="{{ site.blogImagesFolder }}{{ page.name }}/PowerShellLogo.jpg">
 <img class="imageOnRight" title="SyncToy" src="{{ site.blogImagesFolder }}{{ page.name }}/SyncToyLogo.jpg">

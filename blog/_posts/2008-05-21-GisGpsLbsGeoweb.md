@@ -7,8 +7,7 @@ category: blog
 tags:
 - GIS
 - GeoWeb
-redirects:
-- /2008/05/gis-gps-lbs-and-geoweb-they-different.html
+redirect_from: "/2008/05/gis-gps-lbs-and-geoweb-they-different.html"
 ---
 When I tell anyone one that I work in [GIS](http://en.wikipedia.org/wiki/Geographic_information_system) and tell them about what it's about, I always get the response of &quot;Oh, I know what that is, it's the little screen in my car with the navigator&quot;. No people, that's [GPS](http://en.wikipedia.org/wiki/Global_Positioning_System). Smarter responses include &quot;Is that part of GPS?&quot; and &quot;Yeah, I know what that is, I use Google Maps&quot;. But All of that is still not GIS. So, I'm gonna write this down for one last time and the next person to ask me about what I'm doing for living, I'll just give him the link for this post.
 

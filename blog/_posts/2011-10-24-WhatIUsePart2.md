@@ -21,8 +21,7 @@ tags:
 - IE9
 - MacOS
 - Office
-redirects:
-- /2011/10/what-i-use-part-2.html
+redirect_from: "/2011/10/what-i-use-part-2.html"
 ---
 A few weeks I started with the hardware in [Part 1]({{ site.url }}/blog/WhatIUsePart1/), today I continue with the software and services.
 

@@ -10,8 +10,7 @@ tags:
 - XML
 - PowerShell
 - Code
-redirects:
-- /2013/08/HowToTurnXmlSchemaXsdToDocumentation.html
+redirect_from: "/2013/08/HowToTurnXmlSchemaXsdToDocumentation.html"
 ---
 <a href="{{ site.blogImagesFolder }}{{ page.name }}/VSXmlSchemaEditor-big.png">
     <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/VSXmlSchemaEditor.png">

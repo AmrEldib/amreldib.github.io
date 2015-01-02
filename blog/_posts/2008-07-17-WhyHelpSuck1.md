@@ -6,8 +6,7 @@ time: 2008-07-17 21:23:00.001000000 -07:00
 category: blog
 tags:
 - Software Development
-redirects:
-- /2008/07/why-help-suck-1-of-2.html
+redirect_from: "/2008/07/why-help-suck-1-of-2.html"
 ---
 Ever used the help system? Of course you have. Hated it? Of course you did. No body likes to go into the Help menu and just browse the Help Content. Everybody seems to try to use those other resources (forums, blogs, screen casts, etc.) to learn how to go around the software they’re using. Since this is quite clear, why would you bother build a Help Contents for your software. Most software vendors already know that, yet the only obvious enhancement in Help systems is to make it online. In other words, make it everywhere.
 

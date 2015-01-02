@@ -7,8 +7,7 @@ category: blog
 tags:
 - IT Industry
 - Firefox
-redirects:
-- /2007/12/how-firefox-makes-money.html
+redirect_from: "/2007/12/how-firefox-makes-money.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/FirefoxLogo.png">
 

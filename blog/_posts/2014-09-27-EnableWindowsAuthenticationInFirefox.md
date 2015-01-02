@@ -10,8 +10,7 @@ tags:
 - Tips
 - Windows
 - Firefox
-redirects:
-- /2014/09/EnableWindowsAuthenticationInFirefox.html
+redirect_from: "/2014/09/EnableWindowsAuthenticationInFirefox.html"
 ---
 **_TL;DR:_** for Firefox users, here’s how to integrate Windows Authentication to enable logging like IE (without entering credentials). 
 

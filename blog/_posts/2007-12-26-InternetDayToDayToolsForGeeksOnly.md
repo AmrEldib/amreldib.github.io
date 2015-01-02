@@ -7,8 +7,7 @@ category: blog
 tags:
 - Tools
 - Personal
-redirects:
-- /2007/12/internet-day-to-day-tools-for-geeks.html
+redirect_from: "/2007/12/internet-day-to-day-tools-for-geeks.html"
 ---
 As you use the Internet on daily basis, either in work or home or both, for business or pleasure, you spend more and more time in front of your browser. Over the last month, I've been trying to cut down the time I spend on daily activities on the Internet. Here are some of the tools that helped me do that and others that introduce some really great benefits that might come in handy for you too..
 

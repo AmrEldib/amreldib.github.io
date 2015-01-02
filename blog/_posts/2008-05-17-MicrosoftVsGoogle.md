@@ -8,8 +8,7 @@ tags:
 - Google
 - IT Industry
 - Microsoft
-redirects:
-- /2008/05/microsoft-vs-google-is-it-real-fight.html
+redirect_from: "/2008/05/microsoft-vs-google-is-it-real-fight.html"
 ---
 I think it would be fair to say that there seem to be a competition going on between Microsoft and Google. It's ridiculous to deny it since Microsoft is making all of those moves to compete with Google (Enhancing [Windows](http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx) Search, Ballmer [announcing](http://web-advertising.suite101.com/article.cfm/microsoft_advertising_strategy) that 25% of Microsoft revenues would come from advertising, [acquisition](http://www.microsoft.com/presspass/press/2007/aug07/08-13MSaQuantivePR.mspx) of aQuantive for 6B$, and [offer](http://www.microsoft.com/presspass/press/2008/feb08/02-01CorpNewsPR.mspx) to buy Yahoo! for more than 44B$). Even though the two companies doesn't share much of battlegrounds (search and online advertising, which both represent a fraction of Microsoft revenues), The two companies - especially Microsoft - seem to be more concerned with one another more and more. Why is that?
 

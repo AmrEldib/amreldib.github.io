@@ -13,8 +13,7 @@ tags:
 - Presentation
 - ArcGIS
 - Code
-redirects:
-- /2013/03/real-time-gis-using-signalr-and-esris.html
+redirect_from: "/2013/03/real-time-gis-using-signalr-and-esris.html"
 ---
 <img class="imageOnRight" title="SignalR" src="{{ site.blogImagesFolder }}{{ page.name }}/SignalR.jpg">
 <img class="imageOnRight" title="Javascript" src="{{ site.blogImagesFolder }}{{ page.name }}/JavascriptLogo.png">

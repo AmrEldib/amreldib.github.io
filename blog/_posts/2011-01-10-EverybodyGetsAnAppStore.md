@@ -14,8 +14,7 @@ tags:
 - Apple
 - Microsoft
 - WP7
-redirects:
-- /2011/01/everybody-gets-app-store.html
+redirect_from: "/2011/01/everybody-gets-app-store.html"
 ---
 When I hear all the news about all the new app stores for the big three (Apple, Google and Microsoft), all I can think of is Opera giving away cars to her audience. “You get a Car, You get a Car, You get a Car. Every …body … gets … a … Car”. Watch the [video](https://www.youtube.com/watch?v=XcI-rHO0yko).
 

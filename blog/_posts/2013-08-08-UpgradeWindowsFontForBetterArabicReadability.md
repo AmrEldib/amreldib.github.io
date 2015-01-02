@@ -8,8 +8,7 @@ tags:
 - Font
 - Windows
 - Arabic
-redirects:
-- /2013/08/UpgradeWindowsFontForBetterArabicReadability.html
+redirect_from: "/2013/08/UpgradeWindowsFontForBetterArabicReadability.html"
 ---
 I was testing Windows 8.1 when I saw something that I liked very much; better Arabic font. I wasn't going to wait to upgrade all my machines to Windows 8.1 (if I ever do) to get that font. So, I went searching for the reason. I found that Microsoft upgraded the SegoeUI font. Spot the difference in Windows Explorer:
 

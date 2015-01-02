@@ -7,8 +7,7 @@ category: blog
 tags:
 - Google
 - Wish List
-redirects:
-- /2008/08/what-google-reader-is-missing.html
+redirect_from: "/2008/08/what-google-reader-is-missing.html"
 ---
 <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/GoogleReaderLogo.jpg">
 

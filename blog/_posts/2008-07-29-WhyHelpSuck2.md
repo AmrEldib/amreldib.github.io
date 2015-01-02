@@ -6,8 +6,7 @@ time: 2008-07-29 19:22:00.001000000 -07:00
 category: blog
 tags:
 - Software Development
-redirects:
-- /2008/07/why-help-suck-2-of-2.html
+redirect_from: "/2008/07/why-help-suck-2-of-2.html"
 ---
 It doesn’t really matter why exactly help system has become inefficient (if it ever were efficient). That fact by itself is not that important unless we do something about it. If you’re developing software and you’re considering developing a help system for your product. Here are some Does and Don’ts that could help you.
 

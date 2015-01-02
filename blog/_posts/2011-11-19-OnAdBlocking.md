@@ -10,8 +10,7 @@ tags:
 - Ads
 - Browsers
 - IT Industry
-redirects:
-- /2011/11/i-was-reading-this-blog-post-on-planet.html
+redirect_from: "/2011/11/i-was-reading-this-blog-post-on-planet.html"
 ---
 <img class="imageOnRight" title="AdBlock Plus" src="{{ site.blogImagesFolder }}{{ page.name }}/AdBlockPlusLogo.jpg">
 

@@ -7,8 +7,7 @@ category: blog
 tags:
 - GIS
 - GeoWeb
-redirects:
-- /2008/06/getting-on-geo-train.html
+redirect_from: "/2008/06/getting-on-geo-train.html"
 ---
 So, looks like Acrobat 9 is getting map support. But instead of talking about what is it exactly what Acrobat 9 is supporting (which you find [here](http://www.adobe.com/products/acrobatproextended/)), I'm gonna focus on with the question &quot;why&quot;. Acrobat has no relation with GIS or GeoWeb, but it seems like Geo info is the next big thing (or at least one of them) where everyone wants to get a part of it (of course, not as big as advertisement). Google Earth (currently [accessible](http://code.google.com/apis/earth/) at any browser near you), Live maps (with the amazing [bird's eye](http://en.wikipedia.org/wiki/Live_Search_Maps#Bird.27s_eye_view) functionality), and yahoo maps are on the geo train for a while now as GIS (or to be more specific geo-info) is being brought to the masses by car navigation devices, and cell phone embedded GPSs.
 

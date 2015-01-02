@@ -7,8 +7,7 @@ category: blog
 tags:
 - Windows
 - Microsoft
-redirects:
-- /2008/12/windows-7-missing-point.html
+redirect_from: "/2008/12/windows-7-missing-point.html"
 ---
 With everyone reviewing the first “beta” of Windows 7, I wouldn’t say that this is a first look. If you haven’t seen these snapshots before, you’re definitely not online.
 
