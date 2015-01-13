@@ -13,4 +13,3 @@ tags:
 
 Mohamed Elsherif, Yasser Makram and I discuss the big news that came from Microsoft last week regarding opening the source of the .NET Framework as well as a new SKU of Visual Studio Community Edition for small and Open Source teams.  
 Discussion in Arabic.  
-ÃåáÇ Èßã İí ÇáÍáŞÉ ÇáÓÇÈÚÉ æ ÇáËáÇËæä ãä ÑÇÏíæ ÇÓÃá ãØæÑ İí åĞå ÇáÍáŞÉ ääÇŞÔ ÇáÃÎÈÇÑ ÇáÊí ÃÚáäÊåÇ ãÇíßÑæÓæİÊ ÇáÃÓÈæÚ ÇáãÇÖí Úä İÊÍ ãÕÏÑ ÇØÇÑ Úãá ÏæÊ äÊ, ÈÇáÇÖÇİÉ Çáì ÇÕÏÇÑ äÓÎÉ ÌÏíÏÉ ãä İíÌæÇá ÓÊæÏíæ (äÓÎÉ ÇáãÌÊãÚ) æ ÇáÊí ÓÊßæä ãÌÇäíÉ ááİÑŞ ÇáÕÛíÑÉ æ ÇáãÔÇÑíÚ ãİÊæÍÉ ÇáãÕÏÑ.  
