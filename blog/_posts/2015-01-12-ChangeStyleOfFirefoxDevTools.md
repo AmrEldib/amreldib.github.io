@@ -3,6 +3,8 @@ layout: postWithComments
 name: ChangeStyleOfFirefoxDevTools
 title: Change Style of Firefox DevTools
 time: 2015-01-12 16:32:00.003000000 -08:00
+category: blog
+frontpage: 'true'
 tags: 
 - Firefox
 - DevTools

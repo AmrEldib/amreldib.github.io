@@ -3,6 +3,8 @@ layout: postWithComments
 name: TinyThingsWindowsShouldFix
 title: Tiny Things Windows Should Fix
 time: 2016-01-01 16:32:00.003000000 -08:00
+category: blog
+frontpage: 'true'
 tags: []
 ---
 

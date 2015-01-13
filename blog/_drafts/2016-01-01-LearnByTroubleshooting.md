@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: postWithComments
 name: LearnByTroubleshooting
 title: Learn by Troubleshooting
 time: 2013-12-23 16:32:00.003000000 -08:00
+category: blog
+frontpage: 'true'
 tags: []
 ---
  <div lang="zxx" style="margin-bottom: 0cm;">As a developer, I have to keep up with the ever changing landscape of programming languages, framework, technologies, techniques, and tools. It's part of how I get to keep my job. On top of that, I'm curios about all kinds of new stuff. So, I like to learn things on my own as well. Over the years, I tried almost everything; offline courses, online/remote courses, video courses, books, blog posts, "30 days of newTechnologyX" blog series, YouTube video series, code katas, peer programming, participating in open source projects, etc. Your list might be longer or shorter but you sure have tried some of these things to various successes.&nbsp;</div><div lang="zxx" style="margin-bottom: 0cm;">

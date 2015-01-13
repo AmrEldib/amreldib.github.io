@@ -3,6 +3,8 @@ layout: post
 name: TldrAntiClickbait
 title: 'TL:DR - The Anti-Clickbait'
 time: 2016-01-01 16:32:00.003000000 -08:00
+category: blog
+frontpage: 'true'
 tags: []
 ---
 A lot of articles, blog posts, and websites now rely on clickbait titles. The content under those titles is usually empty and has nothing to do with the title. I totally hate that. A lot of people do too.  
