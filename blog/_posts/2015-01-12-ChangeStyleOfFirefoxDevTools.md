@@ -11,7 +11,7 @@ tags:
 - Tips
 ---
 
-<img class="imageInCenter" src="{{ site.blogImagesFolder }}{{ page.name }}/FirefoxDevTools.png">
+<img class="imageInCenter" title="Firefox DevTools with Ubuntu font size 14px" src="{{ site.blogImagesFolder }}{{ page.name }}/FirefoxDevTools.png">
 
 I spend a lot of time now in the Firefox Dev Tools. The console has a very nice dark theme which makes things easier but some times that's not enough. You can find the font a little small (which you can fix with a Ctrl + '+'), but mostly after a while you just find yourself bored of looking at the same thing. Time for a bit of change.  
 After a quick search on DuckDuckGo, I find the [answer](http://askubuntu.com/questions/426326/how-to-change-firefox-debugger-font-size) on StackExcange (the AskUbuntu site), and the answer is really easy.  
