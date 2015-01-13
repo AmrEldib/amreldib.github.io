@@ -1,4 +1,12 @@
-## Tiny Things that Windows Should Fix
+---
+layout: postWithComments
+name: TinyThingsWindowsShouldFix
+title: Tiny Things Windows Should Fix
+time: 2016-01-01 16:32:00.003000000 -08:00
+tags: []
+---
+
+## Tiny Things Windows Should Fix
 
 - Make all the Windows Resizable.
 	- Example is the Disk Cleanup windows. Why is this not resizable?
