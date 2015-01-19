@@ -1,0 +1,137 @@
+{
+    "$schema": "resumeSchema.json",
+    "basics": {
+        "name": "Amr Eldib",
+        "label": "",
+        "website": "http://www.amreldib.com",
+        "summary": "",
+        "location": {
+            "city": "Vancouver",
+            "countryCode": "CA",
+            "region": "British Columbia"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "AmrEldib",
+                "url": "http://twitter.com/AmrEldib"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "AmrEldib",
+                "url": "https://www.linkedin.com/in/AmrEldib"
+            },
+            {
+                "network": "GitHub",
+                "username": "AmrEldib",
+                "url": "https://github.com/AmrEldib"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Esri Canada",
+            "position": "Senior Developer Support Consultant",
+            "website": "http://esri.ca",
+            "startDate": "2014-08-01",
+            "endDate": "Current",
+            "summary": "",
+            "highlights": [
+                ""
+            ]
+        },
+        {
+            "company": "Esri Canada",
+            "position": "Developer Support Consultant",
+            "website": "http://esri.ca",
+            "startDate": "2012-03-01",
+            "endDate": "2014-08-01",
+            "summary": "",
+            "highlights": [
+                "Member of the Developer team in Esri Canada's Technical Support department. This includes supporting all Esri development, and mobile products as well as ArcGIS Online for all Canadian customers.",
+                "Responsible for meeting quarterly scores for customer satisfaction, on an individual and team levels.",
+                "Presented at both Esri DevSummit 2013 and Esri Canada annual conference on adding real-time capabilities to GIS applications. ",
+                "Member of the Esri Canada blog team."
+            ]
+        },
+        {
+            "company": "Orion Technology, a Division of Rolta Canada Limited",
+            "position": "Senior GIS Developer",
+            "website": "http://www.rolta.com",
+            "startDate": "2010-08-01",
+            "endDate": "2011-09-01",
+            "summary": "",
+            "highlights": [
+                "Participated in the development of a client/server GIS application for field workers that helps manage the workflow of utilities companies (built on ArcObjects and ArcGIS Server platform).",
+                "Designed and developed prototype for securing access to ArcGIS Server data.",
+                "Designed and developed prototype for using utility networks on OnPoint via ArcGIS Server.",
+                "Designed and developed the routing component for OnPoint software with ArcGIS Server backend.",
+                "Developed a simple prototype for a workflow that uses ArcGIS Mobile 10"
+            ]
+        }
+    ],
+    "volunteer": [ ],
+    "education": [ ],
+    "awards": [ ],
+    "publications": [
+        {
+            "name": "Technical Article: How to Draw using XAML in a Silverlight Viewer Add-in",
+            "publisher": "Esri Canada",
+            "releaseDate": "2013-01-01",
+            "website": "http://www.esri.ca/en/content/how-draw-using-xaml-silverlight-viewer-add",
+            "summary": "A technical article published by Esri Canada that explains how to build an ArcGIS Server Silverlight Viewer addin that implements a sample for the Silverlight API."
+        },
+        {
+            "name": "Top 10 Resources for ArcGIS API for JavaScript Developers",
+            "publisher": "Esri Canada",
+            "releaseDate": "2013-10-10",
+            "website": "http://esri.ca/en/blog/top-10-resources-arcgis-api-javascript-developers",
+            "summary": "A helpful guide for new and experienced JavaScript starting with the ArcGIS API for JavaScript."
+        },
+        {
+            "name": "AskDeveloper Podcast",
+            "publisher": "",
+            "releaseDate": "2013-03-01",
+            "website": "http://www.askdeveloper.com/",
+            "summary": "Weekly audio/video podcast for technology & programming enthusiasts, the podcast is in Arabic and targets the Egyptian & Middle Eastern audience.",
+            "coauthors": [
+                {
+                    "name": "Mohamed Elsherif",
+                    "url": "http://www.linkedin.com/in/mohammedhossam"
+                },
+                {
+                    "name": "Yasser Makram",
+                    "url": "http://eg.linkedin.com/in/yassermakram"
+                }
+            ]
+        },
+        {
+            "name": "Esri Canada Technical Staff Square Off in First-Ever App Building Contest",
+            "publisher": "Esri Canada",
+            "releaseDate": "2014-10-15",
+            "website": "http://www.esri.ca/en/blog/esri-canada-technical-staff-square-first-ever-app-building-contest",
+            "summary": "Article highlights organizing role in Esri Canada's TechTrek Idol contest."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Arabic",
+            "fluency": "Native Speaker"
+        }
+    ]
+}
