@@ -1,0 +1,18 @@
+﻿<ul class='itemList list-unstyled'>
+    {{#.}}
+    <li>
+        <small>{{dateFormat date}}</small> <br />
+        <a href="{{url}}" target="_blank">{{title}}</a>
+        {{#tags}}
+            <span class="linktag">{{.}}</span>
+        {{/tags}}
+        <br />
+        {{#if quote}}
+            <blockquote>{{{quote}}}</blockquote>
+        {{/if}}
+        {{#if comment}}
+            <p>{{{comment}}}</p>
+        {{/if}}
+    </li>
+    {{/.}}
+</ul>

@@ -1458,6 +1458,7 @@ small {
         margin-left: 0;
     }
 
+
 /* Bookshelf */
 .bookshelfHeader {
     clear: both;
@@ -1699,3 +1700,21 @@ turn "OFF" all stars after the one the user is hovering over.
     width: 100%;
 }
 
+
+.list-unstyled {
+    list-style: none;
+}
+
+.linktag {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 60%;
+    font-weight: bold;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background-color: #384C75;
+}

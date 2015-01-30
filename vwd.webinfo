@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<!-- 
+  Visual Studio global web project settings.
+-->
+<VisualWebDeveloper>
+
+  <Globals>
+    
+  
+    
+  
+    
+  
+    <UserProperties public_2data_2linkblog_22015_21_2links_1json__JSONSchema="D:\Amr\Work\SourceCode\amreldib.github.io\public\data\linkblog\linkBlogSchema.json" public_2data_2linkblog_2linkBlogSchema_1json__JSONSchema="http://json-schema.org/draft-04/schema"/>
+  </Globals>
+</VisualWebDeveloper>

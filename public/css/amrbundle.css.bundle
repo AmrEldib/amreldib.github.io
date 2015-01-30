@@ -21,5 +21,6 @@
     <file>/public/css/bookshelf.css</file>
     <file>/public/css/reviews.css</file>
     <file>/public/css/starRatings.css</file>
+    <file>/public/css/linkblog.css</file>
   </files>
 </bundle>
