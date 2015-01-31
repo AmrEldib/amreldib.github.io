@@ -1,11 +1,13 @@
-﻿[
-﻿    {
+[
+    {
         "date": "2015/01/30",
         "url": "http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/",
         "title": "How the Public Actually Uses Local Government Web Maps: Metrics from Denver",
         "quote": "#1 Single-Topic maps get 3 times the traffic of the traditional Map Portal <br/>#2 60% of map traffic comes directly from search engine requests <br/>#3 Auto-complete drives clean user queries <br/>#4 Map Usage is Spiky <br/>#5 People Look Up Info on Maps, and Leave <br/>#6 People Actually Interact with Balloon Content </br>#7 People Rarely Change Default Map Settings",
         "comment": "Insightful findings.",
-        "tags": [ "gis" ]
+        "tags": [
+            "gis"
+        ]
     },
     {
         "date": "2015/01/29",
@@ -13,7 +15,9 @@
         "title": "Stories as diagram curves",
         "quote": "",
         "comment": "That's why you feel like you've seen this movie before.",
-        "tags": [ "video" ]
+        "tags": [
+            "video"
+        ]
     },
     {
         "date": "2015/01/28",
@@ -21,6 +25,8 @@
         "title": "TIL James May was fired from Autocar magazine after he put a hidden message using the initial letter in each page ",
         "quote": "'May confessed that in 1992 he was dismissed from Autocar magazine after putting together a hidden message or acrostic in one issue.'<br/>'May's role was to put the entire supplement together, which was extremely boring and took several months'.<br/>'May's original message, punctuated appropriately, reads: So you think it's really good, yeah? You should try making the bloody thing up; it's a real pain in the arse.'.<br/>'The editors of Autocar missed the 'joke' and only became aware of it when readers started calling in about it, thinking there might be a prize. '",
         "comment": "",
-        "tags": [ "top gear" ]
+        "tags": [
+            "top gear"
+        ]
     }
 ]
