@@ -1,5 +1,15 @@
 [
     {
+        "date": "2015/02/02",
+        "url": "https://sandstorm.io/",
+        "title": "Sandstorm is an open source platform for personal servers",
+        "quote": "",
+        "comment": "Open Source. Host your own or sign up for hosted version. There's a <a href='https://sandstorm.io/apps/'>growing list of apps</a>.",
+        "tags": [
+            "personal cloud"
+        ]
+    },
+    {
         "date": "2015/01/31",
         "url": "https://addons.mozilla.org/en-US/firefox/addon/send-tab-to-device/",
         "title": "Send Tab to Device Addon for Firefox",
