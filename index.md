@@ -18,6 +18,9 @@ Random thoughts on random topics.
 ##[Bookshelf](/bookshelf/)##  
 Browse through my bookself.  
 
+##[Linkblog](/linkblog/)##  
+Interesting reads and finds everyday.  
+
 ##[Reviews](/reviews/)##  
 Books, Movies, TV Shows, and other random things.  
 
