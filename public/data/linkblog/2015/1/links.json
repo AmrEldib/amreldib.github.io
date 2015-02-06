@@ -1,6 +1,17 @@
 [
     {
         "date": "2015/02/05",
+        "url": "https://medium.com/@trog/forgetting-firefox-c04dba853263",
+        "title": "Forgetting Firefox",
+        "quote": "",
+        "comment": "Interesting proposal that Mozilla should focus on Thunderbird instead of Firefox to do to the groupware space what they did to the web space.",
+        "tags": [
+            "web",
+            "mozilla"
+        ]
+    },
+    {
+        "date": "2015/02/05",
         "url": "https://ioptconsulting.com/what-is-your-definition-of-personal/",
         "title": "What is your definition of personal?",
         "quote": "One of these you want.  The other you should be wary of, if not downright terrified.  The thing is, how do you tell the difference?",
