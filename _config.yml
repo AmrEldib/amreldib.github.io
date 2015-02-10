@@ -5,6 +5,7 @@ description: Blog and personal website
 baseurl: "/"							# the subpath of your site, e.g. /blog/
 url: "http://www.amreldib.com"			# the base hostname & protocol for your site
 rss_feed: http://www.amreldib.com/blog/rss.xml
+rss_page: http://www.amreldib.com/rss
 timezone: Canada/Pacific
 categories: [av, blog, bookmarks, bookshelf, favs, projects, reviews, tools, writings]
 
@@ -57,5 +58,5 @@ exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
 #include: ["TwitterArchive"]
 
 #gems: [jekyll-sitemap]
-gems:
-  - jekyll-redirect-from
+#gems:
+#  - jekyll-redirect-from
