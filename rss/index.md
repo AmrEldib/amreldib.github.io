@@ -7,6 +7,7 @@ permalink: /rss/
 - [All items](../rss.xml)  
 - [Audio & Video](../av/rss.xml)  
 - [Blog](../blog/rss.xml)  
+- [Linkblog](../linkblog/rss.xml)  
 - [Projects](../projects/rss.xml)  
 - [Reviews](../reviews/rss.xml)  
 - [Writings](../writings/rss.xml)  
