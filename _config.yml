@@ -37,6 +37,7 @@ rss_description_writings: Random thoughts on random topics
 # metadata
 author:
   name: 'Amr Eldib'
+  nickname: 'Amr'
   url: http://www.amreldib.com
   country: Canada
   image: http://www.amreldib.com/public/images/Amr.png
@@ -76,5 +77,5 @@ exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
 #include: ["TwitterArchive"]
 
 #gems: [jekyll-sitemap]
-#gems:
-#  - jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
