@@ -1717,4 +1717,5 @@ turn "OFF" all stars after the one the user is hovering over.
     vertical-align: baseline;
     border-radius: 0.25em;
     background-color: #384C75;
+    text-transform: lowercase;
 }
