@@ -11,7 +11,7 @@ tags:
 - C#
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/CSharpInDepthCover.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/CSharpInDepthCover.jpg">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

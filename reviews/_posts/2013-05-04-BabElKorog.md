@@ -11,7 +11,7 @@ tags:
 - Novel
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/BabElKorogCover.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/BabElKorogCover.jpg">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

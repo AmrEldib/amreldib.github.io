@@ -10,7 +10,7 @@ tags:
 - Economics
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/TooBigToFailCover.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/TooBigToFailCover.jpg">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

@@ -9,7 +9,7 @@ rating: 5
 tags:
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/PowerOfHabitCover.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/PowerOfHabitCover.jpg">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

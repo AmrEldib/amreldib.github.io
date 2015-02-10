@@ -9,11 +9,11 @@ tags:
 - PowerShell
 redirect_from: "/2011/11/powershell-study-notes.html"
 ---
-<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/PowerShellLogo.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_blog }}{{ page.name }}/PowerShellLogo.jpg">
 
 Last week, I found a great PowerShell tutorial over at [Pluralsight](http://www.pluralsight-training.net/microsoft/Courses/TableOfContents?courseName=powershell-intro) (by [Robert Cain](http://arcanecode.com)). PowerShell has been a topic that I wanted to learn about for quite a while. As any power user/geek type of person, the command line is my friend but the standard DOS command line has been the same for years. That's why PowerShell seemed so compiling. But the fact that it's based on/using .NET objects and that it's now integrated in Visual Studio 2010 made it a priority to understand what it's all about.
 
-I finished the tutorial in a day. It's less than 3 hours long and it's pretty straight forward. I went over the tutorial again for a deeper understanding and took down some notes that I'm attacking to this post (You can [view the document online here]({{ site.blogImagesFolder }}{{ page.name }}/PowerShell Study Notes.docx)).
+I finished the tutorial in a day. It's less than 3 hours long and it's pretty straight forward. I went over the tutorial again for a deeper understanding and took down some notes that I'm attacking to this post (You can [view the document online here]({{ site.imgFolder_blog }}{{ page.name }}/PowerShell Study Notes.docx)).
 
 I also found [another tutorial here](http://www.powershellpro.com/powershell-tutorial-introduction/), that is a series of posts with more details on PowerShell. You'll find the list of posts in the series on the right side under the title “PowerShell Tutorials”.
 

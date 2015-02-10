@@ -15,8 +15,8 @@ tags:
 - Code
 redirect_from: "/2013/05/add-rtl-and-web-fonts-to-tumblr-posts.html"
 ---
-<a href="{{ site.blogImagesFolder }}{{ page.name }}/ArabicTumblr_thumb.png">
-    <img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/ArabicTumblr_thumb.png">
+<a href="{{ site.imgFolder_blog }}{{ page.name }}/ArabicTumblr_thumb.png">
+    <img class="imageOnRight" src="{{ site.imgFolder_blog }}{{ page.name }}/ArabicTumblr_thumb.png">
 </a>
 This is my technical blog. My [personal blog](http://amreldib.tumblr.com/), where I write mostly in my native Arabic, is hosted on Tumblr which is a nice platform but is really bad in supporting Arabic and other RTL languages. At least that's my experience.
 
@@ -28,7 +28,7 @@ One nice feature is that you can add [{TagsAsClasses}](http://www.tumblr.com/doc
 
 I’ve used a simple theme named [Quite Big](http://www.tumblr.com/theme/9601) as my base theme. You’ll find a DIV with the classes “content” and “_x_-post”. x-post is not the name of a class but rather text-post, photo-post, quote-post, and link-post. One class for each type of post.
 
-<a href="{{ site.blogImagesFolder }}{{ page.name }}/TumblrPostsTypes_thumb.png"><img style="float: right" src="{{ site.blogImagesFolder }}{{ page.name }}/TumblrPostsTypes_thumb.png"></a>
+<a href="{{ site.imgFolder_blog }}{{ page.name }}/TumblrPostsTypes_thumb.png"><img style="float: right" src="{{ site.imgFolder_blog }}{{ page.name }}/TumblrPostsTypes_thumb.png"></a>
 
 You’ll need to find each one of these DIVs and add “{TagsAsClasses}” to its CSS classes.
 

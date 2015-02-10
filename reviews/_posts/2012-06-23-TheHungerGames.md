@@ -10,7 +10,7 @@ tags:
 - Novel
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/TheHungerGamesCover.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/TheHungerGamesCover.jpg">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

@@ -13,7 +13,7 @@ tags:
 - Middle Earth
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/LastDaysOfThePharaoh.png">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/LastDaysOfThePharaoh.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

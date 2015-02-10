@@ -15,8 +15,8 @@ tags:
 - Code
 redirect_from: "/2013/03/real-time-gis-using-signalr-and-esris.html"
 ---
-<img class="imageOnRight" title="SignalR" src="{{ site.blogImagesFolder }}{{ page.name }}/SignalR.jpg">
-<img class="imageOnRight" title="Javascript" src="{{ site.blogImagesFolder }}{{ page.name }}/JavascriptLogo.png">
+<img class="imageOnRight" title="SignalR" src="{{ site.imgFolder_blog }}{{ page.name }}/SignalR.jpg">
+<img class="imageOnRight" title="Javascript" src="{{ site.imgFolder_blog }}{{ page.name }}/JavascriptLogo.png">
 
 Everybody loves command centers. We all would love to be Capitan Kirk, setting there seeing information coming in from all over the place, and we can act on it without having to do much work.
 
@@ -55,6 +55,6 @@ Here's a video for how the final proof-of-concept looks like:
 
 The code is all up on [GitHub](https://github.com/AmrEldib/RealTimeGisWithSignalR).
 
-I was invited to speak at Esri DevSummit 2013 on March 28, 2013. Here are the [slides for my talk]({{ site.blogImagesFolder }}{{ page.name }}/Real-Time GIS Using SignalR and Esri's JavaScript API.pdf). They provide few more details. 
+I was invited to speak at Esri DevSummit 2013 on March 28, 2013. Here are the [slides for my talk]({{ site.imgFolder_blog }}{{ page.name }}/Real-Time GIS Using SignalR and Esri's JavaScript API.pdf). They provide few more details. 
 
 There's a few book on SignalR out now, you can get [here](http://www.campusmvp.net/signalr-ebook/). 

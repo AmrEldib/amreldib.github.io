@@ -9,7 +9,7 @@ tags:
 - Wish List
 redirect_from: "/2008/08/what-google-reader-is-missing.html"
 ---
-<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/GoogleReaderLogo.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_blog }}{{ page.name }}/GoogleReaderLogo.jpg">
 
 I must confess something. Google Reader really changed a part of my life. Before it, I used to spend - at least - 5 times the time I'm spending now to keep track of all those web sites and blogs (actually I'm spending the same time but I'm following up with 5 times the content). Even though I'm a great fan as it's obvious. Lately, I think I'm having some problems with Reader. They're not really problems but more like I've pushed the application to its limit that I need something more. Something like:
 

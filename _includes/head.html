@@ -3,16 +3,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-    <meta name="author" content="Amr Eldib">
-    <meta name="copyright" content="Amr Eldib" />
-    <meta content="Amr, Eldib, .NET, C#, GIS, Weblog, Blog, Egypt, Canada" name="keywords" />
-    <meta name="description" content="Amr Eldib blog and personal website" />
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="copyright" content="{{ site.author.name }}" />
+    <meta name="keywords" content="Amr, Eldib, .NET, C#, GIS, Weblog, Blog, Egypt, Canada" />
+    <meta name="description" content="{{ site.author.name }} {{ site.description }}" />
 
     <!-- proof it's me -->
-    <link rel="me" type="text/html" href="https://plus.google.com/u/0/+AmrEldib/?rel=me" /> 
-    <link rel="me" type="text/html" href="http://www.amreldib.com/rss" />
-    <link rel="me" type="text/html" href="http://twitter.com/AmrEldib" />
-    <link rel="me" type="text/html" href="http://www.github.com/AmrEldib" /> 
+    <link rel="me" type="text/html" href="https://plus.google.com/u/0/+{{ site.author.username.googleplus }}/?rel=me" /> 
+    <link rel="me" type="text/html" href="{{ site.rss_page }}" />
+    <link rel="me" type="text/html" href="http://twitter.com/{{ site.author.username.twitter }}" />
+    <link rel="me" type="text/html" href="http://www.github.com/{{ site.author.username.github }}" /> 
 
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -27,25 +27,25 @@
     <link rel="stylesheet" href="{{ site.baseurl }}public/css/amrbundle.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
     <!-- Icons -->
-    <link rel="shortcut icon" href="{{ site.baseurl }}public/images/favicon.ico">
+    <link rel="shortcut icon" href="{{ site.imgFolder_root }}favicon.ico">
     <!-- For Chrome for Android: -->
-    <link rel="icon" sizes="192x192" href="{{ site.baseurl }}public/images/AmrAvatar192.png">
+    <link rel="icon" sizes="192x192" href="{{ site.imgFolder_root }}AmrAvatar.png">
     <!-- For iPhone 6 Plus with @3× display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.baseurl }}public/images/AmrAvatar180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.imgFolder_root }}AmrAvatar180.png">
     <!-- For iPad with @2× display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}public/images/AmrAvatar152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.imgFolder_root }}AmrAvatar152.png">
     <!-- For iPad with @2× display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/images/AmrAvatar144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.imgFolder_root }}AmrAvatar144.png">
     <!-- For iPhone with @2× display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}public/images/AmrAvatar120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.imgFolder_root }}AmrAvatar120.png">
     <!-- For iPhone with @2× display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}public/images/AmrAvatar114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.imgFolder_root }}AmrAvatar114.png">
     <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}public/images/AmrAvatar76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.imgFolder_root }}AmrAvatar76.png">
     <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}public/images/AmrAvatar72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.imgFolder_root }}AmrAvatar72.png">
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: 57×57px -->
-    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}public/images/AmrAvatar57.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ site.imgFolder_root }}AmrAvatar57.png">
     <!-- RSS -->
     <!-- Blog -->
     <link rel="alternate" type="application/rss+xml" title="Amr's Blog" href="/blog/rss.xml">

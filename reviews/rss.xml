@@ -4,10 +4,14 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.rss_reviews_title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
+    <title>{{ site.rss_title_reviews | xml_escape }}</title>
+    <description>{{ site.rss_description_reviews | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}reviews/</link>
-    <atom:link href="{{ 'reviews/atom.xml' | prepend: site.baseurl + 'reviews/' | prepend: site.url + 'reviews/' }}" rel="self" type="application/rss+xml" />
+    <image>
+      <url>{{ site.author.image_small }}</url>
+      <title>{{ site.author.name }}</title>
+      <link>{{ site.author.url }}</link>
+    </image>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>

@@ -11,7 +11,7 @@ tags:
 redirect_from: "/2013/04/HowToRuinYourTechnicalSessionIn10EasySteps.html"
 ---
 <figure class="imageOnRight">
-    <img src="{{ site.blogImagesFolder }}{{ page.name }}/SleepingDuringSeminar.jpg">
+    <img src="{{ site.imgFolder_blog }}{{ page.name }}/SleepingDuringSeminar.jpg">
     <figcaption style="float: right"><small>This is gold.</small></figcaption>
 </figure>
 

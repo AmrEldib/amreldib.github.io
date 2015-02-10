@@ -14,7 +14,7 @@ tags:
 - United States
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.reviewsImagesFolder }}{{ page.name }}/HouseOfBushHouseOfSaudCover.png">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/HouseOfBushHouseOfSaudCover.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

@@ -25,7 +25,7 @@ Normally, you would add AppLogger and the XML configuration files to your projec
 
 Let’s check out the project files
 
-<img class="imageInCenter" src="{{ site.blogImagesFolder }}{{ page.name }}/AppLogger-ProjectFiles.png">
+<img class="imageInCenter" src="{{ site.imgFolder_blog }}{{ page.name }}/AppLogger-ProjectFiles.png">
 
 The **LoggerInitializationException** is a fancy way of throwing an exception, it doesn’t really hold any more information than a regular exception but you can modify it to do just that.
 

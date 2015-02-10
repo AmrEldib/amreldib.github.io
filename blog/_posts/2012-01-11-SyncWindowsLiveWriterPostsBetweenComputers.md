@@ -12,7 +12,7 @@ tags:
 - Microsoft
 redirect_from: "/2012/01/sync-windows-live-writer-posts-between.html"
 ---
-<img class="imageOnRight" title="Windows Live Writer" src="{{ site.blogImagesFolder }}{{ page.name }}/Windows_Live_Writer_logo.png">
+<img class="imageOnRight" title="Windows Live Writer" src="{{ site.imgFolder_blog }}{{ page.name }}/Windows_Live_Writer_logo.png">
 
 With all the different PCs between work and home, desktops and laptops, synchronization is becoming very important. I wanted to sync blog drafts between different computers which turned out to be very simple. Unfortunately, Windows Live doesn’t offer a solution out of the box, even though Windows Live Essentials comes with Live Mesh along with Live Writer. It’s a matter of putting two and two together which what I’ll do.
 

@@ -4,10 +4,10 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
-                        <div><img class="profilePic" src="{{ site.baseurl }}public/images/AmrAvatar.png" /></div>
+                        <div><img class="profilePic" src="{{ site.imgFolder_root }}AmrAvatar.png" /></div>
                     </div>
                     <div class="back">
-                        <div><img class="profilePic" src="{{ site.baseurl }}public/images/Amr.png" /></div>
+                        <div><img class="profilePic" src="{{ site.imgFolder_root }}Amr.png" /></div>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
         <nav class="sidebar-nav">
             <ul>
                 <li>
-                    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+                    <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
                 </li>
                 <li>
                     <a class="sidebar-nav-item{% if page.url == (site.baseurl + 'blog/') %} active{% endif %}" href="{{ site.baseurl }}blog/">Blog</a>
@@ -82,33 +82,33 @@
             {% endfor %}
 
             <a class="sidebar-nav-item side-nav-icon"
-               href="https://github.com/{{ site.github_username }}">
+               href="https://github.com/{{ site.author.username.github }}">
                 <img class="side-nav-icon"
-                     src="{{ site.baseurl }}public/images/github-24.png"
+                     src="{{ site.imgFolder_root }}github-24.png"
                      alt="GitHub Page" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
-               href="https://twitter.com/{{ site.twitter_username }}">
+               href="https://twitter.com/{{ site.author.username.twitter }}">
                 <img class="side-nav-icon"
-                     src="{{ site.baseurl }}public/images/twitlogo-24.png"
-                     alt="@{{ site.twitter_username }}" />
+                     src="{{ site.imgFolder_root }}twitlogo-24.png"
+                     alt="@{{ site.author.username.twitter }}" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
-               href="http://www.goodreads.com/{{ site.goodreads_username }}">
+               href="http://www.goodreads.com/{{ site.author.username.goodreads }}">
                 <img class="side-nav-icon"
-                     src="{{ site.baseurl }}public/images/goodreads-24.png"
+                     src="{{ site.imgFolder_root }}goodreads-24.png"
                      alt="Goodreads Shelf" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
-               href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+               href="https://www.linkedin.com/in/{{ site.author.username.linkedin }}">
                 <img class="side-nav-icon"
-                     src="{{ site.baseurl }}public/images/linked-24.png"
+                     src="{{ site.imgFolder_root }}linked-24.png"
                      alt="LinkedIn Resume" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
                href="/rss">
                 <img class="side-nav-icon"
-                     src="{{ site.baseurl }}public/images/rss-24.png"
+                     src="{{ site.imgFolder_root }}rss-24.png"
                      alt="Subscribe via RSS" />
             </a>
         </nav>

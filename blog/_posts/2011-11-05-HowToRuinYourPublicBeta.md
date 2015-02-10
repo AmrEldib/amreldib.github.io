@@ -11,15 +11,15 @@ tags:
 - Flash
 redirect_from: "/2011/11/how-to-ruin-your-public-beta.html"
 ---
-<img class="imageOnRight" title="Adobe" src="{{ site.blogImagesFolder }}{{ page.name }}/AdobeLogo.jpg">
+<img class="imageOnRight" title="Adobe" src="{{ site.imgFolder_blog }}{{ page.name }}/AdobeLogo.jpg">
 
 Couple of days ago, I downloaded and installed the latest beta of Adobe Flash (11.2.202.18 Beta 1). I downloaded the IE version and the non-IE version, and the x64 version. I like to test out the latest betas of almost all the software that I'm using; [I use Mozilla Nightly and Chrome beta](http://www.amreldib.com/2011/10/what-i-use-part-2.html) (just updated to version 17 today). It's my way of staying updated and keeping up with what's coming next. I understand that I have to take some hits for using beta software but in return I get to enjoy all the new ideas months before everyone else, and every once in a blue moon I get to affect some feature in some upcoming release by providing feedback.
 
 After I installed Flash, I started noticing this annoying beta disclaimer appearing on YouTube videos (a Flash element).
 
-<img class="imageInCenter" title="Beta disclaimer on YouTube Videos" src="{{ site.blogImagesFolder }}{{ page.name }}/FlashBetaDisclaimer01.png">
+<img class="imageInCenter" title="Beta disclaimer on YouTube Videos" src="{{ site.imgFolder_blog }}{{ page.name }}/FlashBetaDisclaimer01.png">
 
-<img class="imageOnRight" title="Beta disclaimer on Audible Sample button" src="{{ site.blogImagesFolder }}{{ page.name }}/FlashBetaDisclaimer02.png">
+<img class="imageOnRight" title="Beta disclaimer on Audible Sample button" src="{{ site.imgFolder_blog }}{{ page.name }}/FlashBetaDisclaimer02.png">
 
 I ignored it at first, but then it started being really annoying. It's hiding the full screen button in the YouTube player as you can see above. Then it started to get really annoying when it showed up on really small Flash elements; elements that are so small that I couldn't see anything other than the disclaimer (look at the small Audible “Sample” button on the right). Naturally, I turned to Bing to start finding a solution for this annoyance. I found this [post on Adobe forums](http://forums.adobe.com/thread/797926?start=0&amp;tstart=0). Here's the answer from an Adobe employee:  
 

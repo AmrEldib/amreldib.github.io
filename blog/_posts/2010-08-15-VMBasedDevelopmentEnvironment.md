@@ -15,8 +15,8 @@ tags:
 - Microsoft Virtual PC
 redirect_from: "/2010/08/vm-based-development-environment.html"
 ---
-<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/VirtualBox.png">
-<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/VMware.png">
+<img class="imageOnRight" src="{{ site.imgFolder_blog }}{{ page.name }}/VirtualBox.png">
+<img class="imageOnRight" src="{{ site.imgFolder_blog }}{{ page.name }}/VMware.png">
 I love VMs. To have a sandbox inside which there’s an operating system of your choice where you can try anything and not fear its effect on your host machine, that is empowering.
 
 I started using VMs a long time ago, but recently I moved to what I call a “VM-based Development Environment”. As a GIS developer, I have a problem which is that [ArcGIS](http://www.esri.com/products/index.html#desktop_gis_panel) (the main GIS application/platform I’m using) doesn’t allow for side-by-side installation. So, if you want to install version 9.3.1, you have to uninstall version 9.3. And those are two different versions against which you have to develop and test your code.
@@ -74,8 +74,8 @@ Using VMs as your main development environment isn’t hassle-free and it does h
 - **Maintenance, Maintenance, Maintenance**: all these VMs require taking care of. Updating Windows, anti-virus, and applications is a headache because it’s not fully automated. Mainly I focus on the few machines I’m using, but once a month, I start all Base machines to keep them updated.
 
 <figure class="imageInCenter">
-    <a href="{{ site.blogImagesFolder }}{{ page.name }}/TwoUpdateWindowsSmall.png">
-        <img class="imageInCenter" src="{{ site.blogImagesFolder }}{{ page.name }}/TwoUpdateWindowsSmall.png">
+    <a href="{{ site.imgFolder_blog }}{{ page.name }}/TwoUpdateWindowsSmall.png">
+        <img class="imageInCenter" src="{{ site.imgFolder_blog }}{{ page.name }}/TwoUpdateWindowsSmall.png">
     </a>
     <figcaption><small>Two Update Windows, one for a VM and the other for my host machine.</small></figcaption>
 </figure>

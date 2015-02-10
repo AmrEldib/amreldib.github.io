@@ -9,7 +9,7 @@ tags:
 - Firefox
 redirect_from: "/2007/12/how-firefox-makes-money.html"
 ---
-<img class="imageOnRight" src="{{ site.blogImagesFolder }}{{ page.name }}/FirefoxLogo.png">
+<img class="imageOnRight" src="{{ site.imgFolder_blog }}{{ page.name }}/FirefoxLogo.png">
 
 Ever wondered how firefox is still running even though all of Mozilla's products are for free..
 

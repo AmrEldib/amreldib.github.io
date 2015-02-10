@@ -33,7 +33,7 @@ If you use Firefox, apply these steps to quickly log into sites that uses Window
 
 If you don’t use Firefox, you really should. Check out [Tab Groups](https://support.mozilla.org/en-US/kb/tab-groups-organize-tabs).
 
-[![]({{ site.blogImagesFolder }}{{ page.name }}/TabGroup.jpg)]({{ site.blogImagesFolder }}{{ page.name }}/TabGroup.jpg)
+[![]({{ site.imgFolder_blog }}{{ page.name }}/TabGroup.jpg)]({{ site.imgFolder_blog }}{{ page.name }}/TabGroup.jpg)
 
 It’s better than this :D
-[![]({{ site.blogImagesFolder }}{{ page.name }}/ChromeTabs.jpg)]({{ site.blogImagesFolder }}{{ page.name }}/ChromeTabs.jpg)
+[![]({{ site.imgFolder_blog }}{{ page.name }}/ChromeTabs.jpg)]({{ site.imgFolder_blog }}{{ page.name }}/ChromeTabs.jpg)
