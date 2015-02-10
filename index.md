@@ -40,7 +40,7 @@ I'm a software developer building GIS applications. These are some of my thought
 <ul style="list-style-type:none">
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
-   href="https://twitter.com/{{ site.author.username.twitter }}">
+   href="https://twitter.com/{{ site.author.username.twitter }}" rel="me">
             <img class="frontPageIcons" 
                  src="{{ site.imgFolder_root }}twitlogo-24.png" 
                  alt="@{{ site.author.username.twitter }}" />@{{ site.author.username.twitter }}
@@ -48,7 +48,7 @@ I'm a software developer building GIS applications. These are some of my thought
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
-   href="https://github.com/{{ site.author.username.github }}">
+   href="https://github.com/{{ site.author.username.github }}" rel="me">
             <img class="frontPageIcons"
                  src="{{ site.imgFolder_root }}github-24.png"
                  alt="GitHub Page" />GitHub page
@@ -56,7 +56,7 @@ I'm a software developer building GIS applications. These are some of my thought
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
-           href="http://www.goodreads.com/{{ site.author.username.goodreads }}">
+           href="http://www.goodreads.com/{{ site.author.username.goodreads }}" rel="me">
             <img class="frontPageIcons"
                  src="{{ site.imgFolder_root }}goodreads-24.png"
                  alt="Goodreads Shelf" />Goodreads Bookshelf
@@ -64,7 +64,7 @@ I'm a software developer building GIS applications. These are some of my thought
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon"
-   href="https://www.linkedin.com/in/{{ site.author.username.linkedin }}">
+   href="https://www.linkedin.com/in/{{ site.author.username.linkedin }}" rel="me">
             <img class="frontPageIcons"
                  src="{{ site.imgFolder_root }}linked-24.png"
                  alt="LinkedIn Resume" />LinkedIn Resume
