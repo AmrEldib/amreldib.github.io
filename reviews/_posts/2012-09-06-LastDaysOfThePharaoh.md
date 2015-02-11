@@ -4,7 +4,7 @@ name: LastDaysOfThePharaoh
 title: "Last Days of The Pharaoh"
 time: 2012-09-06 20:52:00.001000000 -07:00
 category: reviews
-excerpt: 
+excerpt: A look behind the scene during the last days of Mubarak's 30 years of rule over Egypt
 rating: 3
 tags:
 - Politics
