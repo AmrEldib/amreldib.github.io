@@ -4,7 +4,7 @@ name: TheMasterSwitch
 title: "The Master Switch: The Rise and Fall of Information Empires"
 time: 2011-09-03 20:52:00.001000000 -07:00
 category: reviews
-excerpt: The Hunger Games, again
+excerpt: Must read for anyone concerned about the Internet
 rating: 5
 tags:
 - Novel
