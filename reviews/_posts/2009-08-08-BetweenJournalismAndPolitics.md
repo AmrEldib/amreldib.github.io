@@ -4,7 +4,7 @@ name: BetweenJournalismAndPolitics
 title: 'بين الصحافة والسياسة'
 time: 2009-08-08 20:52:00.001000000 -07:00
 category: reviews
-excerpt: A sequal like all others
+excerpt: 'بدايات هيكل في الصحافة وعلاقاته بالسياسة قبل وبعد ثورة 1952'
 rating: 5
 lang: ar
 tags:
