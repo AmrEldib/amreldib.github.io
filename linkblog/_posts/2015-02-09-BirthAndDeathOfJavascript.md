@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linkpost
 name: BirthAndDeathOfJavascript
 title: "The Birth & Death of JavaScript"
 time: 2015-02-09 18:21:00.003000000 -08:00
