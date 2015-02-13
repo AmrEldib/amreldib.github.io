@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linkpost
 name: GeoHipsterPredictions
 title: "What will be hot in geo in 2015? predictions from the GeoHipster crowd"
 time: 2015-02-05 15:32:00.003000000 -08:00
