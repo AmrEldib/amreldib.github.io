@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linkpost
 name: ForgettingFirefox
 title: "Forgetting Firefox"
 time: 2015-02-05 13:32:00.003000000 -08:00
