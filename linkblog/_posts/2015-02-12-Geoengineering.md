@@ -16,7 +16,7 @@ The second report, however, dealt with far more controversial ideas like putting
 
 <blockquote>
 Emissions keep rising year after year. We've now warmed the planet about 1.4°F (0.8°C) since the 19th century and have locked in significant changes to the Earth's climate, like melting ice caps and rising sea levels.
-<blockquote>
+</blockquote>
 
 <blockquote>
 The technology to reflect sunlight is so cheap that individual countries or even a wealthy billionaire could try it. 
