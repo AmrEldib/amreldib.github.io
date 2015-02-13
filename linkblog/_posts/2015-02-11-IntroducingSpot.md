@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linkpost
 name: IntroducingSpot
 title: "Introducing Spot"
 time: 2015-02-11 00:15:00.003000000 -08:00
