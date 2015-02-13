@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: linkpost
 name: ResponsibleSocialShareLinks
 title: "Responsible Social Share Links"
 time: 2015-02-10 23:21:00.003000000 -08:00
