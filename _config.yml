@@ -7,7 +7,7 @@ url: "http://www.amreldib.com"			# the base hostname & protocol for your site
 rss_feed: http://www.amreldib.com/blog/rss.xml
 rss_page: http://www.amreldib.com/rss
 timezone: Canada/Pacific
-categories: [av, blog, bookmarks, bookshelf, favs, linkblog, projects, reviews, tools, writings]
+categories: [av, blog, bookmarks, bookshelf, favs, linkblog, projects, reviews, tools, writings, talks]
 
 # RSS Titles
 rss_title_all: Amr Eldib
@@ -74,7 +74,7 @@ markdown: kramdown
 highlighter: pygments
 encoding: utf-8
 exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
-#include: ["TwitterArchive"]
+include: ["slides"]
 
 #gems: [jekyll-sitemap]
 gems:
