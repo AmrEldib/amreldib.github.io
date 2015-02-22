@@ -1738,27 +1738,27 @@ turn "OFF" all stars after the one the user is hovering over.
 .theme-writings .page-title,
 .theme-writings .post-title,
 .theme-writings .post-title a {
-    color: #787A2E;
+    color: rgb(46, 122, 103);
 }
 
 .theme-writings .sidebar {
-    background-color: #787A2E;
+    background-color: rgb(46, 122, 103);
 }
 
 .theme-writings .content a,
 .theme-writings .related-posts li a:hover {
-    color: #787A2E;
+    color: rgb(46, 122, 103);
 }
 
     .theme-writings .content a:hover {
-        color: #787A2E;
+        color: rgb(46, 122, 103);
     }
     
 .theme-writings .content a.button-external:hover {
-    background-color: #787A2E;
+    background-color: rgb(46, 122, 103);
 }
 
 .theme-writings .content a.pagination-item:hover {
-    background-color: #787A2E;
+    background-color: rgb(46, 122, 103);
 }
 
