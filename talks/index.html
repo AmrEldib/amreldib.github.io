@@ -1,0 +1,35 @@
+---
+layout: default
+title: Home
+category: talks
+---
+
+<h1>Talks</h1>
+<p>{{ site.rss_description_talks }}</p>
+
+<div class="posts">
+    {% for post in site.posts %}
+        {% if post.category == 'talks' %}
+            {% if post.frontpage == 'true' %}
+            <div class="post{% if post.lang == 'ar' %} rtl{% endif %}">
+                <h1 class="post-title">
+                  <a href="{{ post.url }}">
+                    {{ post.title }}
+                  </a>
+                </h1>
+            <span class="post-date">{{ post.date | date_to_string }}</span>
+                    {{ post.content }}
+            </div>
+            {% else %}
+            <div>
+                <h3 class="post-title">
+                  <a href="{{ post.url }}">
+                    {{ post.title }}
+                  </a>
+                </h3>
+            <span class="post-date">{{ post.date | date_to_string }}</span>
+            </div>
+            {% endif %} 
+        {% endif %}
+    {% endfor %}
+</div>

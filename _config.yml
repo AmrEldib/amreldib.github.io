@@ -7,7 +7,7 @@ url: "http://www.amreldib.com"			# the base hostname & protocol for your site
 rss_feed: http://www.amreldib.com/blog/rss.xml
 rss_page: http://www.amreldib.com/rss
 timezone: Canada/Pacific
-categories: [av, blog, bookmarks, bookshelf, favs, linkblog, projects, reviews, tools, writings, talks]
+categories: [av, blog, bookmarks, bookshelf, favs, linkblog, projects, reviews, talks, tools, writings]
 
 # RSS Titles
 rss_title_all: Amr Eldib
@@ -19,6 +19,7 @@ rss_title_favs: "Amr Eldib's Favorite Items"
 rss_title_linkblog: "Amr Eldib's Linkblog"
 rss_title_projects: "Amr Eldib's Projects"
 rss_title_reviews: "Amr Eldib's Reviews"
+rss_title_talks: "Amr Eldib's Talks"
 rss_title_tools: "Amr Eldib's Collection of Tools"
 rss_title_writings: "Amr Eldib's Writings"
 # RSS descriptions
@@ -31,6 +32,7 @@ rss_description_favs: Stuff I like
 rss_description_linkblog: Interesting reads and finds everyday
 rss_description_projects: "List of projects I've worked on"
 rss_description_reviews: Books, Movies, TV Shows, and other random things
+rss_description_talks: Talks, sessions and presentations
 rss_description_tools: Hardware, Software, and other tools I use every day
 rss_description_writings: Random thoughts on random topics
 

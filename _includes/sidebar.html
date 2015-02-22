@@ -74,8 +74,13 @@
                                    title="{{ site.rss_description_reviews }}">Reviews</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'tools/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}tools/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'talks/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}talks/"
+                                   title="{{ site.rss_description_talks }}">Talks</a>
+                            </li>
+                            <li>
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'tools/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}tools/"
                                    title="{{ site.rss_description_tools }}">Tools</a>
                             </li>
                             <li>

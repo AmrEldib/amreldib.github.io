@@ -5,12 +5,23 @@
     <link href="http://gmpg.org/xfn/11" rel="profile">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
     <meta name="author" content="Amr Eldib">
+    <meta name="copyright" content="Amr Eldib" />
+    <meta name="keywords" content="Amr, Eldib, .NET, C#, GIS, Weblog, Blog, Egypt, Canada" />
+    <meta name="description" content="Amr Eldib Blog and personal website" />
+
+    <!-- proof it's me -->
+    <link rel="me" type="text/html" href="https://plus.google.com/+AmrEldib" /> 
+    <link rel="me" type="text/html" href="http://www.amreldib.com/rss" />
+    <link rel="me" type="text/html" href="http://twitter.com/AmrEldib" />
+    <link rel="me" type="text/html" href="http://www.github.com/AmrEldib" /> 
+
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>
         
-        404: Page not found &middot; Amr
+        404: Page not found &middot; Amr Eldib
         
     </title>
     <!-- CSS -->
@@ -19,7 +30,7 @@
     <!-- Icons -->
     <link rel="shortcut icon" href="/public/images/favicon.ico">
     <!-- For Chrome for Android: -->
-    <link rel="icon" sizes="192x192" href="/public/images/AmrAvatar192.png">
+    <link rel="icon" sizes="192x192" href="/public/images/AmrAvatar.png">
     <!-- For iPhone 6 Plus with @3× display: -->
     <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/public/images/AmrAvatar180.png">
     <!-- For iPad with @2× display running iOS ≥ 7: -->
@@ -41,10 +52,14 @@
     <link rel="alternate" type="application/rss+xml" title="Amr's Blog" href="/blog/rss.xml">
     <!-- Writings -->
     <link rel="alternate" type="application/rss+xml" title="Amr's Writings" href="/writings/rss.xml">
+    <!-- Linkblog -->
+    <link rel="alternate" type="application/rss+xml" title="Amr's Linkblog" href="/linkblog/rss.xml">
     <!-- Reviews -->
     <link rel="alternate" type="application/rss+xml" title="Amr's Reviews" href="/reviews/rss.xml">
     <!-- Projects -->
-    <link rel="alternate" type="application/rss+xml" title="Amr's Projects" href="/projects/rss.xml">        
+    <link rel="alternate" type="application/rss+xml" title="Amr's Projects" href="/projects/rss.xml">
+    <!-- Talks -->
+    <link rel="alternate" type="application/rss+xml" title="Amr's Talks" href="/talks/rss.xml">
     <!-- Favs
     <link rel="alternate" type="application/rss+xml" title="Amr's Favorite Items" href="/favs/rss.xml">
         -->
@@ -102,13 +117,18 @@
         <nav class="sidebar-nav">
             <ul>
                 <li>
-                    <a class="sidebar-nav-item" href="/">Home</a>
+                    <a class="sidebar-nav-item" 
+                       href="/">Home</a>
                 </li>
                 <li>
-                    <a class="sidebar-nav-item" href="/blog/">Blog</a>
+                    <a class="sidebar-nav-item"
+                       href="/blog/"
+                       title="Postings about technology, software development, and GIS">Blog</a>
                 </li>
                 <li>
-                    <a class="sidebar-nav-item" href="/projects/">Projects</a>
+                    <a class="sidebar-nav-item"
+                       href="/projects/"
+                       title="List of projects I've worked on">Projects</a>
                 </li>
                 <li>
                     <input class="toggle-box" id="moreHeader" type="checkbox">
@@ -116,28 +136,49 @@
                     <div>
                         <ul>
                             <li>
-                                <a class="sidebar-nav-item" href="/av/">Audio and Video</a>
+                                <a class="sidebar-nav-item"
+                                   href="/av/"
+                                   title="Collection of audio and video recordings I've appeared in">Audio and Video</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item" href="/bookmarks/">Bookmarks</a>
+                                <a class="sidebar-nav-item"
+                                   href="/bookmarks/"
+                                   title="Interesting links from around the Internet">Bookmarks</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item" href="/bookshelf/">Bookshelf</a>
+                                <a class="sidebar-nav-item"
+                                   href="/bookshelf/"
+                                   title="Browse through my bookself">Bookshelf</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item" href="/favs/">Favorites</a>
+                                <a class="sidebar-nav-item"
+                                   href="/favs/"
+                                   title="Stuff I like">Favorites</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item" href="/linkblog/">Linkblog</a>
+                                <a class="sidebar-nav-item"
+                                   href="/linkblog/"
+                                   title="Interesting reads and finds everyday">Linkblog</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item" href="/reviews/">Reviews</a>
+                                <a class="sidebar-nav-item"
+                                   href="/reviews/"
+                                   title="Books, Movies, TV Shows, and other random things">Reviews</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item" href="/tools/">Tools</a>
+                                <a class="sidebar-nav-item"
+                                   href="/talks/"
+                                   title="Talks, sessions and presentations">Talks</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item" href="/writings/">Writings</a>
+                                <a class="sidebar-nav-item"
+                                   href="/tools/"
+                                   title="Hardware, Software, and other tools I use every day">Tools</a>
+                            </li>
+                            <li>
+                                <a class="sidebar-nav-item"
+                                   href="/writings/"
+                                   title="Random thoughts on random topics">Writings</a>
                             </li>
                         </ul>
                     </div>
@@ -220,20 +261,30 @@
             
                 
                     
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
                         <a class="sidebar-nav-item" href="/about/">About Me</a>
                     
                 
             
                 
-                    
-                
             
                 
-                    
-                
             
-                
-                    
                 
             
                 
@@ -260,25 +311,25 @@
             
 
             <a class="sidebar-nav-item side-nav-icon"
-               href="https://github.com/AmrEldib">
+               href="https://github.com/AmrEldib" rel="me">
                 <img class="side-nav-icon"
                      src="/public/images/github-24.png"
                      alt="GitHub Page" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
-               href="https://twitter.com/AmrEldib">
+               href="https://twitter.com/AmrEldib" rel="me">
                 <img class="side-nav-icon"
                      src="/public/images/twitlogo-24.png"
                      alt="@AmrEldib" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
-               href="http://www.goodreads.com/AmrEldib">
+               href="http://www.goodreads.com/AmrEldib" rel="me">
                 <img class="side-nav-icon"
                      src="/public/images/goodreads-24.png"
                      alt="Goodreads Shelf" />
             </a>
             <a class="sidebar-nav-item side-nav-icon"
-               href="https://www.linkedin.com/in/AmrEldib">
+               href="https://www.linkedin.com/in/AmrEldib" rel="me">
                 <img class="side-nav-icon"
                      src="/public/images/linked-24.png"
                      alt="LinkedIn Resume" />
@@ -293,8 +344,18 @@
         <p>
             <small>&copy; 2015. All rights reserved.</small>
         </p>
+        
     </div>
 </div>
+
+    ﻿<!-- h-card microformat. not displaying -->
+<div class="p-author h-card" style="display: none;">
+    <img src="http://www.amreldib.com/public/images/Amr.png" class="u-photo" />
+    <img src="http://www.amreldib.com/public/images/AmrAvatar.png" class="u-logo" />
+    <a href="http://www.amreldib.com" class="p-name u-url" rel="me">Amr Eldib</a>
+    <span class="p-country-name">Canada</span>
+</div>
+<!-- /h-card microformat -->
 
 
     <div class="content container">
