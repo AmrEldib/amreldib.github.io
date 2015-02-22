@@ -1724,3 +1724,41 @@ turn "OFF" all stars after the one the user is hovering over.
     background-color: #384C75;
     text-transform: lowercase;
 }
+.writingsTitle {
+    font-family: AmiriWeb;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #333;
+}
+
+.writingsSubtitle {
+    text-align: center;
+}
+
+.theme-writings .page-title,
+.theme-writings .post-title,
+.theme-writings .post-title a {
+    color: #787A2E;
+}
+
+.theme-writings .sidebar {
+    background-color: #787A2E;
+}
+
+.theme-writings .content a,
+.theme-writings .related-posts li a:hover {
+    color: #787A2E;
+}
+
+    .theme-writings .content a:hover {
+        color: #787A2E;
+    }
+    
+.theme-writings .content a.button-external:hover {
+    background-color: #787A2E;
+}
+
+.theme-writings .content a.pagination-item:hover {
+    background-color: #787A2E;
+}
+
