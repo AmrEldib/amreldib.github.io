@@ -40,7 +40,7 @@ nav a img {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-.blogTitle {
+.sidebar-about h1.blogTitle {
     font-family: 'Playball', cursive;
     font-size: 64px;
 }
