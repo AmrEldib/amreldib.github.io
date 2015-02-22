@@ -11,7 +11,7 @@ category: linkblog
 <div id="linkList">
     <ul class="itemList list-unstyled">
         {% for post in site.posts %}
-            {% if post.category == 'linkblog' %}
+            {% if post.category == 'linkblog' && (post.date | date: '%Y') == 2015 %}
                 <li>
                     <small>{{ post.date | date_to_string }} <a href="{{ post.url }}">#</a></small>
                     <br />
