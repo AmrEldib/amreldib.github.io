@@ -21,6 +21,9 @@ I'm a software developer building GIS applications. These are some of my thought
 ##[Linkblog](/linkblog/)##  
 {{ site.rss_description_linkblog }}  
 
+##[Talks](/talks/)##  
+{{ site.rss_description_talks }}  
+
 ##[Reviews](/reviews/)##  
 {{ site.rss_description_reviews }}  
 
