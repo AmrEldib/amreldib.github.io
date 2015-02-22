@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: SimplyUbuntu
 title: "أوبنتو ببساطة"
 time: 2011-09-29 20:52:00.001000000 -07:00
@@ -10,7 +10,7 @@ lang: ar
 tags:
 - Book Review
 ---
-<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/BabElKorogCover.jpg">
+<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/SimplyUbuntu.jpg">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

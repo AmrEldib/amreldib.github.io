@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: HowToWinCosmicWar
 title: "How to Win a Cosmic War: God, Globalization, and the End of the War on Terror"
 time: 2009-06-27 20:52:00.001000000 -07:00
@@ -12,6 +12,7 @@ tags:
 - Religion
 - Book Review
 ---
+
 <img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/HowToWinCosmicWar.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>

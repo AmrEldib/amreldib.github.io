@@ -1,5 +1,5 @@
 ---
-layout: linkpost
+layout: linkPost
 name: Sandstorm
 title: "Sandstorm is an open source platform for personal servers"
 time: 2015-02-02 16:32:00.003000000 -08:00

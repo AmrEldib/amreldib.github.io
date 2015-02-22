@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: HowFirefoxCanOutlastOtherBrowsers
 title: How Firefox can outlast other browsers?
 time: 2008-12-17 20:29:00.001000000 -08:00

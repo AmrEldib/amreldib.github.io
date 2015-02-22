@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: GisGpsLbsGeoweb
 title: 'GIS, GPS, LBS, and GeoWeb: They''re different, People'
 time: 2008-05-21 17:39:00.000000000 -07:00

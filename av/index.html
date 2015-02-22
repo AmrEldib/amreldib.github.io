@@ -4,10 +4,10 @@ title: Home
 category: av
 ---
 
+<h1>Audio & Video</h1>
+<p>{{ site.rss_description_av }}</p>
+
 <div class="posts">
-    <h1>Audio & Video</h1>
-    <p>Podcasts, Hangouts, and other recordings I've particpated in.</p>
-    <br/>
     {% for post in site.posts %}
         {% if post.category == 'av' %}
             {% if post.frontpage == 'true' %}
@@ -33,22 +33,3 @@ category: av
         {% endif %}
     {% endfor %}
 </div>
-
-<!--
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
--->

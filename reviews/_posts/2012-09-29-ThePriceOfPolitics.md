@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: ThePriceOfPolitics
 title: The Price of Politics
 time: 2012-09-29 09:39:00.001000000 -07:00

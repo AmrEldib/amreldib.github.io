@@ -1,5 +1,5 @@
 ---
-layout: linkpost
+layout: linkPost
 name: RiseOfIndieWeb
 title: "Rise of the IndieWeb - Amber Case"
 time: 2015-02-18 10:48:00.003000000 -08:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: BeingGeek
 title: "Being Geek: The Software Developer's Career Handbook"
 time: 2010-11-09 20:52:00.001000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: HowToRuinYourPublicBeta
 title: How To Ruin Your Public Beta
 time: 2011-11-05 14:57:00.001000000 -07:00

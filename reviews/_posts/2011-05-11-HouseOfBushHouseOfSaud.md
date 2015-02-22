@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: HouseOfBushHouseOfSaud
 title: "House of Bush, House of Saud: The Secret Relationship Between the World's Two Most Powerful Dynasties"
 time: 2011-05-11 20:52:00.001000000 -07:00

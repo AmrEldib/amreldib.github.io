@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: SyncWindowsLiveWriterPostsBetweenComputers
 title: Sync Windows Live Writer Posts Between Computers
 time: 2012-01-11 21:25:00.001000000 -08:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: MastersOfDoom
 title: "Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture"
 time: 2013-12-27 20:52:00.001000000 -07:00

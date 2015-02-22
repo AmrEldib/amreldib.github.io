@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: UsingIntellisenseWithEsriJsapiInVisualStudio
 title: Using Intellisense with Esri’s JavaScript API in Visual Studio
 time: 2013-03-03 14:05:00.001000000 -08:00

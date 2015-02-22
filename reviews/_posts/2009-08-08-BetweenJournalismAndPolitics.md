@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: BetweenJournalismAndPolitics
 title: 'بين الصحافة والسياسة'
 time: 2009-08-08 20:52:00.001000000 -07:00

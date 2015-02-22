@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projectsPost
 name: AwesomeGis
 title: awesome-gis
 time: 2015-01-06 16:32:00.003000000 -08:00

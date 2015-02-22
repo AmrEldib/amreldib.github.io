@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: CubicExplorerArabicTranslationAvailable
 title: CubicExplorer Arabic Translation Available
 time: 2009-01-02 11:16:00.001000000 -08:00

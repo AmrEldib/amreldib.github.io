@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: UpdatedReleaseOfArabicTranslationForCubicExplorer
 title: Updated Release of Arabic Translation for CubicExplorer
 time: 2010-01-17 16:15:00.001000000 -08:00

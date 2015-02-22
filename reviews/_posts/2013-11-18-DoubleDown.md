@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: DoubleDown
 title: 'Double Down'
 time: 2013-11-18 20:52:00.001000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: GrandPursuit
 title: 'Grand Pursuit: A History of Economic Genius'
 time: 2013-02-14 20:52:00.001000000 -07:00

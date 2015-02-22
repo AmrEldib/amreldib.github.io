@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: TooBigToFail
 title: "Too Big to Fail: The Inside Story of How Wall Street and Washington Fought to Save the Financial System from Crisis — and Themselves"
 time: 2010-09-11 09:39:00.001000000 -07:00

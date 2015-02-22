@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: ItsGettingReallyOld
 title: It's Getting Really Old
 time: 2008-06-04 19:33:00.007000000 -07:00

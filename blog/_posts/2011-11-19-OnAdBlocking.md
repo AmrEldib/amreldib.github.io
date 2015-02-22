@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: OnAdBlocking
 title: On Ad Blocking
 time: 2011-11-19 20:21:00.001000000 -08:00

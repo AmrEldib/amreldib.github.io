@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: avPostWithComments
 name: AskDeveloper36Git
 title: "AskDeveloper Podcast 36: Source Control and Git"
 time: 2014-09-27 16:32:00.003000000 -08:00

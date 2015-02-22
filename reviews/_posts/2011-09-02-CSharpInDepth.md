@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: CSharpInDepth
 title: 'C# in Depth'
 time: 2011-09-02 20:52:00.001000000 -07:00

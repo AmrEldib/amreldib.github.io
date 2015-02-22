@@ -1,5 +1,5 @@
 ---
-layout: linkpost
+layout: linkPost
 name: MetricsFromDenver
 title: "How the Public Actually Uses Local Government Web Maps: Metrics from Denver"
 time: 2015-01-30 16:32:00.003000000 -08:00

@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: avPostWithComments
 name: AskDeveloper37MicrosoftNetGoingOpenSource
 title: "AskDeveloper Podcast 37: Microsoft .NET Going Open Source"
 time: 2014-11-15 16:32:00.003000000 -08:00

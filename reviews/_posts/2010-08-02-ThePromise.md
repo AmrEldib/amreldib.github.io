@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: ThePromise
 title: 'The Promise: President Obama, Year One'
 time: 2010-08-02 20:52:00.001000000 -07:00

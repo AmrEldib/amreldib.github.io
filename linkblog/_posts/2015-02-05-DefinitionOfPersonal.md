@@ -1,5 +1,5 @@
 ---
-layout: linkpost
+layout: linkPost
 name: DefinitionOfPersonal
 title: "What is your definition of personal?"
 time: 2015-02-05 12:32:00.003000000 -08:00

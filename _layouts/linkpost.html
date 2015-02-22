@@ -2,12 +2,23 @@
 layout: default
 ---
 
+<h4><a href="../" title="{{ site.rss_description_linkblog }}">Linkblog</a></h4>
+
 <div class="post{% if page.lang == 'ar' %} rtl{% endif %}">
-    <h3 class="post-title">{{ page.title }}</h3>
-    <span><a href="{{ post.linkurl }}">Read full article</a></span>
-    {% for tag in post.tags %}
-    <span class="linktag">{{tag}}</span>
-    {% endfor %}
+    <h1 class="post-title">
+        <a href="{{ page.linkurl }}" target="_blank" title="Read article">
+            {{ page.title }}
+        </a>
+    </h1>
+
+    <p>
+        <span class="post-date">{{ page.date | date_to_string }}</span>
+
+        {% for tag in page.tags %}
+            <span class="linktag">{{tag}}</span>
+        {% endfor %}
+    </p>
+    <br />
     {{ content }}
-    <span class="post-date">{{ page.date | date_to_string }}</span>
+    <br />
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: linkpost
+layout: linkPost
 name: TabToDevice
 title: "Send Tab to Device Addon for Firefox"
 time: 2015-01-31 16:32:00.003000000 -08:00

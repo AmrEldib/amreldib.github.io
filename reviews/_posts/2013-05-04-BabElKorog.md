@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: BabElKorog
 title: "باب الخروج"
 time: 2013-05-04 20:52:00.001000000 -07:00

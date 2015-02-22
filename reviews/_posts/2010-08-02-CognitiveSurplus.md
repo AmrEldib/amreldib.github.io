@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: CognitiveSurplus
 title: 'Cognitive Surplus: Creativity and Generosity in a Connected Age'
 time: 2010-08-02 20:52:00.001000000 -07:00

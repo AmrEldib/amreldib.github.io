@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: LastDaysOfThePharaoh
 title: "Last Days of The Pharaoh"
 time: 2012-09-06 20:52:00.001000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: InThePlex
 title: In The Plex
 time: 2011-09-04 12:01:00.001000000 -07:00

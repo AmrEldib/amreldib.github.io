@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: ObamaWars
 title: "Obama's Wars"
 time: 2010-09-26 09:39:00.001000000 -07:00

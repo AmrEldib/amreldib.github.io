@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: TheBridge
 title: The Bridge
 time: 2012-01-07 20:36:00.001000000 -08:00

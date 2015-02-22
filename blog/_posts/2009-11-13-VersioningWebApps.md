@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: VersioningWebApps
 title: Time to Start Versioning Web Applications
 time: 2009-11-13 10:56:00.002000000 -08:00

@@ -1,5 +1,5 @@
 ---
-layout: linkpost
+layout: linkPost
 name: StoriesAsDiagramCurves
 title: "Stories as diagram curves"
 time: 2015-01-29 16:32:00.003000000 -08:00

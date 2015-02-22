@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: HowToRuinYourTechnicalSessionIn10EasySteps
 title: How to Ruin Your Technical Session in 10 Easy Steps
 time: 2013-04-29 16:30:00.000000000 -07:00

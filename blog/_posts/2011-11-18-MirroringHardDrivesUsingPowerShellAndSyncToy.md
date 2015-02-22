@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: MirroringHardDrivesUsingPowerShellAndSyncToy
 title: Mirroring Hard drives Using PowerShell and SyncToy
 time: 2011-11-18 09:24:00.001000000 -08:00

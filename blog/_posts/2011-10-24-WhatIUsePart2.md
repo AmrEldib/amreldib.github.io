@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: WhatIUse2011Part2
 title: What I Use, Part 2
 time: 2011-10-24 19:53:00.001000000 -07:00

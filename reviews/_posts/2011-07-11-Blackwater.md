@@ -1,5 +1,5 @@
 ﻿---
-layout: post
+layout: reviewsPost
 name: Blackwater
 title: 'Blackwater: The Rise of the World's Most Powerful Mercenary Army '
 time: 2011-07-11 20:52:00.001000000 -07:00

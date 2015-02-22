@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: RaisingExpectations
 title: Raising Expectations
 time: 2008-09-21 20:19:00.001000000 -07:00

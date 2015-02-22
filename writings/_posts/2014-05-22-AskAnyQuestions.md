@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: writingsPost
 name: AskAnyQuestions
 title: "إسأل أي سؤال"
 time: 2014-05-22 17:21:00.001000000 -07:00

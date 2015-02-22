@@ -5,6 +5,7 @@ category: linkblog
 ---
 
 <h1>Linkblog</h1>
+<p>{{ site.rss_description_linkblog }}</p>
 
 <div id="linkList">
     <ul class="itemList list-unstyled">
@@ -12,19 +13,23 @@ category: linkblog
         {% for cat in postsbycategory %}
             {% if cat.name == 'linkblog' %}
                 {% for post in cat.items limit: 30 %}
-                    <li>
-                        <small>{{ post.date | date_to_string }} <a href="{{ post.url }}">#</a></small>
-                        <br />
-                        <a href="{{ post.linkurl }}" target="_blank">
+                <li>
+                    <h3>
+                        <a href="{{ post.linkurl }}" target="_blank" title="Read article">
                             {{ post.title }}
                         </a>
+                    </h3>
+                    <p>
+                        <span class="post-date">
+                            <a href="{{ post.url }}" title="permalink">#</a> {{ post.date | date_to_string }}
+                        </span>
                         {% for tag in post.tags %}
-                        <span class="linktag">{{tag}}</span>
+                            <span class="linktag">{{tag}}</span>
                         {% endfor %}
-                        <br />
-                        {{ post.content }}
-                        <br/>
-                    </li>
+                    </p>
+                    {{ post.content }}
+                    <br />
+                </li>
                 {% endfor %}
             {% endif %}
         {% endfor %}

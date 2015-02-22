@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: OutlookOutOfOfficeAutoReplyOnlyToEmailsDirectedToMe
 title: Outlook Out-of-Office Auto-Reply Only to Emails Directed to Me
 time: 2013-11-06 00:00:00.000000000 -08:00

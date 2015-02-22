@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: EverybodyGetsAnAppStore
 title: Everybody Gets an App Store
 time: 2011-01-10 20:34:00.001000000 -08:00

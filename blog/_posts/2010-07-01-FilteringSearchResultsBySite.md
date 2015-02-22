@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: FilteringSearchResultsBySite
 title: Filtering Search Results by Site
 time: 2010-07-01 12:46:00.002000000 -07:00

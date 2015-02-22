@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: TheHungerGames
 title: The Hunger Games
 time: 2012-06-23 09:39:00.001000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: PowerShellStudyNotes
 title: PowerShell Study Notes
 time: 2011-11-01 14:05:00.001000000 -07:00

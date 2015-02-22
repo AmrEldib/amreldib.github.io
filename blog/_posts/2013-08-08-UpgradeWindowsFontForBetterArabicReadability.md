@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: UpgradeWindowsFontForBetterArabicReadability
 title: Upgrade Windows Font for Better Arabic Readability
 time: 2013-08-08 11:26:00.001000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: TheMasterSwitch
 title: "The Master Switch: The Rise and Fall of Information Empires"
 time: 2011-09-03 20:52:00.001000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: Windows7Rumors
 title: 'Windows 7: What it''s Rumored to Have, and What It should Have'
 time: 2007-12-24 09:21:00.000000000 -08:00

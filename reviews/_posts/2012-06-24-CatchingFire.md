@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: CatchingFire
 title: Catching Fire
 time: 2012-06-24 20:52:00.001000000 -07:00

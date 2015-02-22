@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: OpenYouTubeVideosInPopUpWindowWithBookmark
 title: Open YouTube Videos in PopUp Window with a Bookmark
 time: 2013-11-03 19:03:00.000000000 -08:00

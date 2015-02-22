@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: MwfSeekingBff
 title: 'MWF Seeking BFF: My Yearlong Search for A New Best Friend'
 time: 2012-01-01 20:52:00.001000000 -07:00

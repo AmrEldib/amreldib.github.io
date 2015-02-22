@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: GameChange
 title: 'Game Change: Obama and the Clintons, McCain and Palin, and the Race of a Lifetime'
 time: 2010-08-02 20:52:00.001000000 -07:00

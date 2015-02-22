@@ -1,5 +1,5 @@
 ---
-layout: postWithComments
+layout: blogPostWithComments
 name: VMBasedDevelopmentEnvironment
 title: VM-based Development Environment
 time: 2010-08-15 12:30:00.001000000 -07:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: TheBigShort
 title: The Big Short
 time: 2011-10-29 09:39:00.001000000 -07:00

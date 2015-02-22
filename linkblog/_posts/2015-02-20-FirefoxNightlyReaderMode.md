@@ -1,5 +1,5 @@
 ---
-layout: linkpost
+layout: linkPost
 name: FirefoxNightlyReaderMode
 title: "Reader Mode lands in Firefox Nightly"
 time: 2015-02-20 10:48:00.003000000 -08:00

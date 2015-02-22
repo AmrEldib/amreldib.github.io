@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reviewsPost
 name: PowerOfHabit
 title: "The Power of Habit: Why We Do What We Do in Life and Business"
 time: 2012-02-25 09:39:00.001000000 -07:00
