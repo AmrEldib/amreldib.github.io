@@ -25,17 +25,17 @@
         <nav class="sidebar-nav">
             <ul>
                 <li>
-                    <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" 
+                    <a class="sidebar-nav-item{% if page.url == site.url + site.baseurl %} active{% endif %}" 
                        href="{{ site.baseurl }}">Home</a>
                 </li>
                 <li>
-                    <a class="sidebar-nav-item{% if page.url == (site.baseurl + 'blog/') %} active{% endif %}" 
-                       href="{{ site.baseurl }}blog/" 
+                    <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'blog/') %} active{% endif %}"
+                       href="{{ site.baseurl }}blog/"
                        title="{{ site.rss_description_blog }}">Blog</a>
                 </li>
                 <li>
-                    <a class="sidebar-nav-item{% if page.url == (site.baseurl + 'projects/') %} active{% endif %}" 
-                       href="{{ site.baseurl }}projects/" 
+                    <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'projects/') %} active{% endif %}"
+                       href="{{ site.baseurl }}projects/"
                        title="{{ site.rss_description_projects }}">Projects</a>
                 </li>
                 <li>
@@ -44,33 +44,33 @@
                     <div>
                         <ul>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'av/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}av/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'av/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}av/"
                                    title="{{ site.rss_description_av }}">Audio and Video</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'bookmarks/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}bookmarks/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'bookmarks/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}bookmarks/"
                                    title="{{ site.rss_description_bookmarks }}">Bookmarks</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'bookshelf/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}bookshelf/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'bookshelf/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}bookshelf/"
                                    title="{{ site.rss_description_bookshelf }}">Bookshelf</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'favs/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}favs/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'favs/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}favs/"
                                    title="{{ site.rss_description_favs }}">Favorites</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'linkblog/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}linkblog/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'linkblog/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}linkblog/"
                                    title="{{ site.rss_description_linkblog }}">Linkblog</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'reviews/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}reviews/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'reviews/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}reviews/"
                                    title="{{ site.rss_description_reviews }}">Reviews</a>
                             </li>
                             <li>
@@ -84,8 +84,8 @@
                                    title="{{ site.rss_description_tools }}">Tools</a>
                             </li>
                             <li>
-                                <a class="sidebar-nav-item{% if page.url == site.baseurl + 'writings/' %} active{% endif %}" 
-                                   href="{{ site.baseurl }}writings/" 
+                                <a class="sidebar-nav-item{% if page.url == (site.url + site.baseurl + 'writings/') %} active{% endif %}"
+                                   href="{{ site.baseurl }}writings/"
                                    title="{{ site.rss_description_writings }}">Writings</a>
                             </li>
                         </ul>
