@@ -210,6 +210,11 @@ small {
     transform: rotateX(180deg);
 }
 
+.post-date {
+    font-size: smaller;
+    display: inline;
+}
+
 .excerpt {
     margin-bottom: 4em;
 }
