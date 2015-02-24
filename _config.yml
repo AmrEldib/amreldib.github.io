@@ -76,8 +76,8 @@ markdown: kramdown
 highlighter: pygments
 encoding: utf-8
 exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
-include: ["slides"]
+include: ["slides", "humans.txt", "robots.txt"]
 
 #gems: [jekyll-sitemap]
-#gems:
-#  - jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
