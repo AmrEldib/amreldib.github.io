@@ -1,0 +1,9 @@
+﻿/* MAIN */
+  Develop & Design: Amr Eldib
+  Twitter: @AmrEldib
+  Site: http://www.amreldib.com
+  Location: Vancouver, Canada
+
+/* SITE */
+  Doctype: HTML5
+  Software: Visual Studio, Jekyll

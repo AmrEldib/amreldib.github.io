@@ -79,5 +79,5 @@ exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
 include: ["slides"]
 
 #gems: [jekyll-sitemap]
-gems:
-  - jekyll-redirect-from
+#gems:
+#  - jekyll-redirect-from
