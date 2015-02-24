@@ -1,2 +1,3 @@
 ﻿user-agent: *
+sitemap: sitemap.xml
 disallow: /tweets/
