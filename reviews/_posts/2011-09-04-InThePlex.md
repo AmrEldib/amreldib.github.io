@@ -6,6 +6,7 @@ time: 2011-09-04 12:01:00.001000000 -07:00
 category: reviews
 excerpt: "Not a fan-boy book"
 rating: 4
+redirect_from: "/2011/09/book-review-in-plex.html"
 tags:
 - Chrome
 - Google
