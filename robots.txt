@@ -1,3 +1,4 @@
 ﻿user-agent: *
 sitemap: sitemap.xml
 disallow: /tweets/
+disallow: keybase.txt
