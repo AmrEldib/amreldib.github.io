@@ -237,6 +237,7 @@ small {
     font-family: AmiriWeb;
     text-align: right;
     line-height: 1.7;
+    direction: rtl;
 }
 
     .rtl .imageOnRight {
