@@ -1,6 +1,8 @@
 ---
-layout: defaultWritingsWithImageGallery
+layout: defaultWritings
 ---
+
+{% include imageGallery.html %}
 
 <h4 class="rtl"><a href="../" title="{{ site.rss_description_writings }}">أحلام متواضعة</a></h4>
 
@@ -10,14 +12,9 @@ layout: defaultWritingsWithImageGallery
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $(".fancybox-button").fancybox({
-            prevEffect: 'none',
-            nextEffect: 'none',
-            closeBtn: false,
-            helpers: {
-                title: { type: 'inside' },
-                buttons: {}
-            }
+        $(".fancybox").fancybox({
+            openEffect: 'none',
+            closeEffect: 'none'
         });
     });
 </script>
