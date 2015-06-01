@@ -14,21 +14,23 @@ category: linkblog
             {% if cat.name == 'linkblog' %}
                 {% for post in cat.items limit: 30 %}
                 <li>
-                    <h3>
-                        <a href="{{ post.linkurl }}" target="_blank" title="Read article">
-                            {{ post.title }}
-                        </a>
-                    </h3>
-                    <p>
-                        <span class="post-date">
-                            <a href="{{ post.url }}" title="permalink">#</a> {{ post.date | date_to_string }}
-                        </span>
-                        {% for tag in post.tags %}
+                    <div class="{% if post.lang == 'ar' %}rtl{% endif %}">
+                        <h3>
+                            <a href="{{ post.linkurl }}" target="_blank" title="Read article">
+                                {{ post.title }}
+                            </a>
+                        </h3>
+                        <p>
+                            <span class="post-date">
+                                <a href="{{ post.url }}" title="permalink">#</a> {{ post.date | date_to_string }}
+                            </span>
+                            {% for tag in post.tags %}
                             <span class="linktag">{{tag}}</span>
-                        {% endfor %}
-                    </p>
-                    {{ post.content }}
-                    <br />
+                            {% endfor %}
+                        </p>
+                        {{ post.content }}
+                        <br />
+                    </div>
                 </li>
                 {% endfor %}
             {% endif %}
