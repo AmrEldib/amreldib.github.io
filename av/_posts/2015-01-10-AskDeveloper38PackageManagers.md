@@ -1,9 +1,10 @@
 ---
-layout: avPostWithComments
+layout: avPost
 name: AskDeveloper38PackageManagers
 title: "AskDeveloper Podcast 38: Package Managers"
 time: 2015-01-10 16:32:00.003000000 -08:00
 category: av
+commentsSection: 'true'
 frontpage: 'true'
 tags: 
 - Javascript

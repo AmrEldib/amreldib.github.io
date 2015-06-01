@@ -1,9 +1,10 @@
 ---
-layout: avPostWithComments
+layout: avPost
 name: AskDeveloper40EntrepreneurshipInEgypt
 title: "AskDeveloper Podcast 40: Entrepreneurship in Egypt with Mostafa Ashour"
 time: 2015-03-08 16:32:00.003000000 -08:00
 category: av
+commentsSection: 'true'
 frontpage: 'true'
 tags: 
 - Startups 
