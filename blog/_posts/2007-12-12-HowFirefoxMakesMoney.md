@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: HowFirefoxMakesMoney
 title: How Firefox Makes Money
 time: 2007-12-12 06:03:00.001000000 -08:00
 category: blog
+commentsSection: 'true'
 tags:
 - IT Industry
 - Firefox

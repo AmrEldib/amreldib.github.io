@@ -4,4 +4,8 @@ layout: default
 
 {% include defaultPost.html %}
 
+{% if page.commentsSection == 'true' %}
+    {% include commentsSection.html %}
+{% endif %}
+
 {% include relatedPosts.html %}

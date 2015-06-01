@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: ConfiguringLog4netPart2
 title: Configuring log4net and Using the AppLogger Class - Part 2
 time: 2010-07-24 19:34:00.005000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - ".NET"
 - Logging

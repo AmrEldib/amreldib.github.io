@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: Chocolatey
 title: 'Chocolatey: Install Software like a Pro'
 time: 2014-02-09 15:35:00.001000000 -08:00
 category: blog
+commentsSection: 'true'
 tags:
 - Chocolatey
 - Tools

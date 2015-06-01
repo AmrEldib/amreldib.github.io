@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: AppStoreForTheRestOfUs
 title: An App Store for the Rest of Us
 time: 2012-01-13 11:51:00.001000000 -08:00
 category: blog
+commentsSection: 'true'
 tags:
 - Windows
 - App Store

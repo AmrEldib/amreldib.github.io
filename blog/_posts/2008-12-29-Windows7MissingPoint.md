@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: Windows7MissingPoint
 title: 'Windows 7: Missing The Point'
 time: 2008-12-29 21:40:00.001000000 -08:00
 category: blog
+commentsSection: 'true'
 tags:
 - Windows
 - Microsoft

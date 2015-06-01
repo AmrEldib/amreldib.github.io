@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: UpdatedReleaseOfArabicTranslationForCubicExplorer
 title: Updated Release of Arabic Translation for CubicExplorer
 time: 2010-01-17 16:15:00.001000000 -08:00
 category: blog
+commentsSection: 'true'
 tags: []
 redirect_from: "/2010/01/updated-release-of-arabic-translation.html"
 ---

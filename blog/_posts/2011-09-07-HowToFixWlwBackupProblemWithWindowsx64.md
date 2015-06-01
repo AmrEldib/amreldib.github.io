@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: HowToFixWlwBackupProblemWithWindowsx64
 title: How to fix WLW Backup problem with Windows x64
 time: 2011-09-07 07:25:00.001000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - Tools
 - ".NET"

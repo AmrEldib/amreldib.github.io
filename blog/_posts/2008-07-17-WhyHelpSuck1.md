@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: WhyHelpSuck1
 title: Why Help Suck (1 of 2)
 time: 2008-07-17 21:23:00.001000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - Software Development
 redirect_from: "/2008/07/why-help-suck-1-of-2.html"

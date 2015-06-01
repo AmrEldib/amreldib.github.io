@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: EverybodyGetsAnAppStore
 title: Everybody Gets an App Store
 time: 2011-01-10 20:34:00.001000000 -08:00
 category: blog
+commentsSection: 'true'
 tags:
 - iPhone
 - Windows

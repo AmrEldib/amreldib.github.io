@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: MicrosoftVsGoogle
 title: 'Microsoft vs. Google: Is it a real fight?'
 time: 2008-05-17 08:32:00.001000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - Google
 - IT Industry

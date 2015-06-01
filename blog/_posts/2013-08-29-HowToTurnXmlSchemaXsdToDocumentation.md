@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: HowToTurnXmlSchemaXsdToDocumentation
 title: How to Turn XML Schema (XSD) to Documentation
 time: 2013-08-29 20:51:00.001000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - XSD
 - Windows

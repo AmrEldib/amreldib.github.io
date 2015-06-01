@@ -23,3 +23,7 @@ layout: default
     {{ content }}
     <br />
 </div>
+
+{% if page.commentsSection == 'true' %}
+    {% include commentsSection.html %}
+{% endif %}

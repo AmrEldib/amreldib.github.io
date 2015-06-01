@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: FilteringSearchResultsBySite
 title: Filtering Search Results by Site
 time: 2010-07-01 12:46:00.002000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - Bing
 - Microsoft

@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: ShareToSocialNetworksUsingBrowserBookmarks
 title: Share To Social Networks Using Browser Bookmarks
 time: 2013-11-10 19:39:00.000000000 -08:00
 category: blog
+commentsSection: 'true'
 tags:
 - Facebook
 - Social Networks

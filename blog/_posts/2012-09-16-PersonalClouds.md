@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: PersonalClouds
 title: Personal Clouds
 time: 2012-09-16 23:19:00.001000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - Cloud
 - Open Source

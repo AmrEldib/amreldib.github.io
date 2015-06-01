@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: PersonalizedTvGuide
 title: Personalized TV Guide
 time: 2008-05-30 17:44:00.001000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - Consumer Devices
 redirect_from: "/2008/05/personalized-tv-guide.html"

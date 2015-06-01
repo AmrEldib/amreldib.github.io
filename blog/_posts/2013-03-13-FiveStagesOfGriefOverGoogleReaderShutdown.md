@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: FiveStagesOfGriefOverGoogleReaderShutdown
 title: The Five Stages of Grief over Google Reader Shutdown
 time: 2013-03-13 18:21:00.001000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - GoogleReader
 - Google

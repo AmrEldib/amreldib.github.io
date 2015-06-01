@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: GettingOnTheGeoTrain
 title: Getting on the Geo Train
 time: 2008-06-10 04:30:00.003000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - GIS
 - GeoWeb

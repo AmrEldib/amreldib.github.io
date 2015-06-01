@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: IntroToGitHubTalk
 title: Intro to GitHub Talk at MaptimeYVR
 time: 2015-02-20 22:21:00.003000000 -08:00
 category: blog
+commentsSection: 'true'
 frontpage: 'true'
 tags: 
 - Talk

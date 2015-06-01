@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: WhatGoogleReaderIsMissing
 title: What Google Reader is missing?
 time: 2008-08-16 10:11:00.002000000 -07:00
 category: blog
+commentsSection: 'true'
 tags:
 - Google
 - Wish List
