@@ -2,7 +2,7 @@
     font-family: 'Playball';
     font-style: normal;
     font-weight: 400;
-    src: local('Playball'), local('Playball-Regular'), url(fonts/playball.woff2) format('woff2'), url(fonts/playball.woff) format('woff');
+    src: local('Playball'), local('Playball-Regular'), url('fonts/playball.woff2') format('woff2'), url('fonts/playball.woff') format('woff');
 }
 
 @font-face {

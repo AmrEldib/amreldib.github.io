@@ -1,464 +1,4 @@
-﻿/* Bookshelf */
-.bookshelfHeader {
-    clear: both;
-}
-
-.moreBookshelf {
-    float: right;
-}
-
-.gr_grid_container {
-    /* customize grid container div here. e.g.: width: 500px; */
-    clear: both;
-}
-
-.gr_grid_book_container {
-    /* customize book cover container div here */
-    float: left;
-    width: 98px;
-    height: 160px;
-    margin: 10px;
-    overflow: hidden;
-}
-
-    .gr_grid_book_container img {
-        border-radius: 0;
-    }
-
-/*.currentlyReadingShelf .gr_grid_container {
-    -moz-perspective: 100px;
-    -ms-perspective: 100px;
-    -webkit-perspective: 100px;
-    perspective: 100px;
-    -moz-transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-    .currentlyReadingShelf .gr_grid_container .gr_grid_book_container {
-        position: relative;
-        -moz-perspective: 100px;
-        -ms-perspective: 100px;
-        -webkit-perspective: 100px;
-        perspective: 100px;
-        -moz-transform: rotateY(-3deg);
-        -webkit-transform: perspective(100) rotateY(-3deg);
-        -ms-transform: rotateY(-3deg);
-        -o-transform: rotateY(-3deg);
-        transform: rotateY(-3deg);
-        outline: 1px solid transparent;
-        box-shadow: none;
-        margin: 0;
-    }
-
-        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container a img {
-            position: relative;
-            max-width: 100%;
-        }
-
-        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:before,
-        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:after {
-            position: absolute;
-            top: 2%;
-            height: 96%;
-            content: ' ';
-            z-index: -1;
-        }
-
-        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:before {
-            width: 100%;
-            left: 7.5%;
-            background-color: #5a2d18;
-            box-shadow: 5px 5px 20px #333;
-        }
-
-        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:after {
-            width: 5%;
-            left: 100%;
-            background-color: #EFEFEF;
-            box-shadow: inset 0 0 5px #aaa;
-            -moz-transform: rotateY(20deg);
-            -webkit-transform: perspective(100) rotateY(20deg);
-            -ms-transform: rotateY(20deg);
-            -o-transform: rotateY(20deg);
-            transform: rotateY(20deg);
-        }*/
-
-/*! Logistics by Hayden Bleasel // haydenbleasel.github.io/logistics */
-.gist .gist-file {
-    border: 0 !important;
-    margin-bottom: 0 !important;
-}
-
-    .gist .gist-file .gist-data {
-        border-bottom: 2px solid #95a5a6 !important;
-    }
-
-        .gist .gist-file .gist-data .line-numbers {
-            border-right: 2px solid #95a5a6 !important;
-            padding: 1em !important;
-        }
-
-        .gist .gist-file .gist-data td.line-data {
-            padding: 1em !important;
-            background-color: white;
-        }
-
-        .gist .gist-file .gist-data .gist-data span, .gist .gist-file .gist-data .line-numbers, .gist .gist-file .gist-data pre {
-            font-size: 14px !important;
-            line-height: 24px !important;
-            font-weight: 400 !important;
-            color: #95a5a6 !important;
-        }
-
-    .gist .gist-file .gist-meta {
-        text-shadow: none !important;
-    }
-
-        .gist .gist-file .gist-meta a {
-            color: #95a5a6 !important;
-        }
-
-    .gist .gist-file .gist-syntax {
-        background: #fff;
-        color: #2c3e50 !important;
-    }
-
-        .gist .gist-file .gist-syntax .hll {
-            background-color: #34495e !important;
-        }
-
-        .gist .gist-file .gist-syntax .c, .gist .gist-file .gist-syntax .c1, .gist .gist-file .gist-syntax .cm, .gist .gist-file .gist-syntax .cp, .gist .gist-file .gist-syntax .cs {
-            color: #95a5a6 !important;
-        }
-
-        .gist .gist-file .gist-syntax .err {
-            color: #e74c3c;
-            background-color: #95a5a6 !important;
-        }
-
-        .gist .gist-file .gist-syntax .k, .gist .gist-file .gist-syntax .kc, .gist .gist-file .gist-syntax .kd, .gist .gist-file .gist-syntax .kp, .gist .gist-file .gist-syntax .kr, .gist .gist-file .gist-syntax .kt, .gist .gist-file .gist-syntax .no {
-            color: #2980b9 !important;
-        }
-
-        .gist .gist-file .gist-syntax .il, .gist .gist-file .gist-syntax .l, .gist .gist-file .gist-syntax .m, .gist .gist-file .gist-syntax .mf, .gist .gist-file .gist-syntax .mh, .gist .gist-file .gist-syntax .mi, .gist .gist-file .gist-syntax .mo, .gist .gist-file .gist-syntax .se {
-            color: #8e44ad !important;
-        }
-
-        .gist .gist-file .gist-syntax .bp, .gist .gist-file .gist-syntax .n, .gist .gist-file .gist-syntax .nb, .gist .gist-file .gist-syntax .ni, .gist .gist-file .gist-syntax .nl, .gist .gist-file .gist-syntax .nn, .gist .gist-file .gist-syntax .nv, .gist .gist-file .gist-syntax .p, .gist .gist-file .gist-syntax .py, .gist .gist-file .gist-syntax .vc, .gist .gist-file .gist-syntax .vg, .gist .gist-file .gist-syntax .vi, .gist .gist-file .gist-syntax .w {
-            color: #2c3e50 !important;
-        }
-
-        .gist .gist-file .gist-syntax .kn, .gist .gist-file .gist-syntax .nt, .gist .gist-file .gist-syntax .o, .gist .gist-file .gist-syntax .ow {
-            color: #c0392b !important;
-        }
-
-        .gist .gist-file .gist-syntax .ge {
-            font-style: italic !important;
-        }
-
-        .gist .gist-file .gist-syntax .gs {
-            font-weight: 700 !important;
-        }
-
-        .gist .gist-file .gist-syntax .ld, .gist .gist-file .gist-syntax .s, .gist .gist-file .gist-syntax .s1, .gist .gist-file .gist-syntax .s2, .gist .gist-file .gist-syntax .sb, .gist .gist-file .gist-syntax .sc, .gist .gist-file .gist-syntax .sd, .gist .gist-file .gist-syntax .sh, .gist .gist-file .gist-syntax .si, .gist .gist-file .gist-syntax .sr, .gist .gist-file .gist-syntax .ss, .gist .gist-file .gist-syntax .sx {
-            color: #f39c12 !important;
-        }
-
-        .gist .gist-file .gist-syntax .na, .gist .gist-file .gist-syntax .nc, .gist .gist-file .gist-syntax .nd, .gist .gist-file .gist-syntax .ne, .gist .gist-file .gist-syntax .nf, .gist .gist-file .gist-syntax .nx {
-            color: #27ae60 !important;
-        }
-
-    .gist .gist-file .gist-data, .gist .gist-file .gist-meta, .gist .gist-file .line-numbers {
-        background: #ecf0f1 !important;
-    }
-
-/*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
- */
-
-
-/*
- * Contents
- *
- * Global resets
- * Sidebar
- * Container
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
-html {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
-
-@media (min-width: 48em) {
-    html {
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 58em) {
-    html {
-        font-size: 20px;
-    }
-}
-
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-
-.sidebar {
-    text-align: center;
-    padding: 2rem 1rem;
-    color: rgba(255,255,255,.5);
-    background-color: #202020;
-}
-
-@media (min-width: 48em) {
-    .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 18rem;
-        text-align: left;
-    }
-}
-
-/* Sidebar links */
-.sidebar a {
-    color: #fff;
-}
-
-/* About section */
-.sidebar-about h1 {
-    color: #fff;
-    margin-top: 0;
-    font-family: "Abril Fatface", serif;
-    font-size: 3.25rem;
-}
-
-/* Sidebar nav */
-.sidebar-nav {
-    margin-bottom: 1rem;
-}
-
-.sidebar-nav-item {
-    display: block;
-    line-height: 1.75;
-}
-
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-    text-decoration: underline;
-}
-
-.sidebar-nav-item.active {
-    font-weight: bold;
-}
-
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48em) {
-    .sidebar-sticky {
-        position: absolute;
-        right: 1rem;
-        bottom: 1rem;
-        left: 1rem;
-    }
-}
-
-
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-
-.content {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-
-@media (min-width: 48em) {
-    .content {
-        max-width: 38rem;
-        margin-left: 20rem;
-        margin-right: 2rem;
-    }
-}
-
-@media (min-width: 64em) {
-    .content {
-        margin-left: 22rem;
-        margin-right: 4rem;
-    }
-}
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-    .layout-reverse .sidebar {
-        left: auto;
-        right: 0;
-    }
-
-    .layout-reverse .content {
-        margin-left: 2rem;
-        margin-right: 20rem;
-    }
-}
-
-@media (min-width: 64em) {
-    .layout-reverse .content {
-        margin-left: 4rem;
-        margin-right: 22rem;
-    }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-    background-color: #ac4142;
-}
-
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-    color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-    background-color: #d28445;
-}
-
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-    color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-    background-color: #f4bf75;
-}
-
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-    color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-    background-color: #90a959;
-}
-
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-    color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-    background-color: #75b5aa;
-}
-
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-    color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-    background-color: #6a9fb5;
-}
-
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-    color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-    background-color: #aa759f;
-}
-
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-    color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-    background-color: #8f5536;
-}
-
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-    color: #8f5536;
-}
-
-
-.list-unstyled {
-    list-style: none;
-}
-
-.linktag {
-    display: inline;
-    padding: 0.2em 0.6em 0.3em;
-    font-size: 60%;
-    font-weight: bold;
-    line-height: 1;
-    color: #FFF;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.25em;
-    background-color: #384C75;
-    text-transform: lowercase;
-}
-/*
+﻿/*
  *                        ___
  *                       /\_ \
  *  _____     ___     ___\//\ \      __
@@ -925,302 +465,6 @@ a.pagination-item:hover {
         }
 }
 
-.spoiler-tag {
-    background: #92AADD;
-    color: #92AADD;
-}
-
-    .spoiler-tag:hover {
-        background: #333333;
-        color: #FFF;
-    }
-body {
-    color: #fff;
-    background-color: #333;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-    color: #dfdfdf;
-}
-
-/* Quotes */
-blockquote {
-    color: #9a9a9a;
-}
-
-pre, code, pre code {
-    background-color: #555;
-    color: #92AADD;
-}
-
-strong {
-    color: #92AADD;
-}
-
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-    background-color: #555;
-}
-
-
-@media (min-width: 48rem) {
-    .content {
-        max-width: 40rem;
-    }
-}
-
-/* Blog post or page title */
-.page-title,
-.post-title,
-.post-title a {
-    color: #92AADD;
-}
-
-/* Jekyll yellow */
-.theme-jekyll .sidebar {
-    background-color: #92AADD;
-    color: rgba(0,0,0,.7);
-}
-
-.theme-jekyll .content a,
-.theme-jekyll .related-posts li a:hover {
-    color: #92AADD;
-}
-
-    .theme-jekyll .content a:hover {
-        color: #92AADD;
-    }
-
-.sidebar {
-    padding: 1rem;
-    text-align: left;
-}
-
-    /* Sidebar links */
-    .sidebar a {
-        color: #333;
-    }
-
-/* About section */
-.sidebar-about h1 {
-    color: #333;
-    font-size: 2.5rem;
-}
-
-.post-date {
-    color: #ddd;
-}
-
-.button-monster {
-    display: block;
-    padding: 1rem;
-    margin: 2rem 0;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-    text-align: center;
-}
-
-.theme-jekyll .content a.button-monster:hover {
-    background-color: #fc0;
-    color: #333;
-}
-
-.button-external {
-    display: block;
-    padding: 0.5rem;
-    margin: 1rem 0;
-    border: 1px solid #eee;
-    border-radius: 3px;
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-    text-align: center;
-}
-
-.theme-jekyll .content a.button-external:hover {
-    background-color: #92AADD;
-    color: #333;
-}
-
-.theme-jekyll .content a.pagination-item:hover {
-    background-color: #92AADD;
-    color: #333;
-}
-
-.step {
-    display: block;
-    width: 3rem;
-    height: 3rem;
-    float: right;
-    background-color: #92AADD;
-    color: #333;
-    text-align: center;
-    border-radius: 50%;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.img-nice {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.footer {
-    margin-top: 5rem;
-    color: #aaa;
-}
-
-@font-face {
-    font-family: 'icomoon';
-    /*src: url('fonts/icomoon.eot?mvj8ez');*/
-    src: url('fonts/icomoon.svg?mvj8ez#icomoon') format('svg'), url('fonts/icomoon.eot?#iefixmvj8ez') format('embedded-opentype'), url('fonts/icomoon.woff?mvj8ez') format('woff'), url('fonts/icomoon.ttf?mvj8ez') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*
-start by styling the box around the star.
-the only important parts are display and width, which force the container to constrain to the star widths. Note that using padding is problematic and unadvised.
-*/
-.stars {
-    font-family: icomoon;
-    display: inline-block;
-    width: auto;
-    position: relative;
-    font-size: 30px;
-    margin: 5px;
-}
-
-.excerpt .stars {
-    font-size: 22px;
-}
-
-/*
-the BEFORE:pseudo element. This will represent the number of stars in the actual rating.
-it floats above the AFTER element.
-*/
-.stars:BEFORE {
-    content: "\e602\e602\e602\e602\e602";
-    position: absolute;
-    overflow: hidden;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    color: #FC0;
-    text-shadow: 0 1px 0 #000, 0 -1px 0 #515151;
-}
-/*
-the AFTER:pseudo element. This will represent the total possible  stars available. It is set to relative to ensure it takes up the proper amount of space.
-*/
-.stars:AFTER {
-    content: "\e602\e602\e602\e602\e602";
-    position: relative;
-    color: #515151;
-}
-/*
-if including user rating controls, float the AFTER element.
-*/
-.stars.rate:AFTER {
-    position: absolute;
-    left: 0;
-}
-/*
-default state for the  user rating controls. invisible, but floating above the BEFORE and AFTER elements
-*/
-.stars.rate > A {
-    color: transparent;
-    text-decoration: none;
-    position: relative;
-    z-index: 2;
-}
-/*
-if the user is floating thier mouse above the rating, hide the display stars.
-*/
-.stars.rate:HOVER:BEFORE,
-.stars.rate:HOVER:AFTER {
-    display: none;
-}
-/*
-turn all the start "ON" by default.
-*/
-.stars.rate:HOVER > A {
-    color: #FC0;
-    text-shadow: 0 1px 0 #000, 0 -1px 0 #fff;
-}
-    /*
-optional style for the specific star control a user is directly above.
-*/
-    .stars.rate:HOVER > A:HOVER {
-        color: #FC0;
-        text-shadow: 0 2px 0 #000, 0 -1px 0 #fff;
-        top: -1px;
-    }
-/*
-turn "OFF" all stars after the one the user is hovering over.
-*/
-.stars.rate > A:HOVER ~ A {
-    color: #fff;
-    text-shadow: none;
-}
-/* 
-  all the styles below are used to display the appropriate portion of the BEFORE element based on percentage rating. unfortunately you will need to create a specific rule for each level of granularity you wish to display.
-  if the CSS3 attr() function proposal ever gets implemented
-  the remaining rules could all be replaced with the following:
-  .stars[data-percent]:BEFORE {
-    width:attr(data-percent,%,0);
-  }
-  
-*/
-.stars:NOT([data-percent]):BEFORE,
-.stars[data-percent="0"]:BEFORE {
-    display: none;
-}
-/* 1/2 a star */
-.stars[data-percent="0.5"]:BEFORE {
-    width: 10%;
-}
-/* 1 star */
-.stars[data-percent="1"]:BEFORE {
-    width: 20%;
-}
-/* 1 & 1/2 stars */
-.stars[data-percent="1.5"]:BEFORE {
-    width: 30%;
-}
-/* etc. */
-.stars[data-percent="2"]:BEFORE {
-    width: 40%;
-}
-
-.stars[data-percent="2.5"]:BEFORE {
-    width: 50%;
-}
-
-.stars[data-percent="3"]:BEFORE {
-    width: 60%;
-}
-
-.stars[data-percent="3.5"]:BEFORE {
-    width: 70%;
-}
-
-.stars[data-percent="4"]:BEFORE {
-    width: 80%;
-}
-
-.stars[data-percent="4.5"]:BEFORE {
-    width: 90%;
-}
-
-.stars[data-percent="5"]:BEFORE {
-    width: 100%;
-}
-
 .highlight .hll {
     background-color: #ffc;
 }
@@ -1476,49 +720,507 @@ turn "OFF" all stars after the one the user is hovering over.
     color: #999;
 }
 
-.writingsTitle {
-    font-family: AmiriWeb;
-    font-size: 3.5rem;
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 48em) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 58em) {
+    html {
+        font-size: 20px;
+    }
+}
+
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
     text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(255,255,255,.5);
+    background-color: #202020;
+}
+
+@media (min-width: 48em) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 18rem;
+        text-align: left;
+    }
+}
+
+/* Sidebar links */
+.sidebar a {
+    color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 3.25rem;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+    margin-bottom: 1rem;
+}
+
+.sidebar-nav-item {
+    display: block;
+    line-height: 1.75;
+}
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+    text-decoration: underline;
+}
+
+.sidebar-nav-item.active {
+    font-weight: bold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+    .sidebar-sticky {
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        left: 1rem;
+    }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+    .content {
+        max-width: 38rem;
+        margin-left: 20rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .content {
+        margin-left: 22rem;
+        margin-right: 4rem;
+    }
+}
+
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+    .layout-reverse .sidebar {
+        left: auto;
+        right: 0;
+    }
+
+    .layout-reverse .content {
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .layout-reverse .content {
+        margin-left: 4rem;
+        margin-right: 22rem;
+    }
+}
+
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+/* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Red */
+.theme-base-08 .sidebar {
+    background-color: #ac4142;
+}
+
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+    color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .sidebar {
+    background-color: #d28445;
+}
+
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+    color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .sidebar {
+    background-color: #f4bf75;
+}
+
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+    color: #f4bf75;
+}
+
+/* Green */
+.theme-base-0b .sidebar {
+    background-color: #90a959;
+}
+
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+    color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .sidebar {
+    background-color: #75b5aa;
+}
+
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+    color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .sidebar {
+    background-color: #6a9fb5;
+}
+
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+    color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+    background-color: #aa759f;
+}
+
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+    color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+    background-color: #8f5536;
+}
+
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+    color: #8f5536;
+}
+
+body {
+    color: #fff;
+    background-color: #333;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #dfdfdf;
+}
+
+/* Quotes */
+blockquote {
+    color: #9a9a9a;
+}
+
+pre, code, pre code {
+    background-color: #555;
+    color: #92AADD;
+}
+
+strong {
+    color: #92AADD;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+    background-color: #555;
+}
+
+
+@media (min-width: 48rem) {
+    .content {
+        max-width: 40rem;
+    }
+}
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+    color: #92AADD;
+}
+
+/* Jekyll yellow */
+.theme-jekyll .sidebar {
+    background-color: #92AADD;
+    color: rgba(0,0,0,.7);
+}
+
+.theme-jekyll .content a,
+.theme-jekyll .related-posts li a:hover {
+    color: #92AADD;
+}
+
+    .theme-jekyll .content a:hover {
+        color: #92AADD;
+    }
+
+.sidebar {
+    padding: 1rem;
+    text-align: left;
+}
+
+    /* Sidebar links */
+    .sidebar a {
+        color: #333;
+    }
+
+/* About section */
+.sidebar-about h1 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.post-date {
+    color: #ddd;
+}
+
+.button-monster {
+    display: block;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.theme-jekyll .content a.button-monster:hover {
+    background-color: #fc0;
     color: #333;
 }
 
-.writingsSubtitle {
+.button-external {
+    display: block;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
-.theme-writings .page-title,
-.theme-writings .post-title,
-.theme-writings .post-title a {
-    color: rgb(46, 122, 103);
+.theme-jekyll .content a.button-external:hover {
+    background-color: #92AADD;
+    color: #333;
 }
 
-.theme-writings .sidebar {
-    background-color: rgb(46, 122, 103);
+.theme-jekyll .content a.pagination-item:hover {
+    background-color: #92AADD;
+    color: #333;
 }
 
-.theme-writings .content a,
-.theme-writings .related-posts li a:hover {
-    color: rgb(46, 122, 103);
+.step {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    float: right;
+    background-color: #92AADD;
+    color: #333;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-    .theme-writings .content a:hover {
-        color: rgb(46, 122, 103);
+.img-nice {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    margin-top: 5rem;
+    color: #aaa;
+}
+
+/*! Logistics by Hayden Bleasel // haydenbleasel.github.io/logistics */
+.gist .gist-file {
+    border: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+    .gist .gist-file .gist-data {
+        border-bottom: 2px solid #95a5a6 !important;
     }
-    
-.theme-writings .content a.button-external:hover {
-    background-color: rgb(46, 122, 103);
-}
 
-.theme-writings .content a.pagination-item:hover {
-    background-color: rgb(46, 122, 103);
-}
+        .gist .gist-file .gist-data .line-numbers {
+            border-right: 2px solid #95a5a6 !important;
+            padding: 1em !important;
+        }
+
+        .gist .gist-file .gist-data td.line-data {
+            padding: 1em !important;
+            background-color: white;
+        }
+
+        .gist .gist-file .gist-data .gist-data span, .gist .gist-file .gist-data .line-numbers, .gist .gist-file .gist-data pre {
+            font-size: 14px !important;
+            line-height: 24px !important;
+            font-weight: 400 !important;
+            color: #95a5a6 !important;
+        }
+
+    .gist .gist-file .gist-meta {
+        text-shadow: none !important;
+    }
+
+        .gist .gist-file .gist-meta a {
+            color: #95a5a6 !important;
+        }
+
+    .gist .gist-file .gist-syntax {
+        background: #fff;
+        color: #2c3e50 !important;
+    }
+
+        .gist .gist-file .gist-syntax .hll {
+            background-color: #34495e !important;
+        }
+
+        .gist .gist-file .gist-syntax .c, .gist .gist-file .gist-syntax .c1, .gist .gist-file .gist-syntax .cm, .gist .gist-file .gist-syntax .cp, .gist .gist-file .gist-syntax .cs {
+            color: #95a5a6 !important;
+        }
+
+        .gist .gist-file .gist-syntax .err {
+            color: #e74c3c;
+            background-color: #95a5a6 !important;
+        }
+
+        .gist .gist-file .gist-syntax .k, .gist .gist-file .gist-syntax .kc, .gist .gist-file .gist-syntax .kd, .gist .gist-file .gist-syntax .kp, .gist .gist-file .gist-syntax .kr, .gist .gist-file .gist-syntax .kt, .gist .gist-file .gist-syntax .no {
+            color: #2980b9 !important;
+        }
+
+        .gist .gist-file .gist-syntax .il, .gist .gist-file .gist-syntax .l, .gist .gist-file .gist-syntax .m, .gist .gist-file .gist-syntax .mf, .gist .gist-file .gist-syntax .mh, .gist .gist-file .gist-syntax .mi, .gist .gist-file .gist-syntax .mo, .gist .gist-file .gist-syntax .se {
+            color: #8e44ad !important;
+        }
+
+        .gist .gist-file .gist-syntax .bp, .gist .gist-file .gist-syntax .n, .gist .gist-file .gist-syntax .nb, .gist .gist-file .gist-syntax .ni, .gist .gist-file .gist-syntax .nl, .gist .gist-file .gist-syntax .nn, .gist .gist-file .gist-syntax .nv, .gist .gist-file .gist-syntax .p, .gist .gist-file .gist-syntax .py, .gist .gist-file .gist-syntax .vc, .gist .gist-file .gist-syntax .vg, .gist .gist-file .gist-syntax .vi, .gist .gist-file .gist-syntax .w {
+            color: #2c3e50 !important;
+        }
+
+        .gist .gist-file .gist-syntax .kn, .gist .gist-file .gist-syntax .nt, .gist .gist-file .gist-syntax .o, .gist .gist-file .gist-syntax .ow {
+            color: #c0392b !important;
+        }
+
+        .gist .gist-file .gist-syntax .ge {
+            font-style: italic !important;
+        }
+
+        .gist .gist-file .gist-syntax .gs {
+            font-weight: 700 !important;
+        }
+
+        .gist .gist-file .gist-syntax .ld, .gist .gist-file .gist-syntax .s, .gist .gist-file .gist-syntax .s1, .gist .gist-file .gist-syntax .s2, .gist .gist-file .gist-syntax .sb, .gist .gist-file .gist-syntax .sc, .gist .gist-file .gist-syntax .sd, .gist .gist-file .gist-syntax .sh, .gist .gist-file .gist-syntax .si, .gist .gist-file .gist-syntax .sr, .gist .gist-file .gist-syntax .ss, .gist .gist-file .gist-syntax .sx {
+            color: #f39c12 !important;
+        }
+
+        .gist .gist-file .gist-syntax .na, .gist .gist-file .gist-syntax .nc, .gist .gist-file .gist-syntax .nd, .gist .gist-file .gist-syntax .ne, .gist .gist-file .gist-syntax .nf, .gist .gist-file .gist-syntax .nx {
+            color: #27ae60 !important;
+        }
+
+    .gist .gist-file .gist-data, .gist .gist-file .gist-meta, .gist .gist-file .line-numbers {
+        background: #ecf0f1 !important;
+    }
 
 @font-face {
     font-family: 'Playball';
     font-style: normal;
     font-weight: 400;
-    src: local('Playball'), local('Playball-Regular'), url(fonts/playball.woff2) format('woff2'), url(fonts/playball.woff) format('woff');
+    src: local('Playball'), local('Playball-Regular'), url('fonts/playball.woff2') format('woff2'), url('fonts/playball.woff') format('woff');
 }
 
 @font-face {
@@ -1762,4 +1464,302 @@ small {
         margin-left: 0;
     }
 
+
+/* Bookshelf */
+.bookshelfHeader {
+    clear: both;
+}
+
+.moreBookshelf {
+    float: right;
+}
+
+.gr_grid_container {
+    /* customize grid container div here. e.g.: width: 500px; */
+    clear: both;
+}
+
+.gr_grid_book_container {
+    /* customize book cover container div here */
+    float: left;
+    width: 98px;
+    height: 160px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+    .gr_grid_book_container img {
+        border-radius: 0;
+    }
+
+/*.currentlyReadingShelf .gr_grid_container {
+    -moz-perspective: 100px;
+    -ms-perspective: 100px;
+    -webkit-perspective: 100px;
+    perspective: 100px;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+    .currentlyReadingShelf .gr_grid_container .gr_grid_book_container {
+        position: relative;
+        -moz-perspective: 100px;
+        -ms-perspective: 100px;
+        -webkit-perspective: 100px;
+        perspective: 100px;
+        -moz-transform: rotateY(-3deg);
+        -webkit-transform: perspective(100) rotateY(-3deg);
+        -ms-transform: rotateY(-3deg);
+        -o-transform: rotateY(-3deg);
+        transform: rotateY(-3deg);
+        outline: 1px solid transparent;
+        box-shadow: none;
+        margin: 0;
+    }
+
+        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container a img {
+            position: relative;
+            max-width: 100%;
+        }
+
+        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:before,
+        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:after {
+            position: absolute;
+            top: 2%;
+            height: 96%;
+            content: ' ';
+            z-index: -1;
+        }
+
+        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:before {
+            width: 100%;
+            left: 7.5%;
+            background-color: #5a2d18;
+            box-shadow: 5px 5px 20px #333;
+        }
+
+        .currentlyReadingShelf .gr_grid_container .gr_grid_book_container:after {
+            width: 5%;
+            left: 100%;
+            background-color: #EFEFEF;
+            box-shadow: inset 0 0 5px #aaa;
+            -moz-transform: rotateY(20deg);
+            -webkit-transform: perspective(100) rotateY(20deg);
+            -ms-transform: rotateY(20deg);
+            -o-transform: rotateY(20deg);
+            transform: rotateY(20deg);
+        }*/
+
+.spoiler-tag {
+    background: #92AADD;
+    color: #92AADD;
+}
+
+    .spoiler-tag:hover {
+        background: #333333;
+        color: #FFF;
+    }
+@font-face {
+    font-family: 'icomoon';
+    /*src: url('fonts/icomoon.eot?mvj8ez');*/
+    src: url('fonts/icomoon.svg?mvj8ez#icomoon') format('svg'), url('fonts/icomoon.eot?#iefixmvj8ez') format('embedded-opentype'), url('fonts/icomoon.woff?mvj8ez') format('woff'), url('fonts/icomoon.ttf?mvj8ez') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+start by styling the box around the star.
+the only important parts are display and width, which force the container to constrain to the star widths. Note that using padding is problematic and unadvised.
+*/
+.stars {
+    font-family: icomoon;
+    display: inline-block;
+    width: auto;
+    position: relative;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.excerpt .stars {
+    font-size: 22px;
+}
+
+/*
+the BEFORE:pseudo element. This will represent the number of stars in the actual rating.
+it floats above the AFTER element.
+*/
+.stars:BEFORE {
+    content: "\e602\e602\e602\e602\e602";
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    color: #FC0;
+    text-shadow: 0 1px 0 #000, 0 -1px 0 #515151;
+}
+/*
+the AFTER:pseudo element. This will represent the total possible  stars available. It is set to relative to ensure it takes up the proper amount of space.
+*/
+.stars:AFTER {
+    content: "\e602\e602\e602\e602\e602";
+    position: relative;
+    color: #515151;
+}
+/*
+if including user rating controls, float the AFTER element.
+*/
+.stars.rate:AFTER {
+    position: absolute;
+    left: 0;
+}
+/*
+default state for the  user rating controls. invisible, but floating above the BEFORE and AFTER elements
+*/
+.stars.rate > A {
+    color: transparent;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+/*
+if the user is floating thier mouse above the rating, hide the display stars.
+*/
+.stars.rate:HOVER:BEFORE,
+.stars.rate:HOVER:AFTER {
+    display: none;
+}
+/*
+turn all the start "ON" by default.
+*/
+.stars.rate:HOVER > A {
+    color: #FC0;
+    text-shadow: 0 1px 0 #000, 0 -1px 0 #fff;
+}
+    /*
+optional style for the specific star control a user is directly above.
+*/
+    .stars.rate:HOVER > A:HOVER {
+        color: #FC0;
+        text-shadow: 0 2px 0 #000, 0 -1px 0 #fff;
+        top: -1px;
+    }
+/*
+turn "OFF" all stars after the one the user is hovering over.
+*/
+.stars.rate > A:HOVER ~ A {
+    color: #fff;
+    text-shadow: none;
+}
+/* 
+  all the styles below are used to display the appropriate portion of the BEFORE element based on percentage rating. unfortunately you will need to create a specific rule for each level of granularity you wish to display.
+  if the CSS3 attr() function proposal ever gets implemented
+  the remaining rules could all be replaced with the following:
+  .stars[data-percent]:BEFORE {
+    width:attr(data-percent,%,0);
+  }
+  
+*/
+.stars:NOT([data-percent]):BEFORE,
+.stars[data-percent="0"]:BEFORE {
+    display: none;
+}
+/* 1/2 a star */
+.stars[data-percent="0.5"]:BEFORE {
+    width: 10%;
+}
+/* 1 star */
+.stars[data-percent="1"]:BEFORE {
+    width: 20%;
+}
+/* 1 & 1/2 stars */
+.stars[data-percent="1.5"]:BEFORE {
+    width: 30%;
+}
+/* etc. */
+.stars[data-percent="2"]:BEFORE {
+    width: 40%;
+}
+
+.stars[data-percent="2.5"]:BEFORE {
+    width: 50%;
+}
+
+.stars[data-percent="3"]:BEFORE {
+    width: 60%;
+}
+
+.stars[data-percent="3.5"]:BEFORE {
+    width: 70%;
+}
+
+.stars[data-percent="4"]:BEFORE {
+    width: 80%;
+}
+
+.stars[data-percent="4.5"]:BEFORE {
+    width: 90%;
+}
+
+.stars[data-percent="5"]:BEFORE {
+    width: 100%;
+}
+
+
+.list-unstyled {
+    list-style: none;
+}
+
+.linktag {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 60%;
+    font-weight: bold;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background-color: #384C75;
+    text-transform: lowercase;
+}
+.writingsTitle {
+    font-family: AmiriWeb;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #333;
+}
+
+.writingsSubtitle {
+    text-align: center;
+}
+
+.theme-writings .page-title,
+.theme-writings .post-title,
+.theme-writings .post-title a {
+    color: rgb(46, 122, 103);
+}
+
+.theme-writings .sidebar {
+    background-color: rgb(46, 122, 103);
+}
+
+.theme-writings .content a,
+.theme-writings .related-posts li a:hover {
+    color: rgb(46, 122, 103);
+}
+
+    .theme-writings .content a:hover {
+        color: rgb(46, 122, 103);
+    }
+    
+.theme-writings .content a.button-external:hover {
+    background-color: rgb(46, 122, 103);
+}
+
+.theme-writings .content a.pagination-item:hover {
+    background-color: rgb(46, 122, 103);
+}
 
