@@ -14,5 +14,17 @@
     <div class="content container">
         {{ content }}
     </div>
+
+    {% if page.imageGallery == 'true' %}
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(".fancybox").fancybox({
+            openEffect: 'none',
+            closeEffect: 'none'
+        });
+    });
+    </script>
+    {% endif %}
+
 </body>
 </html>
