@@ -3,14 +3,16 @@
 
   {% include head.html %}
 
-  <body class="theme-jekyll theme-writings">
+<body class="theme-jekyll theme-writings">
 
+    {% if page.imageGallery == 'true' %}
+        {% include imageGallery.html %}
+    {% endif %}
     {% include sidebarWritings.html %}
     {% include hCard.html %}
 
     <div class="content container">
-      {{ content }}
+        {{ content }}
     </div>
-
-  </body>
+</body>
 </html>
