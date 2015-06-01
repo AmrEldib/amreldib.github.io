@@ -1,9 +1,10 @@
 ---
-layout: blogPostWithComments
+layout: blogPost
 name: WelcomeToMyBlog
 title: Welcome to my blog
 time: 2007-11-29 10:24:00.000000000 -08:00
 category: blog
+commentsSection: 'true'
 tags:
 - My Blog
 redirect_from: "/2007/11/welcome-to-my-blog.html"

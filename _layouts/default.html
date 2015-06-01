@@ -5,12 +5,26 @@
 
   <body class="theme-jekyll">
 
+    {% if page.imageGallery == 'true' %}
+        {% include imageGallery.html %}
+    {% endif %}
     {% include sidebar.html %}
     {% include hCard.html %}
 
     <div class="content container">
-      {{ content }}
+        {{ content }}
     </div>
+      
+    {% if page.imageGallery == 'true' %}
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(".fancybox").fancybox({
+            openEffect: 'none',
+            closeEffect: 'none'
+        });
+    });
+    </script>
+    {% endif %}
 
   </body>
 </html>
