@@ -6,7 +6,9 @@ time: 2013-07-11 04:01:00.001000000 -07:00
 category: writings
 frontpage: 'false'
 lang: ar
-redirect_from: "/writings/politicsinamericabranchesofgovernment"
+redirect_from: 
+- "/writings/politicsinamericabranchesofgovernment"
+- "/post/55161065851"
 ---
 الكونجرس هو الفرع التشريعي من الحكم الفيدرالي الأمريكي. خلينا نقف هنا عند كلمتين: التشريعي والفيدرالي.  
   
