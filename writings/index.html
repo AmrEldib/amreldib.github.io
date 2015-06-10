@@ -18,8 +18,8 @@ category: writings
                     {{ post.content }}
             </div>
             {% else %}
-            <div>
-                <h3 class="post-title{% if post.lang == 'ar' %} rtl{% endif %}">
+            <div class="{% if post.lang == 'ar' %}rtl{% endif %}">
+                <h3 class="post-title">
                   <a href="{{ post.url }}">
                     {{ post.title }}
                   </a>
