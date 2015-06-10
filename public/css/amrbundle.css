@@ -1430,7 +1430,8 @@ small {
 
 .post-date {
     font-size: smaller;
-    display: inline;
+    display: block;
+    direction: ltr;
 }
 
 .excerpt {
