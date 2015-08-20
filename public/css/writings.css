@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+body {
+    color: rgb(46, 122, 103);
+}
+ 
 .theme-writings .page-title,
 .theme-writings .post-title,
 .theme-writings .post-title a {
