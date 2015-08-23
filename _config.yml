@@ -120,9 +120,9 @@ prose:
           value: "blog"
       - name: "name"
         field:
-        	element: "text"
-        	placeholder: "UniqueName"
-			type: "text"
+          element: "text"
+          placeholder: "UniqueName"
+          type: "text"
       - name: "title"
         field:
           element: "text"
@@ -154,7 +154,7 @@ prose:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
-		  alterable: true
+          alterable: true
           options:
             - name: "Talk"
               value: "Talk"
@@ -265,7 +265,7 @@ prose:
         field:
           element: "text"
           placeholder: "UniqueName"
-		  type: "text"
+          type: "text"
       - name: "title"
         field:
           element: "text"
