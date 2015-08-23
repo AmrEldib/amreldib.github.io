@@ -110,6 +110,59 @@ prose:
     - vwd.webinfo
     - 404.html
   metadata:
+    av/_posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "avPost"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "av"
+      - name: "name"
+        field:
+          element: "text"
+          label: "Name"
+          placeholder: "UniqueName"
+          type: "text"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Post title"
+          type: "text"
+      - name: "time"
+        field:
+          element: "text"
+          label: "Timestamp"
+          value: "2015-02-20 22:21:00 -08:00"
+          type: "text"
+          help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
+      - name: "commentsSection"
+        field:
+          element: "checkbox"
+          label: "Comments Section"
+          value: "false"
+          help: "Add a comments section at the end of the post?"
+      - name: "frontpage"
+        field:
+          element: "checkbox"
+          label: "Show post on front page"
+          value: "true"
+          help: "Show the full text of this post on the front page?"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "Source Control"
+              value: "Source Control"
+            - name: "Javascript"
+              value: "Javascript"
+            - name: "Microsoft"
+              value: "Microsoft"
     blog/_posts:
       - name: "layout"
         field:
