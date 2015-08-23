@@ -446,7 +446,7 @@ prose:
           help: "Show the full text of this post on the front page?"
       - name: "lang"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Language"
           value: "en"
           options:
@@ -543,7 +543,7 @@ prose:
           type: "text"
       - name: "lang"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Language"
           value: "en"
           options:
