@@ -89,7 +89,8 @@ prose:
   relativeLinks: 'http://www.amreldib.com/proseRelativeLinks.jsonp'
   media: 'public/images'
   ignore:
-    - index.md
+    - .gitattributes
+    - .gitignore
     - README.md
     - _config.yml
     - /_layouts
