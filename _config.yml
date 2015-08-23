@@ -460,12 +460,12 @@ prose:
         field:
           element: "text"
           placeholder: "/some/url/of/page.html"
-		  type: "text"
+          type: "text"
       - name: "lang"
         field:
           element: "multiselect"
           label: "Language"
-		  value: "en"
+          value: "en"
           options:
             - name: "Arabic"
               value: "ar"
@@ -476,7 +476,7 @@ prose:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
-		  alterable: true
+          alterable: true
           options:
             - name: "ASOIAF"
               value: "ASOIAF"
