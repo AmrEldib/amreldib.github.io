@@ -120,35 +120,35 @@ prose:
           value: "blog"
       - name: "name"
         field:
-          element: "text"
-          placeholder: "UniqueName"
-		  type: "text"
+        	element: "text"
+        	placeholder: "UniqueName"
+			type: "text"
       - name: "title"
         field:
           element: "text"
           placeholder: "Post title"
-		  type: "text"
+          type: "text"
       - name: "time"
         field:
           element: "text"
           value: "2015-02-20 22:21:00 -08:00"
-		  type: "text"
-		  help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
+          type: "text"
+          help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
       - name: "commentsSection"
         field:
           element: "checkbox"
           value: "true"
-		  help: "Add a comments section at the end of the post?"
+          help: "Add a comments section at the end of the post?"
       - name: "frontpage"
         field:
           element: "checkbox"
           value: "true"
-		  help: "Show the full text of this post on the front page?"
+          help: "Show the full text of this post on the front page?"
       - name: "redirects"
         field:
           element: "text"
           placeholder: "/some/url/of/page.html"
-		  type: "text"
+          type: "text"
       - name: "tags"
         field:
           element: "multiselect"
@@ -270,19 +270,19 @@ prose:
         field:
           element: "text"
           placeholder: "Post title"
-		  type: "text"
+          type: "text"
       - name: "time"
         field:
           element: "text"
           value: "2015-02-20 22:21:00 -08:00"
-		  type: "text"
-		  help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
+          type: "text"
+          help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
-		  alterable: true
+          alterable: true
           options:
             - name: "video"
               value: "video"
@@ -313,23 +313,23 @@ prose:
         field:
           element: "text"
           placeholder: "UniqueName"
-		  type: "text"
+          type: "text"
       - name: "title"
         field:
           element: "text"
           placeholder: "Post title"
-		  type: "text"
+          type: "text"
       - name: "time"
         field:
           element: "text"
           value: "2015-02-20 22:21:00 -08:00"
-		  type: "text"
-		  help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
+          type: "text"
+          help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
       - name: "frontpage"
         field:
           element: "checkbox"
           value: "true"
-		  help: "Show the full text of this post on the front page?"
+          help: "Show the full text of this post on the front page?"
     reviews/_posts:
       - name: "layout"
         field:
@@ -343,39 +343,39 @@ prose:
         field:
           element: "text"
           placeholder: "UniqueName"
-		  type: "text"
+          type: "text"
       - name: "title"
         field:
           element: "text"
           placeholder: "Post title"
-		  type: "text"
+          type: "text"
       - name: "excerpt"
         field:
           element: "text"
           placeholder: "Short excerpt from the post, or short summary"
-		  type: "text"
+          type: "text"
       - name: "time"
         field:
           element: "text"
           value: "2015-02-20 22:21:00 -08:00"
-		  type: "text"
-		  help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
+          type: "text"
+          help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
       - name: "rating"
         field:
           element: "number"
           value: "3"
-		  type: "number"
-		  help: "Choose a rating between 0 and 5"
+          type: "number"
+          help: "Choose a rating between 0 and 5"
       - name: "frontpage"
         field:
           element: "checkbox"
           value: "true"
-		  help: "Show the full text of this post on the front page?"
+          help: "Show the full text of this post on the front page?"
       - name: "lang"
         field:
           element: "multiselect"
           label: "Language"
-		  value: "en"
+          value: "en"
           options:
             - name: "Arabic"
               value: "ar"
@@ -386,7 +386,7 @@ prose:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
-		  alterable: true
+          alterable: true
           options:
             - name: "History"
               value: "History"
@@ -429,33 +429,33 @@ prose:
         field:
           element: "text"
           placeholder: "UniqueName"
-		  type: "text"
+          type: "text"
       - name: "title"
         field:
           element: "text"
           placeholder: "Post title"
-		  type: "text"
+          type: "text"
       - name: "time"
         field:
           element: "text"
           value: "2015-02-20 22:21:00 -08:00"
-		  type: "text"
-		  help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
+          type: "text"
+          help: "Add time in this format: 2015-02-20 22:21:00 -08:00"
       - name: "commentsSection"
         field:
           element: "checkbox"
           value: "false"
-		  help: "Add a comments section at the end of the post?"
+          help: "Add a comments section at the end of the post?"
       - name: "frontpage"
         field:
           element: "checkbox"
           value: "true"
-		  help: "Show the full text of this post on the front page?"
+          help: "Show the full text of this post on the front page?"
       - name: "imageGallery"
         field:
           element: "checkbox"
           value: "true"
-		  help: "Post contains image gallery?"
+          help: "Post contains image gallery?"
       - name: "redirects"
         field:
           element: "text"
