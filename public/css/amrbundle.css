@@ -1,4 +1,4 @@
-﻿/*
+/*
  *                        ___
  *                       /\_ \
  *  _____     ___     ___\//\ \      __
@@ -1227,7 +1227,7 @@ tbody tr:nth-child(odd) th {
     font-family: AmiriWeb;
     font-style: normal;
     font-weight: 400;
-    src: url('fonts/amiri-regular.eot?') format('eot'), url('fonts/amiri-regular.woff') format('woff'), url('fonts/amiri-regular.ttf') format('truetype');
+    src: url('fonts/amiri-regular.eot') format('eot'), url('fonts/amiri-regular.woff') format('woff'), url('fonts/amiri-regular.ttf') format('truetype');
 }
 
 .sidebar-nav {
@@ -1463,6 +1463,14 @@ small {
         float: left;
         margin: 20px;
         margin-left: 0;
+    }
+
+    .rtl hr {
+        position: relative;
+        margin: 1.5rem 0;
+        border: 0;
+        border-top: 1px solid #2E7A67;
+        border-bottom: 1px solid #2E7A67;
     }
 
 
@@ -1767,4 +1775,3 @@ strong {
 .theme-writings .content a.pagination-item:hover {
     background-color: rgb(46, 122, 103);
 }
-
