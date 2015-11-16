@@ -5,6 +5,7 @@ title: "بوليتكا أمريكا: عن النظام السياسي الأمر
 time: 2013-07-07 04:01:00.001000000 -07:00
 category: writings
 frontpage: 'false'
+excerpt: محاولة لفهم النظام السياسي الأمريكي
 lang: ar
 redirect_from: 
 - "/writings/politicsinamerica"

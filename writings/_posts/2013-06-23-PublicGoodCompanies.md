@@ -4,7 +4,8 @@ name: PublicGoodCompanies
 title: "إعادة هيكلة الحكومة: شركات المنفعة العامة"
 time: 2013-06-23 02:01:00.001000000 -07:00
 category: writings
-frontpage: 'true'
+frontpage: 'false'
+excerpt: الكثير من الوظائف التي تؤديها مؤسسات وأجهزة الحكومة هي بطبيعتها وظائف خدمية منفصلة عن المهام السيادية للحكومة
 lang: ar
 redirect_from: 
 - "/writings/publicgoodcompanies"

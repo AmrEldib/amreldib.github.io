@@ -4,7 +4,8 @@ name: AskAnyQuestions
 title: "إسأل أي سؤال"
 time: 2014-05-22 17:21:00.001000000 -07:00
 category: writings
-frontpage: 'true'
+frontpage: 'false'
+excerpt: اللي أعرفه إني إفتكرت القصة ديه النهارده وأنا بأتفرج علي سيادة المشير بيتسأل
 lang: ar
 redirects:
 - /post/86576155700

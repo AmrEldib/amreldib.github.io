@@ -4,7 +4,8 @@ name: AnExitIsNotASolution
 title: "المخرج من الأزمة ليس حلا"
 time: 2013-06-30 04:01:00.001000000 -07:00
 category: writings
-frontpage: 'true'
+frontpage: 'false'
+excerpt: إسقاط مرسي والإخوان لن يكون كافيا لحل مشاكل مصر أو تحقيق أهداف الثورة
 lang: ar
 redirect_from: 
 - "/writings/anexitisnotasolution"

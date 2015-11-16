@@ -5,6 +5,7 @@ title: A Distant Cousin
 time: 2009-06-03 17:21:00.001000000 -07:00
 category: writings
 frontpage: 'false'
+excerpt: On Obama's visit and speech in Cairo
 tags:
 - Obama
 - Politics

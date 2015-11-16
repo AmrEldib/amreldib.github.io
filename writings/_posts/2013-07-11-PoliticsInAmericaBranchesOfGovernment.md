@@ -5,6 +5,7 @@ title: "بولتيكا أمريكا: أفرع الحكومة"
 time: 2013-07-11 04:01:00.001000000 -07:00
 category: writings
 frontpage: 'false'
+excerpt: الكونجرس هو الفرع التشريعي من الحكم الفيدرالي الأمريكي
 lang: ar
 redirect_from: 
 - "/writings/politicsinamericabranchesofgovernment"

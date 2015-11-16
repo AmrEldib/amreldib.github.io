@@ -1,10 +1,11 @@
 ---
 layout: writingsPost
 name: PeopleByNature
-title: "إحنا شعب بطابعها"
+title: "إحنا شعب بطابعه"
 time: 2013-06-23 04:01:00.001000000 -07:00
 category: writings
 frontpage: 'false'
+excerpt: عن العقلية اللي ورا جملة "إحنا شعب بطابعه"
 lang: ar
 redirect_from: 
 - "/writings/peoplebynature"

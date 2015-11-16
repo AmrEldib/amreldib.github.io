@@ -5,6 +5,7 @@ title: "ملامح أساسية للمرحلة الإنتقالية"
 time: 2013-07-10 04:01:00.001000000 -07:00
 category: writings
 frontpage: 'true'
+excerpt: المرحلة الانتقالية ليست مجرد ملء فراغ في السلطة
 lang: ar
 redirect_from: 
 - "/writings/transitionmilestones"

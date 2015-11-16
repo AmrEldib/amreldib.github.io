@@ -4,7 +4,8 @@ name: SwordsmanAndThreePowerfulMen
 title: The Swordsman and the Three Powerful Men
 time: 2014-05-30 17:21:00.001000000 -07:00
 category: writings
-frontpage: 'true'
+frontpage: 'false'
+excerpt: From George R. R. Martin's Song of Ice and Fire – Book Two: A Clash of Kings
 tags:
 - ASOIAF
 redirects:
