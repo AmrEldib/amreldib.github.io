@@ -22,11 +22,11 @@ category: reviews
             </div>
             {% else %}
             <div class="excerpt{% if post.lang == 'ar' %} rtl{% endif %}">
-                <h3 class="post-title">
+                <h1 class="post-title">
                     <a href="{{ post.url }}">
                         {{ post.title }}
                     </a>
-                </h3>
+                </h1>
                 <span class="post-date">{{ post.date | date_to_string }}</span>
                 <div class="stars" title="{{ post.rating }} Stars" data-percent="{{ post.rating }}"></div><br />
                 {{ post.excerpt }}
