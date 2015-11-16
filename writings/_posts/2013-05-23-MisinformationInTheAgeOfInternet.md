@@ -4,7 +4,8 @@ name: MisinformationInTheAgeOfInternet
 title: "التضليل في زمن الإنترنت"
 time: 2013-05-23 10:01:00.001000000 -07:00
 category: writings
-frontpage: 'true'
+frontpage: 'false'
+excerpt: لا تصدق كل ما تقرأه علي الإنترنت
 lang: ar
 redirect_from: 
 - "/post/51196934577"
