@@ -1234,7 +1234,7 @@ tbody tr:nth-child(odd) th {
     border-left: 0;
     border-right: .25rem solid #e5e5e5;
 	padding-left: 1.25rem;
-	padding-right: 5rem;
+	padding-right: 4rem;
 }
 
 .sidebar-nav {
