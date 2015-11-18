@@ -8,7 +8,7 @@ category: blog
 <p>{{ site.rss_description_blog }}</p>
 
 <div class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit: 10 %}
         {% if post.category == 'blog' %}
             {% if post.frontpage == 'true' %}
             <div class="post">
@@ -27,11 +27,26 @@ category: blog
                     {{ post.title }}
                   </a>
                 </h3>
-            <span class="post-date">{{ post.date | date_to_string }}</span>
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                {{ post.excerpt }}
             </div>
             {% endif %} 
         {% endif %}
     {% endfor %}
+</div>
+
+<div>
+    <h1>Archive</h1>
+    <strong><a href="all/">All</a></strong> - 
+    <strong><a href="2015/">2015</a></strong> - 
+    <strong><a href="2014/">2014</a></strong> - 
+    <strong><a href="2013/">2013</a></strong> - 
+    <strong><a href="2012/">2012</a></strong> - 
+    <strong><a href="2011/">2011</a></strong> - 
+    <strong><a href="2010/">2010</a></strong> - 
+    <strong><a href="2009/">2009</a></strong> - 
+    <strong><a href="2008/">2008</a></strong> - 
+    <strong><a href="2007/">2007</a></strong>
 </div>
 
 <!--
