@@ -8,8 +8,10 @@ category: blog
 <p>{{ site.rss_description_blog }}</p>
 
 <div class="posts">
-    {% for post in site.posts limit: 10 %}
-        {% if post.category == 'blog' %}
+    {% assign counter=0 %}
+    {% for post in site.posts %}
+        {% if post.category == 'blog' and counter < 10 %}
+            {% assign counter=counter | plus:1 %}
             {% if post.frontpage == 'true' %}
             <div class="post">
                 <h1 class="post-title">
