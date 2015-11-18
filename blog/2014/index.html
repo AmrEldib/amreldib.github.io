@@ -10,7 +10,7 @@ category: blog
     {% for post in site.posts %}
         {% if post.category == 'blog' %}
             {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-            {% if year == 2014 %}
+            {% if year == '2014' %}
                 <div>
                     <h3 class="post-title">
                       <a href="{{ post.url }}">
