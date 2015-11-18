@@ -1,0 +1,25 @@
+---
+layout: default
+title: Archive
+category: blog
+---
+
+<h1>2009 Archive</h1>
+
+<div class="posts">
+    {% for post in site.posts %}
+        {% if post.category == 'blog' %}
+            {% if post.date.year == 2009 %}
+                <div>
+                    <h3 class="post-title">
+                      <a href="{{ post.url }}">
+                        {{ post.title }}
+                      </a>
+                    </h3>
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                    {{ post.excerpt }}
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
