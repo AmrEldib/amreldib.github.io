@@ -23,14 +23,21 @@ category: blog
                     {{ post.content }}
             </div>
             {% else %}
-            <div>
-                <h3 class="post-title">
+            <div class="post">
+                <h2 class="post-title">
                   <a href="{{ post.url }}">
                     {{ post.title }}
                   </a>
-                </h3>
+                </h2>
                 <span class="post-date">{{ post.date | date_to_string }}</span>
                 {{ post.excerpt }}
+                <a href="{{ post.url }}">
+                    {% if post.lang == 'ar' %}
+                    ... إقرأ المزيد
+                    {% else %}
+                    ... read more
+                    {% endif %}
+                </a>
             </div>
             {% endif %} 
         {% endif %}
