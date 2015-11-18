@@ -1752,7 +1752,7 @@ turn "OFF" all stars after the one the user is hovering over.
     text-align: center;
 }
 
-strong {
+.theme-writings strong {
     color: rgb(46, 122, 103); 
 }
  
