@@ -8,17 +8,22 @@ layout: default
     <h1 class="post-title">
         {{ page.title }}
     </h1>
-    <a href="{{ page.linkurl }}" target="_blank">
-        Read article
-    </a>
-        
-    <p>
-        <span class="post-date">{{ page.date | date_to_string }}</span>
+            
+    <div class="post-date">
+        <span>{{ page.date | date_to_string }}</span>
 
         {% for tag in page.tags %}
             <span class="linktag">{{tag}}</span>
         {% endfor %}
-    </p>
+
+        <a href="{{ page.linkurl }}" target="_blank">
+            {% if post.lang == 'ar' %}
+            إقرأ المقال
+            {% else %}
+            Read article
+            {% endif %}
+        </a>
+    </div>
     <br />
     {{ content }}
     <br />
