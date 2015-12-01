@@ -44,7 +44,7 @@ It’s very important to put a distance between you and your audience, not just 
 
 ### 7. Slides are for Words, the More the Better
 
-Lifting whole paragraphs and sections from your PhD thesis is an excellent idea especially if it’s a screenshot not text, so later if the audience gets a hold of your slides they can’t copy the text. The goal here is to test the audience’s ability to focus on listening to you and reading the content of the slide at the same time, especially if they don’t match. Make sure to include couple of URLs that has at least two hyphens and one tilde. No URLs shorteners. Don’t forget to refer to the URLs as “important”.
+Lifting whole paragraphs and sections from your book is an excellent idea especially if it’s a screenshot not text, so later if the audience gets a hold of your slides they can’t copy the text. The goal here is to test the audience’s ability to focus on listening to you and reading the content of the slide at the same time, especially if they don’t match. Make sure to include couple of URLs that has at least two hyphens and one tilde. No URLs shorteners. Don’t forget to refer to the URLs as “important”.
 
 ### 8. The Crowd Loves Your Messy Desktop
 
