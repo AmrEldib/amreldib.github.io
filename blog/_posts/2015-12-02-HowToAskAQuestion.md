@@ -42,11 +42,11 @@ This might be the place to provide background for your question. However, do so 
 The idea here is to avoid wasting time on long exchanges about things other than solid suggestions you can act on. You don't want to have a response like: "what version are you using?". You don't want to get answer like: "I've googled your question and I got this" then a response from you saying "I've tried this". All these exchanges are wasting time and draining the attention of your audience. They're losing interest in your problem as time goes on. The only people sticking around are the ones who have the same problem as you.  
 
 ### General Rules
-#### Formatting
+**Formatting**  
 Formatting is very important. I don't want to read through a ball of text. I want to be able to scan the text for a specific piece of information. **Bold** and *italics* are your friend. Break your text into paragraphs. Use lists and bullet points anywhere they make sense. Avoid stream-of-consciousness type of writing.  
-####Be Mindful of your Readers
+**Be Mindful of your Readers**  
 These are people who are trying to help you, usually only out of the goodness of their own hearts. Don't waste their time. Understand that they could be busy if they don't come back to follow up. Be grateful, not just for their suggestions but even for taking the time to read your question.  
-####Finish the Story
+**Finish the Story**  
 When you finally find an answer, post it where you posted the question. You started out asking the Internet for help, it's only suitable to help the Internet when you can. It's temping to just move on, but think about all those long forum threads you stumble upon that matches your problem and goes on and on only to end with no good conclusion. It's very frustrating.  
 <br/> 
   
