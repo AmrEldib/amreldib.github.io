@@ -11,7 +11,7 @@ I guess one other way to write my name would be "Umr", but that just looks weird
 I guess it's easier to just listen to it.  
 
  <audio controls>
-  <source src="{{ site.audioFolder_root }}name/SayAmr.mps" type="audio/mpeg">
+  <source src="{{ site.audioFolder_root }}name/SayAmr.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio> 
 
