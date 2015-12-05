@@ -64,6 +64,7 @@ imgFolder_linkblog: "/public/images/linkblog/"
 imgFolder_reviews: "/public/images/reviews/"
 imgFolder_tools: "/public/images/tools/"
 imgFolder_writings: "/public/images/writings/"
+audioFolder_root: "/public/audio/"
 
 # Permalinks
 permalink: "/:categories/:title"

@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div itemscope itemtype="http://data-vocabulary.org/Person">
-    Hi, My name is <span itemprop="name">{{ site.author.name }}</span>. Welcome to my <a href="{{ site.author.url }}" itemprop="url">blog and website</a>.<br />
+    Hi, My name is <a href="/name/" title="How to pronounce this"><span itemprop="name">{{ site.author.name }}</span></a>. Welcome to my <a href="{{ site.author.url }}" itemprop="url">blog and website</a>.<br />
     <div style="display: none;">
         <span itemprop="photo">{{ site.author.image }}</span>
         <span itemprop="organization">Esri Canada</span>
