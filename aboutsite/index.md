@@ -37,6 +37,7 @@ These are some resources I found helpful when building this site.
 [Setting up short URLs](http://joshualande.com/short-urls-jekyll/)  
 [Generating a Sitemap in Jekyll without a Plugin](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/)  
 [Jekyll Cheatsheet](http://ricostacruz.com/cheatsheets/jekyll.html)  
+[Compressing HTML using Liquid only](http://jch.penibelst.de/)  
 
 ### Theme
 [Hyde Theme](http://hyde.getpoole.com/)  
