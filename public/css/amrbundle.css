@@ -1241,6 +1241,10 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 0;
 }
 
+.sidebar-nav-item {
+    font-size: 18px;
+}
+
 nav a img {
     margin: 0;
 }
