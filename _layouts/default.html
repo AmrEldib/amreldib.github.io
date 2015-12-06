@@ -4,12 +4,12 @@ layout: compress
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body class="theme-jekyll">
+<body class="theme-jekyll">
 
     {% if page.imageGallery == 'true' %}
-        {% include imageGallery.html %}
+    {% include imageGallery.html %}
     {% endif %}
     {% include sidebar.html %}
     {% include hCard.html %}
@@ -17,17 +17,19 @@ layout: compress
     <div class="content container">
         {{ content }}
     </div>
-      
+
     {% if page.imageGallery == 'true' %}
     <script type="text/javascript">
-    $(document).ready(function () {
-        $(".fancybox").fancybox({
-            openEffect: 'none',
-            closeEffect: 'none'
+        $(document).ready(function () {
+            $(".fancybox").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none'
+            });
         });
-    });
     </script>
     {% endif %}
 
-  </body>
+    {% include belowFoldAssets.html %}
+
+</body>
 </html>
