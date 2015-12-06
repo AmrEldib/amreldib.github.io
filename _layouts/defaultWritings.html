@@ -9,7 +9,7 @@ layout: compress
 <body class="theme-jekyll theme-writings">
 
     {% if page.imageGallery == 'true' %}
-        {% include imageGallery.html %}
+    {% include imageGallery.html %}
     {% endif %}
     {% include sidebarWritings.html %}
     {% include hCard.html %}
@@ -20,14 +20,16 @@ layout: compress
 
     {% if page.imageGallery == 'true' %}
     <script type="text/javascript">
-    $(document).ready(function () {
-        $(".fancybox").fancybox({
-            openEffect: 'none',
-            closeEffect: 'none'
+        $(document).ready(function () {
+            $(".fancybox").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none'
+            });
         });
-    });
     </script>
     {% endif %}
+
+    {% include belowFoldAssets.html %} %}
 
 </body>
 </html>
