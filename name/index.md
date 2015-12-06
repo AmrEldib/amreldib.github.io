@@ -2,6 +2,7 @@
 layout: page
 title: Name
 permalink: /name/
+includeInNav: false
 ---
 
 As far as I can tell, the response to "Hi, my name is ..." is "huh?" or "sorry?". I'm in the phase where I feel bad for people feeling bad that they can't correctly pronounce my name. It's really difficult for them, if they don't speak Arabic.  

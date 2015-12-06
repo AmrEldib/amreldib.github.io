@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
+includeInNav: true
 ---
 
 <div itemscope itemtype="http://data-vocabulary.org/Person">
