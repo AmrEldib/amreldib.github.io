@@ -40,6 +40,7 @@ These are some resources I found helpful when building this site.
 [Generating a Sitemap in Jekyll without a Plugin](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/)  
 [Jekyll Cheatsheet](http://ricostacruz.com/cheatsheets/jekyll.html)  
 [Compressing HTML using Liquid only](http://jch.penibelst.de/)  
+[Adding client-side Jekyll search with JSON](http://mathayward.com/jekyll-search/)  
 
 ### Theme
 [Hyde Theme](http://hyde.getpoole.com/)  

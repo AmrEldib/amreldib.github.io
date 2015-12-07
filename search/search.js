@@ -64,6 +64,8 @@ function initSearch() {
 }
 
 // Add / Update a key-value pair in the URL query parameters
+// Source https://gist.github.com/niyazpk/f8ac616f181f6042d1e0
+// http://stackoverflow.com/questions/5999118/add-or-update-query-string-parameter
 function updateUrlParameter(uri, key, value) {
     // remove the hash part before operating on the uri
     var i = uri.indexOf('#');
