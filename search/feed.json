@@ -10,7 +10,7 @@ layout: null
         "content": {{ post.content | markdownify | strip_html | jsonify }},
         "link": "{{ site.baseurl }}{{ post.url }}",
         "date": "{{ post.date }}",
-        "excerpt": "{{ post.excerpt }}",
+        "excerpt": "{{ post.excerpt | markdownify | strip_html | jsonify }}",
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
@@ -21,10 +21,10 @@ layout: null
     {% if page.title != null and page.title != empty %}
     {% unless first %},{% endunless %}{
         "title": {{ page.title | jsonify }},
-        "content": {{ page.content | strip_html | jsonify }},
+        "content": {{ page.content | markdownify | strip_html | jsonify }},
         "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
-        "excerpt": {{ page.description | jsonify }},
+        "excerpt": {{ page.description | markdownify | strip_html | jsonify }},
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
