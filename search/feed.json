@@ -10,7 +10,7 @@ layout: null
         "content": {{ post.content | markdownify | strip_html | jsonify }},
         "link": "{{ post.url }}",
         "date": "{{ post.date }}",
-        "excerpt": "{{ item.snippet | strip_html | jsonify }}",
+        "excerpt": {{ item.snippet | markdownify | strip_html | jsonify }},
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
@@ -24,7 +24,7 @@ layout: null
         "content": {{ page.content | markdownify | strip_html | jsonify }},
         "link": "{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
-        "excerpt": "{{ item.snippet | strip_html | jsonify }}",
+        "excerpt": {{ item.snippet | markdownify | strip_html | jsonify }},
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
