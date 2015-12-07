@@ -24,7 +24,7 @@ layout: null
         "content": {{ page.content | markdownify | strip_html | jsonify }},
         "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
-        "excerpt": {{ page.description | markdownify | strip_html | jsonify }},
+        "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
