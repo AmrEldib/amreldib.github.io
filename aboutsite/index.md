@@ -8,10 +8,12 @@ This site was generated using [Jekyll](http://jekyllrb.com) and is hosted on [Gi
 It was last updated on: {{ site.time | date: "%B %-d %Y, %H:%M %p" }}
 
 All opinions are my own and don't necessarily reflect those of my employer.  
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Amr Eldib's blog and website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">Amr Eldib</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.  
-
+<br />
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Amr Eldib's blog and website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">Amr Eldib</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.  
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+<br />
 I recommend using Firefox.  
-<a href="https://affiliates.mozilla.org/referral/74132/">
+<a href="https://affiliates.mozilla.org/referral/74132/" target="_blank">
     <img src="https://affiliates.mozilla.org/media/uploads/image_banners/2099b34508931a9744058af46bc05632f74fefff.png" alt="">
 </a>
 
