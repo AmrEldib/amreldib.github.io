@@ -6,8 +6,6 @@
  * @version  0.1
  */
 
-var siteUrl = "http://amreldib.com";
-
 /* ==========================================================================
    Initialisation
    ========================================================================== */
@@ -22,7 +20,7 @@ var q, jsonFeedUrl = "/search/feed.json",
     $foundCount = $("[data-search-found-count]"),
     allowEmpty = true,
     showLoader = true,
-    loadingClass = "is--loading";
+    loadingClass = "loadingSpinner";
 
 
 $(document).ready(function () {
@@ -63,6 +61,22 @@ function initSearch() {
     });
 }
 
+// Add / Update a key-value pair in the URL query parameters
+function updateUrlParameter(uri, key, value) {
+    // remove the hash part before operating on the uri
+    var i = uri.indexOf('#');
+    var hash = i === -1 ? '' : uri.substr(i);
+    uri = i === -1 ? uri : uri.substr(0, i);
+
+    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+    if (uri.match(re)) {
+        uri = uri.replace(re, '$1' + key + "=" + value + '$2');
+    } else {
+        uri = uri + separator + key + "=" + value;
+    }
+    return uri + hash;  // finally append the hash as well
+}
 
 /**
  * Executes search
@@ -71,6 +85,11 @@ function initSearch() {
  */
 function execSearch(q) {
     if (q != '' || allowEmpty) {
+
+        if (getParameterByName("q") != q) {
+            updateUrlParameter(window.location.href, "q", q);
+        }
+
         if (showLoader) {
             toggleLoadingClass();
         }
