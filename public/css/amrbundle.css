@@ -1839,6 +1839,8 @@ turn "OFF" all stars after the one the user is hovering over.
     border-color: #ccc;
 }
 
+/* Source http://tobiasahlin.com/spinkit/ */
+
 .loadingSpinner {
     width: 40px;
     height: 40px;

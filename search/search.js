@@ -15,6 +15,7 @@ var q, jsonFeedUrl = "/search/feed.json",
     $searchInput = $("[data-search-input]"),
     $resultTemplate = $("#search-result"),
     $resultsPlaceholder = $("[data-search-results]"),
+    $loading = $("[loading]"),
     $foundContainer = $("[data-search-found]"),
     $foundTerm = $("[data-search-found-term]"),
     $foundCount = $("[data-search-found-count]"),
@@ -61,6 +62,32 @@ function initSearch() {
     });
 }
 
+function modURLParam(url, paramName, paramValue) {
+    paramValue = paramValue != undefined
+      ? encodeURIComponent(paramValue).replace(expEscapedSpace, '+')
+      : paramValue;
+    var pattern = new RegExp(
+      '([?&]'
+      + paramName.replace(expCharsToEscape, '\\$1')
+      + '=)[^&]*'
+    );
+    if (pattern.test(url)) {
+        return url.replace(
+          pattern,
+          function ($0, $1) {
+              return paramValue != undefined ? $1 + paramValue : '';
+          }
+        ).replace(expNoStart, '$1?');
+    }
+    else if (paramValue != undefined) {
+        return url + (url.indexOf('?') + 1 ? '&' : '?')
+          + paramName + '=' + paramValue;
+    }
+    else {
+        return url;
+    }
+};
+
 // Add / Update a key-value pair in the URL query parameters
 function updateUrlParameter(uri, key, value) {
     // remove the hash part before operating on the uri
@@ -87,7 +114,8 @@ function execSearch(q) {
     if (q != '' || allowEmpty) {
 
         if (getParameterByName("q") != q) {
-            updateUrlParameter(window.location.href, "q", q);
+            //updateUrlParameter(window.location.href, "q", q);
+            modURLParam(window.location.href, "q", q);
         }
 
         if (showLoader) {
@@ -104,8 +132,9 @@ function execSearch(q) {
  * @return null
  */
 function toggleLoadingClass() {
-    $resultsPlaceholder.toggleClass(loadingClass);
-    $foundContainer.toggleClass(loadingClass);
+    $loading.toggleClass(loadingClass);
+    //$resultsPlaceholder.toggleClass(loadingClass);
+    //$foundContainer.toggleClass(loadingClass);
 }
 
 
