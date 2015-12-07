@@ -57,8 +57,8 @@ function initSearch() {
     // Get search results on submission of form
     $(document).on("submit", $searchForm, function (e) {
         e.preventDefault();
-        modURLParam(window.location.href, "q", q);
         q = $searchInput.val();
+        updateUrlParameter(window.location.href, "q", q);
         execSearch(q);
     });
 }
