@@ -13,7 +13,8 @@
             "public/css/starRatings.css",
             "public/css/linkblog.css",
             "public/css/writings.css",
-            "public/css/search.css"
+            "public/css/search.css",
+            "public/css/loadingSpinner.css"
         ]
     },
     {
