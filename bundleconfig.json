@@ -1,24 +1,25 @@
 [
-  {
-    "outputFileName": "public/css/amrbundle.css",
-    "inputFiles": [
-      "public/css/poole.css",
-      "public/css/syntax.css",
-      "public/css/hyde.css",
-      "public/css/rjow.css",
-      "public/css/gist.css",
-      "public/css/amr.css",
-      "public/css/bookshelf.css",
-      "public/css/reviews.css",
-      "public/css/starRatings.css",
-      "public/css/linkblog.css",
-      "public/css/writings.css"
-    ]
-  },
-  {
-    "outputFileName": "search/search.js",
-    "inputFiles": [
-      "search/search.js"
-    ]
-  }
+    {
+        "outputFileName": "public/css/amrbundle.css",
+        "inputFiles": [
+            "public/css/poole.css",
+            "public/css/syntax.css",
+            "public/css/hyde.css",
+            "public/css/rjow.css",
+            "public/css/gist.css",
+            "public/css/amr.css",
+            "public/css/bookshelf.css",
+            "public/css/reviews.css",
+            "public/css/starRatings.css",
+            "public/css/linkblog.css",
+            "public/css/writings.css",
+            "public/css/search.css"
+        ]
+    },
+    {
+        "outputFileName": "search/search.js",
+        "inputFiles": [
+            "search/search.js"
+        ]
+    }
 ]

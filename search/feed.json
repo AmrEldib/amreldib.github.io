@@ -8,7 +8,7 @@ layout: null
     {% unless first %},{% endunless %}{
         "title": {{ post.title | jsonify }},
         "content": {{ post.content | markdownify | strip_html | jsonify }},
-        "link": "{{ site.baseurl }}{{ post.url }}",
+        "link": "{{ post.url }}",
         "date": "{{ post.date }}",
         "search_omit": "{{ post.search_omit }}"
     }
@@ -21,7 +21,7 @@ layout: null
     {% unless first %},{% endunless %}{
         "title": {{ page.title | jsonify }},
         "content": {{ page.content | markdownify | strip_html | jsonify }},
-        "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
+        "link": "{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
         "search_omit": "{{ post.search_omit }}"
     }

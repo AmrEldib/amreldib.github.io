@@ -6,6 +6,7 @@
  * @version  0.1
  */
 
+var siteUrl = "http://amreldib.com";
 
 /* ==========================================================================
    Initialisation
@@ -140,6 +141,21 @@ function showSearchResults(results) {
     $resultsPlaceholder.html(results);
 }
 
+function formatDate(date) {
+    var monthNames = [
+      "January", "February", "March",
+      "April", "May", "June", "July",
+      "August", "September", "October",
+      "November", "December"
+    ];
+
+    var date = new Date();
+    var day = date.getDate();
+    var monthIndex = date.getMonth();
+    var year = date.getFullYear();
+
+    return (day + ' ' + monthNames[monthIndex] + ' ' + year);
+}
 
 /**
  * Add results content to item template
@@ -151,7 +167,7 @@ function populateResultContent(html, item) {
     html = injectContent(html, item.title, '##Title##');
     html = injectContent(html, item.link, '##Url##');
     //html = injectContent(html, item.excerpt, '##Excerpt##');
-    html = injectContent(html, item.date, '##Date##');
+    html = injectContent(html, formatDate(item.date), '##Date##');
     return html;
 }
 
