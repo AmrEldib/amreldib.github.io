@@ -57,6 +57,7 @@ function initSearch() {
     // Get search results on submission of form
     $(document).on("submit", $searchForm, function (e) {
         e.preventDefault();
+        modURLParam(window.location.href, "q", q);
         q = $searchInput.val();
         execSearch(q);
     });
@@ -127,10 +128,10 @@ function updateUrlParameter(uri, key, value) {
 function execSearch(q) {
     if (q != '' || allowEmpty) {
 
-        if (getParameterByName("q") != q) {
-            //updateUrlParameter(window.location.href, "q", q);
-            modURLParam(window.location.href, "q", q);
-        }
+        //if (getParameterByName("q") != q) {
+        //    //updateUrlParameter(window.location.href, "q", q);
+        //    modURLParam(window.location.href, "q", q);
+        //}
 
         if (showLoader) {
             toggleLoadingClass();
