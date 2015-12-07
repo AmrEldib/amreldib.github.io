@@ -1788,6 +1788,7 @@ turn "OFF" all stars after the one the user is hovering over.
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
+    width: 100%;
 }
 
 .search-form .form-control {
@@ -1807,14 +1808,13 @@ turn "OFF" all stars after the one the user is hovering over.
     -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     display: inline-block;
-    width: auto;
+    width: 85%;
     vertical-align: middle;
 }
 
 .search-form .btn {
     display: inline-block;
     padding: 6px 12px;
-    margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857143;
