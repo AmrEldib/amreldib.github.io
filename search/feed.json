@@ -1,16 +1,17 @@
 ﻿---
 layout: null
 ---
+
 {% assign first = true %}
 [
 {% for post in site.posts %}
     {% if post.title != null and post.title != empty %}
     {% unless first %},{% endunless %}{
-        "title": {{post.title | jsonify}},
-        "content": {{post.content | markdownify | strip_html | jsonify}},
+        "title": {{ post.title | jsonify }},
+        "content": {{ post.content | markdownify | strip_html | jsonify }},
         "link": "{{ site.baseurl }}{{ post.url }}",
         "date": "{{ post.date }}",
-        "excerpt": "{{ post.snippet }}",
+        "excerpt": "{{ post.excerpt }}",
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
@@ -20,8 +21,8 @@ layout: null
 {% for page in site.pages %}
     {% if page.title != null and page.title != empty %}
     {% unless first %},{% endunless %}{
-        "title": {{page.title | jsonify}},
-        "content": {{page.content | strip_html | jsonify}},
+        "title": {{ page.title | jsonify }},
+        "content": {{ page.content | strip_html | jsonify }},
         "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
