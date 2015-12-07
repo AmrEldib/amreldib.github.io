@@ -146,7 +146,7 @@ function execSearch(q) {
  * @return null
  */
 function toggleLoadingClass() {
-    $loading.toggleClass(loadingClass);
+    //$loading.toggleClass(loadingClass);
     //$resultsPlaceholder.toggleClass(loadingClass);
     //$foundContainer.toggleClass(loadingClass);
 }
