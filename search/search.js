@@ -164,6 +164,9 @@ function formatDate(date) {
  * @return {String} Populated HTML
  */
 function populateResultContent(html, item) {
+    if (item.lang == 'ar') {
+        html = injectContent(html, "rtl", '##CssClass##');
+    }
     html = injectContent(html, item.title, '##Title##');
     html = injectContent(html, item.link, '##Url##');
     html = injectContent(html, item.excerpt, '##Excerpt##');

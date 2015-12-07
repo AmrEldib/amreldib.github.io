@@ -10,6 +10,7 @@ layout: null
         "content": {{ post.content | markdownify | strip_html | jsonify }},
         "link": "{{ post.url }}",
         "date": "{{ post.date }}",
+		"lang": "{{ post.lang }}",
         "excerpt": {{ post.excerpt | strip_html | jsonify }},
         "search_omit": "{{ post.search_omit }}"
     }
