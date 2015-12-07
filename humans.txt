@@ -1,7 +1,7 @@
 ﻿/* MAIN */
   Develop & Design: Amr Eldib
   Twitter: @AmrEldib
-  Site: http://www.amreldib.com
+  Site: http://amreldib.com
   Location: Vancouver, Canada
 
 /* SITE */

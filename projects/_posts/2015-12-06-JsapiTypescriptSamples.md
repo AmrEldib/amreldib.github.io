@@ -11,4 +11,4 @@ tags:
 - Javascript
 ---
 
-[JsapiTypescriptSamples](http://www.amreldib.com/JsapiTypescriptSamples/) is ArcGIS Javascript API Samples written in Typescript.  
+[JsapiTypescriptSamples](/JsapiTypescriptSamples/) is ArcGIS Javascript API Samples written in Typescript.  

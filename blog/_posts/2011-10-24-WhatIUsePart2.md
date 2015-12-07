@@ -71,7 +71,7 @@ Are you still not using Notepad++, really? really?
 
 [**VirtualBox**](https://www.virtualbox.org/)
 
-VMware is great, but VirtualBox is just as good. I've wrote before about [how I use virtualization in development](http://www.amreldib.com/2010/08/vm-based-development-environment.html).
+VMware is great, but VirtualBox is just as good. I've wrote before about [how I use virtualization in development](/blog/VMBasedDevelopmentEnvironment/).
 
 [**Paint.NET**](http://www.getpaint.net/)
 

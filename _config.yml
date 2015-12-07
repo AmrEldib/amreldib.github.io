@@ -3,9 +3,9 @@ title: Amr Eldib
 description: Blog and personal website
 # >										# this means to ignore newlines until "baseurl:"
 baseurl: "/"							# the subpath of your site, e.g. /blog/
-url: "http://www.amreldib.com"			# the base hostname & protocol for your site
-rss_feed: http://www.amreldib.com/blog/rss.xml
-rss_page: http://www.amreldib.com/rss
+url: "http://amreldib.com"			# the base hostname & protocol for your site
+rss_feed: http://amreldib.com/blog/rss.xml
+rss_page: http://amreldib.com/rss
 timezone: Canada/Pacific
 categories: [av, blog, bookmarks, bookshelf, favs, linkblog, projects, reviews, talks, tools, writings]
 
@@ -40,11 +40,11 @@ rss_description_writings: Random thoughts on random topics
 author:
   name: 'Amr Eldib'
   nickname: 'Amr'
-  url: http://www.amreldib.com
+  url: http://amreldib.com
   country: Canada
-  image: http://www.amreldib.com/public/images/Amr.png
-  image_small: http://www.amreldib.com/public/images/Amr_small.png
-  image_avatar: http://www.amreldib.com/public/images/AmrAvatar.png
+  image: http://amreldib.com/public/images/Amr.png
+  image_small: http://amreldib.com/public/images/Amr_small.png
+  image_avatar: http://amreldib.com/public/images/AmrAvatar.png
   username:
     twitter: AmrEldib
     github: AmrEldib
@@ -92,8 +92,8 @@ compress_html:
 # prose.io configurations
 prose:
   rooturl: ''
-  siteurl: 'http://www.amreldib.com/'
-  relativeLinks: 'http://www.amreldib.com/proseRelativeLinks.jsonp'
+  siteurl: 'http://amreldib.com/'
+  relativeLinks: 'http://amreldib.com/proseRelativeLinks.jsonp'
   media: 'public/images'
   ignore:
     - .gitattributes

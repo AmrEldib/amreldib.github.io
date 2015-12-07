@@ -11,7 +11,7 @@ tags:
 
 <img class="imageInCenter" title="awesome-gis" src="{{ site.imgFolder_projects }}{{ page.name }}/awesome-gis.png">
 
-[awesome-gis](http://www.amreldib.com/awesome-gis/) is a collection of software, data, documentation, and resources for working with GIS. Awesome-gis is still a work-in-progress.  
+[awesome-gis](/awesome-gis/) is a collection of software, data, documentation, and resources for working with GIS. Awesome-gis is still a work-in-progress.  
 Awesome-guides became popular on GitHub. It started with programming languages. Here's <a href="https://github.com/sorrycc/awesome-javascript" target="_blank">Javascript's</a>, <a href="https://github.com/vinta/awesome-python" target="_blank">Python's</a>, <a href="https://github.com/peterkokot/awesome-dojo" target="_blank">Dojo</a>, <a href="https://github.com/sindresorhus/awesome" target="_blank">curated list of all lists</a> and also a <a href="https://github.com/panzhangwang/getAwesomeness" target="_blank">collection of all guides</a>.  
 Add to awesome-gis list by <a href="https://github.com/AmrEldib/awesome-gis/issues/new" target="_blank">submitting a new issue on GitHub</a>.  
 The code for awesome-gis is open source and available on <a href="https://github.com/AmrEldib/awesome-gis" target="_blank">GitHub</a>.  

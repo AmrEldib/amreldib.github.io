@@ -22,7 +22,7 @@ My main protection against hard drive failure for a long time has been [RAID 1](
 
 I can say that this has worked out very well for a long time until one day I made a stupid mistake and accidently chose the wrong drive when installing Windows. I wiped out the data drive and sure enough RAID has mirrored everything I did. It was 4 days of crying, recovering data with [DiskDigger](http://diskdigger.org/), banging my head on the desk, recovering data, more crying, and so on. Since then, I dropped the RAID 1 on all my hard drives and switched to using SyncToy to mirror identical disks once a day.
 
-SyncToy is very simple to use and you can [use it with Windows Task Scheduler](http://www.pchell.com/support/synctoy.shtml) to sync the drives at night. However, I ran into two main problems: Copying SQL Server database files, and Copying mounted VHD files. These files won't get copied if they're in use. To solve this problem, I need to stop the SQL Server service, and un-mount the VHD file before mirroring the drives. To do that and after [learning all about it](http://www.amreldib.com/2011/11/powershell-study-notes.html), I'll be using PowerShell.
+SyncToy is very simple to use and you can [use it with Windows Task Scheduler](http://www.pchell.com/support/synctoy.shtml) to sync the drives at night. However, I ran into two main problems: Copying SQL Server database files, and Copying mounted VHD files. These files won't get copied if they're in use. To solve this problem, I need to stop the SQL Server service, and un-mount the VHD file before mirroring the drives. To do that and after [learning all about it](/blog/PowerShellStudyNotes/), I'll be using PowerShell.
 
 ### Running PowerShell Scripts
 
