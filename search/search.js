@@ -58,7 +58,7 @@ function initSearch() {
     $(document).on("submit", $searchForm, function (e) {
         e.preventDefault();
         q = $searchInput.val();
-        updateUrlParameter(window.location.href, "q", q);
+        window.location.href = updateUrlParameter(window.location.href, "q", q);
         execSearch(q);
     });
 }
