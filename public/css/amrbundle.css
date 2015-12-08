@@ -1298,7 +1298,7 @@ small {
 .sidebar-nav ul {
     list-style: none;
     margin-left: -40px;
-    font-size: 22px;
+    /*font-size: 22px;*/
 }
 
     .sidebar-nav ul li ul {

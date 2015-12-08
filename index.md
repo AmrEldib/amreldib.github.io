@@ -30,6 +30,7 @@ I'm a software developer building GIS applications. These are some of my thought
 ##[Audio and Video](/av/)##  
 {{ site.rss_description_av }}  
 
+<!--
 ##[Tools](/tools/)##  
 {{ site.rss_description_tools }}  
 
@@ -38,6 +39,7 @@ I'm a software developer building GIS applications. These are some of my thought
 
 ##[Favorites](/favs/)##  
 {{ site.rss_description_favs }}  
+    -->
 
 ###Find Me on the Interwebs  
 <ul style="list-style-type:none">
