@@ -37,10 +37,10 @@ Another review titled [Back to the Future](http://reverseshot.org/reviews/entry/
 HelloInternet's [Star Wars Christmas Special](http://www.hellointernet.fm/podcast/54) review of the movie is a mix of fan satisfaction and puzzlement over the logical inconsistencies.  
 
 Some reviews goes as far as calling it worse than the prequels, which is very far but at least they have offer some reasons.  
-<iframe width="750" height="422" src="//www.youtube.com/embed/v=FNAy7yCMyBw" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="422" src="//www.youtube.com/embed/FNAy7yCMyBw" frameborder="0" allowfullscreen></iframe>
 
 RedLetterMedia's review  
-<iframe width="750" height="422" src="//www.youtube.com/embed/v=AvsiJppCdmk" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="422" src="//www.youtube.com/embed/AvsiJppCdmk" frameborder="0" allowfullscreen></iframe>
 
 My one-line review of the movie is something [I said](https://twitter.com/AmrEldib/status/681264194679738368) before I saw the movie, but turned out to be true.  
 
