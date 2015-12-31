@@ -30,7 +30,7 @@ Another review titled [Back to the Future](http://reverseshot.org/reviews/entry/
 
 <blockquote> This is the era of do-not-fuck-it-up.</blockquote>    
   
-<blockquote> Not fucking it up was assignment number one for the seventh installment of the Star Wars franchise.</blockquote>    
+<blockquote> Not fucking it up was assignment number one for the seventh installment of the Star Wars franchise.</blockquote>
   
 <blockquote> By contrast, The Force Awakens belongs to a corporation. It is a product meant to make good on an investment.</blockquote>    
 
@@ -38,6 +38,9 @@ HelloInternet's [Star Wars Christmas Special](http://www.hellointernet.fm/podcas
 
 Some reviews goes as far as calling it worse than the prequels, which is very far but at least they have offer some reasons.  
 <iframe width="750" height="422" src="//www.youtube.com/embed/FNAy7yCMyBw" frameborder="0" allowfullscreen></iframe>
+
+ScreenJunkies discussion of the movie (feat. Max Landis) is really good and has both sides.  
+<iframe width="750" height="422" src="//www.youtube.com/embed/TyQRp_1PjbU" frameborder="0" allowfullscreen></iframe>
 
 RedLetterMedia's review  
 <iframe width="750" height="422" src="//www.youtube.com/embed/AvsiJppCdmk" frameborder="0" allowfullscreen></iframe>
