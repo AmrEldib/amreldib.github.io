@@ -12,6 +12,8 @@ published: true
 title: "Website Obesity"
 ---
 
+You can [watch this talk](https://vimeo.com/147806338) as well.
+
 <blockquote>
 Jeremy Keith pointed out to me that the page describing AMP is technically infinite in size. If you open it in Chrome, it will keep downloading the same 3.4 megabyte carousel video forever.<br/>
 If you open it in Safari, where the carousel is broken, the page still manages to fill 4 megabytes. 
