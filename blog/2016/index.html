@@ -1,0 +1,35 @@
+---
+layout: default
+title: Archive
+category: blog
+---
+
+<h4><a href="../" title="{{ site.rss_description_blog }}">Blog</a></h4>
+
+<h1>2016 Archive</h1>
+
+<div class="posts">
+    {% for post in site.posts %}
+        {% if post.category == 'blog' %}
+            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% if year == '2016' %}
+                <div class="post">
+                    <h3 class="post-title">
+                      <a href="{{ post.url }}">
+                        {{ post.title }}
+                      </a>
+                    </h3>
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                    {{ post.excerpt }}
+                    <a href="{{ post.url }}">
+                        {% if post.lang == 'ar' %}
+                        ... إقرأ المزيد
+                        {% else %}
+                        ... read more
+                        {% endif %}
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
