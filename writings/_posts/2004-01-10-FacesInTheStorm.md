@@ -4,7 +4,7 @@ name: FacesInTheStorm
 title: "وجوه في العاصفة"
 time: 2004-01-10 23:01:00.001000000 -07:00
 category: writings
-frontpage: 'true'
+frontpage: 'false'
 excerpt: من وحي سقوط بغداد - قصة قصيرة
 lang: ar
 redirects:
