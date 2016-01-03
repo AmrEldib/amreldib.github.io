@@ -27,8 +27,20 @@ In the file, add the style you want.
 
 ```
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document regexp("chrome://browser/content/devtools/.*"){
-* { font-size: 20px !important }
+@-moz-document regexp("chrome://browser/content/devtools/.*") {
+    * { 
+        font-size: 20px !important 
+    }
+}
+```
+
+**Update**: In newer versions of Firefox and in the Firefox Developer Edition, the URL to the devtools is different. You should use this snippet instead:  
+```
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document regexp("chrome://devtools/content/.*") {
+	* {
+		font-size: 16px !important;
+	}
 }
 ```
 
