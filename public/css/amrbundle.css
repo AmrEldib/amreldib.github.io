@@ -1406,8 +1406,8 @@ small {
     transform: rotateY(-180deg);
 }
 
-/* 
-	Some vertical flip updates 
+/*
+	Some vertical flip updates
 */
 .vertical.flip-container {
     position: relative;
@@ -1481,6 +1481,12 @@ small {
         border-top: 1px solid #2E7A67;
         border-bottom: 1px solid #2E7A67;
     }
+
+/* Code */
+pre, code, pre code {
+    color: #fff;
+    display: block;
+}
 
 /* Bookshelf */
 .bookshelfHeader {
