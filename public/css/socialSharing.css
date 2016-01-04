@@ -5,6 +5,7 @@
 }
 .socialSharingSection a {
 	margin: 5px;
+	text-decoration:none;
 }
 
 .fa-twitter {

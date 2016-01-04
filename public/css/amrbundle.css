@@ -4551,6 +4551,7 @@ turn "OFF" all stars after the one the user is hovering over.
 }
 .socialSharingSection a {
 	margin: 5px;
+	text-decoration:none;
 }
 
 .fa-twitter {
