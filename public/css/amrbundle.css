@@ -4544,6 +4544,11 @@ turn "OFF" all stars after the one the user is hovering over.
 	content: "\f295";
 }
 
+.socialSharingSection {
+	border-top: 1px solid rgb(238, 238, 238);
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
 .socialSharingSection a {
 	margin: 5px;
 }
