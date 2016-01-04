@@ -5,6 +5,7 @@ title: Outlook Out-of-Office Auto-Reply Only to Emails Directed to Me
 time: 2013-11-06 00:00:00.000000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "Out-of-Office Replies are very helpful and, I must admit, very annoying. I'd love to maximize the first part and minimize the last. I only want to know that someone is out-of-office if I address them directly, not if I CC them"
 tags:
 - Tips
 - Outlook

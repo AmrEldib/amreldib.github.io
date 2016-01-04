@@ -5,6 +5,7 @@ title: How To Ruin Your Public Beta
 time: 2011-11-05 14:57:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "I'm having trouble with Adobe's public beta of Flash"
 tags:
 - Software Development
 - Adobe

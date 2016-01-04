@@ -5,6 +5,7 @@ title: Why Help Suck (1 of 2)
 time: 2008-07-17 21:23:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "Some observations on software documentation"
 tags:
 - Software Development
 redirect_from: "/2008/07/why-help-suck-1-of-2.html"

@@ -1,17 +1,18 @@
 ---
 layout: blogPost
 name: Windows7Rumors
-title: 'Windows 7: What it''s Rumored to Have, and What It should Have'
+title: "Windows 7: What it's Rumored to Have, and What It should Have"
 time: 2007-12-24 09:21:00.000000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "Looking into the upcoming version of Windows, and hoping for some changes"
 tags:
 - Windows
 - IT Industry
 - Microsoft
 redirect_from: "/2007/12/windows-7-what-it-rumored-to-have-and.html"
 ---
-As the year is coming to an end, everyone is gazing into the future and making predictions for 2008. So, I thought I&#8217;d gaze a little into the future of Windows..
+As the year is coming to an end, everyone is gazing into the future and making predictions for 2008. So, I thought I'd gaze a little into the future of Windows..
 
 Windows 7 is the codename for the next windows version, as you all might know by now. Until now, number of features of the next windows has been [leaked](http://arstechnica.com/news.ars/post/20071112-early-windows-7-feature-list-leaked-to-the-public.html?rel)/[rumored](http://arstechnica.com/news.ars/post/20071218-reality-check-what-we-know-and-dont-about-windows-7.html) recently, even [some snapshots were claimed to of windows 7](http://apcmag.com/7668/beyond_vista_windows_7_what_we_know_so_far). The list contains some obvious, known, demanded, and - of course - copied features, like:
 

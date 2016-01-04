@@ -1,10 +1,11 @@
 ---
 layout: blogPost
 name: Windows7MissingPoint
-title: 'Windows 7: Missing The Point'
+title: 'Windows 7: Missing the Point'
 time: 2008-12-29 21:40:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "A bit dissapointed with some changes in Windows 7"
 tags:
 - Windows
 - Microsoft

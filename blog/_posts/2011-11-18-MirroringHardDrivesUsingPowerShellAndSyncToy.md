@@ -5,6 +5,7 @@ title: Mirroring Hard drives Using PowerShell and SyncToy
 time: 2011-11-18 09:24:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "How to use PowerShell and SyncToy for daily backup"
 tags:
 - ".NET"
 - VHD

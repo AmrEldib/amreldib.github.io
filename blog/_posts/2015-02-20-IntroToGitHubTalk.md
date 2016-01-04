@@ -6,7 +6,7 @@ time: 2015-02-20 22:21:00.003000000 -08:00
 category: blog
 commentsSection: 'true'
 frontpage: 'true'
-excerpt: I got a chance last Tuesday to give a session at MaptimeYVR titled 'Intro to GitHub'. It was a lot of fun and a great chance to meet everybody
+excerpt: "I got a chance last Tuesday to give a session at MaptimeYVR titled 'Intro to GitHub'. It was a lot of fun and a great chance to meet everybody"
 tags: 
 - Talk
 - GitHub

@@ -5,6 +5,7 @@ title: Share To Social Networks Using Browser Bookmarks
 time: 2013-11-10 19:39:00.000000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "I've tried many ways to easily share items from my browser to any of the social networks I'm using. Addons came close to working fine but I always worry (maybe unreasonably) about their load on the browser"
 tags:
 - Facebook
 - Social Networks

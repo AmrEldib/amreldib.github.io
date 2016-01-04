@@ -1,10 +1,11 @@
 ---
 layout: blogPost
 name: ItsGettingReallyOld
-title: It's Getting Really Old
+title: "It's Getting Really Old"
 time: 2008-06-04 19:33:00.007000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "On the 'Get a Mac' ads"
 tags:
 - Apple
 redirect_from: "/2008/06/it-getting-really-old.html"

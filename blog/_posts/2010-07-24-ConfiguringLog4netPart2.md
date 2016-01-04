@@ -5,6 +5,7 @@ title: Configuring log4net and Using the AppLogger Class - Part 2
 time: 2010-07-24 19:34:00.005000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "More on how to configure log4net"
 tags:
 - ".NET"
 - Logging

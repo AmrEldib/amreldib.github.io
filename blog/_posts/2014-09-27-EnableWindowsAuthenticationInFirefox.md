@@ -6,6 +6,7 @@ time: 2014-09-27 17:21:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
 frontpage: 'true'
+excerpt: "for Firefox users, here's how to integrate Windows Authentication to enable logging like IE (without entering credentials)"
 tags:
 - Security
 - Tips
@@ -13,7 +14,7 @@ tags:
 - Firefox
 redirect_from: "/2014/09/EnableWindowsAuthenticationInFirefox.html"
 ---
-**_TL;DR:_** for Firefox users, here’s how to integrate Windows Authentication to enable logging like IE (without entering credentials). 
+**_TL;DR:_** for Firefox users, here's how to integrate Windows Authentication to enable logging like IE (without entering credentials). 
 
 I use Firefox as my primary browser. At work, we've just started a big consolidation of all the companies sites and cloud services (that we use) to rely on Windows Authentication. Instead of just Windows and Outlook requiring your Windows credentials, now everything needs them including CRM, messaging service, partner sites, etc. So, I found that I’m entering my credentials over and over all the time.
 
@@ -32,7 +33,7 @@ But I wanted to avoid this (laziness is the mother of all inventions). So, I did
 
 If you use Firefox, apply these steps to quickly log into sites that uses Windows authentication.
 
-If you don’t use Firefox, you really should. Check out [Tab Groups](https://support.mozilla.org/en-US/kb/tab-groups-organize-tabs).
+If you don't use Firefox, you really should. Check out [Tab Groups](https://support.mozilla.org/en-US/kb/tab-groups-organize-tabs).
 
 [![]({{ site.imgFolder_blog }}{{ page.name }}/TabGroup.jpg)]({{ site.imgFolder_blog }}{{ page.name }}/TabGroup.jpg)
 

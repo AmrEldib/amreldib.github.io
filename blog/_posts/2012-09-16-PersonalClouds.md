@@ -5,6 +5,7 @@ title: Personal Clouds
 time: 2012-09-16 23:19:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "The future of the cloud"
 tags:
 - Cloud
 - Open Source

@@ -5,6 +5,7 @@ title: CubicExplorer Arabic Translation Available
 time: 2009-01-02 11:16:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "Get it now"
 tags: []
 redirect_from: "/2009/01/cubicexplorer-arabic-translation-is.html"
 ---

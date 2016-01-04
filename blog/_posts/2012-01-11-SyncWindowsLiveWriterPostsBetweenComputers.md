@@ -5,6 +5,7 @@ title: Sync Windows Live Writer Posts Between Computers
 time: 2012-01-11 21:25:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "Keep posts in sync to write anywhere"
 tags:
 - Tools
 - Windows Live Writer

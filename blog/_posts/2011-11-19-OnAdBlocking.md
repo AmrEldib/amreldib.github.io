@@ -5,6 +5,7 @@ title: On Ad Blocking
 time: 2011-11-19 20:21:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "Some thoughts on the use of Ad Blockers"
 tags:
 - Web
 - Mozilla

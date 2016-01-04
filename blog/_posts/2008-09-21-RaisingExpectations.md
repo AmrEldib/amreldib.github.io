@@ -5,6 +5,7 @@ title: Raising Expectations
 time: 2008-09-21 20:19:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "Some thoughts on Microsoft marketing"
 tags:
 - IT Industry
 - Apple

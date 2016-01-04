@@ -5,6 +5,7 @@ title: The Five Stages of Grief over Google Reader Shutdown
 time: 2013-03-13 18:21:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "The Internet instant response to the shutdown of Google Reader"
 tags:
 - GoogleReader
 - Google

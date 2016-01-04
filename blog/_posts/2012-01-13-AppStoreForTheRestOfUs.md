@@ -5,6 +5,7 @@ title: An App Store for the Rest of Us
 time: 2012-01-13 11:51:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "How App Stores should be open and focus on users"
 tags:
 - Windows
 - App Store

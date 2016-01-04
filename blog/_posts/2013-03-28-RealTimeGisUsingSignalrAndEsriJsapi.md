@@ -5,6 +5,7 @@ title: Real-Time GIS Using SignalR and Esri's JavaScript API
 time: 2013-03-28 10:43:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "Building Real-time capabilities into Esri JavaScript API applications"
 tags:
 - JavaScript
 - GIS

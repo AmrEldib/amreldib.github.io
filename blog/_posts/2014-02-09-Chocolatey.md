@@ -5,6 +5,7 @@ title: 'Chocolatey: Install Software like a Pro'
 time: 2014-02-09 15:35:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "apt-get for Windows, Finally!"
 tags:
 - Chocolatey
 - Tools

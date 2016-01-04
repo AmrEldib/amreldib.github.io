@@ -6,6 +6,7 @@ time: 2015-01-12 16:32:00.003000000 -08:00
 category: blog
 commentsSection: 'true'
 frontpage: 'true'
+excerpt: "I spend a lot of time now in the Firefox Dev Tools. The console has a very nice dark theme which makes things easier but some times that's not enough"
 tags: 
 - Firefox
 - DevTools

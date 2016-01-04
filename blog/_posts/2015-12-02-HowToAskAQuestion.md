@@ -6,7 +6,7 @@ time: 2015-12-02 22:51:00.003000000 -08:00
 category: blog
 commentsSection: 'true'
 frontpage: 'true'
-excerpt: I work in Technical Support, and I participate in a number of online communities and not a week passes by without shaking my head when reading a question by someone seeking technical help.
+excerpt: "I work in Technical Support, and I participate in a number of online communities and not a week passes by without shaking my head when reading a question by someone seeking technical help."
 tags: 
 - Tech
 - Communication

@@ -5,6 +5,7 @@ title: What Google Reader is missing?
 time: 2008-08-16 10:11:00.002000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "Some ideas for improving Google Reader"
 tags:
 - Google
 - Wish List

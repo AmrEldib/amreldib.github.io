@@ -1,10 +1,11 @@
 ---
 layout: blogPost
 name: MicrosoftVsGoogle
-title: 'Microsoft vs. Google: Is it a real fight?'
+title: "Microsoft vs. Google: Is it a real fight?"
 time: 2008-05-17 08:32:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "I think it would be fair to say that there seem to be a competition going on between Microsoft and Google"
 tags:
 - Google
 - IT Industry

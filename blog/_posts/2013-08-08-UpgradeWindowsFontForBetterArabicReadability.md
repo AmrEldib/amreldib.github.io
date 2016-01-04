@@ -5,6 +5,7 @@ title: Upgrade Windows Font for Better Arabic Readability
 time: 2013-08-08 11:26:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "Use Windows 8 new font for better readability"
 tags:
 - Font
 - Windows

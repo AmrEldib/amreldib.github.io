@@ -5,6 +5,7 @@ title: Using Intellisense with Esri's JavaScript API in Visual Studio
 time: 2013-03-03 14:05:00.001000000 -08:00
 category: blog
 commentsSection: 'true'
+excerpt: "How to enable Intellisense for the Esri JavaScript API"
 tags:
 - JavaScript
 - VS2012

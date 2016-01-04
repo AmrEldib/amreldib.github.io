@@ -5,6 +5,7 @@ title: What I Use, Part 2
 time: 2011-10-24 19:53:00.001000000 -07:00
 category: blog
 commentsSection: 'true'
+excerpt: "More hardware, software and tools I use everyday"
 tags:
 - Mozilla
 - Windows
