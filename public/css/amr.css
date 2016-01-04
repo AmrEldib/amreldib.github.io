@@ -12,6 +12,10 @@
     src: url('fonts/amiri-regular.eot?') format('eot'), url('fonts/amiri-regular.woff') format('woff'), url('fonts/amiri-regular.ttf') format('truetype');
 }
 
+.page .post {
+	margin-bottom: 4em;
+}
+
 .rtl blockquote {
     border-left: 0;
     border-right: .25rem solid #e5e5e5;

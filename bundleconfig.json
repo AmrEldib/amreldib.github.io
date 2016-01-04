@@ -15,7 +15,8 @@
 			"public/css/writings.css",
 			"public/css/search.css",
 			"public/css/loadingSpinner.css",
-			"public/css/font-awesome.css"
+			"public/css/font-awesome.css",
+			"public/css/socialSharing.css"
 		]
 	},
 	{

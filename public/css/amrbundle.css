@@ -1230,6 +1230,10 @@ tbody tr:nth-child(odd) th {
     src: url('fonts/amiri-regular.eot') format('eot'), url('fonts/amiri-regular.woff') format('woff'), url('fonts/amiri-regular.ttf') format('truetype');
 }
 
+.page .post {
+	margin-bottom: 4em;
+}
+
 .rtl blockquote {
     border-left: 0;
     border-right: .25rem solid #e5e5e5;
@@ -4538,4 +4542,32 @@ turn "OFF" all stars after the one the user is hovering over.
 
 .fa-percent:before {
 	content: "\f295";
+}
+
+.socialSharingSection a {
+	margin: 5px;
+}
+
+.fa-twitter {
+	color: rgb(50, 204, 254);
+}
+
+.fa-facebook-square {
+	color:#3C599F;
+}
+
+.fa-google-plus {
+	color:#CF3D2E;
+}
+
+.fa-linkedin {
+	color:#0085AE;
+}
+
+.fa-tumblr {
+	color:#314E6C;
+}
+
+.fa-reddit-alien {
+	color:#FFF;
 }
