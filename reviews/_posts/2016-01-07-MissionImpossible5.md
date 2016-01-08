@@ -10,9 +10,9 @@ tags:
 - Movie
 - Action
 ---
-<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/MissionImpossible5.jpg">
-
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
+
+<img class="imageInCenter" src="{{ site.imgFolder_reviews }}{{ page.name }}/MissionImpossible5.jpg">
 
 Solid action movie.  
 People tend to dismiss Tom Cruise but in the past two years, he delivered two solid actions movies; Mission Impossible and Edge of Tomorrow.  

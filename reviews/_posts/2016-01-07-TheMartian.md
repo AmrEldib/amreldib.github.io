@@ -10,9 +10,9 @@ tags:
 - Movie
 - Sci-Fi
 ---
-<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/TheMartian.jpg">
-
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
+
+<img class="imageInCenter" src="{{ site.imgFolder_reviews }}{{ page.name }}/TheMartian.jpg">
 
 Matt Damon is stuck on Mars. NASA wants to save him. <span class="spoiler-tag">They do.</span>
 <p class="spoiler-tag">The movie seems to have forgot to have an inspiring message of hope and hanging in there during the movie, so they added a scene at the very end to do just that. It's a good scene, but it's only one.</p>

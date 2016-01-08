@@ -10,9 +10,9 @@ tags:
 - Movie
 - Animation
 ---
-<img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/InsideOut.png">
-
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
+
+<img class="imageInCenter" src="{{ site.imgFolder_reviews }}{{ page.name }}/InsideOut.png">
 
 Inside Out is pretty clever. It doesn't give up on the complixity of the issue, but offers it in a simple way. It embraces all of our emtions and doesn't deny any of them, aiming for reaching a balance.  
 It highlights how emtions, that are usually deemed negative (e.g. sadness), are part of who we are and can serve us well if we let it do its part.  
