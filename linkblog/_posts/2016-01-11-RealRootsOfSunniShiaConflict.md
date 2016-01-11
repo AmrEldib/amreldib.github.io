@@ -17,7 +17,7 @@ title: "The real roots of Sunni-Shia conflict: beyond the myth of ancient religi
 Yes, it is the case that a seventh-century succession dispute led to Islam's schism between Sunni and Shia. But that is quite literally ancient history. Today's divide between Sunni and Shia isn't primarily about religion, and it's not ancient: It's quite recent, and much of it is driven by politics, not theology. 
 </blockquote>
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/RealityCheck?src=hash">#RealityCheck</a>: The myth of a Sunni-Shia war. <a href="https://twitter.com/mehdirhasan">@mehdirhasan</a> on how the sectarian narrative isn’t backed by the facts <a href="https://t.co/xpaa1rfA4d">https://t.co/xpaa1rfA4d</a></p>&mdash; UpFront (@AJUpFront) <a href="https://twitter.com/AJUpFront/status/684046111728865280">January 4, 2016</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/RealityCheck?src=hash">#RealityCheck</a>: The myth of a Sunni-Shia war. <a href="https://twitter.com/mehdirhasan">@mehdirhasan</a> on how the sectarian narrative isn't backed by the facts <a href="https://t.co/xpaa1rfA4d">https://t.co/xpaa1rfA4d</a></p>&mdash; UpFront (@AJUpFront) <a href="https://twitter.com/AJUpFront/status/684046111728865280">January 4, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote>
