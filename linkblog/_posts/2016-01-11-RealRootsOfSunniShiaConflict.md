@@ -10,7 +10,7 @@ tags:
   - Sunni
   - Shia
 published: true
-title: "The real roots of Sunni-Shia conflict: beyond the myth of 'ancient religious hatreds'"
+title: "The real roots of Sunni-Shia conflict: beyond the myth of ancient religious hatreds"
 ---
 
 <blockquote>
