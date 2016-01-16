@@ -7,7 +7,7 @@ category: linkblog
 tags: 
   - robots
   - video
-published: true
+frontpage: true
 title: Robots that fly ... and cooperate
 ---
 

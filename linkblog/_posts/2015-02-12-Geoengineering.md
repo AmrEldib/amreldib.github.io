@@ -5,6 +5,7 @@ title: "Geoengineering is an insane way to deal with climate change. Let's consi
 time: 2015-02-12 21:44:00.003000000 -08:00
 linkurl: "http://www.vox.com/2015/2/12/8020533/geoengineering-climate-change"
 category: linkblog
+frontpage: false
 tags:
 - climate change
 ---

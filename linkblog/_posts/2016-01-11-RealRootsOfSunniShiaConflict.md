@@ -9,7 +9,7 @@ tags:
   - Middle-East
   - Sunni
   - Shia
-published: true
+frontpage: true
 title: "The real roots of Sunni-Shia conflict: beyond the myth of ancient religious hatreds"
 ---
 

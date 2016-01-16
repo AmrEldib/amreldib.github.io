@@ -7,7 +7,7 @@ category: linkblog
 tags: 
   - middle east
   - isis
-published: true
+frontpage: true
 title: "Islamic State's Goal is 'Eliminating the Grayzone' of Coexistence Between Muslims and the West"
 ---
 

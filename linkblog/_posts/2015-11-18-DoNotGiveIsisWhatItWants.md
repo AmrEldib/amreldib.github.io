@@ -6,8 +6,8 @@ linkurl: "http://foreignpolicy.com/2015/11/16/dont-give-isis-what-it-wants-unite
 category: linkblog
 tags: 
   - middle east
-  - isis
-published: true
+  - ISIS
+frontpage: true
 title: "Don't Give ISIS What It Wants"
 ---
 

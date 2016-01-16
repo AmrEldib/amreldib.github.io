@@ -5,6 +5,7 @@ title: "Send Tab to Device Addon for Firefox"
 time: 2015-01-31 16:32:00.003000000 -08:00
 linkurl: "https://addons.mozilla.org/en-US/firefox/addon/send-tab-to-device/"
 category: linkblog
+frontpage: false
 tags:
 - firefox
 ---

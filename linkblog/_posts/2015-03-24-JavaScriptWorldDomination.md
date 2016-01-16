@@ -5,6 +5,7 @@ title: "The JavaScript World Domination"
 time: 2015-03-25 23:01:00.003000000 -08:00
 linkurl: "https://medium.com/@slsoftworks/javascript-world-domination-af9ca2ee5070"
 category: linkblog
+frontpage: true
 tags:
 - javascript
 ---

@@ -5,6 +5,7 @@ title: "We Suck at HTTP"
 time: 2015-02-05 13:32:00.003000000 -08:00
 linkurl: "http://gadgetopia.com/post/9236"
 category: linkblog
+frontpage: false
 tags:
 - web
 ---

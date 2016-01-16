@@ -7,7 +7,7 @@ category: linkblog
 tags: 
   - SpaceX
   - Blue Origin
-published: true
+frontpage: true
 title: "Why Blue Origin's rocket landing shouldn't be compared to SpaceX"
 ---
 

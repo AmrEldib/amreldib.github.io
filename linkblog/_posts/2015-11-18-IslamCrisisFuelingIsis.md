@@ -8,7 +8,7 @@ tags:
   - middle east
   - isis
   - islam
-published: true
+frontpage: true
 title: "There's a Crisis of Legitimacy within Islam, and it's fueling ISIS"
 ---
 

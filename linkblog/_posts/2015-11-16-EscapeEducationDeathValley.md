@@ -8,7 +8,7 @@ tags:
   - ted
   - education
   - video
-published: true
+frontpage: true
 title: "How to Escape Education's Death Valley"
 ---
 

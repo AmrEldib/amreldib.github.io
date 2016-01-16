@@ -8,7 +8,7 @@ tags:
   - Game of Thrones
   - Song of Ice and Fire
   - History
-published: true
+frontpage: true
 title: "The Wars that Inspired Game of Thrones"
 ---
 

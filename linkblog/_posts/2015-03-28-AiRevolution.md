@@ -5,6 +5,7 @@ title: "The AI Revolution: The Road to Superintelligence"
 time: 2015-03-28 22:16:00.003000000 -08:00
 linkurl: "http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"
 category: linkblog
+frontpage: true
 tags:
 - ai
 - robots

@@ -5,6 +5,7 @@ title: "What will be hot in geo in 2015? predictions from the GeoHipster crowd"
 time: 2015-02-05 15:32:00.003000000 -08:00
 linkurl: "http://geohipster.com/2014/12/27/will-hot-geo-2015-predictions-geohipster-crowd/"
 category: linkblog
+frontpage: false
 tags:
 - gis
 ---

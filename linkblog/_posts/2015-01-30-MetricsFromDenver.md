@@ -5,6 +5,7 @@ title: "How the Public Actually Uses Local Government Web Maps: Metrics from Den
 time: 2015-01-30 16:32:00.003000000 -08:00
 linkurl: "http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/"
 category: linkblog
+frontpage: false
 tags:
 - gis
 ---

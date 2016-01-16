@@ -5,6 +5,7 @@ title: "The billionaire’s typewriter"
 time: 2015-03-24 22:39:00.003000000 -08:00
 linkurl: "http://practicaltypography.com/billionaires-typewriter.html"
 category: linkblog
+frontpage: true
 tags:
 - silos
 - medium

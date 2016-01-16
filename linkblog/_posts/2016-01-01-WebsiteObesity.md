@@ -8,7 +8,7 @@ tags:
   - Web
   - Performance
   - Publishing
-published: true
+frontpage: true
 title: "Website Obesity"
 ---
 

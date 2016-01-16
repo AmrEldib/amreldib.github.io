@@ -7,7 +7,7 @@ category: linkblog
 tags: 
   - mozilla
   - firefox
-published: true
+frontpage: true
 title: "Mozilla is Flailing When the Internet Needs It the Most"
 ---
 

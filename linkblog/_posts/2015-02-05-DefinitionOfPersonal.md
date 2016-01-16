@@ -5,6 +5,7 @@ title: "What is your definition of personal?"
 time: 2015-02-05 12:32:00.003000000 -08:00
 linkurl: "https://ioptconsulting.com/what-is-your-definition-of-personal/"
 category: linkblog
+frontpage: false
 tags:
 - personal cloud
 ---

@@ -8,7 +8,7 @@ tags:
   - North Korea
   - Politics
   - History
-published: true
+frontpage: true
 title: "How North Korea got so Crazy"
 ---
 

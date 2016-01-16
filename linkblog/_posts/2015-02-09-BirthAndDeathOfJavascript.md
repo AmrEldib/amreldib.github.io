@@ -5,6 +5,7 @@ title: "The Birth & Death of JavaScript"
 time: 2015-02-09 18:21:00.003000000 -08:00
 linkurl: "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript"
 category: linkblog
+frontpage: false
 tags:
 - video
 - javascript

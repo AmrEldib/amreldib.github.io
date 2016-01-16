@@ -5,6 +5,7 @@ title: "Anatomy of a Hack"
 time: 2015-03-08 22:31:00.003000000 -08:00
 linkurl: "http://www.theverge.com/a/anatomy-of-a-hack"
 category: linkblog
+frontpage: false
 tags:
 - hacking
 - security

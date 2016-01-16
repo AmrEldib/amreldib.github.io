@@ -5,6 +5,7 @@ title: "After Jobs Dry Up, What Then?"
 time: 2015-03-28 22:01:00.003000000 -08:00
 linkurl: "http://www.nytimes.com/2015/03/11/world/europe/after-jobs-dry-up-what-then.html"
 category: linkblog
+frontpage: true
 tags:
 - robots
 ---

@@ -10,6 +10,7 @@ category: linkblog
 <div id="linkList" class="posts">
     {% for post in site.posts %}
     {% if post.category == 'linkblog' %}
+	{% if post.frontpage %}
     <div class="post{% if post.lang == 'ar' %} rtl{% endif %}">
         <h3 class="post-title">
             <a href="{{ post.url }}">
@@ -39,6 +40,7 @@ category: linkblog
             {% endif %}
         </a>
     </div>
+	{% endif %}
     {% endif %}
     {% endfor %}
 </div>

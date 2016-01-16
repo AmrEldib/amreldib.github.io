@@ -8,7 +8,7 @@ tags:
   - Star Wars
   - Movie Reviews
   - Hollywood
-published: true
+frontpage: true
 title: "Star Wars: The Force Awakens - Reviews"
 ---
 

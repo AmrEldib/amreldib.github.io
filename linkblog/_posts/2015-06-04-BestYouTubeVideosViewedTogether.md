@@ -5,6 +5,7 @@ title: "Best YouTube Videos Viewed Together"
 time: 2015-06-04 18:10:00.003000000 -08:00
 linkurl: "https://www.youtube.com/watch?v=aDorTBEhEtk"
 category: linkblog
+frontpage: false
 tags:
 - youtube
 - science

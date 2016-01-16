@@ -5,6 +5,7 @@ title: "Fear of Apple"
 time: 2015-03-28 22:10:00.003000000 -08:00
 linkurl: "http://www.elischiff.com/blog/2015/3/24/fear-of-apple"
 category: linkblog
+frontpage: false
 tags:
 - apple
 - design

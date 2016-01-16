@@ -8,7 +8,7 @@ tags:
   - Web
   - Slack
   - IRC
-published: true
+frontpage: true
 title: "Don't use Slack?"
 ---
 

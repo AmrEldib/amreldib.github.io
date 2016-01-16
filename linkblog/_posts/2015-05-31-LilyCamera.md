@@ -5,6 +5,7 @@ title: "Introducing the Lily Camera"
 time: 2015-05-31 22:20:00.003000000 -08:00
 linkurl: "https://www.youtube.com/watch?v=4vGcH0Bk3hg"
 category: linkblog
+frontpage: false
 tags:
 - robots
 - camera

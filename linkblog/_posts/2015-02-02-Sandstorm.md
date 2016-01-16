@@ -5,6 +5,7 @@ title: "Sandstorm is an open source platform for personal servers"
 time: 2015-02-02 16:32:00.003000000 -08:00
 linkurl: "https://sandstorm.io/"
 category: linkblog
+frontpage: false
 tags:
 - personal cloud
 ---

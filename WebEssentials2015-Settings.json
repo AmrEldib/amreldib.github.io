@@ -52,7 +52,7 @@
     "MinifyInPlace": false,
     "OutputDirectory": null,
     "RenderSoftLineBreaksAsLineBreaks": false,
-    "ShowPreviewPane": true,
+    "ShowPreviewPane": false,
     "TrackSourcePosition": false
   }
 }

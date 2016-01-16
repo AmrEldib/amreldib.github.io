@@ -5,6 +5,7 @@ title: "Rise of the IndieWeb - Amber Case"
 time: 2015-02-18 10:48:00.003000000 -08:00
 linkurl: "https://www.youtube.com/watch?v=Au4bHb5twF4"
 category: linkblog
+frontpage: false
 tags:
 - video
 - indieweb

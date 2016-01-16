@@ -6,6 +6,7 @@ time: 2015-05-31 22:10:00.003000000 -08:00
 linkurl: "http://raseef22.com/politics/2015/05/29/sunnis-and-shiites-similarities-and-differences/"
 category: linkblog
 lang: ar
+frontpage: true
 tags:
 - islam
 - middle east

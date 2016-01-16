@@ -5,6 +5,7 @@ title: "Teacher's Role (Hanselminutes 488)"
 time: 2015-08-15 21:12:00.003000000 -08:00
 linkurl: "http://www.hanselminutes.com/488/redesigning-computer-science-101-education-with-omoju-miller"
 category: linkblog
+frontpage: true
 tags:
 - podcast
 - education

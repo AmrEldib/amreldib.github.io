@@ -1,12 +1,12 @@
 ---
 layout: linkPost
 name: TheMonkeyHoseExperiment
-time: 2016-01-11T07:38:00.003Z
+time: 2016-01-15T11:15:00.003Z
 linkurl: "https://www.relay.fm/rd/17"
 category: linkblog
 tags: 
   - Social Experiment
-published: true
+frontpage: true
 title: "The Monkey Hose Experiment"
 excerpt: "Don't touch the banana"
 ---
