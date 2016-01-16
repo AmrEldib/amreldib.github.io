@@ -11,13 +11,13 @@ title: "The Monkey Hose Experiment"
 excerpt: "Don't touch the banana"
 ---
 
-This one is from episode 17 of [Reconcilable Differences](https://www.relay.fm/rd/) podcast, from <code>00:06:34</code>
+This one is from episode 17 of [Reconcilable Differences](https://www.relay.fm/rd/) podcast, from 00:06:34
 
 <blockquote>
 If you wanna tell the story right, it's the monkeys getting sprayed with the hose thing. Eventually, you'll replace all the monkeys, and no one will know why you can't touch the banana but they'll beat the hell out of the other monky to stop from touching the banana.
 </blockquote>
 
-Then jumping to <code>00:09:00</code>
+Then jumping to 00:09:00
 
 <blockquote>
 	You got a bunch of monkeys in a cage, and a banana or some deseriable food on the other end of the cage, and every time a monkey tries to grab the banana, someone outside the cage hoses them all with a fire hose.
