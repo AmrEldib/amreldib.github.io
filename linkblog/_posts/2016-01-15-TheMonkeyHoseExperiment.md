@@ -8,6 +8,7 @@ tags:
   - Social Experiment
 published: true
 title: "The Monkey Hose Experiment"
+excerpt: "Don't touch the banana"
 ---
 
 This one is from episode 17 of [Reconcilable Differences](https://www.relay.fm/rd/) podcast, from <code>00:06:34</code>
