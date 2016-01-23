@@ -8,26 +8,26 @@
 	text-decoration:none;
 }
 
-.fa-twitter {
+.socialSharingSection .fa-twitter {
 	color: rgb(50, 204, 254);
 }
 
-.fa-facebook-square {
+.socialSharingSection .fa-facebook-square {
 	color:#3C599F;
 }
 
-.fa-google-plus {
+.socialSharingSection .fa-google-plus {
 	color:#CF3D2E;
 }
 
-.fa-linkedin {
+.socialSharingSection .fa-linkedin {
 	color:#0085AE;
 }
 
-.fa-tumblr {
+.socialSharingSection .fa-tumblr {
 	color:#314E6C;
 }
 
-.fa-reddit-alien {
+.socialSharingSection .fa-reddit-alien {
 	color:#FFF;
 }

@@ -79,6 +79,7 @@ small {
 
 .side-nav-icon {
     display: inline;
+	text-decoration: none;
 }
 
 .sidebar-nav ul {
