@@ -46,39 +46,31 @@ I'm a software developer building GIS applications. These are some of my thought
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
    href="https://twitter.com/{{ site.author.username.twitter }}" rel="me">
-            <img class="frontPageIcons" 
-                 src="{{ site.imgFolder_root }}twitlogo-24.png" 
-                 alt="@{{ site.author.username.twitter }}" />@{{ site.author.username.twitter }}
+            <i class="fa fa-twitter fa-lg frontPageIcons" title="twitter.com/{{ site.author.username.twitter }}"></i>@{{ site.author.username.twitter }}
         </a>
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon"
 	   href="https://github.com/{{ site.author.username.github }}" rel="me">
-		    <i class="fa fa-github fa-lg frontPageIcons" title="github.com/{{ site.author.username.github }}"></i> GitHub Page
+		    <i class="fa fa-github fa-lg frontPageIcons" title="github.com/{{ site.author.username.github }}"></i>GitHub Page
 	    </a>
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
            href="http://www.goodreads.com/{{ site.author.username.goodreads }}" rel="me">
-            <img class="frontPageIcons"
-                 src="{{ site.imgFolder_root }}goodreads-24.png"
-                 alt="Goodreads Shelf" />Goodreads Bookshelf
+            <span style="font-family: helvetica; vertical-align: text-top;padding-left:4px;" class="fa-lg frontPageIcons" title="goodreads.com/{{ site.author.username.goodreads }}">g</span>Goodreads Bookshelf
         </a>
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon"
    href="https://www.linkedin.com/in/{{ site.author.username.linkedin }}" rel="me">
-            <img class="frontPageIcons"
-                 src="{{ site.imgFolder_root }}linked-24.png"
-                 alt="LinkedIn Resume" />LinkedIn Resume
+            <i class="fa fa-linkedin-square fa-lg frontPageIcons" title="linkedin.com/{{ site.author.username.linkedin }}"></i>LinkedIn Resume
         </a>
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
            href="{{ site.rss_page }}">
-            <img class="frontPageIcons"
-                 src="{{ site.imgFolder_root }}rss-24.png"
-                 alt="Subscribe via RSS" />RSS
+            <i class="fa fa-rss-square fa-lg frontPageIcons" title="Follow via RSS"></i>RSS
         </a>
     </li>
 </ul>
