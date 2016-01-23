@@ -52,12 +52,10 @@ I'm a software developer building GIS applications. These are some of my thought
         </a>
     </li>
     <li>
-        <a class="sidebar-nav-item side-nav-icon" 
-   href="https://github.com/{{ site.author.username.github }}" rel="me">
-            <img class="frontPageIcons"
-                 src="{{ site.imgFolder_root }}github-24.png"
-                 alt="GitHub Page" />GitHub page
-        </a>
+        <a class="sidebar-nav-item side-nav-icon"
+	   href="https://github.com/{{ site.author.username.github }}" rel="me">
+		    <i class="fa fa-github fa-lg frontPageIcons" title="github.com/{{ site.author.username.github }}"></i> GitHub Page
+	    </a>
     </li>
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
