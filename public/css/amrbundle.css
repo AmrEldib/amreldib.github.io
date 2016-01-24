@@ -1295,6 +1295,9 @@ small {
 	color: black;
 }
 
+p a {
+  text-decoration: underline;
+}
 
 .side-nav-icon {
 	display: inline;
