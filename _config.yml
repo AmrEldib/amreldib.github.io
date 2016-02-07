@@ -72,9 +72,9 @@ relative_permalinks: false
 redirects: yes
 
 # Build settings
-#paginate: 5 
+#paginate: 5
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
 exclude: ["amreldib.github.io.sln", "*.suo", "README.md"]
 include: ["slides", "humans.txt", "robots.txt", "keybase.txt"]
