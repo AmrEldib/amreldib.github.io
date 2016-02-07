@@ -8,3 +8,17 @@ permalink: 404.html
   <h1 class="page-title">Oops, we've hit a dead end</h1>
   <p class="lead">Sorry, looks like I've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}">Head back home</a> to try finding it again.</p>
 </div>
+
+<script type="text/javascript">
+	var allposts = [];
+	{% for post in site.posts %}
+		allposts.push("{{ post.url }}");
+	{% endfor %}
+	function redirectToCorrectPage() {
+		if (allposts.indexOf(window.URL) != -1) {
+			console.log(allposts[allposts.indexOf(window.URL)]);
+			window.location = allposts[allposts.indexOf(window.URL)];
+		}
+	}
+	window.onload = redirectToCorrectPage;
+</script>
