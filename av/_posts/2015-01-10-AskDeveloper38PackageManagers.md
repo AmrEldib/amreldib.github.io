@@ -6,6 +6,7 @@ time: 2015-01-10 16:32:00.003000000 -08:00
 category: av
 commentsSection: 'true'
 frontpage: 'false'
+excerpt: "We discuss Package Managers: what they are, how to use them, how to create a package"
 tags: 
 - Javascript
 ---

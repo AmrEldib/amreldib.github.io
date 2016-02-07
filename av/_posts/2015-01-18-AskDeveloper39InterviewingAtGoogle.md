@@ -6,6 +6,7 @@ time: 2015-01-10 16:32:00.003000000 -08:00
 category: av
 commentsSection: 'true'
 frontpage: 'false'
+excerpt: "We interview Mohammad Tayseer about his expierence interviewing and joining at Google"
 tags: 
 - Javascript
 ---

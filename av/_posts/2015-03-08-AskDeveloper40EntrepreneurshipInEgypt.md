@@ -6,6 +6,7 @@ time: 2015-03-08 16:32:00.003000000 -08:00
 category: av
 commentsSection: 'true'
 frontpage: 'false'
+excerpt: "We interview Mostafa Ashour about his expierence cofounding a startup in Egypt"
 tags: 
 - Startups 
 ---

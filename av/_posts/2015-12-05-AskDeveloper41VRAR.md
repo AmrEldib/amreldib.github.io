@@ -6,6 +6,7 @@ time: 2015-12-05 16:00:00.003000000 -08:00
 category: av
 commentsSection: 'true'
 frontpage: 'true'
+excerpt: "Yasser Makram goes to Redmond for a Microsoft conference and gets an surprise demo of the new HoloLens"
 tags: 
 - Virtual Reality
 - Augmented Reality

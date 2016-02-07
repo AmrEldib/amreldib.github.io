@@ -7,6 +7,7 @@ lang: ar
 category: av
 commentsSection: 'true'
 frontpage: 'true'
+excerpt: "في هذا اللقاء نناقش موضوع المشروع المقترح لنقابة مهندسي البرمجيات"
 tags: 
 - Programming Profession
 - Egypt

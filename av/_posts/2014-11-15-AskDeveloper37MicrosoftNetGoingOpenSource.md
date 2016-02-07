@@ -6,6 +6,7 @@ time: 2014-11-15 16:32:00.003000000 -08:00
 category: av
 commentsSection: 'true'
 frontpage: 'false'
+excerpt: "We discuss the big news that came from Microsoft last week regarding opening the source of the .NET Framework as well as a new SKU of Visual Studio Community Edition for small and Open Source teams"
 tags: 
 - Microsoft
 ---

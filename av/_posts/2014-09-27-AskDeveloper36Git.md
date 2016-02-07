@@ -6,6 +6,7 @@ time: 2014-09-27 16:32:00.003000000 -08:00
 category: av
 commentsSection: 'true'
 frontpage: 'false'
+excerpt: "We discuss Source Code Control and how to use Git and GitHub"
 tags: 
 - Source Control
 ---
