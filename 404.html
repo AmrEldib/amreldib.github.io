@@ -25,7 +25,7 @@ permalink: 404.html
 		var i = allpostsUpperCase.indexOf(url.toUpperCase());
 		if (i != -1) {
 			console.log(allposts[i]);
-			window.location = url;
+			window.location = allposts[i];
 		}
 	}
 	window.onload = redirectToCorrectPage;
