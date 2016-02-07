@@ -17,7 +17,7 @@ permalink: 404.html
 		{% endfor %}
 		var url = window.location.toString();
 		if (url.slice(-1) === "/") {
-			 url = str.slice(0, -1);
+			 url = url.slice(0, -1);
 		}
 		var allpostsUpperCase = allposts.map(function(value) {
 			return value.toUpperCase();
