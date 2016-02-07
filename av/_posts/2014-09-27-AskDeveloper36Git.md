@@ -5,7 +5,7 @@ title: "AskDeveloper Podcast 36: Source Control and Git"
 time: 2014-09-27 16:32:00.003000000 -08:00
 category: av
 commentsSection: 'true'
-frontpage: 'true'
+frontpage: 'false'
 tags: 
 - Source Control
 ---
