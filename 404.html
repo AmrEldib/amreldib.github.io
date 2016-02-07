@@ -11,13 +11,13 @@ permalink: 404.html
 
 <script type="text/javascript">
 	var allposts = [];
-	{% for post in site.posts %}
-		allposts.push("{{ post.url }}");
-	{% endfor %}
 	function redirectToCorrectPage() {
-		if (allposts.indexOf(window.URL) != -1) {
-			console.log(allposts[allposts.indexOf(window.URL)]);
-			window.location = allposts[allposts.indexOf(window.URL)];
+		{% for post in site.posts %}
+			allposts.push("{{ site.url }}{{ post.url }}");
+		{% endfor %}
+		if (allposts.indexOf(window.location) != -1) {
+			console.log(allposts[allposts.indexOf(window.location)]);
+			window.location = allposts[allposts.indexOf(window.location)];
 		}
 	}
 	window.onload = redirectToCorrectPage;
