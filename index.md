@@ -3,32 +3,32 @@ layout: default
 title: Home
 ---
 
-#Hi, I'm Amr
+# Hi, I'm Amr
 
 I'm a software developer building GIS applications. These are some of my thoughts on software, technology, books and more.
 
-##[Blog](/blog/)  
+## [Blog](/blog/)  
 {{ site.rss_description_blog }}  
 
-##[Projects](/projects/)  
+## [Projects](/projects/)  
 {{ site.rss_description_projects }}  
 
-##[Writings](/writings/)  
+## [Writings](/writings/)  
 {{ site.rss_description_writings }}  
 
-##[Bookshelf](/bookshelf/)  
+## [Bookshelf](/bookshelf/)  
 {{ site.rss_description_bookshelf }}  
 
-##[Linkblog](/linkblog/)  
+## [Linkblog](/linkblog/)  
 {{ site.rss_description_linkblog }}  
 
-##[Talks](/talks/)  
+## [Talks](/talks/)  
 {{ site.rss_description_talks }}  
 
-##[Reviews](/reviews/)  
+## [Reviews](/reviews/)  
 {{ site.rss_description_reviews }}  
 
-##[Audio and Video](/av/)  
+## [Audio and Video](/av/)  
 {{ site.rss_description_av }}  
 
 <!--
@@ -42,7 +42,7 @@ I'm a software developer building GIS applications. These are some of my thought
 {{ site.rss_description_favs }}  
     -->
 
-###Find Me on the Interwebs  
+### Find Me on the Interwebs  
 <ul style="list-style-type:none">
     <li>
         <a class="sidebar-nav-item side-nav-icon" 
