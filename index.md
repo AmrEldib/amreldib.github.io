@@ -74,10 +74,3 @@ I'm a software developer building GIS applications. These are some of my thought
         </a>
     </li>
 </ul>
-
-
-
-
-
-
-
