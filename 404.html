@@ -15,7 +15,7 @@ permalink: 404.html
 		{% for post in site.posts %}
 			allposts.push("{{ site.url }}{{ post.url }}");
 		{% endfor %}
-		var url = window.location;
+		var url = window.location.toString();
 		if (url.slice(-1) === "/") {
 			 url = str.slice(0, -1);
 		}
