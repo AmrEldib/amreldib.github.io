@@ -43,3 +43,5 @@ Why do they call it "progressive" though? I don't know, but I do know more about
 Back to the future, where [eagles can catch drones](http://www.theverge.com/2016/2/1/10884586/drone-vs-eagle-dutch-police), [Tesla's Powerwall version 2.0 is announced](http://www.theverge.com/2016/2/2/10893046/powerwall-mark-ii-2016-launch), and people considering that everyone should have [Basic Income](http://blog.ycombinator.com/basic-income) with no strings attached.  
   
 That's all for this time, more to come sometime at certain point in the future.  
+
+{% include askDeveloperLinkSheetSignUpForm.html %}
