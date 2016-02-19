@@ -40,3 +40,5 @@ I do watch sport though, and I always marvel at the yellow lines and markers the
 That's all, and remember kids, no action is too small for us to be lazy about. Even <a href="http://www.theverge.com/2016/2/15/10996234/nissans-self-parking-chair-car">meeting room chairs can park themselves now</a>.<br>
 So, go out there and build stuff to be more lazy, and fear not that you would make bugs, because <a href="https://twitter.com/rauchg/status/698689290667053060">bugs can lead to awesome features like hidden files on Linux</a>.<br>
 <br>
+
+{% include askDeveloperLinkSheetSignUpForm.html %}
