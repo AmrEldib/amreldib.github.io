@@ -1,7 +1,7 @@
 ---
 layout: blogPost
 name: ProxyGoalsAndActualGoals
-title: "Proxy Goals And Actual Goals"
+title: "Proxy Goals and Actual Goals"
 time: 2016-02-08 20:54:00.003000000 -08:00
 category: blog
 commentsSection: 'true'
