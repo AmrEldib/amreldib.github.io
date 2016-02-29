@@ -13,7 +13,7 @@ tags:
 - Customization
 ---
 
-<img class="imageInCenter" title="My Cmder shell after customization" src="{{ site.imgFolder_blog }}{{ page.name }}/CmderPrompt.jpg">
+<img class="imageInCenter" title="My Cmder shell after customization" src="{{ site.imgFolder_blog }}{{ page.name }}/CmderPrompt.png">
   
 I'm finding myself spending more and more time in the command line. But I use Windows, which isn't very clever in the command line. It doesn't have Linux [OhMyZsh](http://ohmyz.sh/), but it has [Cmder](http://cmder.net/), which I like a lot.  
 Cmder comes with Git integration. It shows the Git status of current folder. [Install it from Chocolatey](https://chocolatey.org/packages/Cmder/1.1.4.101).  
