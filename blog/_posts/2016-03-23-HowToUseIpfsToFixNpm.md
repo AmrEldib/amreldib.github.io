@@ -35,4 +35,4 @@ Here's a good talk on the motivations and ideas for IPFS
   
 <iframe width="750" height="422" src="//www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen></iframe>
   
-*Update*: Last December, [David Dias](https://twitter.com/daviddiasfront) did a demo on one way IPFS could be used to mirror NPM. Here's a [video of the talk](https://www.youtube.com/watch?v=-S-Tc7Gl8FM), and his [blog post on the topic](http://blog.daviddias.me/2015/12/08/stellar-module-management).  
+**Update**: Last December, [David Dias](https://twitter.com/daviddiasfront) did a demo on one way IPFS could be used to mirror NPM. Here's a [video of the talk](https://www.youtube.com/watch?v=-S-Tc7Gl8FM), and his [blog post on the topic](http://blog.daviddias.me/2015/12/08/stellar-module-management).  
