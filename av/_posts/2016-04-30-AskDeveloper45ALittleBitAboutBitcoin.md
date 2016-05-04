@@ -50,6 +50,6 @@ tags:
 		* It covers important points: how IPFS does mutable data, how it does human-readable URLs.
 
 
-[Audio version](https://soundcloud.com/askdeveloper/askdeveloper-podcast-44-yasser-walked-on-mars-and-cant-wait-to-talk-about-it)  
+[Audio version](https://soundcloud.com/askdeveloper/ep45-a-little-bit-about-bitcoin)  
 Subscribe to AskDeveloper [feed](http://feeds.feedburner.com/Askdeveloper), join us on our [Facebook page](https://www.facebook.com/askdeveloper) review all episodes on our [website](http://www.askdeveloper.com/), or watch all [videos](https://www.youtube.com/user/bashmohandes/).  
 Discussion in Arabic.  

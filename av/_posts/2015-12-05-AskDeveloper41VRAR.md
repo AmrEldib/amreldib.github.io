@@ -15,7 +15,7 @@ tags:
 ---
 
 <div class="youtube-container">
-   <div class="youtube-player" data-id="EqZnfSAh6jc"></div>
+   <div class="youtube-player" data-id="jrK-yBJ4Uz4"></div>
 </div>
 
 Yasser Makram goes to Redmond for a Microsoft conference and gets an surprise demo of the new HoloLens. Mohamed Elsherif, and I ask him about as we discuss the new virtual and augment reality.  
