@@ -46,7 +46,9 @@ Meanwhile, a number of projects is always active:
 [OpenID](http://en.wikipedia.org/wiki/OpenID) was a noble effort to outsource and centralize authentication of all the websites that we deal with everyday in a way that removes the hassle. For so reason, mainly the long ugly un-memorable URL, OpenID didn’t take over the web in the way it was hoped to.  
 Mozilla is take a shot at this problem with [BrowserID](http://www.BrowserID.org). Instead of outsourcing authentication to a third party, BrowserID uses the browser to authenticate users using their email address. You add your address as your browser ID and verify it by clicking a link in an email you receive from the BrowserID service then every site wants to authenticate you can rely on BrowserID for that. Watch the video for a demo:  
     
-<iframe width="750" height="422" src="//www.youtube.com/embed/l0t9yDLAmFo" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="l0t9yDLAmFo"></div>
+</div>
 
 More info on BrowserID is [the introduction post](http://identity.mozilla.com/post/7616727542/introducing-browserid-a-better-way-to-sign-in) or on [Identity at Mozilla](http://identity.mozilla.com/) page. Here’s a [quick tutorial for developers](https://browserid.org/developers), the [demo site](http://myfavoritebeer.org/) from the video. You can follow the development or contribute on [Github](https://github.com/mozilla/browserid).
 

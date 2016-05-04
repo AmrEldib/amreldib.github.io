@@ -11,6 +11,8 @@ frontpage: true
 title: Robots that fly ... and cooperate
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/4ErEBkj_3PY" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="4ErEBkj_3PY"></div>
+</div>
 
 Amazing demo of the capabilities of autonomous flying robots that can maneuver around obstacles, coordinate with each other and cooperate to do collective work.

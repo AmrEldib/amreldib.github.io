@@ -11,7 +11,9 @@ tags:
 - Source Control
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/u5D--Mgw1M0" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="u5D--Mgw1M0"></div>
+</div>
 
 Mohamed Elsherif, Yasser Makram and I discuss Source Code Control and how to use Git and GitHub.  
 [Audio version](https://soundcloud.com/askdeveloper/ep36-source-control-and-git)  

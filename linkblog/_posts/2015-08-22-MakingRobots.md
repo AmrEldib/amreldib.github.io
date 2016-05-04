@@ -10,6 +10,8 @@ tags:
 title: Making Robots
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/OcFOWIq3cIc" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="OcFOWIq3cIc"></div>
+</div>
 
 Interesting collection of the different types of robots currently in research.

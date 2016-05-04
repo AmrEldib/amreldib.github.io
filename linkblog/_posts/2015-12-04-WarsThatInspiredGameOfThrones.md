@@ -12,6 +12,8 @@ frontpage: true
 title: "The Wars that Inspired Game of Thrones"
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/VjO55pKuBo4" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="VjO55pKuBo4"></div>
+</div>
 
 Amazing, just amazing.  

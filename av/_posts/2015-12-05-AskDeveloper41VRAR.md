@@ -14,7 +14,9 @@ tags:
 - Oculus Rift
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/EqZnfSAh6jc" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="EqZnfSAh6jc"></div>
+</div>
 
 Yasser Makram goes to Redmond for a Microsoft conference and gets an surprise demo of the new HoloLens. Mohamed Elsherif, and I ask him about as we discuss the new virtual and augment reality.  
 **Show Notes**:  

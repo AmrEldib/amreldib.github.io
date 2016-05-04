@@ -18,7 +18,9 @@ I’ve blogged a year ago about App Stores, calling that [everybody gets an App 
 
 While that seems generous, I still didn’t like the phrase Microsoft used to describe taking a percentage of your revenue; “Revenue Sharing”.
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/37E3jQIs2AA" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="37E3jQIs2AA"></div>
+</div>
 
 Imagine the government re-labeling taxes as "Revenue Sharing".
 

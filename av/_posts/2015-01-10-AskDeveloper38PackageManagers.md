@@ -11,7 +11,9 @@ tags:
 - Javascript
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/GNSPjPpnLtQ" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="GNSPjPpnLtQ"></div>
+</div>
 
 Mohamed Elsherif, Yasser Makram and I discuss Package Managers: what they are, how to use them, how to create a package.  
 [Audio version](https://soundcloud.com/askdeveloper/ep38-package-managers)  

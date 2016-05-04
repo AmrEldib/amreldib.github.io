@@ -4638,7 +4638,6 @@ turn "OFF" all stars after the one the user is hovering over.
 	display: block;
 	margin: 20px auto;
 	width: 100%;
-	max-width: 600px;
 }
 
 .youtube-player {

@@ -18,4 +18,6 @@ Fair Use is a section in a US copyright law that allows quoting content as-is fo
 This video is the best summary of the whole issue. Please watch it.  
 If you watch original content on YouTube, or if support indie creators, or if you care about keeping the Internet open for small entities and single individuals, please support these creators at [#WTFU](https://twitter.com/search?q=%23WTFU&src=tyah)  
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/zVqFAMOtwaI" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="zVqFAMOtwaI"></div>
+</div>

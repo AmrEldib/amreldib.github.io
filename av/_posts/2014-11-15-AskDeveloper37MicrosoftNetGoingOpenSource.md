@@ -11,7 +11,9 @@ tags:
 - Microsoft
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/3KWtBBruzaE" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="3KWtBBruzaE"></div>
+</div>
 
 Mohamed Elsherif, Yasser Makram and I discuss the big news that came from Microsoft last week regarding opening the source of the .NET Framework as well as a new SKU of Visual Studio Community Edition for small and Open Source teams.  
 [Audio version](https://soundcloud.com/askdeveloper/ep37-microsoft-net-going-open-source)  

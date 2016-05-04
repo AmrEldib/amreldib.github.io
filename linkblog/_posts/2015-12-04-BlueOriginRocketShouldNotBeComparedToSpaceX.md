@@ -11,6 +11,8 @@ frontpage: true
 title: "Why Blue Origin's rocket landing shouldn't be compared to SpaceX"
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/b8c7RUjNFDo" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="b8c7RUjNFDo"></div>
+</div>
 
 I was surprised to find that Blue Origin's rocket reached space faster than SpaceX's. It turns out there's not only one reason, there are multiple reasons. It's a different approach for different goal.

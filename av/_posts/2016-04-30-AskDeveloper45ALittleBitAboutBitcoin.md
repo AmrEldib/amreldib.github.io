@@ -13,7 +13,9 @@ tags:
 - IPFS
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/O5VMRDe7iYc" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="O5VMRDe7iYc"></div>
+</div>
 
 * What's wrong with the world as it is today?
 	* [The Master Switch](https://en.wikipedia.org/wiki/Tim_Wu#The_Master_Switch) by Tim Wu

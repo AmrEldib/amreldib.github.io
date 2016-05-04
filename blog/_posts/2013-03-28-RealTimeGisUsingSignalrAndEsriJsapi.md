@@ -53,7 +53,9 @@ We can use this to add real-time capability to an ArcGIS JavaScript API applicat
 
 Here's a video for how the final proof-of-concept looks like:
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/kY3AQL6n2-8" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="kY3AQL6n2-8"></div>
+</div>
 
 The code is all up on [GitHub](https://github.com/AmrEldib/RealTimeGisWithSignalR).
 

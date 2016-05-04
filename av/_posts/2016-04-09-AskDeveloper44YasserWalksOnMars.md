@@ -14,7 +14,9 @@ tags:
 - BUILD
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/EPXTAj5YV4Y" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="EPXTAj5YV4Y"></div>
+</div>
 
 Yasser walks on Mars, and can't wait to talk about it. Our coverage for Microsoft 2016 BUILD conference.  
 

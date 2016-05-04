@@ -12,7 +12,9 @@ frontpage: true
 title: "How to Escape Education's Death Valley"
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/wX78iKhInsc" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="wX78iKhInsc"></div>
+</div>
 
 Ken Robinson on changing Education: 
 

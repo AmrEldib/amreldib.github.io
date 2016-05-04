@@ -13,7 +13,9 @@ tags:
 - Egypt
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/aMs0qKMiiEI" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="aMs0qKMiiEI"></div>
+</div>
 
 في هذا اللقاء نناقش موضوع المشروع المقترح لنقابة مهندسي البرمجيات, و الذي تم اقتراحه عده مرات من قبل بنماذج متفاوتة.  
 آخر نسخة مقترحة معلنة من القانون - و التي تم تقديمها لمجلس الشعب في 2012  

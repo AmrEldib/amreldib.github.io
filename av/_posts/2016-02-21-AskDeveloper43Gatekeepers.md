@@ -14,7 +14,9 @@ tags:
 - Internet
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/v-zp-uGI3NM" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="v-zp-uGI3NM"></div>
+</div>
 
 FBI clash with Apple, and YouTube's fair use mishaps spark a discussion about gatekeepers.  
 **Show Notes**:  

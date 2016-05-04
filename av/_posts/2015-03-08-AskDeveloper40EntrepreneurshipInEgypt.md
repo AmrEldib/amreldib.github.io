@@ -11,7 +11,9 @@ tags:
 - Startups 
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/FmSclkL6xmg" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-container">
+   <div class="youtube-player" data-id="FmSclkL6xmg"></div>
+</div>
 
 Mohamed Elsherif, Yasser Makram and I interview Mostafa Ashour about his expierence cofounding a startup in Egypt.  
 [Mostafa Ashour](http://www.mostafaashour.com/) is an Egyptian entrepreneur who started at least two different startups in Egypt in different types of software business like Gaming with Khayal Entertainment, also worked for multinational companies such as IBM and Microsoft, and recently he decided to write a [book](https://kotobi.com/shop/ar/%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%84%D9%8A%D8%A9).  
