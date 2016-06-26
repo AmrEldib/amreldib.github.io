@@ -29,7 +29,7 @@ Yasser Makram goes to Redmond for a Microsoft conference and gets an surprise de
 [Nintendo Virtual Boy - 1995](https://en.wikipedia.org/wiki/Virtual_Boy)  
 [Black Mirror](https://en.wikipedia.org/wiki/Black_Mirror_%28TV_series%29)  
 [Ask Mohamed any question](https://ask.fm/bashmohandes/)  
-[Amr's blog post: How to Ask a Question](http://www.amreldib.com/blog/HowToAskAQuestion/)  
+[Amr's blog post: How to Ask a Question](//amreldib.com/blog/HowToAskAQuestion/)  
 [Hitchhiker's guide answer of life is 42](https://en.wikipedia.org/wiki/42_%28number%29#The_Hitchhiker.27s_Guide_to_the_Galaxy)  
 
 [Audio version](https://soundcloud.com/askdeveloper/ep41-augmented-reality-virtual-reality)  

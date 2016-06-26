@@ -44,7 +44,7 @@ tags:
 * IPFS: Inter-Planetary File System
 	* [Intro to IPFS](https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0#.8sex86642)
 	* [IPFS: Why We Must Distribute the Web (Video)](https://www.youtube.com/watch?v=skMTdSEaCtA)
-	* [How to Use IPFS to fix NPM](http://amreldib.com/blog/HowToUseIpfsToFixNpm)
+	* [How to Use IPFS to fix NPM](//amreldib.com/blog/HowToUseIpfsToFixNpm)
 	* [HTTP is obsolete. It's time for the distributed permanent web](https://ipfs.io/ipfs/QmNhFJjGcMPqpuYfxL62VVB9528NXqDNMFXiqN5bgFYiZ1/its-time-for-the-permanent-web.html)
 		* This page is actually served via IPFS
 		* It covers important points: how IPFS does mutable data, how it does human-readable URLs.

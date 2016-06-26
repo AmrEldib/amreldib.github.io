@@ -22,4 +22,4 @@ To implement this in your Jekyll site hosted on GitHub Pages, add this script (i
 <script src="https://gist.github.com/AmrEldib/81a4660fe00da8f11956.js"></script>
   
   
-Try it by visiting this URL [http://amreldib.com/blog/howtoaskaquestion/](http://amreldib.com/blog/howtoaskaquestion/) which should be [http://amreldib.com/blog/HowToAskAQuestion/](http://amreldib.com/blog/HowToAskAQuestion/)  
+Try it by visiting this URL [amreldib.com/blog/howtoaskaquestion/](//amreldib.com/blog/howtoaskaquestion/) which should be [amreldib.com/blog/HowToAskAQuestion/](//amreldib.com/blog/HowToAskAQuestion/)  

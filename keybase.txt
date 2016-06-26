@@ -4,7 +4,7 @@ https://keybase.io/amr
 
 I hereby claim:
 
-  * I am an admin of http://amreldib.com
+  * I am an admin of https://amreldib.com
   * I am amr (https://keybase.io/amr) on keybase.
   * I have a public key with fingerprint D629 1605 2F4E 3B96 A510  276E C9DE FAD6 D0F4 A3C9
 
