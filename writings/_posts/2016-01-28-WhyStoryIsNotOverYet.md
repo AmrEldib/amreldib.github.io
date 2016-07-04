@@ -1,6 +1,6 @@
 ---
 layout: writingsPost  
-name: BigPicture  
+name: WhyStoryIsNotOverYet  
 title: "لماذا لم تنتهي الحكاية"  
 time: 2016-01-28 12:25:00.001000000 -07:00  
 category: writings  
