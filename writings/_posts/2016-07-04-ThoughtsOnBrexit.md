@@ -5,7 +5,7 @@ title: "Thoughts on Brexit"
 time: 2016-07-04 00:32:00.001000000 -07:00  
 category: writings  
 frontpage: 'true'  
-excerpt: ""
+excerpt: "Some reflections on the British referendum to leave the European Union and what it says about the state of Western Democracy"
 lang: en  
 --- 
 

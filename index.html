@@ -13,16 +13,16 @@ title: Home
 	Here are some recent things I wrote about
 </p>
 
-<div class="related">
+<div>
 	<ul class="related-posts">
-		{% for post in site.related_posts limit:5 %}
-		<li>
-			<h3 {% if post.lang == 'ar' %}class="rtl" dir="rtl" lang="ar" {% endif %}>
+		{% for post in site.posts offset:0 limit:5 %}
+		<li {% if post.lang == 'ar' %}class="rtl" dir="rtl" lang="ar" {% endif %}>
+			<h4>
 				<a href="{{ post.url }}">
 					{{ post.title }}
 				</a>
-			</h3>
-			<small><bdi>{{ post.date | date_to_string }}</bdi></small>
+				<small><bdi>{{ post.date | date_to_string }}</bdi></small>
+			</h4>
 			<p>
 				{{ post.excerpt }}
 				<a href="{{ post.url }}">
