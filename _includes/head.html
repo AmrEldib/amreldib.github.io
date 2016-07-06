@@ -19,7 +19,11 @@
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
 	{% if page.twitter_image %}
-	<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_writings }}{{ page.name }}/{{ page.twitter_image }}" />
+		{% if page.category == 'writings' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_writings }}{{ page.name }}/{{ page.twitter_image }}" />		
+		{% elseif page.category == 'blog' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_blog }}{{ page.name }}/{{ page.twitter_image }}" />
+		{% endif %}
 	{% else %}
     <meta name="twitter:image" content="https://amreldib.com/public/images/AmrAvatar.png" />
 	{% endif %}
