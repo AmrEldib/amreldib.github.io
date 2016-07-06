@@ -21,7 +21,7 @@
 	{% if page.twitter_image %}
 		{% if page.category == 'writings' %}
 		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_writings }}{{ page.name }}/{{ page.twitter_image }}" />		
-		{% elseif page.category == 'blog' %}
+		{% elsif page.category == 'blog' %}
 		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_blog }}{{ page.name }}/{{ page.twitter_image }}" />
 		{% endif %}
 	{% else %}
