@@ -7,6 +7,12 @@ title: Home
 
 I'm a software developer building GIS applications. These are some of my thoughts on software, technology, books and more.
 
+Here are some recent things I wrote about
+
+{% include frontPageRecentPosts.html %}
+
+Or, check out the sections of my website
+
 ## [Blog](/blog/)  
 {{ site.rss_description_blog }}  
 
@@ -16,17 +22,17 @@ I'm a software developer building GIS applications. These are some of my thought
 ## [Writings](/writings/)  
 {{ site.rss_description_writings }}  
 
-## [Bookshelf](/bookshelf/)  
-{{ site.rss_description_bookshelf }}  
-
 ## [Linkblog](/linkblog/)  
 {{ site.rss_description_linkblog }}  
 
-## [Talks](/talks/)  
-{{ site.rss_description_talks }}  
+## [Bookshelf](/bookshelf/)  
+{{ site.rss_description_bookshelf }}  
 
 ## [Reviews](/reviews/)  
 {{ site.rss_description_reviews }}  
+
+## [Talks](/talks/)  
+{{ site.rss_description_talks }}  
 
 ## [Audio and Video](/av/)  
 {{ site.rss_description_av }}  
