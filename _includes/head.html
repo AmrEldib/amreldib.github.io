@@ -9,12 +9,20 @@
     <meta name="description" content="{{ site.author.name }} {{ site.description }}" />
 
     <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary" />
+	{% if page.twitter_image %}
+	<meta name="twitter:card" content="summary_large_image" />
+	{% else %}
+	<meta name="twitter:card" content="summary" />
+	{% endif %}
     <meta name="twitter:site" content="@AmrEldib" />
+	<meta name="twitter:creator" content="@AmrEldib">
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
+	{% if page.twitter_image %}
+	<meta name="twitter:image" content="{{ page.twitter_image }}" />
+	{% else %}
     <meta name="twitter:image" content="https://amreldib.com/public/images/AmrAvatar.png" />
-
+	{% endif %}
     <!-- proof it's me -->
     <link rel="me" type="text/html" href="https://plus.google.com/+{{ site.author.username.googleplus }}" />
     <link rel="me" type="text/html" href="{{ site.rss_page }}" />

@@ -7,6 +7,7 @@ category: writings
 frontpage: 'true'  
 excerpt: "Some reflections on the British referendum to leave the European Union and what it says about the state of Western Democracy"
 lang: en  
+twitter_image: "{{ site.imgFolder_writings }}{{ page.name }}/Brexit.jpg"
 --- 
 
 It's a nice Thursday afternoon, I check the news and find that the voting for Brexit; the referendum for the British exit from the European Union, is about to end and counting will start shortly. I’m interested to see how close it will be. The closer it is, the more power UKIP and the right wing of the Conservative party will get out of this silly adventure they started.
