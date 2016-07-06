@@ -9,30 +9,7 @@ I'm a software developer building GIS applications. These are some of my thought
 
 Here are some recent things I wrote about
 
-<div class="related">
-	<ul class="related-posts">
-		{% for post in site.related_posts limit:5 %}
-		<li>
-			<h3 {% if post.lang= ='ar' %}class="rtl" dir="rtl" lang="ar" {% endif %}>
-				<a href="{{ post.url }}">
-					{{ post.title }}
-				</a>
-			</h3>
-			<small><bdi>{{ post.date | date_to_string }}</bdi></small>
-			<p>
-				{{ post.excerpt }}
-				<a href="{{ post.url }}">
-					{% if post.lang == 'ar' %}
-					... إقرأ المزيد
-					{% else %}
-					... read more
-					{% endif %}
-				</a>
-			</p>
-		</li>
-		{% endfor %}
-	</ul>
-</div>
+{% include frontPageRecentPosts.html %}
 
 Or, check out the sections of my website
 
