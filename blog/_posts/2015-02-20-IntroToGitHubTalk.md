@@ -7,6 +7,7 @@ category: blog
 commentsSection: 'true'
 frontpage: 'true'
 excerpt: "I got a chance last Tuesday to give a session at MaptimeYVR titled 'Intro to GitHub'. It was a lot of fun and a great chance to meet everybody"
+twitter_image: "IntroToGitHubSessionAtMapTime.jpg"
 tags: 
 - Talk
 - GitHub

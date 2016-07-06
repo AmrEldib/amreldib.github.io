@@ -7,6 +7,7 @@ category: blog
 commentsSection: 'true'
 frontpage: 'true'
 excerpt: "Give your Windows command line a cool new look"
+twitter_image: "CmderPrompt.png"
 tags: 
 - Windows
 - Command line

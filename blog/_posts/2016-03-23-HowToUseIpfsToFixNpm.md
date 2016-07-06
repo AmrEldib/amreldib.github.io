@@ -7,6 +7,7 @@ category: blog
 commentsSection: 'true'
 frontpage: 'true'
 excerpt: "Let's avoid repeating the left-pad saga"
+twitter_image: "ipfs-npm.png"
 tags: 
 - NPM
 - IPFS

@@ -7,6 +7,7 @@ category: blog
 commentsSection: 'true'
 frontpage: 'true'
 excerpt: "I spend a lot of time now in the Firefox Dev Tools. The console has a very nice dark theme which makes things easier but some times that's not enough"
+twitter_image: "FirefoxDevTools.png"
 tags: 
 - Firefox
 - DevTools

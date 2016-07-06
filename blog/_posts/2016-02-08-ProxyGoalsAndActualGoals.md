@@ -7,6 +7,7 @@ category: blog
 commentsSection: 'true'
 frontpage: 'true'
 excerpt: "Using metrics is useful, but keep your eyes on the goal."
+twitter_image: "GitHubContributions-LongestStreak.png"
 tags: 
 - Personal Development
 ---
