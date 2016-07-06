@@ -3,15 +3,11 @@ layout: default
 title: Home
 ---
 
-<h1>Hi, I'm Amr</h1>
+# Hi, I'm Amr
 
-<p>
-	I'm a software developer building GIS applications. These are some of my thoughts on software, technology, books and more.
-</p>
+I'm a software developer building GIS applications. These are some of my thoughts on software, technology, books and more.
 
-<p>
-	Here are some recent things I wrote about
-</p>
+Here are some recent things I wrote about
 
 <div class="related">
 	<ul class="related-posts">
@@ -40,45 +36,45 @@ title: Home
 
 Or, check out the sections of my website
 
-<h2><a href="/blog/">Blog</a></h2>
-{{ site.rss_description_blog }}
+## [Blog](/blog/)  
+{{ site.rss_description_blog }}  
 
-<h2><a href="/projects/">Projects</a></h2>
-{{ site.rss_description_projects }}
+## [Projects](/projects/)  
+{{ site.rss_description_projects }}  
 
-<h2><a href="/writings/">Writings</a></h2>
-{{ site.rss_description_writings }}
+## [Writings](/writings/)  
+{{ site.rss_description_writings }}  
 
-<h2><a href="/linkblog/">Linkblog</a></h2>
-{{ site.rss_description_linkblog }}
+## [Linkblog](/linkblog/)  
+{{ site.rss_description_linkblog }}  
 
-<h2><a href="/bookshelf/">Bookshelf</a></h2>
-{{ site.rss_description_bookshelf }}
+## [Bookshelf](/bookshelf/)  
+{{ site.rss_description_bookshelf }}  
 
-<h2><a href="/reviews/">Reviews</a></h2>
-{{ site.rss_description_reviews }}
+## [Reviews](/reviews/)  
+{{ site.rss_description_reviews }}  
 
-<h2><a href="/talks/">Talks</a></h2>
-{{ site.rss_description_talks }}
+## [Talks](/talks/)  
+{{ site.rss_description_talks }}  
 
-<h2><a href="/av/">Audio and Video</a></h2>
-{{ site.rss_description_av }}
+## [Audio and Video](/av/)  
+{{ site.rss_description_av }}  
 
 <!--
-##[Tools](/tools/)##
-{{ site.rss_description_tools }}
+##[Tools](/tools/)##  
+{{ site.rss_description_tools }}  
 
-##[Bookmarks](/bookmarks/)##
-{{ site.rss_description_bookmarks }}
+##[Bookmarks](/bookmarks/)##  
+{{ site.rss_description_bookmarks }}  
 
-##[Favorites](/favs/)##
-{{ site.rss_description_favs }}
+##[Favorites](/favs/)##  
+{{ site.rss_description_favs }}  
     -->
 
-<h3>Find Me on the Interwebs</h3>
+### Find Me on the Interwebs  
 <ul style="list-style-type:none">
     <li>
-        <a class="sidebar-nav-item side-nav-icon"
+        <a class="sidebar-nav-item side-nav-icon" 
    href="https://twitter.com/{{ site.author.username.twitter }}" rel="me">
             <i class="fa fa-twitter fa-lg frontPageIcons" title="twitter.com/{{ site.author.username.twitter }}"></i>@{{ site.author.username.twitter }}
         </a>
@@ -90,7 +86,7 @@ Or, check out the sections of my website
 	    </a>
     </li>
     <li>
-        <a class="sidebar-nav-item side-nav-icon"
+        <a class="sidebar-nav-item side-nav-icon" 
            href="http://www.goodreads.com/{{ site.author.username.goodreads }}" rel="me">
             <span style="font-family: helvetica; vertical-align: text-top;padding-left:4px;" class="fa-lg frontPageIcons" title="goodreads.com/{{ site.author.username.goodreads }}">g</span>Goodreads Bookshelf
         </a>
@@ -102,7 +98,7 @@ Or, check out the sections of my website
         </a>
     </li>
     <li>
-        <a class="sidebar-nav-item side-nav-icon"
+        <a class="sidebar-nav-item side-nav-icon" 
            href="{{ site.rss_page }}">
             <i class="fa fa-rss-square fa-lg frontPageIcons" title="Follow via RSS"></i>RSS
         </a>
