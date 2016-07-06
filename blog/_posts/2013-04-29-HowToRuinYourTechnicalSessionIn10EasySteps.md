@@ -6,6 +6,7 @@ time: 2013-04-29 16:30:00.000000000 -07:00
 category: blog
 commentsSection: 'true'
 excerpt: "It's so easy, you should try it sometime"
+twitter_image: "SleepingDuringSeminar.jpg"
 tags:
 - Tips
 - Presentation
