@@ -17,12 +17,12 @@ title: Home
 	<ul class="related-posts">
 		{% for post in site.posts offset:0 limit:5 %}
 		<li {% if post.lang == 'ar' %}class="rtl" dir="rtl" lang="ar" {% endif %}>
-			<h4>
+			<h3>
 				<a href="{{ post.url }}">
 					{{ post.title }}
 				</a>
 				<small><bdi>{{ post.date | date_to_string }}</bdi></small>
-			</h4>
+			</h3>
 			<p>
 				{{ post.excerpt }}
 				<a href="{{ post.url }}">
