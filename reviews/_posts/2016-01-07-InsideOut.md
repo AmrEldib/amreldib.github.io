@@ -9,7 +9,9 @@ rating: 4
 tags:
 - Movie
 - Animation
+twitter_image: "InsideOut.png"
 ---
+
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 
 <img class="imageInCenter" src="{{ site.imgFolder_reviews }}{{ page.name }}/InsideOut.png">

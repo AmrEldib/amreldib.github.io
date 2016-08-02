@@ -11,7 +11,9 @@ tags:
 - Economics
 - History
 - Book Review
+twitter_image: "GrandPursuitCover.png"
 ---
+
 <img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/GrandPursuitCover.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>

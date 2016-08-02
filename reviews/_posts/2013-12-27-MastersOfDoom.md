@@ -10,7 +10,9 @@ tags:
 - Biography
 - Tech
 - Book Review
+twitter_image: "MasterOfDoomCover.png"
 ---
+
 <img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/MastersOfDoomCover.png">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>

@@ -9,6 +9,7 @@ rating: 2
 tags:
 - Movie
 - Sci-Fi
+twitter_image: "TheMartian.jpg"
 ---
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

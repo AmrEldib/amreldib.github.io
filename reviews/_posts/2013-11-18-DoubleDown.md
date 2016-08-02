@@ -7,9 +7,13 @@ category: reviews
 excerpt: A sequal like all others
 rating: 3
 tags:
-- Business
+- Politics
+- United States
+- Elections
 - Book Review
+twitter_image: "DoubleDownCover.jpg"
 ---
+
 <img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/DoubleDownCover.jpg">
 
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>

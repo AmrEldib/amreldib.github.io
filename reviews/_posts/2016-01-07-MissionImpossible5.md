@@ -9,6 +9,7 @@ rating: 4
 tags:
 - Movie
 - Action
+twitter_image: "MissionImpossible5.jpg"
 ---
 <div class="stars" title="{{ page.rating }} Stars" data-percent="{{ page.rating }}"></div>
 

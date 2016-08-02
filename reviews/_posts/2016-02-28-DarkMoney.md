@@ -12,6 +12,7 @@ tags:
 - Elections
 - Non-fiction
 - Book Review
+twitter_image: "DarkMoney.jpg"
 ---
 <img class="imageOnRight" src="{{ site.imgFolder_reviews }}{{ page.name }}/DarkMoney.jpg">
 
