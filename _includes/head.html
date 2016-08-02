@@ -20,9 +20,31 @@
     <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
 	{% if page.twitter_image %}
 		{% if page.category == 'writings' %}
-		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_writings }}{{ page.name }}/{{ page.twitter_image }}" />		
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_writings }}{{ page.name }}/{{ page.twitter_image }}" />
 		{% elsif page.category == 'blog' %}
 		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_blog }}{{ page.name }}/{{ page.twitter_image }}" />
+
+		{% elsif page.category == 'reviews' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_reviews }}{{ page.name }}/{{ page.twitter_image }}" />
+
+		{% elsif page.category == 'av' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_av }}{{ page.name }}/{{ page.twitter_image }}" />
+
+		{% elsif page.category == 'linkblog' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_linkblog }}{{ page.name }}/{{ page.twitter_image }}" />
+
+		{% elsif page.category == 'projects' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_projects }}{{ page.name }}/{{ page.twitter_image }}" />
+
+		{% elsif page.category == 'favs' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_favs }}{{ page.name }}/{{ page.twitter_image }}" />
+
+		{% elsif page.category == 'bookmarks' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_bookmarks }}{{ page.name }}/{{ page.twitter_image }}" />
+
+		{% elsif page.category == 'bookshelf' %}
+		<meta name="twitter:image" content="{{ site.url }}{{ site.imgFolder_bookshelf }}{{ page.name }}/{{ page.twitter_image }}" />
+
 		{% endif %}
 	{% else %}
     <meta name="twitter:image" content="https://amreldib.com/public/images/AmrAvatar.png" />
