@@ -29,32 +29,32 @@ The book certainly opened my appetite for more books and material on China's mod
 Highly Recommended. 
 
 #### Quotes from the book  
-Page 15
+Page 15  
 > The first day the note was offered, it sold out in 3 minutes. Xiaomi raised $41 million in their first round of funding in 2010. As 2014 closed, it was not yet 5 years old and is valued at $45 billion. It is, by several metrics, the most valuable startup ever.
 
-Page 16
+Page 16  
 > To give you an idea of the scalpel-like removal of the free play of ideas from public conversation, the government agency in charge of media has banned both time travel and the use of puns in certain kinds of writing, as both forms allows for alternate meanings that might threaten government narratives.
 
-Page 25
+Page 25  
 > The people who flood online conversations with pro-Beijing sentiment are called the 50 Cent Party, on the, appalling but false, idea that they are paid half a yuan for every post. But even this is not enough, so the government is now recruiting members of the Communist Youth League to be part of a volunteer online propaganda group, each of whom would agree to participate in at least three "sunshine comment" campaigns a year.
 
-Page 43
+Page 43  
 > In January 2015, it sold out of the Mi note, it's priciest phone to that point, in three minutes. In May, and Mi Bands, Xiaomi's Fitness tracker, sold out in India and 7 Seconds. Xiaomi was given a Guinness world record for selling over 2 million phones in 12 hours on Singles day, beating its previous record. In the case of the 7-second Indian sale, only 1000 Mi bands were offered.
 
-Page 49
+Page 49  
 > The concern was that instead of buying phones from Xiaomi and re-selling them, as China mobile does, the knockoff stores would sell fake phones of the Sam Song/Svmsmvg sort. The irony of a Chinese electronics firm worrying about copying was lost on no one.
 
-Page 50
+Page 50  
 > Michael Anti, a Chinese blogger who's often censored by Chinese authorities, notes that many social media services are required to have their servers in Beijing, to simplify surveillance.
 
-Page 91
+Page 91  
 > China used more cement in the first three years of this decade than the US used in the 20th century. Much more 6.6 billion tonnes to 4.5
 
-Page 119
+Page 119  
 > Xiaomi is bad news for the models of manufacturing that starts with Hardware first, rely on unit sales without engaging users, and sell things in store. There will always be some products that have to be made and sold that way, but everything with a chip in it (and increasingly sizable subset of everything) is a good candidate to be sold Services-first, and online. As we know from companies like Tesla, even cars, the most valuable manufactured item anyone buys, can be sold online with only perfectionist impulses keeping local dealerships free from competition.
 
-Page 120
+Page 120  
 > The car company Daimler decided to try a flash sale of their two-passenger city car on WeChat and sold 388 of them in three minutes.
 
-Page 124
+Page 124  
 > China is bigger than anybody, but it's not bigger than everybody.
