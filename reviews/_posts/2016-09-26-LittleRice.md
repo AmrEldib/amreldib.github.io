@@ -50,6 +50,7 @@ Page 49
 > The concern was that instead of buying phones from Xiaomi and re-selling them, as China mobile does, the knockoff stores would sell fake phones of the Sam Song/Svmsmvg sort. The irony of a Chinese electronics firm worrying about copying was lost on no one.
 
 Page 50  
+
 > Michael Anti, a Chinese blogger who's often censored by Chinese authorities, notes that many social media services are required to have their servers in Beijing, to simplify surveillance.
 
 Page 91  
