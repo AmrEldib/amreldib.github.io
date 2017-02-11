@@ -6,107 +6,12 @@ title: Home
 <h1>Hi, I'm Amr</h1>
 
 <p>
-	I'm a software developer building GIS applications. These are some of my thoughts on software, technology, books and more.
+	This is my home page on Github. My blog is at <a href="https://amreldib.com">amreldib.com</a>. You can also visit <a href="https://github.com/AmrEldib">my Github profile</a>.
 </p>
 
 <p>
-	Here are some recent things I wrote about
-</p>
-
-<div>
-	<ul class="related-posts">
-		{% for post in site.posts offset:0 limit:5 %}
-		<li {% if post.lang == 'ar' %}class="rtl" dir="rtl" lang="ar" {% endif %}>
-			<h3>
-				<a href="{{ post.url }}">
-					{{ post.title }}
-				</a>
-				<small><bdi>{{ post.date | date_to_string }}</bdi></small>
-			</h3>
-			<p>
-				{{ post.excerpt }}
-				<a href="{{ post.url }}">
-					{% if post.lang == 'ar' %}
-					... إقرأ المزيد
-					{% else %}
-					... read more
-					{% endif %}
-				</a>
-			</p>
-		</li>
-		{% endfor %}
-	</ul>
-</div>
-
-<p>
-Or, check out the sections of my website
+	Here are some projects I've been working on.
 </p>
 
 <h2><a href="/blog/">Blog</a></h2>
 {{ site.rss_description_blog }}
-
-<h2><a href="/projects/">Projects</a></h2>
-{{ site.rss_description_projects }}
-
-<h2><a href="/writings/">Writings</a></h2>
-{{ site.rss_description_writings }}
-
-<h2><a href="/linkblog/">Linkblog</a></h2>
-{{ site.rss_description_linkblog }}
-
-<h2><a href="/bookshelf/">Bookshelf</a></h2>
-{{ site.rss_description_bookshelf }}
-
-<h2><a href="/reviews/">Reviews</a></h2>
-{{ site.rss_description_reviews }}
-
-<h2><a href="/talks/">Talks</a></h2>
-{{ site.rss_description_talks }}
-
-<h2><a href="/av/">Audio and Video</a></h2>
-{{ site.rss_description_av }}
-
-<!--
-##[Tools](/tools/)##
-{{ site.rss_description_tools }}
-
-##[Bookmarks](/bookmarks/)##
-{{ site.rss_description_bookmarks }}
-
-##[Favorites](/favs/)##
-{{ site.rss_description_favs }}
-    -->
-
-<h3>Find Me on the Interwebs</h3>
-<ul style="list-style-type:none">
-    <li>
-        <a class="sidebar-nav-item side-nav-icon"
-   href="https://twitter.com/{{ site.author.username.twitter }}" rel="me">
-            <i class="fa fa-twitter fa-lg frontPageIcons" title="twitter.com/{{ site.author.username.twitter }}"></i>@{{ site.author.username.twitter }}
-        </a>
-    </li>
-    <li>
-        <a class="sidebar-nav-item side-nav-icon"
-	   href="https://github.com/{{ site.author.username.github }}" rel="me">
-		    <i class="fa fa-github fa-lg frontPageIcons" title="github.com/{{ site.author.username.github }}"></i>GitHub Page
-	    </a>
-    </li>
-    <li>
-        <a class="sidebar-nav-item side-nav-icon"
-           href="http://www.goodreads.com/{{ site.author.username.goodreads }}" rel="me">
-            <span style="font-family: helvetica; vertical-align: text-top;padding-left:4px;" class="fa-lg frontPageIcons" title="goodreads.com/{{ site.author.username.goodreads }}">g</span>Goodreads Bookshelf
-        </a>
-    </li>
-    <li>
-        <a class="sidebar-nav-item side-nav-icon"
-   href="https://www.linkedin.com/in/{{ site.author.username.linkedin }}" rel="me">
-            <i class="fa fa-linkedin-square fa-lg frontPageIcons" title="linkedin.com/{{ site.author.username.linkedin }}"></i>LinkedIn Resume
-        </a>
-    </li>
-    <li>
-        <a class="sidebar-nav-item side-nav-icon"
-           href="{{ site.rss_page }}">
-            <i class="fa fa-rss-square fa-lg frontPageIcons" title="Follow via RSS"></i>RSS
-        </a>
-    </li>
-</ul>
